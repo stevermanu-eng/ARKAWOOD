@@ -10,6 +10,72 @@
     else window.setTimeout(callback, Math.min(timeout, 350));
   };
 
+  // WIKI: mantiene intacto el botón/estética del encabezado de Home y solo activa su navegación.
+  const homeWikiButton = [...document.querySelectorAll('.nav__item.dummy')]
+    .find((item) => item.textContent.trim().toUpperCase() === 'WIKI');
+  if (homeWikiButton) {
+    homeWikiButton.addEventListener('click', (event) => {
+      event.preventDefault();
+      event.stopPropagation();
+      window.location.href = '/wiki/';
+    });
+  }
+
+
+  // SOPORTE conserva exactamente el botón original del encabezado; solo activamos su destino.
+  const supportButton = [...document.querySelectorAll('.nav__item.dummy')]
+    .find((item) => item.textContent.trim().toUpperCase() === 'SOPORTE');
+  if (supportButton) {
+    supportButton.addEventListener('click', (event) => {
+      event.preventDefault();
+      event.stopPropagation();
+      window.location.href = '/support';
+    });
+  }
+
+  // Navegación exacta de documentos largos.
+  // content-visibility puede hacer que el navegador estime alturas y un ancla quede corta.
+  // Calculamos el destino real, descontamos la barra fija y hacemos una corrección final.
+  if (document.body.classList.contains('privacy-page')) {
+    let legalScrollCorrection = 0;
+    const legalSelector = '.privacy-sidebar a[href^="#"], .privacy-toc-mobile a[href^="#"], .privacy-end a[href^="#"]';
+    const targetTop = (target) => {
+      const bar = document.getElementById('topbar');
+      const barHeight = bar ? bar.getBoundingClientRect().height : 0;
+      return Math.max(0, target.getBoundingClientRect().top + window.scrollY - barHeight - 18);
+    };
+
+    document.addEventListener('click', (event) => {
+      const link = event.target.closest(legalSelector);
+      if (!link) return;
+      const href = link.getAttribute('href') || '';
+      const id = href.startsWith('#') ? decodeURIComponent(href.slice(1)) : '';
+      const target = id ? document.getElementById(id) : null;
+      if (!target) return;
+
+      event.preventDefault();
+      window.clearTimeout(legalScrollCorrection);
+      window.scrollTo({ top: targetTop(target), behavior: reducedMotion ? 'auto' : 'smooth' });
+      history.replaceState(null, '', `#${encodeURIComponent(id)}`);
+
+      const mobileToc = link.closest('details.privacy-toc-mobile');
+      if (mobileToc) mobileToc.open = false;
+
+      legalScrollCorrection = window.setTimeout(() => {
+        window.scrollTo({ top: targetTop(target), behavior: 'auto' });
+      }, reducedMotion ? 0 : 650);
+    });
+
+    // Si se abre directamente una URL con #titulo-..., corrige la posición después del layout inicial.
+    if (window.location.hash) {
+      window.setTimeout(() => {
+        const id = decodeURIComponent(window.location.hash.slice(1));
+        const target = document.getElementById(id);
+        if (target) window.scrollTo({ top: targetTop(target), behavior: 'auto' });
+      }, 80);
+    }
+  }
+
   // Un único listener reemplaza decenas de listeners idénticos de los botones aún no activos.
   document.addEventListener('click', (event) => {
     const dummy = event.target.closest('.dummy');

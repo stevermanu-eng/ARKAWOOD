@@ -68,3 +68,31 @@ La carpeta `/functions` se conserva fuera de `/dist`.
 - Marketing / Management → `DISCORD_WEBHOOK_MARKETING`
 
 Las tres usan Discord OAuth, pertenencia obligatoria al servidor y el mismo bloqueo por Discord User ID para impedir postulaciones duplicadas. Administración continúa cerrada porque no se ha proporcionado todavía un cuestionario para esa rama.
+## Política de Privacidad
+
+- Nueva página pública: `politica-privacidad.html`.
+- Usa `assets/privacy-background.webp`, optimizado a partir del fondo legal suministrado.
+- El contenido parte del documento revisado proporcionado para ARKA WOOD.
+- La numeración quedó normalizada a **24 títulos y 135 artículos consecutivos**; también se corrigieron los prefijos de subapartados asociados a los artículos renumerados.
+- `index.html` y `postulaciones.html` enlazan ahora a la Política de Privacidad desde el footer.
+- Los formularios de staff enlazan la política desde la confirmación final de tratamiento de datos.
+- El texto corregido se conserva en `docs/politica-privacidad-corregida.txt`.
+
+
+
+## Documentos legales
+
+- `politica-privacidad.html`: Política de Privacidad.
+- `terminos-compra.html`: Términos y Condiciones de Compra.
+- `terminos-network.html`: Términos y Condiciones de la Network / servidor.
+
+Las versiones normalizadas de las minutas se conservan en `docs/`.
+
+
+## Wiki (v0.8.6)
+
+`/wiki/` reúne la identidad pública de ARKA WOOD, los tres reinos, las reglas resumidas de Minecraft, los criterios generales de Staff y los tres documentos legales. El encabezado y el footer de todas las páginas de la Wiki conservan el mismo contenido visible de Home.
+
+La ruta `/wiki/auditoria-staff.html` está protegida mediante Discord OAuth y requiere el rol `1531538149967396964`. La comprobación se realiza del lado de Cloudflare y se renueva periódicamente.
+
+Las rutas `/discord` y `/support` redirigen al Discord oficial mediante `_redirects`.

@@ -1,8 +1,8 @@
 {
   "name": "arka-wood-web",
-  "version": "0.8.0",
+  "version": "0.8.6",
   "private": true,
-  "description": "Sitio de ARKA WOOD y postulaciones con Discord OAuth2, Cloudflare Pages Functions, D1 y webhooks.",
+  "description": "Sitio de ARKA WOOD, Wiki, postulaciones con Discord OAuth2, Cloudflare Pages Functions, D1 y webhooks.",
   "scripts": {
     "build": "node scripts/build.mjs",
     "preview": "npx wrangler pages dev dist",

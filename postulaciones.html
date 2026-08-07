@@ -16,14 +16,14 @@
       <nav class="nav" aria-label="Navegación principal">
         <a class="nav__item" href="index.html#home">HOME</a>
         <button class="nav__item dummy" type="button">FOROS</button>
-        <button class="nav__item dummy" type="button">WIKI</button>
+        <a class="nav__item" href="wiki/">WIKI</a>
         <button class="nav__item dummy" type="button">MIEMBROS</button>
         <button class="nav__item dummy" type="button">SANCIONES</button>
         <button class="nav__item dummy" type="button">TIENDA</button>
-        <button class="nav__item dummy" type="button">SOPORTE</button>
+        <a class="nav__item" href="/support">SOPORTE</a>
         <a class="nav__item nav__item--application nav__item--active" href="postulaciones.html">POSTULACIONES</a>
       </nav>
-      <button class="profile dummy" type="button" aria-label="Perfil de usuario"><span>♜</span></button>
+      <button class="profile" id="homeProfile" type="button" aria-label="Perfil de usuario" title="Perfil"><span id="homeProfileFallback">♜</span><img id="homeProfileAvatar" alt="" hidden /></button>
     </div>
   </header>
 
@@ -77,7 +77,7 @@
     </section>
 
     <section class="staff-manifesto reveal">
-      <div class="staff-manifesto__crest">AW</div>
+      <div class="staff-manifesto__crest"><img src="assets/arka-wood-staff-logo.webp" alt="ARKA WOOD Staff" width="508" height="512" loading="lazy" decoding="async" /></div>
       <div class="staff-manifesto__copy"><p class="section__kicker">NUESTRO EQUIPO</p><h2>¿QUÉ SIGNIFICA SER STAFF?</h2><p>Ser staff no es solamente tener un rango. Significa asumir una responsabilidad con la comunidad y aportar tiempo, criterio y trabajo. En esta etapa de construcción también implica tolerar cambios, probar ideas, documentar problemas y ayudar a convertir una visión en un servidor estable y organizado.</p></div>
       <div class="staff-values">
         <article><span>01</span><h3>RESPONSABILIDAD</h3><p>Cumplir con tu área, actuar con criterio y entender que tus decisiones impactan en la experiencia de otros.</p></article>
@@ -136,7 +136,7 @@
       <div class="footer__columns">
         <div class="footer__column"><h3>NAVEGACIÓN</h3><button class="footer-link dummy" type="button">Tienda</button><button class="footer-link dummy" type="button">Normativa</button><button class="footer-link dummy" type="button">Votar</button></div>
         <div class="footer__column"><h3>SOPORTE Y AYUDA</h3><button class="footer-link dummy" type="button">Contacto</button><a class="footer-link" href="postulaciones.html">Postulaciones</a><button class="footer-link dummy" type="button">Preguntas Frecuentes (FAQ)</button></div>
-        <div class="footer__column footer__column--legal"><h3>LEGAL</h3><button class="footer-link dummy" type="button">Términos y Condiciones de Compra</button><button class="footer-link dummy" type="button">Términos y Condiciones del Servidor</button><button class="footer-link dummy" type="button">Política de Privacidad</button><button class="footer-link dummy" type="button">Aviso de Mojang (EULA Disclaimer)</button></div>
+        <div class="footer__column footer__column--legal"><h3>LEGAL</h3><a class="footer-link" href="terminos-compra.html">Términos y Condiciones de Compra</a><a class="footer-link" href="terminos-network.html">Términos y Condiciones de la Network</a><a class="footer-link" href="politica-privacidad.html">Política de Privacidad</a><button class="footer-link dummy" type="button">Aviso de Mojang (EULA Disclaimer)</button></div>
       </div>
     </div>
     <div class="footer__legal-note">ARKA WOOD no está afiliado, asociado ni respaldado por Mojang Studios o Microsoft. Minecraft es una marca registrada de Mojang Studios.</div>

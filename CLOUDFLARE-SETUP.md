@@ -17,7 +17,7 @@ El acceso a las preguntas de Moderación solo se habilita si Discord confirma qu
 ```text
 DISCORD_CLIENT_ID=1532912146604621924
 DISCORD_GUILD_ID=1526622720123736295
-DISCORD_REDIRECT_URI=https://TU-DOMINIO/api/auth/callback
+DISCORD_REDIRECT_URI=https://arkawood.pages.dev/api/auth/callback
 ```
 
 ### Secrets
@@ -141,3 +141,22 @@ submission-success.js
 ## Postulaciones habilitadas
 
 Esta versión habilita Moderación, Builders y Marketing / Management. Cada rama necesita su Secret de webhook correspondiente. No es necesario crear nuevas tablas D1: todas comparten `applications_db` y el bloqueo de una postulación por Discord User ID.
+
+### Acceso restringido de Auditoría Staff
+
+La Wiki incluye `/wiki/auditoria-staff.html`. El acceso se verifica con Discord OAuth y requiere el rol:
+
+```text
+DISCORD_STAFF_AUDIT_ROLE_ID=1531538149967396964
+```
+
+El proyecto ya incluye ese ID como valor predeterminado, por lo que añadir la variable es opcional, pero recomendable si el rol pudiera cambiar. La comprobación se refresca mediante Discord y el resultado queda firmado dentro de la sesión; el HTML no puede saltarse la autorización de Cloudflare.
+
+### Atajos de Discord
+
+Cloudflare Pages incluye redirecciones para:
+
+- `https://arkawood.pages.dev/discord`
+- `https://arkawood.pages.dev/support`
+
+Ambas rutas redirigen al Discord oficial de ARKA WOOD.
