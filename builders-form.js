@@ -16,7 +16,7 @@
   } catch (_) {}
 
   if (!authSession?.authenticated || !authSession?.member || !authSession?.user?.id) {
-    const target = `/acceso-moderacion.html?next=${encodeURIComponent('/postulacion-moderacion.html')}`;
+    const target = `/acceso-builders.html?next=${encodeURIComponent('/postulacion-builders.html')}`;
     window.location.replace(target);
     return;
   }
@@ -31,7 +31,7 @@
     return;
   }
 
-  const STORAGE_KEY = `arkaWoodModerationApplicationV5:${discordUser.id}`;
+  const STORAGE_KEY = `arkaWoodBuildersApplicationV1:${discordUser.id}`;
   const REVIEW_STEP_INDEX = 6;
   const state = {
     current: 0,
@@ -42,89 +42,389 @@
   };
 
   const categories = [
-    {
-      title: 'Datos Generales',
-      short: 'Datos Generales',
-      icon: '▤',
-      description: 'Información básica para identificarte y contactarte durante el proceso de selección.',
-      tip: 'Tu identidad de Discord ya fue verificada al iniciar sesión. Revisa con especial atención tu nick de Minecraft, teléfono y correo antes de continuar.',
-      questions: [
-        { id: 'realName', number: 1, label: '¿Cuál es tu nombre? (o nombre real que uses habitualmente)', help: 'Sirve para identificarte fuera del juego y llevar un registro interno del staff.', type: 'text', placeholder: 'Escribe el nombre que usas habitualmente...', required: true, min: 2, max: 80, icon: '♟' },
-        { id: 'age', number: 2, label: '¿Qué edad tienes?', help: 'Nos ayuda a evaluar la madurez esperada según el rango de edad y asignar responsabilidades acordes. Para esta rama debes tener al menos 16 años.', type: 'number', placeholder: 'Ej. 18', required: true, minValue: 16, maxValue: 80, step: 1, icon: '◆' },
-        { id: 'minecraftNick', number: 3, label: '¿Cuál es tu nick de Minecraft?', help: 'Escribe el nombre exacto con el que juegas actualmente en ARKAWOOD.', type: 'minecraft', placeholder: 'Ej. SteveArka', required: true, icon: '▦' },
-        { id: 'country', number: 4, label: '¿En qué país te encuentras?', help: 'Permite organizar los turnos de moderación para cubrir distintos horarios.', type: 'text', placeholder: 'Ej. Perú, México, España...', required: true, min: 2, max: 80, icon: '◈' },
-        { id: 'discordIdentity', number: 5, label: '¿Cuál es tu usuario de Discord? Incluye tu ID.', help: 'Discord es el canal principal de comunicación del staff. Este dato se completa y bloquea automáticamente con la cuenta verificada que usaste para entrar.', type: 'discord', required: true, icon: '◉' },
-        { id: 'phone', number: 6, label: '¿Cuál es tu número de teléfono?', help: 'Incluye el prefijo internacional y escribe únicamente números. Ejemplo: 51987654321. El equipo encargado podrá usarlo únicamente durante el proceso cuando sea necesario.', type: 'phone', placeholder: 'Ej. 51987654321', required: true, icon: '☎' },
-        { id: 'email', number: 7, label: '¿Cuál es tu correo electrónico personal?', help: 'Las novedades y el resultado del proceso podrán comunicarse al correo registrado. Debe ser una dirección válida, por ejemplo nombre@gmail.com.', type: 'email', placeholder: 'nombre@gmail.com', required: true, icon: '✉' }
-      ]
-    },
-    {
-      title: 'Disponibilidad y Compromiso',
-      short: 'Disponibilidad',
-      icon: '◷',
-      description: 'Evaluaremos si tu tiempo y responsabilidades actuales son compatibles con las exigencias del cargo.',
-      tip: 'El requisito general del proceso es poder aportar alrededor de 10 a 15 horas semanales entre pruebas, coordinación, Discord y tareas de moderación. Indica una disponibilidad realista.',
-      questions: [
-        { id: 'minecraftTime', number: 8, label: '¿Hace cuánto juegas Minecraft?', help: 'Solo para conocerte mejor y entender tu familiaridad con el juego.', type: 'textarea', placeholder: 'Ej. Juego desde hace 5 años. Puedes contarnos brevemente cómo ha sido tu experiencia...', required: true, min: 2, max: 1000, icon: '⌛' },
-        { id: 'dailyHours', number: 9, label: '¿Cuántas horas diarias puedes dedicar a labores de moderación?', help: 'Nos permite dimensionar tu aporte real y planificar turnos de cobertura. Escríbelo con tus propias palabras e indica, si lo necesitas, cómo cambia tu disponibilidad según el día.', type: 'textarea', placeholder: 'Ej. Entre semana puedo dedicar 2 o 3 horas por la tarde; los fines de semana suelo tener más disponibilidad...', required: true, min: 2, max: 1500, icon: '◷' },
-        { id: 'activeDays', number: 10, label: '¿Qué días de la semana sueles estar más activo?', help: 'Ayuda a cubrir horarios con menos staff, como fines de semana o feriados. Selecciona al menos un día.', type: 'multicheckbox', options: ['Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado', 'Domingo'], required: true, icon: '▥' },
-        { id: 'futureLimits', number: 11, label: '¿Tienes alguna actividad, como estudios o trabajo, que pueda limitar tu disponibilidad en el futuro cercano?', help: 'Queremos anticipar bajas de actividad y que seas transparente sobre tu situación personal. No necesitas revelar detalles privados innecesarios.', type: 'textarea', placeholder: 'Describe de forma general tus estudios, trabajo u otras obligaciones...', required: true, min: 10, icon: '▤' },
-        { id: 'discordOutsideHours', number: 12, label: '¿Estás dispuesto a mantenerte activo en Discord incluso fuera de tus horas de moderación para las coordinaciones del equipo?', help: 'El staff no solo modera en el juego: también coordina, reporta y se comunica constantemente por Discord. Explícanos qué disponibilidad tendrías y qué límites deberíamos tener en cuenta.', type: 'textarea', placeholder: 'Explícanos cómo manejarías las coordinaciones de Discord fuera de tu horario habitual...', required: true, min: 10, max: 5000, icon: '◉' }
-      ]
-    },
-    {
-      title: 'Conocimientos Técnicos y del Servidor',
-      short: 'Conocimientos',
-      icon: '⚔',
-      description: 'Evaluaremos tu manejo de herramientas, normativa y funcionamiento interno de ARKAWOOD.',
-      tip: 'No buscamos respuestas memorizadas. Explica qué conoces realmente y sé transparente si una herramienta todavía no la dominas.',
-      questions: [
-        { id: 'moderationTools', number: 13, label: '¿Has usado plugins o comandos de moderación anteriormente, como kick, mute, ban, freeze o vanish? ¿Cuáles?', help: 'Permite conocer tu experiencia previa con herramientas reales de moderación. Puedes mencionar CoreProtect, LiteBans/AdvancedBan, LuckPerms u otras herramientas que conozcas.', type: 'textarea', placeholder: 'Describe los comandos, plugins o herramientas que has utilizado...', required: true, min: 10, icon: '⚒' },
-        { id: 'previousModeration', number: 14, label: '¿Has sido miembro de moderación en otros servidores/lugares? ¿Cuánto tiempo estuviste ahí?', help: 'Queremos conocer tu trayectoria previa dentro de proyectos de Minecraft u otras plataformas. Si no tienes experiencia, indícalo con total transparencia y cuéntanos cómo aplicarías tu criterio actual.', type: 'textarea', placeholder: 'Describe tu experiencia o explica que sería tu primera oportunidad...', required: true, min: 10, icon: '♜' },
-        { id: 'ticketsKnowledge', number: 15, label: '¿Sabes qué es y cómo funciona un sistema de tickets o reportes en Discord?', help: 'Gran parte del trabajo diario de un moderador consiste en gestionar reportes y tickets de soporte.', type: 'textarea', placeholder: 'Explícanos cómo entiendes el flujo de un ticket o reporte...', required: true, min: 15, icon: '▣' },
-        { id: 'recordingAnticheat', number: 16, label: '¿Tienes experiencia usando programas de grabación o herramientas anti-cheat para detección?', help: 'Es útil para investigar casos de trampas de forma rigurosa antes de sancionar.', type: 'textarea', placeholder: 'Menciona programas, anti-cheats o métodos que hayas utilizado...', required: true, min: 10, icon: '⌕' },
-        { id: 'lagVsHacks', number: 17, label: '¿Sabes diferenciar entre un jugador con lag y un jugador que usa hacks? Explícanos.', help: 'Mide tu criterio técnico para evitar sanciones injustas por errores de interpretación.', type: 'textarea', placeholder: 'Explica qué señales observarías y cómo verificarías antes de sancionar...', required: true, min: 30, icon: '⚠' }
-      ]
-    },
-    {
-      title: 'Situaciones y Criterio',
-      short: 'Situaciones',
-      icon: '⚖',
-      description: 'Si ya estuvieras dentro de nuestro equipo, queremos saber qué harías ante situaciones reales de moderación.',
-      tip: 'Prioriza la evidencia, la imparcialidad, la comunicación y el respeto al procedimiento. Explica tu razonamiento, no solo el resultado.',
-      questions: [
-        { id: 'scenarioInsults', number: 18, label: 'Un jugador te insulta repetidamente en el chat luego de una sanción. ¿Cómo actúas?', help: 'Explica cómo mantendrías la calma, documentarías lo ocurrido y aplicarías el procedimiento correspondiente.', type: 'textarea', placeholder: 'Describe paso a paso cómo actuarías...', required: true, min: 30, icon: '!' },
-        { id: 'scenarioHacksNoProof', number: 19, label: 'Sospechas que un jugador usa hacks, pero no tienes pruebas contundentes. ¿Qué haces?', help: 'Queremos conocer cómo investigas sin sancionar por intuición y cómo reunirías evidencia suficiente.', type: 'textarea', placeholder: 'Explica qué comprobarías antes de tomar una decisión...', required: true, min: 30, icon: '⌕' },
-        { id: 'scenarioFriend', number: 20, label: 'Un amigo cercano tuyo dentro del servidor comete una falta grave. ¿Lo sancionas igual que a cualquier otro jugador?', help: 'Explica cómo separarías tu relación personal de tu responsabilidad como miembro del staff.', type: 'textarea', placeholder: 'Explica tu decisión y el criterio que seguirías...', required: true, min: 30, icon: '⚖' },
-        { id: 'scenarioReports', number: 21, label: 'Recibes múltiples reportes al mismo tiempo y no puedes atenderlos todos de inmediato. ¿Cómo los priorizas?', help: 'Queremos ver cómo organizas urgencia, riesgo, evidencia y comunicación con otros miembros del equipo.', type: 'textarea', placeholder: 'Explica cómo ordenarías los reportes y por qué...', required: true, min: 30, icon: '▤' },
-        { id: 'scenarioAppeal', number: 22, label: 'Un usuario apela una sanción que tú mismo aplicaste y crees que tenía razón parcialmente. ¿Qué haces?', help: 'Describe cómo revisarías tu propia decisión, reconocerías un posible error y escalarías el caso si fuera necesario.', type: 'textarea', placeholder: 'Explica cómo revisarías la apelación...', required: true, min: 30, icon: '↺' }
-      ]
-    },
-    {
-      title: 'Motivación y Visión Personal',
-      short: 'Motivación',
-      icon: '✦',
-      description: 'Queremos entender por qué deseas formar parte del staff y qué esperas aportar al proyecto.',
-      tip: 'ARKAWOOD todavía está en desarrollo. Nos interesa especialmente tu motivación para construir algo desde una etapa temprana, no únicamente obtener un rango.',
-      questions: [
-        { id: 'whyArkaWood', number: 23, label: '¿Por qué te gustaría formar parte del staff de ARKAWOOD y no de otra network? Teniendo en cuenta que es un proyecto en desarrollo.', help: 'Queremos identificar motivaciones genuinas, más allá del interés por el rango o sus beneficios.', type: 'textarea', placeholder: 'Cuéntanos por qué quieres formar parte de ARKAWOOD en esta etapa...', required: true, min: 40, icon: '◆' },
-        { id: 'qualities', number: 24, label: '¿Qué cualidades personales crees que te hacen un buen candidato para moderar?', help: 'Esta pregunta permite que reconozcas tus fortalezas de cara al puesto.', type: 'textarea', placeholder: 'Describe tus cualidades y, si puedes, acompáñalas con ejemplos...', required: true, min: 30, icon: '▲' },
-        { id: 'contribution', number: 25, label: '¿Qué podrías aportar a ARKAWOOD NETWORK si tuvieras la oportunidad?', help: 'Mide tu pensamiento crítico y compromiso real con el crecimiento del servidor.', type: 'textarea', placeholder: 'Describe aportes concretos que podrías realizar...', required: true, min: 30, icon: '⚒' },
-        { id: 'pressure', number: 26, label: '¿Cómo manejarías la presión de tomar decisiones impopulares dentro de la comunidad?', help: 'El staff debe tomar decisiones que no agradan a todos; buscamos conocer tu firmeza y seguridad de criterio.', type: 'textarea', placeholder: 'Explica cómo mantendrías el criterio ante presión o desacuerdo...', required: true, min: 30, icon: '⚖' }
-      ]
-    },
-    {
-      title: 'Preguntas Adicionales',
-      short: 'Adicionales',
-      icon: '◇',
-      description: 'Esta última categoría te permite agregar información relevante que no haya sido cubierta.',
-      tip: 'Estas dos respuestas también son obligatorias. Si en la última pregunta no tienes nada adicional que contar, indícalo expresamente en lugar de dejarla vacía.',
-      questions: [
-        { id: 'additionalSkills', number: 27, label: '¿Tienes alguna habilidad adicional que pueda ser útil para el staff, como diseño, desarrollo, redes sociales o edición de video?', help: 'Un staff con habilidades complementarias puede aportar más allá de la moderación pura.', type: 'textarea', placeholder: 'Cuéntanos qué otras habilidades puedes aportar. Si no tienes alguna adicional, indícalo.', required: true, min: 5, icon: '✦' },
-        { id: 'anythingElse', number: 28, label: '¿Hay algo más que quieras contarnos sobre ti antes de que evaluemos tu postulación?', help: 'Este espacio te permite mostrar tu personalidad más allá del formulario. Como todas las preguntas son obligatorias, si no tienes nada más que añadir escribe que no deseas agregar información adicional.', type: 'textarea', placeholder: 'Añade cualquier información final o indica que no tienes nada más que agregar...', required: true, min: 5, icon: '▤' }
-      ]
-    }
-  ];
+  {
+    "title": "Datos Generales",
+    "short": "Datos Generales",
+    "icon": "▤",
+    "description": "Información básica para identificarte y contactarte durante el proceso de selección.",
+    "tip": "Tu identidad de Discord ya fue verificada. Revisa con especial atención tu nick de Minecraft, teléfono y correo antes de continuar.",
+    "questions": [
+      {
+        "id": "realName",
+        "number": 1,
+        "label": "¿Cuál es tu nombre? (o nombre real que uses habitualmente)",
+        "help": "Sirve para identificarte fuera del juego y llevar un registro interno del staff.",
+        "type": "text",
+        "placeholder": "Escribe el nombre que usas habitualmente...",
+        "required": true,
+        "min": 2,
+        "max": 80,
+        "icon": "♟"
+      },
+      {
+        "id": "age",
+        "number": 2,
+        "label": "¿Qué edad tienes?",
+        "help": "Nos ayuda a evaluar la madurez esperada según el rango de edad y asignar responsabilidades acordes.",
+        "type": "number",
+        "placeholder": "Ej. 18",
+        "required": true,
+        "minValue": 1,
+        "maxValue": 100,
+        "step": 1,
+        "icon": "◆"
+      },
+      {
+        "id": "minecraftNick",
+        "number": 3,
+        "label": "¿Cuál es tu nick de Minecraft?",
+        "help": "Escribe el nombre exacto con el que juegas actualmente en ARKAWOOD.",
+        "type": "minecraft",
+        "placeholder": "Ej. SteveArka",
+        "required": true,
+        "icon": "▦"
+      },
+      {
+        "id": "country",
+        "number": 4,
+        "label": "¿En qué país te encuentras?",
+        "help": "Nos permite organizar coordinación, reuniones y horarios con miembros de distintas zonas.",
+        "type": "text",
+        "placeholder": "Ej. Perú, México, España...",
+        "required": true,
+        "min": 2,
+        "max": 80,
+        "icon": "◈"
+      },
+      {
+        "id": "discordIdentity",
+        "number": 5,
+        "label": "¿Cuál es tu usuario de Discord? Incluye tu ID.",
+        "help": "Discord es el canal principal de comunicación del staff. Este dato se completa y bloquea automáticamente con la cuenta verificada que usaste para entrar.",
+        "type": "discord",
+        "required": true,
+        "icon": "◉"
+      },
+      {
+        "id": "phone",
+        "number": 6,
+        "label": "¿Cuál es tu número de teléfono?",
+        "help": "Incluye el prefijo internacional y escribe únicamente números. Ejemplo: 51987654321. El equipo encargado podrá comunicarse contigo durante el proceso cuando sea necesario.",
+        "type": "phone",
+        "placeholder": "Ej. 51987654321",
+        "required": true,
+        "icon": "☎"
+      },
+      {
+        "id": "email",
+        "number": 7,
+        "label": "¿Cuál es tu correo electrónico personal?",
+        "help": "Las novedades y el resultado del proceso se comunicarán al correo registrado. Debe ser una dirección válida, por ejemplo nombre@gmail.com.",
+        "type": "email",
+        "placeholder": "nombre@gmail.com",
+        "required": true,
+        "icon": "✉"
+      }
+    ]
+  },
+  {
+    "title": "Disponibilidad y Compromiso",
+    "short": "Disponibilidad",
+    "icon": "◷",
+    "description": "Evaluaremos si tu disponibilidad y forma de trabajar son compatibles con un proyecto de construcción que todavía se encuentra en desarrollo.",
+    "tip": "Indica una disponibilidad realista. Algunas zonas pueden requerir varias semanas de trabajo, revisiones y sesiones coordinadas con otros builders.",
+    "questions": [
+      {
+        "id": "minecraftBuildingTime",
+        "number": 8,
+        "label": "¿Hace cuánto juegas Minecraft y desde cuándo comenzaste a interesarte específicamente por la construcción?",
+        "help": "Queremos conocer tu trayectoria dentro del juego y cuánto tiempo llevas desarrollando tus habilidades como builder.",
+        "type": "textarea",
+        "placeholder": "Cuéntanos desde cuándo juegas y cómo comenzó tu interés por construir...",
+        "required": true,
+        "icon": "⌛",
+        "min": 2,
+        "max": 5000
+      },
+      {
+        "id": "weeklyHours",
+        "number": 9,
+        "label": "¿Cuántas horas semanales podrías dedicar aproximadamente a las construcciones de ARKAWOOD?",
+        "help": "El proyecto se encuentra en una etapa previa al lanzamiento y algunas construcciones pueden requerir varias semanas de trabajo. Queremos conocer tu disponibilidad real.",
+        "type": "textarea",
+        "placeholder": "Explícanos cuántas horas semanales podrías dedicar y cómo se distribuyen...",
+        "required": true,
+        "icon": "◷",
+        "min": 2,
+        "max": 5000
+      },
+      {
+        "id": "availabilitySchedule",
+        "number": 10,
+        "label": "¿Qué días y horarios de la semana sueles tener mayor disponibilidad para construir?",
+        "help": "Nos permitirá organizar sesiones de construcción conjunta, revisiones y reuniones entre builders.",
+        "type": "textarea",
+        "placeholder": "Indica tus días, rangos horarios y zona horaria si lo consideras útil...",
+        "required": true,
+        "icon": "▥",
+        "min": 2,
+        "max": 5000
+      },
+      {
+        "id": "futureLimits",
+        "number": 11,
+        "label": "¿Tienes estudios, trabajo u otras responsabilidades que puedan reducir considerablemente tu disponibilidad durante los próximos meses?",
+        "help": "ARKAWOOD es un proyecto a futuro y queremos formar un equipo estable que pueda acompañar el desarrollo durante un periodo prolongado.",
+        "type": "textarea",
+        "placeholder": "Explícanos de forma general qué limitaciones deberíamos tener en cuenta...",
+        "required": true,
+        "icon": "▤",
+        "min": 2,
+        "max": 5000
+      },
+      {
+        "id": "revisionCommitment",
+        "number": 12,
+        "label": "¿Estarías dispuesto a trabajar durante varias semanas en una misma zona, realizar modificaciones y rehacer partes de una construcción si el proyecto lo requiere?",
+        "help": "Las construcciones pueden pasar por distintas revisiones antes de considerarse terminadas. Buscamos personas constantes y abiertas a mejorar su trabajo.",
+        "type": "textarea",
+        "placeholder": "Explícanos cómo afrontarías revisiones, cambios y trabajo prolongado sobre una misma zona...",
+        "required": true,
+        "icon": "↻",
+        "min": 2,
+        "max": 5000
+      }
+    ]
+  },
+  {
+    "title": "Experiencia y Conocimientos de Construcción",
+    "short": "Experiencia",
+    "icon": "⚒",
+    "description": "Evaluaremos tus conocimientos de construcción, herramientas, estilos y capacidad para trabajar dentro de proyectos de gran escala.",
+    "tip": "No necesitas dominar todas las herramientas. Sé preciso sobre lo que sabes hacer y diferencia claramente experiencia personal de trabajo realizado en equipo.",
+    "questions": [
+      {
+        "id": "buildingStyles",
+        "number": 13,
+        "label": "¿Qué estilos de construcción consideras que dominas mejor?",
+        "help": "Puedes mencionar medieval, fantasía, oriental, gótico, nórdico, naturaleza, terraformación, ciudades, interiores, estructuras orgánicas u otros. ARKAWOOD contará con diferentes regiones y reinos.",
+        "type": "textarea",
+        "placeholder": "Describe los estilos que dominas mejor y, si quieres, cuáles estás desarrollando...",
+        "required": true,
+        "icon": "✦",
+        "min": 2,
+        "max": 5000
+      },
+      {
+        "id": "previousBuilderExperience",
+        "number": 14,
+        "label": "¿Has participado anteriormente como Builder en algún servidor, Build Team o proyecto de Minecraft? Cuéntanos qué hiciste y durante cuánto tiempo.",
+        "help": "Queremos conocer tu experiencia trabajando en construcciones destinadas a servidores o proyectos reales. Si nunca has pertenecido a un equipo, puedes indicarlo con total transparencia.",
+        "type": "textarea",
+        "placeholder": "Cuéntanos proyectos, responsabilidades, duración y qué parte realizaste tú...",
+        "required": true,
+        "icon": "♜",
+        "min": 2,
+        "max": 5000
+      },
+      {
+        "id": "buildingTools",
+        "number": 15,
+        "label": "¿Qué herramientas de construcción sabes utilizar?",
+        "help": "Por ejemplo: WorldEdit, FAWE, VoxelSniper, Axiom, Arceon, GoBrush, GoPaint u otras. No es obligatorio dominar todas las herramientas.",
+        "type": "textarea",
+        "placeholder": "Enumera las herramientas que utilizas y explica brevemente tu nivel con cada una...",
+        "required": true,
+        "icon": "⚒",
+        "min": 2,
+        "max": 5000
+      },
+      {
+        "id": "strengthsWeaknesses",
+        "number": 16,
+        "label": "¿Qué tipo de construcciones consideras que realizas mejor y cuáles son las que más dificultad te presentan?",
+        "help": "Buscamos conocer tanto tus fortalezas como las áreas en las que todavía necesitas mejorar.",
+        "type": "textarea",
+        "placeholder": "Cuéntanos tus fortalezas y las áreas que todavía te cuestan más...",
+        "required": true,
+        "icon": "◇",
+        "min": 2,
+        "max": 5000
+      },
+      {
+        "id": "portfolio",
+        "number": 17,
+        "label": "Envíanos un portafolio con algunas de tus mejores construcciones.",
+        "help": "Puedes pegar enlaces a imágenes, videos o galerías. Indica qué partes construiste tú, si trabajaste solo o con otras personas, cuánto tiempo te tomó y qué herramientas utilizaste. El portafolio será uno de los elementos principales de la evaluación.",
+        "type": "textarea",
+        "placeholder": "Pega aquí tus enlaces y explica el contexto de cada construcción...",
+        "required": true,
+        "icon": "▣",
+        "min": 2,
+        "max": 5000
+      }
+    ]
+  },
+  {
+    "title": "Trabajo en Equipo y Situaciones Prácticas",
+    "short": "Situaciones",
+    "icon": "⚖",
+    "description": "Queremos conocer cómo actuarías dentro de un equipo real de construcción durante el desarrollo de ARKAWOOD.",
+    "tip": "Nos interesa tu razonamiento, tu capacidad para aceptar correcciones y cómo coordinarías decisiones visuales con otras personas.",
+    "questions": [
+      {
+        "id": "scenarioArtDirection",
+        "number": 18,
+        "label": "Estás construyendo una zona desde hace varios días y el encargado del proyecto te pide modificar una parte importante porque no encaja con la dirección artística establecida. ¿Cómo reaccionarías?",
+        "help": "Queremos conocer tu capacidad para recibir críticas y realizar cambios sobre un trabajo al que ya has dedicado tiempo.",
+        "type": "textarea",
+        "placeholder": "Explícanos cómo reaccionarías y cómo organizarías los cambios...",
+        "required": true,
+        "icon": "↻",
+        "min": 2,
+        "max": 5000
+      },
+      {
+        "id": "scenarioVisualConsistency",
+        "number": 19,
+        "label": "Otro Builder continúa una construcción que comenzaste tú, pero utiliza detalles y bloques diferentes a los que habías planteado. ¿Qué harías?",
+        "help": "Evaluamos tu capacidad para coordinar y mantener coherencia visual sin generar conflictos.",
+        "type": "textarea",
+        "placeholder": "Describe cómo hablarías con el otro builder y cómo buscarías coherencia visual...",
+        "required": true,
+        "icon": "⚖",
+        "min": 2,
+        "max": 5000
+      },
+      {
+        "id": "scenarioConceptStart",
+        "number": 20,
+        "label": "Recibes únicamente una referencia, una idea general y algunas indicaciones sobre una nueva zona, pero no existe un diseño exacto que copiar. ¿Cómo comenzarías a desarrollar la construcción?",
+        "help": "Nos interesa conocer tu proceso creativo y capacidad para transformar ideas en escenarios.",
+        "type": "textarea",
+        "placeholder": "Explícanos tu proceso desde la referencia inicial hasta los primeros prototipos o decisiones...",
+        "required": true,
+        "icon": "✦",
+        "min": 2,
+        "max": 5000
+      },
+      {
+        "id": "scenarioScaleIssue",
+        "number": 21,
+        "label": "Estás trabajando en una construcción grande y descubres que la escala utilizada inicialmente no funciona correctamente para el gameplay o para las dimensiones previstas. ¿Qué harías?",
+        "help": "Queremos evaluar si eres capaz de detectar problemas estructurales, plantear soluciones y priorizar el resultado final sobre el trabajo ya realizado.",
+        "type": "textarea",
+        "placeholder": "Explica cómo evaluarías el problema y qué harías con el trabajo ya construido...",
+        "required": true,
+        "icon": "⌁",
+        "min": 2,
+        "max": 5000
+      },
+      {
+        "id": "scenarioQualityFeedback",
+        "number": 22,
+        "label": "Un Builder del equipo realiza una construcción que consideras que no alcanza el nivel visual esperado para ARKAWOOD. ¿Cómo abordarías la situación?",
+        "help": "Buscamos personas capaces de aportar críticas constructivas sin generar conflictos y que comprendan que el objetivo es mejorar el proyecto entre todos.",
+        "type": "textarea",
+        "placeholder": "Explica cómo darías feedback y cómo colaborarías para mejorar el resultado...",
+        "required": true,
+        "icon": "◇",
+        "min": 2,
+        "max": 5000
+      }
+    ]
+  },
+  {
+    "title": "Motivación y Visión como Builder",
+    "short": "Motivación",
+    "icon": "◆",
+    "description": "Queremos conocer tus motivaciones, creatividad y qué tipo de aportación visual podrías realizar al mundo de ARKAWOOD.",
+    "tip": "Piensa en ARKAWOOD como un mundo que debe sentirse coherente, memorable y funcional para el jugador, no solo como una colección de construcciones bonitas.",
+    "questions": [
+      {
+        "id": "whyBuilders",
+        "number": 23,
+        "label": "¿Por qué te gustaría formar parte del equipo de Builders de ARKAWOOD y no simplemente construir en proyectos personales u otros servidores?",
+        "help": "Ten en cuenta que ARKAWOOD es un proyecto en desarrollo y todavía no ha sido lanzado oficialmente. Buscamos personas interesadas en participar desde sus primeras etapas.",
+        "type": "textarea",
+        "placeholder": "Cuéntanos qué te atrae del proyecto y por qué quieres construirlo desde esta etapa...",
+        "required": true,
+        "icon": "◆",
+        "min": 2,
+        "max": 5000
+      },
+      {
+        "id": "qualities",
+        "number": 24,
+        "label": "¿Qué cualidades personales o creativas crees que te convierten en un buen candidato para formar parte del equipo de construcción?",
+        "help": "Puedes hablarnos de creatividad, atención al detalle, paciencia, constancia, capacidad de adaptación, trabajo en equipo u otras cualidades relacionadas.",
+        "type": "textarea",
+        "placeholder": "Describe las cualidades que aportarías al equipo...",
+        "required": true,
+        "icon": "♟",
+        "min": 2,
+        "max": 5000
+      },
+      {
+        "id": "regionConcept",
+        "number": 25,
+        "label": "Si pudieras diseñar una región o reino completo para ARKAWOOD desde cero, ¿qué concepto propondrías?",
+        "help": "Explícanos brevemente la temática, arquitectura, ambientación, colores principales, terreno y elementos característicos que tendría.",
+        "type": "textarea",
+        "placeholder": "Desarrolla tu concepto de región o reino: temática, arquitectura, ambiente, paleta, terreno y elementos distintivos...",
+        "required": true,
+        "icon": "✦",
+        "min": 2,
+        "max": 5000
+      },
+      {
+        "id": "memorableBuild",
+        "number": 26,
+        "label": "¿Qué crees que hace que una construcción de Minecraft pase de ser simplemente «bonita» a sentirse como un lugar memorable dentro de un servidor?",
+        "help": "Nos interesa conocer tu visión sobre ambientación, escala, composición, narrativa visual, detalles y experiencia del jugador.",
+        "type": "textarea",
+        "placeholder": "Explícanos qué elementos convierten una construcción en una experiencia memorable...",
+        "required": true,
+        "icon": "◇",
+        "min": 2,
+        "max": 5000
+      }
+    ]
+  },
+  {
+    "title": "Preguntas Adicionales",
+    "short": "Adicionales",
+    "icon": "✦",
+    "description": "Esta última categoría nos permitirá conocer habilidades complementarias que puedan ser útiles durante la creación de ARKAWOOD.",
+    "tip": "Si una habilidad no aplica a tu caso, puedes indicarlo. Lo importante es no dejar preguntas vacías y ser transparente sobre tu experiencia.",
+    "questions": [
+      {
+        "id": "additionalVisualSkills",
+        "number": 27,
+        "label": "¿Tienes alguna habilidad adicional relacionada con el desarrollo visual del proyecto?",
+        "help": "Por ejemplo: terraformación, organic building, interiores, Pixel Art, modelado 3D, Blockbench, Resource Packs, texturas, diseño gráfico, Concept Art, edición, esquemáticas u otras habilidades relacionadas.",
+        "type": "textarea",
+        "placeholder": "Cuéntanos qué habilidades adicionales tienes y qué nivel consideras que manejas...",
+        "required": true,
+        "icon": "✦",
+        "min": 2,
+        "max": 5000
+      },
+      {
+        "id": "anythingElse",
+        "number": 28,
+        "label": "¿Hay algo más que quieras mostrarnos o contarnos antes de que evaluemos tu postulación como Builder?",
+        "help": "Puedes enseñarnos otros proyectos, explicar tu forma de trabajar, hablarnos de una construcción de la que estés especialmente orgulloso o añadir cualquier información relevante.",
+        "type": "textarea",
+        "placeholder": "Añade cualquier información final o indica expresamente que no tienes nada más que agregar...",
+        "required": true,
+        "icon": "▤",
+        "min": 2,
+        "max": 5000
+      }
+    ]
+  }
+];
 
   const reviewStep = { title: 'Revisión Final', short: 'Revisión', icon: '☑' };
   const allSteps = [...categories, reviewStep];
@@ -189,7 +489,7 @@
   logoutButton?.addEventListener('click', async () => {
     logoutButton.disabled = true;
     try { await fetch('/api/auth/logout', { method: 'POST', credentials: 'same-origin' }); }
-    finally { window.location.replace('/acceso-moderacion.html'); }
+    finally { window.location.replace('/acceso-builders.html'); }
   });
 
   const scrollToQuestionStart = () => {
@@ -689,7 +989,7 @@
     reviewSubmit.innerHTML = 'VALIDANDO POSTULACIÓN...';
 
     try {
-      const response = await fetch('/api/applications/moderation', {
+      const response = await fetch('/api/applications/builders', {
         method: 'POST',
         credentials: 'same-origin',
         headers: { 'Content-Type': 'application/json' },
@@ -727,7 +1027,7 @@
       }
 
       if (result.code === 'webhook_not_configured') {
-        showToast(result.message || 'El canal interno de Moderación todavía no está configurado.', 'error', 7000);
+        showToast(result.message || 'El canal interno de Builders todavía no está configurado.', 'error', 7000);
         reviewSubmit.innerHTML = 'CANAL DE DISCORD PENDIENTE';
         window.setTimeout(() => {
           reviewSubmit.disabled = false;

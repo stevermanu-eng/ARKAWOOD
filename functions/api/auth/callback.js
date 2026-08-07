@@ -22,8 +22,15 @@ function redirectWithCookies(target, requestUrl, cookies = []) {
   return new Response(null, { status: 302, headers });
 }
 
-function errorRedirect(origin, code, requestUrl) {
-  const target = new URL('/acceso-moderacion.html', origin);
+function accessPathFromReturn(returnPath) {
+  const safe = safeReturnPath(returnPath);
+  if (safe.includes('builders')) return '/acceso-builders.html';
+  if (safe.includes('marketing')) return '/acceso-marketing.html';
+  return '/acceso-moderacion.html';
+}
+
+function errorRedirect(origin, code, requestUrl, returnPath = '/') {
+  const target = new URL(accessPathFromReturn(returnPath), origin);
   target.searchParams.set('error', code);
   return redirectWithCookies(target.toString(), requestUrl, [
     clearCookie(OAUTH_STATE_COOKIE, requestUrl),
@@ -34,17 +41,18 @@ function errorRedirect(origin, code, requestUrl) {
 export async function onRequestGet(context) {
   const { request, env } = context;
   const url = new URL(request.url);
-  if (!requiredAuthConfig(env)) return errorRedirect(url.origin, 'configuration', request.url);
+  const cookies = parseCookies(request.headers.get('Cookie') || '');
+  const returnPath = safeReturnPath(cookies[OAUTH_RETURN_COOKIE]);
+  if (!requiredAuthConfig(env)) return errorRedirect(url.origin, 'configuration', request.url, returnPath);
 
   const oauthError = url.searchParams.get('error');
-  if (oauthError) return errorRedirect(url.origin, oauthError === 'access_denied' ? 'cancelled' : 'discord_authorization', request.url);
+  if (oauthError) return errorRedirect(url.origin, oauthError === 'access_denied' ? 'cancelled' : 'discord_authorization', request.url, returnPath);
 
   const code = url.searchParams.get('code');
   const returnedState = url.searchParams.get('state');
-  const cookies = parseCookies(request.headers.get('Cookie') || '');
   const storedState = cookies[OAUTH_STATE_COOKIE];
   if (!code || !returnedState || !storedState || returnedState !== storedState) {
-    return errorRedirect(url.origin, 'invalid_state', request.url);
+    return errorRedirect(url.origin, 'invalid_state', request.url, returnPath);
   }
 
   const config = authConfig(env);
@@ -64,13 +72,13 @@ export async function onRequestGet(context) {
       headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
       body: tokenBody
     });
-    if (!tokenResponse.ok) return errorRedirect(url.origin, 'token_exchange', request.url);
+    if (!tokenResponse.ok) return errorRedirect(url.origin, 'token_exchange', request.url, returnPath);
     token = await tokenResponse.json();
   } catch {
-    return errorRedirect(url.origin, 'discord_unavailable', request.url);
+    return errorRedirect(url.origin, 'discord_unavailable', request.url, returnPath);
   }
 
-  if (!token?.access_token) return errorRedirect(url.origin, 'token_exchange', request.url);
+  if (!token?.access_token) return errorRedirect(url.origin, 'token_exchange', request.url, returnPath);
   const authHeaders = { Authorization: `${token.token_type || 'Bearer'} ${token.access_token}` };
 
   let user;
@@ -81,7 +89,7 @@ export async function onRequestGet(context) {
       fetch(`${API}/users/@me/guilds/${encodeURIComponent(config.guildId)}/member`, { headers: authHeaders })
     ]);
 
-    if (!userResponse.ok) return errorRedirect(url.origin, 'profile_read', request.url);
+    if (!userResponse.ok) return errorRedirect(url.origin, 'profile_read', request.url, returnPath);
     user = await userResponse.json();
 
     if (memberResponse.ok) {
@@ -89,13 +97,13 @@ export async function onRequestGet(context) {
     } else if (memberResponse.status === 404) {
       isMember = false;
     } else {
-      return errorRedirect(url.origin, 'membership_check', request.url);
+      return errorRedirect(url.origin, 'membership_check', request.url, returnPath);
     }
   } catch {
-    return errorRedirect(url.origin, 'discord_unavailable', request.url);
+    return errorRedirect(url.origin, 'discord_unavailable', request.url, returnPath);
   }
 
-  if (!user?.id || !user?.username) return errorRedirect(url.origin, 'profile_read', request.url);
+  if (!user?.id || !user?.username) return errorRedirect(url.origin, 'profile_read', request.url, returnPath);
 
   const previousSession = await sessionFromRequest(request, env);
   const startedAt = isMember
@@ -119,11 +127,10 @@ export async function onRequestGet(context) {
   ];
 
   if (!isMember) {
-    const target = new URL('/acceso-moderacion.html', url.origin);
+    const target = new URL(accessPathFromReturn(returnPath), url.origin);
     target.searchParams.set('reason', 'server-required');
     return redirectWithCookies(target.toString(), request.url, cleanup);
   }
 
-  const returnPath = safeReturnPath(cookies[OAUTH_RETURN_COOKIE]);
   return redirectWithCookies(new URL(returnPath, url.origin).toString(), request.url, cleanup);
 }

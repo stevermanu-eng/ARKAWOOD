@@ -19,7 +19,7 @@
   const requestedNext = params.get('next');
   const safeNext = requestedNext && requestedNext.startsWith('/') && !requestedNext.startsWith('//')
     ? requestedNext
-    : '/postulacion-moderacion.html';
+    : '/postulacion-builders.html';
 
   login.href = `/api/auth/discord?return=${encodeURIComponent(safeNext)}`;
   recheck.href = `/api/auth/discord?return=${encodeURIComponent(safeNext)}`;
@@ -111,7 +111,7 @@
     statusIcon.dataset.state = 'success';
     statusIcon.querySelector('span').textContent = '✓';
     eyebrow.textContent = 'VERIFICACIÓN COMPLETADA';
-    title.textContent = 'Ya puedes acceder a Moderación';
+    title.textContent = 'Ya puedes acceder a Builders';
     copy.textContent = 'Tu cuenta está verificada y pertenece al servidor de ARKA WOOD. Las preguntas de la postulación ya están desbloqueadas para esta sesión.';
     enter.hidden = false;
     logout.hidden = false;
@@ -164,7 +164,7 @@
   logout.addEventListener('click', async () => {
     logout.disabled = true;
     try { await fetch('/api/auth/logout', { method: 'POST', credentials: 'same-origin' }); }
-    finally { location.replace('/acceso-moderacion.html'); }
+    finally { location.replace('/acceso-builders.html'); }
   });
 
   load();

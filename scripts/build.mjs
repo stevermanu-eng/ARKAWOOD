@@ -4,6 +4,7 @@ import { join } from 'node:path';
 const root = process.cwd();
 const dist = join(root, 'dist');
 const rootStaticExtensions = new Set(['.html', '.css', '.js', '.txt']);
+const rootStaticFiles = new Set(['_headers', '_redirects']);
 
 await rm(dist, { recursive: true, force: true });
 await mkdir(dist, { recursive: true });
@@ -12,7 +13,7 @@ const files = await readdir(root, { withFileTypes: true });
 for (const entry of files) {
   if (!entry.isFile()) continue;
   const extension = entry.name.includes('.') ? `.${entry.name.split('.').pop()}` : '';
-  if (!rootStaticExtensions.has(extension)) continue;
+  if (!rootStaticExtensions.has(extension) && !rootStaticFiles.has(entry.name)) continue;
   if (entry.name === 'README.txt') continue;
   await cp(join(root, entry.name), join(dist, entry.name));
 }

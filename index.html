@@ -4,17 +4,16 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="theme-color" content="#080706" />
-  <link rel="icon" type="image/png" href="assets/arka-wood-header-logo.png" />
+  <link rel="icon" type="image/png" href="assets/arka-wood-favicon.png" />
   <title>ARKA WOOD</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <div class="noise" aria-hidden="true"></div>
   <div class="embers" id="embers" aria-hidden="true"></div>
 
   <header class="topbar" id="topbar">
     <div class="topbar__inner">
-      <a class="topbar__brand" href="#home" aria-label="ARKA WOOD — Inicio"><img src="assets/arka-wood-header-logo.png" alt="ARKA WOOD" /></a>
+      <a class="topbar__brand" href="#home" aria-label="ARKA WOOD — Inicio"><img src="assets/arka-wood-header-logo.webp" alt="ARKA WOOD" width="256" height="256" decoding="async" /></a>
       <nav class="nav" aria-label="Navegación principal">
         <a class="nav__item nav__item--active" href="#home">HOME</a>
         <button class="nav__item dummy" type="button">FOROS</button>
@@ -25,7 +24,7 @@
         <button class="nav__item dummy" type="button">SOPORTE</button>
         <a class="nav__item nav__item--application" href="postulaciones.html">POSTULACIONES</a>
       </nav>
-      <button class="profile dummy" type="button" aria-label="Perfil de usuario"><span>♜</span></button>
+      <button class="profile" id="homeProfile" type="button" aria-label="Perfil de usuario" title="Perfil"><span id="homeProfileFallback">♜</span><img id="homeProfileAvatar" alt="" hidden /></button>
     </div>
   </header>
 
@@ -44,7 +43,7 @@
         <div class="project-badge"><i></i><span>PROYECTO EN CONSTRUCCIÓN</span><small>DESARROLLO ACTIVO</small></div>
         <div class="hero__logo-wrap">
           <div class="hero__halo"></div>
-          <img src="assets/arka-wood-logo.png" alt="ARKA WOOD" class="hero__logo" />
+          <img src="assets/arka-wood-logo.webp" alt="ARKA WOOD" class="hero__logo" width="768" height="768" fetchpriority="high" decoding="async" />
         </div>
         <div class="hero__copy">
           <h1>FORJA TU NOMBRE EN <strong>ARKA WOOD</strong></h1>
@@ -73,17 +72,17 @@
 
       <div class="showcase-frame" id="showcaseCarousel">
         <div class="showcase-slide is-active" aria-hidden="false">
-          <img src="assets/bedwars.webp" alt="Modalidad BedWars de ARKA WOOD" />
+          <img src="assets/bedwars.webp" alt="Modalidad BedWars de ARKA WOOD" width="1280" height="853" loading="lazy" decoding="async" />
           <div class="showcase-slide__shade"></div>
           <div class="showcase-slide__meta"><small>MODALIDAD</small><strong>BEDWARS</strong><span>DEFENDE · PROTEGE · DESTRUYE</span></div>
         </div>
         <div class="showcase-slide" aria-hidden="true">
-          <img src="assets/survival.webp" alt="Modalidad Survival de ARKA WOOD" />
+          <img src="assets/survival.webp" alt="Modalidad Survival de ARKA WOOD" width="1280" height="720" loading="lazy" decoding="async" />
           <div class="showcase-slide__shade"></div>
           <div class="showcase-slide__meta"><small>MODALIDAD</small><strong>SURVIVAL</strong><span>EXPLORA · PROGRESA · CONSTRUYE</span></div>
         </div>
         <div class="showcase-slide" aria-hidden="true">
-          <img src="assets/kitpvp.webp" alt="Modalidad KitPvP de ARKA WOOD" />
+          <img src="assets/kitpvp.webp" alt="Modalidad KitPvP de ARKA WOOD" width="1280" height="720" loading="lazy" decoding="async" />
           <div class="showcase-slide__shade"></div>
           <div class="showcase-slide__meta"><small>MODALIDAD</small><strong>KITPVP</strong><span>COMBATE · ESTRATEGIA · PRESTIGIO</span></div>
         </div>
@@ -109,17 +108,17 @@
       </div>
       <div class="modalities-grid">
         <article class="modality-card interactive-card">
-          <img src="assets/survival.webp" alt="Survival" />
+          <img src="assets/survival.webp" alt="Survival" width="1280" height="720" loading="lazy" decoding="async" />
           <div class="modality-card__overlay"></div>
           <div class="modality-card__content"><small>MUNDO ABIERTO</small><h3>SURVIVAL</h3><p>En desarrollo: progresión, mundo y sistemas se encuentran en construcción.</p><button class="mini-btn dummy" type="button">DESCUBRIR</button></div>
         </article>
         <article class="modality-card interactive-card">
-          <img src="assets/kitpvp.webp" alt="KitPvP" />
+          <img src="assets/kitpvp.webp" alt="KitPvP" width="1280" height="720" loading="lazy" decoding="async" />
           <div class="modality-card__overlay"></div>
           <div class="modality-card__content"><small>COMBATE</small><h3>KITPVP</h3><p>En desarrollo: kits, combate, balance y clasificación están siendo preparados.</p><button class="mini-btn dummy" type="button">DESCUBRIR</button></div>
         </article>
         <article class="modality-card interactive-card">
-          <img src="assets/bedwars.webp" alt="BedWars" />
+          <img src="assets/bedwars.webp" alt="BedWars" width="1280" height="853" loading="lazy" decoding="async" />
           <div class="modality-card__overlay"></div>
           <div class="modality-card__content"><small>EQUIPOS</small><h3>BEDWARS</h3><p>En desarrollo: mapas, mecánicas y ritmo competitivo están en fase de diseño.</p><button class="mini-btn dummy" type="button">DESCUBRIR</button></div>
         </article>
@@ -128,7 +127,7 @@
 
     <section class="realm-strip reveal">
       <div class="realm-strip__inner">
-        <div class="realm-strip__brand"><img src="assets/arka-wood-logo.png" alt="" /><div><small>ARKA WOOD NETWORK</small><strong>PROYECTO EN CONSTRUCCIÓN</strong></div></div>
+        <div class="realm-strip__brand"><img src="assets/arka-wood-logo.webp" alt="" width="768" height="768" loading="lazy" decoding="async" /><div><small>ARKA WOOD NETWORK</small><strong>PROYECTO EN CONSTRUCCIÓN</strong></div></div>
         <div class="realm-strip__data"><div><small>IP</small><b>EN PREPARACIÓN</b></div><div><small>VERSIÓN</small><b>POR DEFINIR</b></div><div><small>ESTADO</small><b>DESARROLLO ACTIVO</b></div></div>
         <a class="realm-strip__discord discord-link" href="https://discord.gg/HxEbRcQD7" target="_blank" rel="noopener" aria-label="Discord">
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19.5 5.3A17 17 0 0 0 15.4 4l-.5 1.1a15 15 0 0 0-5.8 0L8.6 4a17 17 0 0 0-4.1 1.3C1.9 9.2 1.2 13 1.5 16.8a17 17 0 0 0 5 2.5l1.2-1.7c-.7-.3-1.4-.7-2-1.2l.5-.4c3.8 1.8 7.8 1.8 11.6 0l.5.4c-.6.5-1.3.9-2 1.2l1.2 1.7a17 17 0 0 0 5-2.5c.4-4.4-.8-8.1-3-11.5ZM8.5 14.5c-1.2 0-2.1-1.1-2.1-2.5s.9-2.5 2.1-2.5 2.1 1.1 2.1 2.5-.9 2.5-2.1 2.5Zm7 0c-1.2 0-2.1-1.1-2.1-2.5s.9-2.5 2.1-2.5 2.1 1.1 2.1 2.5-.9 2.5-2.1 2.5Z"/></svg>
@@ -151,7 +150,7 @@
 
     <section class="cta-section reveal">
       <div class="cta-section__glow"></div>
-      <img class="cta-section__logo" src="assets/arka-wood-logo.png" alt="ARKA WOOD" />
+      <img class="cta-section__logo" src="assets/arka-wood-logo.webp" alt="ARKA WOOD" width="768" height="768" loading="lazy" decoding="async" />
       <div class="cta-section__copy"><small>¿QUIERES CONSTRUIR EL REINO CON NOSOTROS?</small><h2>POSTULACIONES DE STAFF</h2><span>ARKA WOOD aún está en construcción. Conoce las áreas disponibles y descubre dónde puedes aportar durante esta etapa de desarrollo.</span></div>
       <a class="btn btn--gold" href="postulaciones.html"><span>VER POSTULACIONES</span></a>
     </section>
@@ -160,7 +159,7 @@
   <footer class="footer">
     <div class="footer__main">
       <div class="footer__identity">
-        <img class="footer__logo" src="assets/arka-wood-logo.png" alt="ARKA WOOD" />
+        <img class="footer__logo" src="assets/arka-wood-logo.webp" alt="ARKA WOOD" width="768" height="768" loading="lazy" decoding="async" />
         <p>Un proyecto de Minecraft actualmente en construcción, forjado entre obsidiana, aventura, competencia y comunidad.</p>
         <div class="footer__socials">
           <a class="social-icon" href="https://discord.gg/HxEbRcQD7" target="_blank" rel="noopener" aria-label="Discord"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19.5 5.3A17 17 0 0 0 15.4 4l-.5 1.1a15 15 0 0 0-5.8 0L8.6 4a17 17 0 0 0-4.1 1.3C1.9 9.2 1.2 13 1.5 16.8a17 17 0 0 0 5 2.5l1.2-1.7c-.7-.3-1.4-.7-2-1.2l.5-.4c3.8 1.8 7.8 1.8 11.6 0l.5.4c-.6.5-1.3.9-2 1.2l1.2 1.7a17 17 0 0 0 5-2.5c.4-4.4-.8-8.1-3-11.5ZM8.5 14.5c-1.2 0-2.1-1.1-2.1-2.5s.9-2.5 2.1-2.5 2.1 1.1 2.1 2.5-.9 2.5-2.1 2.5Zm7 0c-1.2 0-2.1-1.1-2.1-2.5s.9-2.5 2.1-2.5 2.1 1.1 2.1 2.5-.9 2.5-2.1 2.5Z"/></svg></a>

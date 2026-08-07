@@ -14,7 +14,9 @@ export async function onRequestGet(context) {
   const current = new URL(request.url);
 
   if (!requiredAuthConfig(env)) {
-    return Response.redirect(new URL('/acceso-moderacion.html?error=configuration', current.origin).toString(), 302);
+    const requested = safeReturnPath(current.searchParams.get('return'));
+    const access = requested.includes('builders') ? '/acceso-builders.html' : requested.includes('marketing') ? '/acceso-marketing.html' : '/acceso-moderacion.html';
+    return Response.redirect(new URL(`${access}?error=configuration`, current.origin).toString(), 302);
   }
 
   const config = authConfig(env);

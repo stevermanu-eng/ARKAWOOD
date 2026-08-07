@@ -1,5 +1,5 @@
 import { json, sessionFromRequest } from '../../_lib/auth.js';
-import { applicationWebhookConfigured, sendModerationApplicationWebhook } from '../../_lib/applicationWebhook.js';
+import { applicationWebhookConfigured, sendBuildersApplicationWebhook } from '../../_lib/applicationWebhook.js';
 import {
   APPLICATIONS_DB_BINDING,
   applicationsDb,
@@ -12,39 +12,195 @@ const MAX_BODY_BYTES = 96 * 1024;
 const DAYS = new Set(['Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado', 'Domingo']);
 
 const schema = [
-  { id: 'realName', category: 0, type: 'text', min: 2, max: 80 },
-  { id: 'age', category: 0, type: 'number', minValue: 16, maxValue: 80, integer: true },
-  { id: 'minecraftNick', category: 0, type: 'minecraft' },
-  { id: 'country', category: 0, type: 'text', min: 2, max: 80 },
-  { id: 'discordIdentity', category: 0, type: 'discord' },
-  { id: 'phone', category: 0, type: 'phone' },
-  { id: 'email', category: 0, type: 'email' },
-
-  { id: 'minecraftTime', category: 1, type: 'text', min: 2, max: 1000 },
-  { id: 'dailyHours', category: 1, type: 'text', min: 2, max: 1500 },
-  { id: 'activeDays', category: 1, type: 'days' },
-  { id: 'futureLimits', category: 1, type: 'text', min: 10, max: 5000 },
-  { id: 'discordOutsideHours', category: 1, type: 'text', min: 10, max: 5000 },
-
-  { id: 'moderationTools', category: 2, type: 'text', min: 10, max: 5000 },
-  { id: 'previousModeration', category: 2, type: 'text', min: 10, max: 5000 },
-  { id: 'ticketsKnowledge', category: 2, type: 'text', min: 15, max: 5000 },
-  { id: 'recordingAnticheat', category: 2, type: 'text', min: 10, max: 5000 },
-  { id: 'lagVsHacks', category: 2, type: 'text', min: 30, max: 5000 },
-
-  { id: 'scenarioInsults', category: 3, type: 'text', min: 30, max: 5000 },
-  { id: 'scenarioHacksNoProof', category: 3, type: 'text', min: 30, max: 5000 },
-  { id: 'scenarioFriend', category: 3, type: 'text', min: 30, max: 5000 },
-  { id: 'scenarioReports', category: 3, type: 'text', min: 30, max: 5000 },
-  { id: 'scenarioAppeal', category: 3, type: 'text', min: 30, max: 5000 },
-
-  { id: 'whyArkaWood', category: 4, type: 'text', min: 40, max: 5000 },
-  { id: 'qualities', category: 4, type: 'text', min: 30, max: 5000 },
-  { id: 'contribution', category: 4, type: 'text', min: 30, max: 5000 },
-  { id: 'pressure', category: 4, type: 'text', min: 30, max: 5000 },
-
-  { id: 'additionalSkills', category: 5, type: 'text', min: 5, max: 5000 },
-  { id: 'anythingElse', category: 5, type: 'text', min: 5, max: 5000 }
+  {
+    "id": "realName",
+    "category": 0,
+    "type": "text",
+    "min": 2,
+    "max": 80
+  },
+  {
+    "id": "age",
+    "category": 0,
+    "type": "number",
+    "minValue": 1,
+    "maxValue": 100,
+    "integer": true
+  },
+  {
+    "id": "minecraftNick",
+    "category": 0,
+    "type": "minecraft"
+  },
+  {
+    "id": "country",
+    "category": 0,
+    "type": "text",
+    "min": 2,
+    "max": 80
+  },
+  {
+    "id": "discordIdentity",
+    "category": 0,
+    "type": "discord"
+  },
+  {
+    "id": "phone",
+    "category": 0,
+    "type": "phone"
+  },
+  {
+    "id": "email",
+    "category": 0,
+    "type": "email"
+  },
+  {
+    "id": "minecraftBuildingTime",
+    "category": 1,
+    "type": "text",
+    "min": 2,
+    "max": 5000
+  },
+  {
+    "id": "weeklyHours",
+    "category": 1,
+    "type": "text",
+    "min": 2,
+    "max": 5000
+  },
+  {
+    "id": "availabilitySchedule",
+    "category": 1,
+    "type": "text",
+    "min": 2,
+    "max": 5000
+  },
+  {
+    "id": "futureLimits",
+    "category": 1,
+    "type": "text",
+    "min": 2,
+    "max": 5000
+  },
+  {
+    "id": "revisionCommitment",
+    "category": 1,
+    "type": "text",
+    "min": 2,
+    "max": 5000
+  },
+  {
+    "id": "buildingStyles",
+    "category": 2,
+    "type": "text",
+    "min": 2,
+    "max": 5000
+  },
+  {
+    "id": "previousBuilderExperience",
+    "category": 2,
+    "type": "text",
+    "min": 2,
+    "max": 5000
+  },
+  {
+    "id": "buildingTools",
+    "category": 2,
+    "type": "text",
+    "min": 2,
+    "max": 5000
+  },
+  {
+    "id": "strengthsWeaknesses",
+    "category": 2,
+    "type": "text",
+    "min": 2,
+    "max": 5000
+  },
+  {
+    "id": "portfolio",
+    "category": 2,
+    "type": "text",
+    "min": 2,
+    "max": 5000
+  },
+  {
+    "id": "scenarioArtDirection",
+    "category": 3,
+    "type": "text",
+    "min": 2,
+    "max": 5000
+  },
+  {
+    "id": "scenarioVisualConsistency",
+    "category": 3,
+    "type": "text",
+    "min": 2,
+    "max": 5000
+  },
+  {
+    "id": "scenarioConceptStart",
+    "category": 3,
+    "type": "text",
+    "min": 2,
+    "max": 5000
+  },
+  {
+    "id": "scenarioScaleIssue",
+    "category": 3,
+    "type": "text",
+    "min": 2,
+    "max": 5000
+  },
+  {
+    "id": "scenarioQualityFeedback",
+    "category": 3,
+    "type": "text",
+    "min": 2,
+    "max": 5000
+  },
+  {
+    "id": "whyBuilders",
+    "category": 4,
+    "type": "text",
+    "min": 2,
+    "max": 5000
+  },
+  {
+    "id": "qualities",
+    "category": 4,
+    "type": "text",
+    "min": 2,
+    "max": 5000
+  },
+  {
+    "id": "regionConcept",
+    "category": 4,
+    "type": "text",
+    "min": 2,
+    "max": 5000
+  },
+  {
+    "id": "memorableBuild",
+    "category": 4,
+    "type": "text",
+    "min": 2,
+    "max": 5000
+  },
+  {
+    "id": "additionalVisualSkills",
+    "category": 5,
+    "type": "text",
+    "min": 2,
+    "max": 5000
+  },
+  {
+    "id": "anythingElse",
+    "category": 5,
+    "type": "text",
+    "min": 2,
+    "max": 5000
+  }
 ];
 
 function validEmail(value) {
@@ -142,12 +298,12 @@ export async function onRequestPost(context) {
     }, { status: 503 });
   }
 
-  if (!applicationWebhookConfigured(env, 'moderation')) {
+  if (!applicationWebhookConfigured(env, 'builders')) {
     return json({
       ok: false,
       code: 'webhook_not_configured',
       validated: true,
-      message: 'La postulación es válida, pero el canal de recepción de Moderación todavía no está configurado en Cloudflare.'
+      message: 'La postulación es válida, pero el canal de recepción de Builders todavía no está configurado en Cloudflare.'
     }, { status: 503 });
   }
 
@@ -166,12 +322,12 @@ export async function onRequestPost(context) {
   try {
     reservation = await reserveApplication(env, {
       applicationId,
-      branch: 'moderation',
+      branch: 'builders',
       ...normalizedApplicant,
       submittedAt
     });
   } catch (error) {
-    console.error('Moderation application reservation failed', error instanceof Error ? error.message : error);
+    console.error('Builders application reservation failed', error instanceof Error ? error.message : error);
     return json({
       ok: false,
       code: 'database_error',
@@ -192,16 +348,16 @@ export async function onRequestPost(context) {
 
   let webhookMessage;
   try {
-    webhookMessage = await sendModerationApplicationWebhook(env, {
+    webhookMessage = await sendBuildersApplicationWebhook(env, {
       applicant: normalizedApplicant,
       answers: normalizedAnswers,
       applicationId,
       submittedAt
     });
   } catch (error) {
-    console.error('Moderation webhook delivery failed', error instanceof Error ? error.message : error);
+    console.error('Builders webhook delivery failed', error instanceof Error ? error.message : error);
     try { await releasePendingApplication(env, applicationId); } catch (releaseError) {
-      console.error('Moderation pending reservation release failed', releaseError instanceof Error ? releaseError.message : releaseError);
+      console.error('Builders pending reservation release failed', releaseError instanceof Error ? releaseError.message : releaseError);
     }
     return json({
       ok: false,
@@ -216,7 +372,7 @@ export async function onRequestPost(context) {
   } catch (error) {
     // El webhook ya fue confirmado. Conservamos la reserva para impedir un segundo envío
     // y respondemos como éxito; el registro pendiente sigue identificando esta cuenta.
-    console.error('Moderation application finalization failed after webhook delivery', error instanceof Error ? error.message : error);
+    console.error('Builders application finalization failed after webhook delivery', error instanceof Error ? error.message : error);
   }
 
   return json({
@@ -225,7 +381,7 @@ export async function onRequestPost(context) {
     applicationId,
     submittedAt,
     redirect: `/postulacion-enviada.html?id=${encodeURIComponent(applicationId)}`,
-    message: 'Postulación enviada correctamente al canal interno de Moderación.'
+    message: 'Postulación enviada correctamente al canal interno de Builders.'
   }, { status: 201 });
 }
 
