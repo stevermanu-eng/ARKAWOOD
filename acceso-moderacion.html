@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#080706" />
+  <meta name="robots" content="noindex,nofollow" />
+  <link rel="icon" type="image/png" href="assets/arka-wood-header-logo.png" />
+  <title>Acceso a Moderación — ARKA WOOD</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="moderation-application-page moderation-access-page">
+  <div class="noise" aria-hidden="true"></div>
+  <div class="embers" id="embers" aria-hidden="true"></div>
+  <div class="moderation-backdrop moderation-access-backdrop" aria-hidden="true"></div>
+
+  <header class="application-form-topbar moderation-access-topbar">
+    <a class="application-form-topbar__brand" href="index.html#home" aria-label="ARKA WOOD — Inicio">
+      <img src="assets/arka-wood-header-logo.png" alt="ARKA WOOD" />
+    </a>
+    <div class="application-form-topbar__state">
+      <span class="status-dot"></span>
+      <div><small>POSTULACIONES · ACCESO</small><strong>IDENTIDAD MEDIANTE DISCORD</strong></div>
+    </div>
+    <a class="application-form-topbar__exit" href="postulaciones.html"><span>VOLVER A POSTULACIONES</span><b>↗</b></a>
+  </header>
+
+  <main class="moderation-access-shell">
+    <section class="moderation-access-heading">
+      <p class="section__kicker">◆ CONTROL DE ACCESO ◆</p>
+      <h1>POSTULACIÓN A <strong>MODERACIÓN</strong></h1>
+      <p>Antes de mostrar las preguntas necesitamos verificar tu cuenta de Discord y confirmar que formas parte del servidor oficial de ARKA WOOD.</p>
+    </section>
+
+    <section class="moderation-access-card" aria-live="polite">
+      <div class="moderation-access-card__ornament" aria-hidden="true">AW</div>
+
+      <div class="moderation-access-card__status" id="accessStatusIcon" aria-hidden="true">
+        <span>◈</span>
+      </div>
+
+      <p class="moderation-access-card__eyebrow" id="accessEyebrow">VERIFICANDO ACCESO</p>
+      <h2 id="accessTitle">Comprobando tu sesión...</h2>
+      <p class="moderation-access-card__copy" id="accessCopy">Estamos revisando si ya existe una sesión válida de Discord en este navegador.</p>
+
+      <div class="discord-identity-card" id="discordIdentity" hidden>
+        <img id="discordAvatar" alt="Avatar de Discord" />
+        <div>
+          <small>CUENTA DE DISCORD</small>
+          <strong id="discordDisplayName">—</strong>
+          <span id="discordUsername">—</span>
+        </div>
+        <b id="discordIdentityState">VERIFICADA</b>
+      </div>
+
+      <div class="moderation-access-steps" id="accessSteps">
+        <div class="moderation-access-step" data-step="discord">
+          <span>01</span><div><small>IDENTIDAD</small><strong>Iniciar sesión con Discord</strong></div><i>•</i>
+        </div>
+        <div class="moderation-access-step" data-step="guild">
+          <span>02</span><div><small>COMUNIDAD</small><strong>Pertenecer al servidor de ARKA WOOD</strong></div><i>•</i>
+        </div>
+        <div class="moderation-access-step" data-step="form">
+          <span>03</span><div><small>POSTULACIÓN</small><strong>Desbloquear las preguntas de Moderación</strong></div><i>•</i>
+        </div>
+      </div>
+
+      <div class="moderation-access-actions" id="accessActions">
+        <a class="discord-login-btn" id="discordLogin" href="/api/auth/discord">
+          <span class="discord-login-btn__mark">◉</span>
+          <span>INICIAR SESIÓN CON DISCORD</span>
+          <b>→</b>
+        </a>
+        <a class="discord-join-btn" id="discordJoin" href="https://discord.gg/HxEbRcQD7" target="_blank" rel="noopener" hidden>
+          <span>UNIRME AL SERVIDOR</span><b>↗</b>
+        </a>
+        <a class="discord-recheck-btn" id="discordRecheck" href="/api/auth/discord" hidden>
+          <span>YA ME UNÍ · COMPROBAR DE NUEVO</span><b>↻</b>
+        </a>
+        <a class="discord-enter-btn" id="discordEnter" href="postulacion-moderacion.html" hidden>
+          <span>ENTRAR A LA POSTULACIÓN</span><b>→</b>
+        </a>
+        <button class="discord-logout-btn" id="discordLogout" type="button" hidden>CERRAR SESIÓN</button>
+      </div>
+
+      <div class="moderation-access-privacy">
+        <span>▣</span>
+        <p><b>Datos mínimos.</b> Para este acceso solo se conserva tu Discord User ID, nombre de usuario, nombre visible, avatar y la fecha/hora de inicio de la postulación. No solicitamos tu correo, contraseña ni mensajes privados.</p>
+      </div>
+    </section>
+
+    <section class="moderation-access-build-note">
+      <small>SISTEMA EN PREPARACIÓN</small>
+      <p>ARKA WOOD continúa en construcción. La autenticación está preparada para Cloudflare Pages Functions y el formulario sigue funcionando como borrador hasta que se conecte el sistema definitivo de recepción de postulaciones.</p>
+    </section>
+  </main>
+
+  <footer class="application-form-footer moderation-access-footer">
+    <img src="assets/arka-wood-header-logo.png" alt="" />
+    <div><strong>ARKA WOOD</strong><span>◆</span><p>Construyendo un reino de aventura, competencia y comunidad.</p></div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="discord-access.js"></script>
+</body>
+</html>

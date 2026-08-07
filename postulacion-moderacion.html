@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#080706" />
+  <meta name="robots" content="noindex,nofollow" />
+  <link rel="icon" type="image/png" href="assets/arka-wood-header-logo.png" />
+  <title>Postulación a Moderación — ARKA WOOD</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="moderation-application-page">
+  <div class="noise" aria-hidden="true"></div>
+  <div class="embers" id="embers" aria-hidden="true"></div>
+  <div class="moderation-backdrop" aria-hidden="true"></div>
+
+  <header class="application-form-topbar">
+    <a class="application-form-topbar__brand" href="index.html#home" aria-label="ARKA WOOD — Inicio">
+      <img src="assets/arka-wood-header-logo.png" alt="ARKA WOOD" />
+    </a>
+    <div class="application-form-topbar__state">
+      <span class="status-dot"></span>
+      <div><small>POSTULACIONES · ALPHA</small><strong>MÓDULO EN CONSTRUCCIÓN</strong></div>
+    </div>
+    <div class="application-form-topbar__actions">
+      <div class="application-auth-user" id="applicationAuthUser" title="Sesión verificada con Discord">
+        <img id="applicationAuthAvatar" alt="Avatar de Discord" />
+        <div><small>SESIÓN DISCORD</small><strong id="applicationAuthName">VERIFICANDO...</strong></div>
+      </div>
+      <a class="application-form-topbar__exit" href="postulaciones.html"><span>POSTULACIONES</span><b>↗</b></a>
+      <button class="application-form-topbar__logout" id="applicationLogout" type="button" title="Cerrar sesión">⇥</button>
+    </div>
+  </header>
+
+  <main class="moderation-form-shell">
+    <section class="moderation-form-hero">
+      <p class="section__kicker">◆ PROCESO DE SELECCIÓN ◆</p>
+      <h1>POSTULACIÓN A <strong>MODERACIÓN</strong></h1>
+      <p>Buscamos miembros comprometidos para incorporarse al equipo de moderación durante la fase previa al lanzamiento. En esta etapa el rol va más allá de sancionar: también implica probar sistemas, detectar fallos, organizar la comunidad y ayudar a construir las bases de ARKAWOOD antes de su apertura oficial.</p>
+      <div class="moderation-form-hero__auth"><span>✓</span><p>Acceso verificado con Discord para <b id="moderationDiscordName">tu cuenta</b>. La identidad de esta postulación queda vinculada a tu Discord User ID.</p></div>
+      <div class="moderation-form-hero__warning"><span>⚒</span><p><b>Proyecto en desarrollo:</b> ARKAWOOD continúa en fase de configuración. Las funciones, modalidades, normas y procesos internos todavía pueden cambiar mientras avanzan las pruebas.</p></div>
+    </section>
+
+    <section class="moderation-requirements" aria-label="Requisitos principales de Moderación">
+      <div class="moderation-requirements__head">
+        <small>ANTES DE EMPEZAR</small>
+        <h2>REQUISITOS PRINCIPALES</h2>
+        <p>La postulación evalúa disponibilidad, criterio, comunicación y conocimientos técnicos. Todas las preguntas son obligatorias y no es posible avanzar dejando respuestas pendientes.</p>
+      </div>
+      <div class="moderation-requirements__grid">
+        <article><span>16+</span><div><strong>EDAD Y MADUREZ</strong><p>Mínimo 16 años, con actitud profesional y criterio acorde al cargo.</p></div></article>
+        <article><span>◷</span><div><strong>DISPONIBILIDAD</strong><p>Alrededor de 10 a 15 horas semanales para pruebas, reuniones y presencia en Discord.</p></div></article>
+        <article><span>◉</span><div><strong>COMUNICACIÓN</strong><p>Discord activo y micrófono funcional para reuniones y coordinación interna.</p></div></article>
+        <article><span>⚔</span><div><strong>CRITERIO TÉCNICO</strong><p>Moderación, tickets, detección de trampas, imparcialidad, buena redacción y disposición para aprender.</p></div></article>
+      </div>
+    </section>
+
+    <div class="application-stepper" id="applicationStepper" aria-label="Progreso de la postulación"></div>
+
+    <div class="moderation-form-layout">
+      <aside class="application-sidebar" aria-label="Categorías de la postulación">
+        <div class="application-sidebar__title">PROCESO DE POSTULACIÓN</div>
+        <nav class="application-sidebar__nav" id="applicationSidebar"></nav>
+
+        <section class="application-progress-card">
+          <small>TU PROGRESO</small>
+          <div class="application-progress-track"><span id="applicationProgressBar"></span></div>
+          <p><b id="applicationProgressText">0 / 6</b> categorías respondidas</p>
+        </section>
+
+        <section class="application-help-card">
+          <small>¿NECESITAS AYUDA?</small>
+          <p>No respondas lo que crees que el staff quiere leer. Priorizamos respuestas claras, sinceras y razonadas. Si una situación no aplica a tu caso, explícalo dentro de la respuesta.</p>
+          <a href="https://discord.gg/HxEbRcQD7" target="_blank" rel="noopener"><span>◉</span> IR A DISCORD</a>
+        </section>
+      </aside>
+
+      <section class="application-form-panel">
+        <div class="application-form-panel__head">
+          <div><small id="currentCategoryLabel">CATEGORÍA 1 DE 6</small><h2 id="currentCategoryTitle">DATOS GENERALES</h2><p id="currentCategoryDescription">Información básica para identificarte y contactarte durante el proceso de selección.</p></div>
+          <span class="application-form-panel__number" id="currentCategoryNumber">01</span>
+        </div>
+
+        <form id="moderationApplicationForm" novalidate>
+          <div id="applicationQuestions"></div>
+
+          <div class="application-tip" id="applicationTip">
+            <span class="application-tip__icon">◉</span>
+            <div><small>CONSEJO</small><p id="applicationTipText">Responde con honestidad y revisa tus datos antes de avanzar.</p></div>
+          </div>
+
+          <div class="application-form-actions">
+            <button class="form-btn form-btn--ghost" id="saveApplication" type="button"><span>▣</span> GUARDAR BORRADOR</button>
+            <div class="application-form-actions__navigation">
+              <button class="form-btn form-btn--ghost" id="previousCategory" type="button">← ANTERIOR</button>
+              <button class="form-btn form-btn--gold" id="nextCategory" type="button">SIGUIENTE CATEGORÍA <span>→</span></button>
+            </div>
+          </div>
+        </form>
+      </section>
+    </div>
+  </main>
+
+  <footer class="application-form-footer">
+    <img src="assets/arka-wood-header-logo.png" alt="" />
+    <div><strong>ARKA WOOD</strong><span>◆</span><p>Construyendo un reino de aventura, competencia y comunidad.</p></div>
+  </footer>
+
+  <section class="application-review-screen" id="applicationReviewScreen" hidden aria-labelledby="applicationReviewTitle">
+    <div class="application-review-shell">
+      <header class="application-review-header">
+        <div class="application-review-header__brand">
+          <img src="assets/arka-wood-header-logo.png" alt="ARKA WOOD" />
+          <div><small>POSTULACIÓN A MODERACIÓN</small><strong>REVISIÓN FINAL</strong></div>
+        </div>
+        <button class="application-review-close" id="applicationReviewBack" type="button">← VOLVER A EDITAR</button>
+      </header>
+
+      <div class="application-review-hero">
+        <p class="section__kicker">◆ PASO 7 · REVISIÓN ◆</p>
+        <h2 id="applicationReviewTitle">REVISA TODA TU <strong>POSTULACIÓN</strong></h2>
+        <p>Este es el resumen completo antes del envío. Revisa cada respuesta con calma. Puedes volver a cualquier categoría y editarla; el sistema no permitirá enviar la postulación mientras falte una respuesta obligatoria o exista un dato inválido.</p>
+
+        <div class="application-review-user">
+          <img id="applicationReviewAvatar" alt="Avatar de Discord" />
+          <div><small>IDENTIDAD VERIFICADA</small><strong id="applicationReviewName">Cuenta de Discord</strong><span id="applicationReviewMeta">Cargando identidad...</span></div>
+          <b>✓ DISCORD</b>
+        </div>
+      </div>
+
+      <div class="application-review-content" id="applicationReviewContent"></div>
+
+      <section class="application-review-consent" id="applicationReviewConsent">
+        <div class="application-review-consent__icon">◆</div>
+        <div>
+          <small>CONFIRMACIÓN ANTES DE ENVIAR</small>
+          <h3>REVISIÓN INTERNA Y POSIBLE ENTREVISTA</h3>
+          <p>Al enviar esta postulación, aceptas que los datos y respuestas proporcionados sean revisados internamente por el equipo autorizado de ARKAWOOD exclusivamente para evaluar tu candidatura. La información de esta postulación no será publicada públicamente como parte del proceso de selección. También aceptas que, si el equipo lo considera necesario, podamos solicitar una entrevista o una revisión adicional de tu postulación —por ejemplo mediante Discord— antes de tomar una decisión.</p>
+          <label>
+            <input id="applicationReviewConsentBox" type="checkbox" />
+            <span>✓</span>
+            <b>He revisado mis respuestas y acepto estas condiciones para el proceso de selección.</b>
+          </label>
+          <div class="application-review-consent__error">Debes aceptar esta confirmación antes de intentar enviar la postulación.</div>
+        </div>
+      </section>
+
+      <div class="application-review-actions">
+        <button class="form-btn form-btn--ghost" id="applicationReviewSave" type="button"><span>▣</span> GUARDAR BORRADOR</button>
+        <div>
+          <button class="form-btn form-btn--ghost" type="button" onclick="document.getElementById('applicationReviewBack').click()">← EDITAR RESPUESTAS</button>
+          <button class="form-btn form-btn--gold application-review-submit" id="applicationReviewSubmit" type="button">ENVIAR POSTULACIÓN <span>→</span></button>
+        </div>
+      </div>
+
+      <div class="application-review-build-note"><span>◆</span><p><b>Envío interno:</b> al confirmar, Cloudflare volverá a validar las 28 respuestas y enviará la postulación al canal privado de Moderación mediante un webhook configurado como secreto. El equipo recibirá un único embed con las 28 preguntas y un archivo adjunto con el texto íntegro para evitar pérdidas por los límites de tamaño de Discord.</p></div>
+    </div>
+  </section>
+
+  <div class="application-toast" id="applicationToast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+  <script src="moderation-form.js"></script>
+</body>
+</html>
