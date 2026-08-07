@@ -1,0 +1,1682 @@
+# TÉRMINOS Y CONDICIONES DE COMPRA DE ARKA WOOD
+
+**Versión:** 1.5
+**Fecha de última actualización:** 07/08/2026
+**Fecha de entrada en vigor:** 07/08/2026
+**Correo de atención legal:** arkawoodnetwork@gmail.com
+
+
+# TÍTULO I
+# DISPOSICIONES PRELIMINARES
+## Artículo 1.- Objeto
+
+1.1. Los presentes Términos y Condiciones de Compra, en adelante, los **“Términos de Compra”**, regulan las relaciones contractuales derivadas de la adquisición onerosa de productos, contenidos, prestaciones, derechos de acceso, rangos, beneficios, cosméticos, monedas virtuales permitidas, paquetes u otros elementos digitales ofrecidos oficialmente por **ARKA WOOD**.
+1.2. Estos Términos regulan exclusivamente las relaciones vinculadas con una **transacción de compra**.
+1.3. No constituyen los Términos y Condiciones generales de uso del servidor, las reglas disciplinarias completas de ARKA WOOD ni la Política de Privacidad, documentos que deberán mantenerse separados y cuya aceptación podrá resultar adicionalmente necesaria.
+1.4. Ninguna cláusula de estos Términos deberá interpretarse como una renuncia anticipada del consumidor a derechos reconocidos por normas imperativas.
+
+## Artículo 2.- Concepto de ARKA WOOD
+
+A efectos de estos Términos, “ARKA WOOD” comprende la marca, network, infraestructura de servidores, tienda oficial, servicios digitales relacionados y demás entornos controlados directamente por su operador, sin incluir servicios independientes de terceros salvo indicación expresa.
+
+## Artículo 3.- Marco jurídico fundamental
+3.1. Estos Términos se interpretarán principalmente conforme a la legislación de la República del Perú.
+3.2. Resultan especialmente relevantes, sin que la enumeración sea limitativa:
+a) la Constitución Política del Perú, incluido su artículo 65 relativo a la defensa de los consumidores y usuarios;
+b) la Ley N.° 29571, Código de Protección y Defensa del Consumidor;
+c) el Código Civil peruano, aprobado por Decreto Legislativo N.° 295;
+d) la Ley N.° 27291, que reconoce la utilización de medios electrónicos para la manifestación de voluntad y contratación;
+e) la Ley N.° 29733, Ley de Protección de Datos Personales;
+f) el Reglamento de la Ley N.° 29733 aprobado por Decreto Supremo N.° 016-2024-JUS;
+g) la normativa vigente sobre Libro de Reclamaciones;
+h) el Decreto Legislativo N.° 1729 y las demás normas que modifiquen o complementen la regulación peruana del comercio electrónico;
+i) cualquier otra disposición imperativa aplicable a la relación concreta.
+
+3.3. La Ley N.° 29571 establece que las condiciones de una relación de consumo deben respetar los derechos mínimos del consumidor y que la oferta y publicidad forman parte de las obligaciones exigibles al proveedor. Asimismo, los artículos 18 y 19 vinculan la idoneidad con lo ofrecido y con aquello que el consumidor razonablemente debe recibir.
+
+## Artículo 4.- Prevalencia de normas imperativas
+4.1. Si una cláusula de estos Términos resultara incompatible con una norma peruana imperativa, una resolución administrativa firme o una decisión judicial aplicable al caso, dicha cláusula se interpretará o limitará únicamente en la medida necesaria para cumplir la norma correspondiente.
+4.2. La eventual inaplicabilidad de una disposición no afectará, en principio, la validez del resto del documento.
+4.3. Ninguna expresión como “sin reembolso”, “venta final”, “bajo ninguna responsabilidad”, “a discreción de ARKA WOOD” o similar deberá entenderse como exclusión de derechos que legalmente no pueden ser renunciados.
+
+# TÍTULO II
+# RELACIÓN CON MINECRAFT, MOJANG Y MICROSOFT
+## Artículo 5.- Independencia
+**ARKA WOOD NO ES UN SERVICIO OFICIAL DE MINECRAFT, NO ESTÁ APROBADO, RESPALDADO NI ASOCIADO CON MOJANG AB O MICROSOFT CORPORATION.**
+Minecraft, sus nombres, signos distintivos, activos, software y demás derechos pertenecen a sus respectivos titulares.
+5.1. ARKA WOOD constituye un proyecto independiente.
+5.2. La adquisición de un producto de ARKA WOOD no implica relación contractual directa del comprador con Mojang o Microsoft respecto de dicha compra.
+5.3. Mojang exige a los servidores que no induzcan al público a creer que son oficiales, respaldados o asociados con Mojang/Microsoft, que identifiquen al responsable del servicio y que dispongan de un medio de contacto apropiado para cuestiones de compra.
+
+## Artículo 6.- EULA y Minecraft Usage Guidelines
+6.1. La operación comercial de ARKA WOOD estará subordinada, además de a las leyes aplicables, a la versión vigente de la **Minecraft End User License Agreement (EULA)** y a las **Minecraft Usage Guidelines** publicadas por Mojang/Microsoft.
+6.2. Mojang permite el alojamiento de servidores de Minecraft sujeto a sus reglas y establece que las autorizaciones comerciales contenidas en sus Usage Guidelines pueden modificarse o retirarse.
+6.3. En consecuencia, ningún producto de ARKA WOOD se considerará contractualmente garantizado de manera que obligue a ARKA WOOD a infringir posteriormente una exigencia imperativa de Mojang/Microsoft.
+6.4. Si una modificación de las reglas de Minecraft obliga razonablemente a retirar o alterar un producto ya comprado, ARKA WOOD procurará adoptar una solución legalmente admisible y funcionalmente equivalente cuando sea posible, sin perjuicio de los derechos imperativos que correspondan al consumidor.
+
+## Artículo 7.- Política contra el “pay-to-win”
+7.1. ARKA WOOD adopta como política comercial la prohibición de vender ventajas que generen un sistema sustancialmente **“pay-to-win”**, entendido como aquel en que el pago proporciona una ventaja competitiva indebida frente a otros jugadores.
+7.2. ARKA WOOD diseñará sus productos procurando que ningún pago arruine materialmente la experiencia de los demás usuarios o genere ventajas competitivas incompatibles con las Minecraft Usage Guidelines.
+7.3. Las Usage Guidelines vigentes permiten monetizar determinados beneficios que afecten la jugabilidad exclusivamente cuando no arruinen la experiencia de otros jugadores ni otorguen una ventaja competitiva.
+7.4. Si existiera duda razonable sobre la conformidad de un producto, ARKA WOOD podrá suspender preventivamente nuevas ventas mientras revisa su diseño.
+
+## Artículo 8.- Productos cosméticos
+8.1. ARKA WOOD podrá comercializar productos meramente cosméticos, visuales o decorativos cuando ello resulte compatible con las políticas de Minecraft.
+8.2. No se comercializarán como productos propios capas de Minecraft ni elementos diseñados para funcionar visualmente como la característica oficial de capa de un jugador cuando ello se encuentre prohibido por las Minecraft Usage Guidelines.
+
+## Artículo 9.- Monedas virtuales
+Si ARKA WOOD implementa monedas virtuales adquiribles con dinero real:
+a) deberán carecer de valor monetario real independiente;
+b) no podrán canjearse por dinero;
+c) no constituirán depósitos, activos financieros, inversiones ni instrumentos de pago;
+d) no podrán transferirse entre servidores independientes cuando las reglas de Minecraft lo prohíban;
+e) no podrán presentarse como monedas emitidas, respaldadas o afiliadas con Mojang/Microsoft;
+f) su denominación o apariencia no deberá inducir a confusión con Minecoins u otras monedas oficiales.
+
+Estas restricciones reflejan las condiciones vigentes establecidas por Mojang para las monedas virtuales de servidores.
+
+# TÍTULO III
+# DEFINICIONES CONTRACTUALES
+## Artículo 10.- Comprador
+Se entiende por **“Comprador”** toda persona que inicia, autoriza o completa una compra mediante la tienda oficial de ARKA WOOD.
+Cuando la legislación de protección al consumidor resulte aplicable, se utilizará también el término **“Consumidor”** en el sentido atribuido por la Ley N.° 29571.
+
+## Artículo 11.- Usuario beneficiario
+El **“Usuario Beneficiario”** es la cuenta de Minecraft o cuenta interna de ARKA WOOD a la que será asignado el producto.
+El Comprador y el Usuario Beneficiario pueden ser personas distintas cuando la tienda permita regalos o compras para terceros.
+
+## Artículo 12.- Producto Digital
+Se considera **“Producto Digital”** cualquier prestación adquirida mediante la tienda que se materialice principalmente mediante un permiso, atributo, registro informático, rango, cosmético, comando, moneda interna, llave virtual, paquete, acceso, multiplicador permitido, etiqueta, efecto visual, contenido, beneficio o prestación electrónica.
+
+## Artículo 13.- Entitlement o derecho digital
+13.1. Un entitlement es el derecho digital limitado que ARKA WOOD registra en favor de una cuenta como consecuencia de una compra válida.
+13.2. El entitlement no supone propiedad sobre el software de Minecraft, servidores, bases de datos, plugins, infraestructura o propiedad intelectual de ARKA WOOD, Mojang, Microsoft o terceros.
+
+## Artículo 14.- Producto temporal
+Es aquel cuya duración se encuentra expresamente determinada, por ejemplo, 30 días, 90 días, una temporada, u otra duración anunciada antes del pago.
+La duración concreta deberá figurar en la descripción comercial correspondiente y nunca será inferida si no fue expresamente informada.
+
+## Artículo 15.- Producto permanente
+15.1. Cuando un producto sea publicitado como **“permanente”**, dicha expresión deberá interpretarse según la descripción específica publicada en el momento de la contratación.
+15.2. Salvo que se prometa expresamente algo distinto, “permanente” respecto de un entitlement de servidor significa que no posee una fecha ordinaria de vencimiento programada mientras continúen operativos ARKA WOOD y el servicio o modalidad para los que el producto fue adquirido.
+15.3. La denominación “permanente” no podrá utilizarse para inducir al consumidor a creer que ARKA WOOD garantiza jurídicamente una operación infinita, perpetua o imposible de discontinuar por causas legales, técnicas o empresariales objetivas.
+15.4. Tampoco autoriza a ARKA WOOD a retirar arbitrariamente un producto inmediatamente después de venderlo o a ignorar los derechos derivados de la oferta realizada.
+
+# TÍTULO IV
+# CAPACIDAD, CONSENTIMIENTO Y CONTRATACIÓN ELECTRÓNICA
+## Artículo 16.- Capacidad para contratar
+16.1. El Comprador declara contar con capacidad jurídica suficiente para realizar la operación o actuar con la autorización, representación o asistencia que la legislación aplicable requiera.
+16.2. Cuando el Comprador sea menor de edad, la compra deberá ser efectuada o autorizada por su padre, madre, tutor, representante legal o persona jurídicamente facultada cuando ello sea necesario.
+16.3. ARKA WOOD podrá adoptar medidas razonables para impedir el uso no autorizado de medios de pago por menores.
+
+## Artículo 17.- Manifestación electrónica de voluntad
+17.1. El contrato podrá perfeccionarse mediante medios electrónicos.
+17.2. Los artículos 1351 y 1352 del Código Civil peruano reconocen al contrato como acuerdo de partes y, con carácter general, su perfeccionamiento mediante consentimiento.
+17.3. La Ley N.° 27291 modificó el Código Civil para reconocer expresamente que la voluntad puede manifestarse mediante medios electrónicos y regular las declaraciones contractuales realizadas por dichos medios.
+17.4. En la tienda deberá existir una acción afirmativa suficientemente clara —por ejemplo, marcar una casilla y pulsar el botón de compra— mediante la cual el Comprador acepte estos Términos antes de completar el pago.
+
+## Artículo 18.- Ausencia de aceptación por silencio
+La falta de lectura de estos Términos por parte del Comprador no deberá confundirse con ausencia de obligación cuando se haya acreditado que fueron correctamente puestos a su disposición y aceptados.
+
+## Artículo 19.- Prueba de aceptación
+19.1. ARKA WOOD podrá conservar evidencia técnica de:
+a) versión de los Términos aceptada;
+b) fecha y hora;
+c) identificador de pedido;
+d) cuenta beneficiaria;
+e) estado de pago;
+f) dirección IP cuando corresponda y resulte jurídicamente permitido;
+g) confirmación electrónica;
+h) entrega o activación;
+i) eventos relevantes para prevención del fraude.
+
+19.2. El artículo 47 del Código de Protección y Defensa del Consumidor exige, en contratación electrónica, que el proveedor pueda acreditar que la información fue puesta oportunamente a disposición del consumidor y que este aceptó los términos.
+
+## Artículo 20.- Prohibición de interfaces manipulativas
+La tienda no deberá utilizar diseños, configuraciones o interfaces destinadas a distorsionar la voluntad del consumidor, ocultar cargos, inducir compras no deseadas o dificultar de forma artificial el ejercicio de derechos.
+Esta obligación se encuentra reforzada desde 2026 por el literal h) del numeral 56.1 del Código de Protección y Defensa del Consumidor, incorporado por el Decreto Legislativo N.° 1729.
+
+# TÍTULO V
+# INFORMACIÓN PRECONTRACTUAL, PRODUCTOS Y PUBLICIDAD
+## Artículo 21.- Información antes del pago
+Antes de confirmar una compra, ARKA WOOD deberá procurar informar de manera clara, según corresponda:
+a) nombre del producto;
+b) función principal;
+c) modalidad o servidor en el que funciona;
+d) duración;
+e) limitaciones relevantes;
+f) precio;
+g) moneda;
+h) impuestos o cargos que deba pagar el comprador
+i) cuenta o nickname beneficiario;
+j) carácter transferible o no transferible;
+k) condiciones especiales;
+l) cualquier requisito técnicamente relevante;
+m) naturaleza digital del producto.
+
+## Artículo 22.- Vinculación de la oferta
+22.1. La descripción comercial no constituye un texto meramente ilustrativo cuando contiene características objetivas prometidas.
+22.2. Conforme al artículo 46 de la Ley N.° 29571, la oferta, promoción, publicidad, características, funciones y garantías ofrecidas pueden resultar jurídicamente exigibles aun cuando no hayan sido reproducidas literalmente en estos Términos.
+22.3. ARKA WOOD deberá evitar afirmaciones ambiguas como “para siempre”, “ilimitado”, “garantizado”, “100 % disponible” o similares cuando no pueda sostener objetivamente dichas afirmaciones.
+
+## Artículo 23.- Idoneidad
+23.1. El producto deberá guardar correspondencia razonable con lo anunciado y contratado.
+23.2. La idoneidad se evaluará atendiendo a la oferta, publicidad, precio, naturaleza del producto, condiciones de la operación y expectativas legítimas generadas al consumidor, conforme a los artículos 18 y 19 de la Ley N.° 29571.
+
+## Artículo 24.- Errores manifiestos de precio o catálogo
+24.1. ARKA WOOD podrá corregir errores tipográficos, técnicos o de configuración que sean evidentes antes de perfeccionarse una compra.
+24.2. Si un error es detectado después de haberse cobrado una operación, ARKA WOOD evaluará si resulta posible respetar la operación sin infringir normas legales, políticas de Minecraft o generar un desequilibrio manifiesto.
+24.3. ARKA WOOD no utilizará esta cláusula como mecanismo ordinario para modificar unilateralmente el precio de una compra ya aceptada.
+24.4. Cuando el error impida legal o materialmente ejecutar la compra, ARKA WOOD podrá cancelar la operación y devolver la contraprestación recibida mediante el medio jurídicamente correspondiente.
+
+## Artículo 25.- Promociones y códigos
+25.1. Los descuentos, códigos promocionales, campañas o promociones podrán estar sujetos a fechas, usos máximos, categorías de productos u otras condiciones informadas.
+25.2. Una promoción vencida no genera derecho a exigir su aplicación retroactiva.
+25.3. El abuso, automatización, explotación de errores o manipulación de sistemas promocionales podrá ocasionar la cancelación de las operaciones fraudulentas, respetando los derechos del consumidor de buena fe.
+
+# TÍTULO VI
+# PRECIOS, MONEDA Y PAGOS
+## Artículo 26.- Precio
+26.1. El precio aplicable será el mostrado al Comprador antes de confirmar la compra, salvo error manifiesto tratado conforme al artículo anterior.
+26.2. Ningún incremento posterior podrá aplicarse retroactivamente a una compra ya perfeccionada.
+
+## Artículo 27.- Moneda
+27.1. Cuando un banco, emisor de tarjeta, billetera o procesador realice conversión de moneda, podrán existir tipos de cambio o cargos propios del tercero.
+27.2. ARKA WOOD no controla el tipo de cambio aplicado independientemente por una entidad financiera externa.
+
+## Artículo 28.- Medios de pago
+ARKA WOOD podrá aceptar únicamente los métodos de pago que aparezcan habilitados durante el proceso de checkout.
+La disponibilidad de un método de pago no implica que ARKA WOOD sea operador bancario, emisor de tarjeta o proveedor del sistema financiero correspondiente.
+
+## Artículo 29.- Procesadores de pago y merchant of record
+29.1. ARKA WOOD podrá utilizar plataformas, procesadores, adquirentes, gateways o merchants of record independientes, tales como Tebex, VISA, PAYPAL, PAGO EFECTIVO**.
+29.2. Cuando un tercero intervenga jurídicamente como vendedor formal, merchant of record o procesador, se informará al Comprador en el flujo de pago cuando resulte aplicable.
+29.3. Dichos terceros pueden imponer sus propios términos contractuales respecto del procesamiento de la operación.
+29.4. La existencia de un procesador externo no elimina las obligaciones que correspondan a ARKA WOOD por aquellas prestaciones de las que jurídicamente sea responsable.
+
+## Artículo 30.- Autorización de pago
+El Comprador declara que:
+a) utiliza un medio de pago de forma legítima;
+b) cuenta con autorización suficiente;
+c) no utiliza datos obtenidos ilícitamente;
+d) no suplanta a terceros;
+e) no emplea la tienda para probar tarjetas o credenciales robadas;
+f) la información proporcionada es sustancialmente correcta.
+
+---
+
+## Artículo 31.- Operaciones pendientes
+
+31.1. Una autorización bancaria, retención temporal o estado “pendiente” no necesariamente equivale a pago definitivamente recibido.
+
+31.2. ARKA WOOD podrá esperar la confirmación del procesador antes de activar un producto cuando exista riesgo razonable de reversión, fraude o falta de liquidación.
+
+---
+
+## Artículo 32.- Pagos rechazados
+
+Si el pago es rechazado por el banco, emisor, procesador o sistema antifraude externo y ARKA WOOD no recibe los fondos, no surgirá obligación de entregar el producto salvo que el rechazo sea corregido.
+
+---
+
+## Artículo 33.- Comprobante y registro
+
+ARKA WOOD emitirá o facilitará la documentación, constancia o comprobante que corresponda legalmente de acuerdo con su régimen tributario y modalidad de operación.
+
+Asimismo, conforme a las Minecraft Usage Guidelines, cuando se reciba dinero real por compras relacionadas con el servidor deberá mantenerse para el usuario un historial en línea de pago y compras.
+
+---
+
+# TÍTULO VII
+
+# ENTREGA Y ACTIVACIÓN DE PRODUCTOS
+
+## Artículo 34.- Naturaleza de la entrega
+
+34.1. Debido a la naturaleza digital de los productos, la entrega normalmente se efectuará mediante registro electrónico en la cuenta beneficiaria.
+
+34.2. Dependiendo del producto, la entrega puede consistir en:
+
+a) asignación de rango;
+
+b) desbloqueo de permiso;
+
+c) abono de moneda virtual;
+
+d) habilitación de cosmético;
+
+e) entrega de objeto digital;
+
+f) ejecución de comando automatizado;
+
+g) incorporación a base de datos;
+
+h) cualquier otro procedimiento descrito antes de la compra.
+
+---
+
+## Artículo 35.- Momento de entrega
+
+35.1. El plazo de entrega aplicable será el informado en el checkout o descripción del producto.
+
+35.2. Si la entrega es automática, podrá producirse inmediatamente o pocos instantes después de que el pago haya sido confirmado, pero ARKA WOOD no deberá presentar esa automatización como garantía absoluta de entrega instantánea cuando intervengan sistemas externos.
+
+35.3. Cuando no exista un plazo específico publicado, ARKA WOOD ejecutará la entrega dentro de un período razonable atendiendo a la naturaleza digital y automatizada del producto.
+
+---
+
+## Artículo 36.- Retrasos técnicos
+
+36.1. Un retraso temporal no equivale automáticamente a una pérdida definitiva del producto.
+
+36.2. Ante una incidencia, ARKA WOOD podrá verificar el pedido, reintentar la entrega, realizarla manualmente o aplicar la medida legalmente procedente.
+
+36.3. Cuando la entrega no se efectúe oportunamente y posteriormente resulte inútil para el consumidor, podrán resultar aplicables los remedios previstos en el artículo 97 del Código de Protección y Defensa del Consumidor.
+
+---
+
+## Artículo 37.- Identificador de cuenta
+
+37.1. El Comprador es responsable de comprobar que el nombre de usuario, UUID, gamertag, identificador de cuenta, modalidad o destinatario introducido sea el correcto.
+
+37.2. Antes del pago, ARKA WOOD procurará mostrar de forma suficientemente visible la cuenta que recibirá el producto.
+
+37.3. Cuando el producto haya sido correctamente entregado al identificador que el propio Comprador confirmó y resulte técnica o razonablemente imposible recuperarlo, el error de identificación exclusivamente imputable al Comprador no generará por sí mismo un derecho comercial a reembolso.
+
+37.4. Cuando técnicamente sea posible, ARKA WOOD podrá ofrecer una transferencia correctiva de manera voluntaria.
+
+37.5. Esta cláusula no será aplicable cuando la entrega errónea derive de un fallo atribuible a ARKA WOOD o cuando una norma imperativa disponga otra solución.
+
+---
+
+## Artículo 38.- Prueba de entrega
+
+ARKA WOOD podrá utilizar registros de bases de datos, logs de consola, respuestas de API, información del procesador, UUID, historial de permisos, fecha y hora de activación y demás evidencia técnica razonable para comprobar la entrega.
+
+---
+
+# TÍTULO VIII
+
+# POLÍTICA GENERAL DE VENTAS FINALES Y NO REEMBOLSABLES
+
+## Artículo 39.- Regla general: venta final
+
+39.1. **Salvo los supuestos expresamente previstos en estos Términos o aquellos impuestos por una norma imperativa, todas las compras de productos digitales realizadas en ARKA WOOD son definitivas y no reembolsables.**
+
+39.2. ARKA WOOD **no ofrece una política comercial general de devolución por arrepentimiento, cambio de opinión, falta de uso, pérdida de interés o preferencia posterior por otro producto**.
+
+39.3. La presente regla constituye una condición esencial de la compra debido a la naturaleza de los productos digitales, cuya activación puede realizarse inmediatamente y cuyo uso puede comenzar desde el momento de la entrega.
+
+39.4. No obstante, la regla de venta final nunca podrá interpretarse como renuncia a garantías legales imperativas.
+
+---
+
+## Artículo 40.- Supuestos que ordinariamente no generan reembolso
+
+Sin perjuicio de la evaluación concreta y de los derechos que la ley reconozca, no constituyen por sí solos causa de reembolso:
+
+a) cambiar de opinión después de comprar;
+
+b) dejar de jugar voluntariamente;
+
+c) no utilizar un producto ya entregado;
+
+d) preferir posteriormente otro rango o paquete;
+
+e) haber comprado sin leer una descripción clara que estuvo disponible antes de pagar;
+
+f) introducir incorrectamente el usuario destinatario cuando ARKA WOOD entregó correctamente al identificador confirmado;
+
+g) perder acceso a una cuenta por hechos no imputables a ARKA WOOD;
+
+h) sufrir una suspensión o sanción legítima por incumplimiento de reglas del servidor;
+
+i) ser sancionado por Mojang/Microsoft por circunstancias ajenas a ARKA WOOD;
+
+j) experimentar problemas de conexión local, hardware, software o proveedor de Internet del Usuario;
+
+k) incompatibilidades causadas exclusivamente por modificaciones, clientes, launchers o software no soportado del Usuario;
+
+l) no obtener el resultado subjetivo que el Comprador imaginaba cuando dicho resultado nunca fue ofrecido;
+
+m) promociones posteriores con precios inferiores;
+
+n) no aprovechar completamente un producto temporal por decisión del propio Usuario;
+
+o) la mera indisponibilidad temporal razonable derivada de mantenimiento o incidentes técnicos, cuando el producto conserva utilidad y el servicio es restablecido.
+
+---
+
+## Artículo 41.- Excepciones legales y contractuales al no reembolso
+
+La política de “ventas finales” no impedirá la devolución, restitución o remedio que legalmente corresponda, incluyendo especialmente:
+
+### 41.1. Cobro duplicado o pago en exceso
+
+Cuando se confirme que una misma operación fue cobrada duplicadamente o que ARKA WOOD recibió una cantidad superior a la legítimamente debida, se gestionará la restitución correspondiente.
+
+El artículo 99 del Código de Protección y Defensa del Consumidor reconoce derechos frente a pagos en exceso.
+
+### 41.2. No entrega
+
+Cuando ARKA WOOD haya recibido válidamente el pago y el producto no pueda entregarse, activarse o ejecutarse, procederá la medida legalmente correspondiente, que podrá incluir nueva ejecución, reposición o devolución.
+
+### 41.3. Entrega tardía que ya no resulte útil
+
+Cuando concurran las condiciones previstas en el artículo 97 de la Ley N.° 29571 y la ejecución tardía deje de ser útil para el consumidor, procederá el remedio que corresponda.
+
+### 41.4. Falta de correspondencia material con la oferta
+
+Cuando el producto entregado no se adecue razonablemente a la oferta, promoción, descripción o publicidad y el defecto no pueda ser subsanado de manera apropiada.
+
+### 41.5. Fraude o pago no autorizado no atribuible al reclamante
+
+Cuando se acredite razonablemente que una transacción fue realizada fraudulentamente sin autorización del verdadero titular y sin participación, negligencia dolosa o colusión de quien reclama, ARKA WOOD cooperará con el procesador y aplicará el procedimiento jurídicamente correspondiente.
+
+### 41.6. Mandato legal o de autoridad
+
+Cuando una norma imperativa, resolución de INDECOPI, decisión judicial, regla obligatoria de un procesador o derecho inderogable exija devolver el importe.
+
+---
+
+## Artículo 42.- Remedios frente a falta de idoneidad
+
+42.1. Dependiendo del caso, podrán resultar apropiados:
+
+a) corrección;
+
+b) nueva ejecución;
+
+c) reposición;
+
+d) activación manual;
+
+e) sustitución por una prestación funcionalmente equivalente aceptable;
+
+f) devolución de la contraprestación cuando legalmente corresponda.
+
+42.2. ARKA WOOD no podrá imponer un saldo de tienda como única solución cuando la legislación otorgue al consumidor el derecho a devolución dineraria.
+
+42.3. El artículo 97 de la Ley N.° 29571 contempla, en determinadas circunstancias, reparación, reposición, nueva ejecución o devolución de la contraprestación.
+
+---
+
+## Artículo 43.- Reembolsos excepcionales voluntarios
+
+43.1. ARKA WOOD podrá, sin estar legalmente obligado, conceder una solución comercial extraordinaria en casos particulares.
+
+43.2. La concesión de una excepción no modifica la política general ni obliga a conceder idéntica solución en casos diferentes.
+
+43.3. Las decisiones discrecionales no podrán emplearse de forma discriminatoria o contraria a normas imperativas.
+
+---
+
+## Artículo 44.- Forma del reembolso
+
+44.1. Cuando proceda una devolución, ARKA WOOD procurará realizarla al medio de pago original siempre que resulte técnica y jurídicamente posible.
+
+44.2. Cuando el procesador, banco o sistema de pago impida la restitución por el canal original, se podrá coordinar otro mecanismo lícito previa verificación razonable del titular.
+
+44.3. ARKA WOOD no solicitará credenciales bancarias secretas, contraseñas, códigos completos de autenticación ni información innecesaria para efectuar una devolución.
+
+---
+
+## Artículo 45.- Tiempos bancarios externos
+
+Una vez que ARKA WOOD o su procesador haya emitido válidamente una devolución, el tiempo de acreditación final puede depender del banco, tarjeta, adquirente, billetera o procesador.
+
+ARKA WOOD no controla los plazos internos de terceros, pero facilitará evidencia razonable de la devolución cuando la tenga disponible.
+
+---
+
+# TÍTULO IX
+
+# CONTRACARGOS, DISPUTAS DE PAGO Y FRAUDE
+
+## Artículo 46.- Derecho a formular una disputa legítima
+
+Nada de estos Términos obliga al consumidor a renunciar a mecanismos legales de reclamación ante su banco, proveedor de pagos, INDECOPI o autoridad competente.
+
+---
+
+## Artículo 47.- Contacto previo recomendado
+
+Antes de iniciar un contracargo, se recomienda al Comprador contactar a ARKA WOOD mediante **arkawoodnetwork@gmail.com** o servidor de DISCORD, ÁREA DE SOPORTE para intentar resolver errores de entrega, duplicados o incidencias técnicas.
+
+Esta recomendación no constituye requisito que pueda impedir el ejercicio de un derecho legal.
+
+---
+
+## Artículo 48.- Contracargos fraudulentos o abusivos
+
+48.1. Se considerará irregular intentar revertir una compra legítima mediante declaraciones deliberadamente falsas, por ejemplo, afirmar que nunca se recibió un producto cuando los registros acreditan su entrega y uso.
+
+48.2. Cuando exista evidencia razonable de un contracargo fraudulento, ARKA WOOD podrá:
+
+a) suspender provisionalmente los entitlements relacionados con el pago revertido;
+
+b) conservar evidencia técnica de la operación;
+
+c) responder al procedimiento del procesador;
+
+d) restringir nuevas compras mientras se investiga;
+
+e) reclamar importes legítimamente adeudados y costos directos recuperables conforme a ley;
+
+f) adoptar medidas respecto de cuentas involucradas en fraude organizado.
+
+48.3. Estas medidas no se aplicarán como represalia frente a un consumidor que formule de buena fe un reclamo legítimo.
+
+---
+
+## Artículo 49.- Reversión del pago y entitlement
+
+Cuando una compra haya sido válidamente revertida y ARKA WOOD deje de percibir definitivamente la contraprestación, podrá retirar el entitlement originalmente adquirido con ese pago, siempre que ello resulte coherente con la resolución de la controversia y con la legislación aplicable.
+
+---
+
+## Artículo 50.- Medios de pago robados
+
+ARKA WOOD mantiene tolerancia cero frente al uso deliberado de tarjetas, cuentas financieras, credenciales o instrumentos de pago robados.
+
+Los hechos que pudieran constituir delito podrán ser documentados y comunicados a los procesadores, entidades financieras o autoridades competentes conforme a la legislación aplicable.
+
+---
+
+# TÍTULO X
+
+# RANGOS, SANCIONES Y EFECTOS SOBRE PRODUCTOS COMPRADOS
+
+## Artículo 51.- Compra y reglas del servidor
+
+51.1. Adquirir un rango o producto no otorga inmunidad frente a las normas de ARKA WOOD.
+
+51.2. Los compradores estarán sujetos a las mismas reglas disciplinarias aplicables a la comunidad, salvo funciones legítimas inherentes al producto.
+
+51.3. Ningún pago permite hacer trampas, acosar, explotar vulnerabilidades, realizar fraude, atacar la infraestructura o incumplir las reglas.
+
+---
+
+## Artículo 52.- Sanciones legítimas
+
+52.1. Si un Usuario es suspendido o expulsado legítimamente por su propia conducta después de haberse entregado correctamente el producto, la sanción no genera automáticamente derecho a reembolso.
+
+52.2. La compra no debe interpretarse como garantía de acceso incondicional al servidor con independencia del comportamiento del Usuario.
+
+52.3. Esta disposición queda subordinada a la legislación imperativa y a la necesidad de que la sanción no haya sido aplicada arbitrariamente con la finalidad de eludir obligaciones comerciales.
+
+---
+
+## Artículo 53.- Sanciones aplicadas por error
+
+Si posteriormente ARKA WOOD reconoce que una sanción fue impuesta por error y ello impidió sustancialmente el uso de un producto de duración limitada, ARKA WOOD podrá, según las circunstancias y el marco legal:
+
+a) restablecer el acceso;
+
+b) extender razonablemente la duración;
+
+c) restaurar el entitlement;
+
+d) aplicar otro remedio proporcional.
+
+---
+
+# TÍTULO XI
+
+# DEPENDENCIAS TÉCNICAS Y SERVICIOS DE TERCEROS
+
+## Artículo 54.- Naturaleza tecnológicamente dependiente
+
+54.1. El funcionamiento de una network de Minecraft depende de múltiples componentes propios y externos.
+
+54.2. Entre ellos pueden encontrarse:
+
+a) servidores dedicados o VPS;
+
+b) proveedores de hosting;
+
+c) centros de datos;
+
+d) conectividad de Internet;
+
+e) proveedores de tránsito;
+
+f) DNS;
+
+g) CDN;
+
+h) protección DDoS;
+
+i) registradores de dominios;
+
+j) pasarelas y procesadores de pago;
+
+k) bancos y redes de tarjetas;
+
+l) sistemas de correo electrónico;
+
+m) bases de datos;
+
+n) plugins;
+
+o) mods;
+
+p) APIs;
+
+q) bibliotecas de software;
+
+r) sistemas de autenticación;
+
+s) servicios de Mojang/Microsoft;
+
+t) infraestructura de Minecraft;
+
+u) paneles externos;
+
+v) servicios antifraude;
+
+w) sistemas de terceros utilizados por la tienda.
+
+---
+
+## Artículo 55.- Fallos externos
+
+55.1. ARKA WOOD no responderá por un daño o incumplimiento **en la medida en que se demuestre que fue causado exclusivamente por un hecho objetivo, justificado y no previsible de un tercero, fuerza mayor, caso fortuito u otra circunstancia externa que rompa jurídicamente el nexo causal** y respecto de la cual ARKA WOOD no haya actuado con dolo o culpa.
+
+55.2. Pueden constituir ejemplos, dependiendo de las circunstancias concretas:
+
+a) caída generalizada de infraestructura de Mojang/Microsoft;
+
+b) interrupción imprevisible de un centro de datos;
+
+c) fallo masivo de un proveedor externo;
+
+d) ataque DDoS de tercero que supere medidas razonables;
+
+e) interrupción de servicios esenciales;
+
+f) indisponibilidad grave de una red de pagos;
+
+g) decisiones obligatorias de autoridades;
+
+h) fallos externos de DNS o tránsito;
+
+i) vulnerabilidades de día cero no razonablemente previsibles;
+
+j) hechos de fuerza mayor.
+
+55.3. El artículo 104 de la Ley N.° 29571 contempla la ruptura del nexo causal por una causa objetiva, justificada y no previsible derivada, entre otros supuestos, de fuerza mayor, hecho determinante de un tercero o conducta del propio consumidor.
+
+---
+
+## Artículo 56.- Límite de la exclusión por terceros
+
+56.1. La utilización de un tercero por ARKA WOOD **no convierte automáticamente cualquier error en “culpa del tercero”**.
+
+56.2. ARKA WOOD no pretende mediante estos Términos excluir su responsabilidad por:
+
+a) dolo;
+
+b) culpa propia;
+
+c) falta de idoneidad directamente imputable;
+
+d) información falsa o engañosa;
+
+e) incumplimiento de garantías legales;
+
+f) selección o gestión negligente de terceros cuando jurídicamente resulte imputable;
+
+g) cualquier responsabilidad que una norma imperativa prohíba excluir.
+
+56.3. El artículo 50 de la Ley N.° 29571 considera absolutamente ineficaces, entre otras, las cláusulas que excluyan o limiten la responsabilidad del proveedor por dolo o culpa o trasladen al consumidor responsabilidad por hechos u omisiones del propio proveedor.
+
+---
+
+## Artículo 57.- Plugins y software de terceros
+
+57.1. ARKA WOOD podrá utilizar plugins, bibliotecas, frameworks y software creados por terceros.
+
+57.2. Las actualizaciones de Minecraft, Java, proxies, APIs, plugins o dependencias pueden generar incompatibilidades temporales.
+
+57.3. ARKA WOOD podrá sustituir un plugin, reprogramar una función, deshabilitar temporalmente una característica o migrar a una solución equivalente cuando resulte razonablemente necesario por:
+
+a) seguridad;
+
+b) compatibilidad;
+
+c) rendimiento;
+
+d) abandono del proyecto original;
+
+e) cambio de licencia;
+
+f) vulnerabilidad;
+
+g) actualización de Minecraft;
+
+h) cumplimiento legal.
+
+57.4. Siempre que exista un producto pagado afectado, ARKA WOOD procurará conservar la funcionalidad esencial prometida o implementar una solución equivalente, cuando ello resulte técnica y legalmente razonable.
+
+---
+
+## Artículo 58.- Actualizaciones de Minecraft
+
+58.1. Mojang/Microsoft puede modificar Minecraft, sus sistemas de autenticación, protocolos, APIs, EULA o Usage Guidelines.
+
+58.2. ARKA WOOD no controla tales decisiones.
+
+58.3. La propia EULA advierte que las Usage Guidelines pueden modificarse y que las autorizaciones concedidas pueden ser retiradas.
+
+58.4. Cuando un cambio externo haga ilegal, técnicamente imposible o contractualmente prohibido mantener una función vendida, ARKA WOOD podrá modificarla o sustituirla en la medida estrictamente necesaria, respetando los derechos que legalmente correspondan al consumidor.
+
+---
+
+## Artículo 59.- Proveedores de pago
+
+59.1. ARKA WOOD no garantiza que un banco o procesador autorice una operación.
+
+59.2. No será responsable de bloqueos, verificaciones, límites, conversiones de moneda o decisiones independientes del emisor de una tarjeta.
+
+59.3. Sin embargo, cuando ARKA WOOD reciba efectivamente un pago o tenga obligación legal de gestionar una incidencia, colaborará razonablemente para esclarecerla.
+
+---
+
+## Artículo 60.- Sitios externos
+
+Los enlaces a sitios de terceros se facilitan únicamente cuando resulten útiles para una operación o información relacionada.
+
+ARKA WOOD no controla el contenido, disponibilidad ni políticas de sitios independientes que no opere directamente.
+
+---
+
+# TÍTULO XII
+
+# DISPONIBILIDAD, MANTENIMIENTO E INTERRUPCIONES
+
+## Artículo 61.- Ausencia de garantía absoluta de disponibilidad
+
+61.1. Salvo que se anuncie expresamente un nivel de servicio específico, ARKA WOOD no garantiza una disponibilidad del 100 % ininterrumpida.
+
+61.2. Todo servicio informático puede requerir mantenimiento, reinicios, migraciones, actualizaciones, mitigaciones de seguridad o intervenciones técnicas.
+
+61.3. Esta cláusula no autoriza a ARKA WOOD a comercializar un producto y posteriormente negar indefinidamente la prestación adquirida.
+
+---
+
+## Artículo 62.- Mantenimiento programado
+
+ARKA WOOD podrá suspender temporalmente servicios para realizar:
+
+a) actualizaciones;
+
+b) mantenimiento;
+
+c) reparación;
+
+d) copias de seguridad;
+
+e) migraciones;
+
+f) cambios de infraestructura;
+
+g) implementación de seguridad;
+
+h) optimización;
+
+i) cumplimiento de exigencias de terceros.
+
+Cuando resulte razonablemente posible y la interrupción sea relevante, podrá comunicarse previamente.
+
+---
+
+## Artículo 63.- Mantenimiento de emergencia
+
+Ante una vulnerabilidad crítica, explotación activa, ataque, corrupción de datos o riesgo significativo para la infraestructura, ARKA WOOD podrá realizar mantenimiento inmediato sin preaviso.
+
+---
+
+## Artículo 64.- DDoS, bots y ataques
+
+64.1. ARKA WOOD podrá bloquear temporalmente conexiones, regiones, direcciones IP, servicios o componentes cuando sea razonablemente necesario para mitigar ataques.
+
+64.2. La indisponibilidad estrictamente causada por un ataque externo no convierte automáticamente a ARKA WOOD en responsable de dicho ataque.
+
+64.3. Ello no exime a ARKA WOOD de adoptar medidas de seguridad razonables conforme a la naturaleza del servicio y a sus obligaciones legales.
+
+---
+
+# TÍTULO XIII
+
+# MODIFICACIÓN, SUSTITUCIÓN Y DESCONTINUACIÓN DE PRODUCTOS
+
+## Artículo 65.- Cambios de equilibrio
+
+65.1. Las modalidades de Minecraft pueden requerir ajustes de balance.
+
+65.2. ARKA WOOD podrá modificar valores secundarios, mecánicas o configuraciones cuando resulte necesario para evitar ventajas competitivas, exploits, inflación, abuso o incumplimiento de las Minecraft Usage Guidelines.
+
+65.3. Un cambio de balance no deberá utilizarse para vaciar arbitrariamente de contenido esencial un producto vendido.
+
+---
+
+## Artículo 66.- Sustitución funcional
+
+Si una característica se vuelve técnicamente incompatible, insegura o contraria a las reglas de Minecraft, ARKA WOOD podrá sustituirla por otra de función o valor razonablemente comparable.
+
+---
+
+## Artículo 67.- Discontinuación de modalidades
+
+67.1. ARKA WOOD podrá discontinuar una modalidad por razones empresariales, técnicas, legales o de seguridad.
+
+67.2. La discontinuación no generará automáticamente devolución respecto de productos íntegramente consumidos o prestaciones ya ejecutadas.
+
+67.3. Si la discontinuación elimina sustancialmente una prestación pagada que debía continuar durante un plazo determinado todavía vigente, se evaluará la parte pendiente y el remedio jurídicamente exigible.
+
+67.4. No se utilizará una cláusula de cierre como mecanismo para apropiarse de pagos correspondientes a prestaciones nunca ejecutadas cuando la ley exija restitución.
+
+---
+
+## Artículo 68.- Cierre total de ARKA WOOD
+
+68.1. ARKA WOOD no garantiza operar indefinidamente.
+
+68.2. Una empresa, proyecto o servidor puede cesar operaciones por inviabilidad, cambios regulatorios, fuerza mayor, decisiones de Mojang/Microsoft, pérdida de infraestructura u otras circunstancias legítimas.
+
+68.3. En caso de cierre definitivo, las obligaciones relacionadas con compras pendientes o prestaciones todavía exigibles serán tratadas conforme a su naturaleza, condiciones ofrecidas y legislación peruana aplicable.
+
+68.4. Ninguna referencia a “cierre” deberá interpretarse como autorización para conservar pagos por productos que nunca fueron entregados cuando exista obligación legal de devolverlos.
+
+---
+
+# TÍTULO XIV
+
+# PROPIEDAD DE PRODUCTOS DIGITALES
+
+## Artículo 69.- Naturaleza limitada del derecho adquirido
+
+69.1. Salvo que la descripción indique expresamente otra cosa, una compra otorga al Usuario un derecho digital limitado de uso dentro de ARKA WOOD.
+
+69.2. No se transfiere:
+
+a) propiedad del software;
+
+b) propiedad de un servidor;
+
+c) titularidad de código fuente;
+
+d) propiedad sobre Minecraft;
+
+e) propiedad sobre plugins;
+
+f) derechos de marca;
+
+g) derechos de autor de ARKA WOOD o terceros;
+
+h) facultad de explotar comercialmente el producto fuera del entorno autorizado.
+
+---
+
+## Artículo 70.- No equivalencia con dinero real
+
+Objetos, rangos, tokens, monedas virtuales o beneficios de ARKA WOOD no constituyen dinero, depósito, saldo bancario, título valor ni activo financiero, salvo que una norma disponga expresamente lo contrario.
+
+---
+
+## Artículo 71.- Prohibición de mercado secundario no autorizado
+
+Salvo autorización expresa de ARKA WOOD y siempre que resulte compatible con Minecraft:
+
+a) no se permite vender rangos por dinero real entre usuarios;
+
+b) no se permite vender moneda virtual por dinero real;
+
+c) no se permite convertir beneficios en efectivo;
+
+d) no se permite operar un mercado no autorizado de productos adquiridos.
+
+Esta prohibición contribuye además a mantener las monedas virtuales sin valor real convertible conforme a las Usage Guidelines de Minecraft.
+
+---
+
+# TÍTULO XV
+
+# SEGURIDAD DE CUENTA
+
+## Artículo 72.- Responsabilidad del Usuario
+
+El Usuario deberá adoptar medidas razonables para proteger las credenciales de sus cuentas de Minecraft, Microsoft y ARKA WOOD.
+
+---
+
+## Artículo 73.- Compromiso de cuenta
+
+73.1. ARKA WOOD no controla la seguridad de una cuenta Microsoft.
+
+73.2. Si un tercero obtiene acceso debido a que el Usuario compartió voluntariamente sus credenciales o no protegió su cuenta, ARKA WOOD no garantiza restaurar operaciones realizadas legítimamente desde dicha cuenta.
+
+73.3. Cuando existan indicios de compromiso, ARKA WOOD podrá solicitar verificaciones razonables antes de transferir o modificar un entitlement.
+
+---
+
+## Artículo 74.- Prohibición de compartir información sensible
+
+El soporte de ARKA WOOD no deberá solicitar contraseñas completas de Microsoft, códigos de autenticación de dos factores, CVV completos ni otros secretos que no sean necesarios para identificar una compra.
+
+---
+
+# TÍTULO XVI
+
+# PROTECCIÓN DE DATOS EN TRANSACCIONES
+
+## Artículo 75.- Alcance limitado
+
+Este Título contiene únicamente reglas indispensables relacionadas con compras.
+
+El tratamiento integral de datos personales será regulado por la **Política de Privacidad de ARKA WOOD**, que constituye un documento separado.
+
+---
+
+## Artículo 76.- Datos transaccionales
+
+Para gestionar una compra podrán tratarse, cuando resulte necesario y lícito:
+
+a) identidad o nombre proporcionado;
+
+b) correo electrónico;
+
+c) nickname o identificador de Minecraft;
+
+d) UUID;
+
+e) identificador de pedido;
+
+f) importe;
+
+g) moneda;
+
+h) estado de pago;
+
+i) información técnica de seguridad;
+
+j) dirección IP cuando corresponda;
+
+k) información facilitada por el procesador;
+
+l) registros de entrega;
+
+m) historial de reclamaciones vinculadas a la operación.
+
+ARKA WOOD no deberá almacenar datos completos de tarjetas cuando estos sean tratados exclusivamente por el procesador y no resulte necesario ni permitido que ARKA WOOD los reciba.
+
+---
+
+## Artículo 77.- Base normativa
+
+La información personal será tratada de acuerdo con la Ley N.° 29733 y su normativa reglamentaria.
+
+El nuevo Reglamento de la Ley N.° 29733, aprobado mediante Decreto Supremo N.° 016-2024-JUS, entró en vigencia el 31 de marzo de 2025.
+
+---
+
+## Artículo 78.- Deber de información
+
+La Política de Privacidad deberá informar de manera accesible sobre las finalidades, responsable, destinatarios, transferencias, conservación y derechos que correspondan, conforme al artículo 18 de la Ley N.° 29733.
+
+---
+
+## Artículo 79.- Procesadores externos
+
+Cuando una transacción sea procesada por un tercero, dicho tercero podrá tratar datos bajo sus propias responsabilidades y políticas.
+
+ARKA WOOD deberá identificar adecuadamente dichos tratamientos en su Política de Privacidad cuando jurídicamente corresponda.
+
+---
+
+# TÍTULO XVII
+
+# ATENCIÓN AL CONSUMIDOR Y RECLAMOS
+
+## Artículo 80.- Canal de compras
+
+Para incidencias relacionadas con pagos y productos, ARKA WOOD deberá mantener como mínimo un canal adecuado y directamente utilizable:
+
+**Correo:** arkawoodnetwork@gmail.com
+**Soporte:** https://discord.gg/HxEbRcQD7 [<#1526645053249032365>](https://discord.com/channels/1526622720123736295/1526645053249032365)
+
+80.1. Discord podrá funcionar como canal complementario de ayuda, pero no deberá ser el único mecanismo legal de atención de compras cuando la normativa aplicable o las Minecraft Usage Guidelines requieran un contacto diferente.
+
+80.2. Mojang señala expresamente que los enlaces a chat o foros no constituyen por sí solos un método de contacto adecuado para cuestiones relacionadas con productos o compras.
+
+---
+
+## Artículo 81.- Información que puede solicitarse
+
+Para investigar una compra podrá solicitarse:
+
+a) número de pedido;
+
+b) nickname;
+
+c) fecha aproximada;
+
+d) correo usado;
+
+e) producto adquirido;
+
+f) comprobante razonablemente necesario;
+
+g) descripción del problema.
+
+No deberán solicitarse datos bancarios secretos innecesarios.
+
+---
+
+## Artículo 82.- Plazo de respuesta a reclamos
+
+Conforme al artículo 24.1 de la Ley N.° 29571, ARKA WOOD deberá responder los reclamos de consumidores en un plazo no mayor de **quince (15) días hábiles improrrogables**, sin perjuicio de que una norma posterior establezca una regla distinta.
+
+---
+
+## Artículo 83.- Mecanismos de comercio electrónico
+
+ARKA WOOD deberá disponer de mecanismos accesibles, eficaces y permanentemente operativos para atender reclamos y controversias derivadas de transacciones digitales, sin imponer costos o cargas innecesarias al consumidor, conforme al numeral 24.4 incorporado al Código de Protección y Defensa del Consumidor por el Decreto Legislativo N.° 1729.
+
+---
+
+## Artículo 84.- Libro de Reclamaciones
+
+84.1. ARKA WOOD implementará el Libro de Reclamaciones que resulte legalmente obligatorio.
+
+84.2. Cuando opere mediante plataforma digital de comercio electrónico, deberá mantener permanentemente visible y fácilmente accesible el enlace correspondiente:
+
+LIBRO DE RECLAMACIONES: ¡Solicitalo por GMAIL!
+
+84.3. La Ley N.° 32495 modificó los artículos 150 y 151 del Código de Protección y Defensa del Consumidor para incluir las plataformas digitales de comercio electrónico dentro de la obligación del Libro de Reclamaciones y exigir la exhibición permanente de un enlace visible y fácilmente accesible.
+
+84.4. **Nota de actualización jurídica de esta minuta:** a julio de 2026, la PCM había publicado para comentarios un proyecto destinado a adecuar el Reglamento del Libro de Reclamaciones a la Ley N.° 32495. Por ello, antes de publicar estos Términos deberá comprobarse si el reglamento definitivo ya ha sido aprobado y adecuar la implementación técnica a su texto vigente.
+
+---
+
+## Artículo 85.- Ausencia de renuncia a INDECOPI
+
+Nada de estos Términos restringe el derecho de un consumidor a recurrir ante INDECOPI u otra autoridad que resulte competente.
+
+---
+
+# TÍTULO XVIII
+
+# RESPONSABILIDAD
+
+## Artículo 86.- Principio general
+
+ARKA WOOD responderá por las obligaciones que legalmente le sean imputables, de acuerdo con la naturaleza de la prestación y dentro de los límites permitidos por la legislación peruana.
+
+---
+
+## Artículo 87.- Exclusión de garantías no ofrecidas
+
+En la máxima medida permitida por ley, ARKA WOOD no garantiza resultados que nunca hayan formado parte de la oferta, incluyendo:
+
+a) alcanzar determinada posición competitiva;
+
+b) obtener un número de victorias;
+
+c) mantener una economía virtual en un valor constante;
+
+d) ausencia absoluta de bugs;
+
+e) compatibilidad perpetua con software de terceros;
+
+f) operación eterna de una modalidad;
+
+g) conectividad desde cualquier red del mundo;
+
+h) inexistencia absoluta de ataques informáticos.
+
+---
+
+## Artículo 88.- Errores externos y ruptura del nexo causal
+
+88.1. ARKA WOOD quedará liberado de responsabilidad únicamente respecto de consecuencias cuya causa determinante se encuentre fuera de su esfera de control y constituya jurídicamente una ruptura del nexo causal.
+
+88.2. Esta protección comprende, cuando jurídicamente proceda, fallos de:
+
+a) plugins independientes;
+
+b) páginas o servicios externos;
+
+c) hosting;
+
+d) centros de datos;
+
+e) procesadores;
+
+f) bancos;
+
+g) DNS;
+
+h) CDN;
+
+i) servicios de Mojang/Microsoft;
+
+j) proveedores de Internet;
+
+k) APIs;
+
+l) registradores;
+
+m) redes eléctricas;
+
+n) infraestructura ajena;
+
+o) ataques de terceros;
+
+p) acontecimientos de fuerza mayor.
+
+88.3. La sola participación de un tercero no bastará para exonerar a ARKA WOOD si el daño fue causado o agravado por una actuación dolosa o culposa propia.
+
+---
+
+## Artículo 89.- Errores del propio Usuario
+
+En la máxima medida permitida por ley, ARKA WOOD no será responsable de pérdidas causadas exclusivamente por:
+
+a) credenciales compartidas;
+
+b) compra enviada al nickname incorrecto confirmado por el propio Comprador;
+
+c) pérdida de acceso a una cuenta Microsoft;
+
+d) modificaciones no compatibles instaladas por el Usuario;
+
+e) manipulación del cliente;
+
+f) incumplimiento de requisitos claramente informados;
+
+g) fraude cometido por el propio Comprador;
+
+h) acciones deliberadas para explotar bugs.
+
+---
+
+## Artículo 90.- Limitación de daños indirectos
+
+En relaciones en las que legalmente sea admisible, ARKA WOOD no responderá por pérdidas puramente indirectas, especulativas o no causalmente vinculadas con un incumplimiento suyo.
+
+Esta cláusula no limitará indemnizaciones o responsabilidades que la legislación de protección al consumidor u otra norma imperativa declare irrenunciables.
+
+---
+
+## Artículo 91.- Prohibición de exclusión por dolo o culpa
+
+Estos Términos no excluyen ni limitan responsabilidad por dolo o culpa cuando dicha exclusión resulte prohibida por el artículo 50 u otra disposición de la Ley N.° 29571.
+
+---
+
+# TÍTULO XIX
+
+# FUERZA MAYOR Y CASO FORTUITO
+
+## Artículo 92.- Concepto operativo
+
+Se considerarán conforme a la legislación aplicable aquellas circunstancias extraordinarias que no hayan podido ser razonablemente previstas o controladas y que impidan temporal o definitivamente el cumplimiento.
+
+---
+
+## Artículo 93.- Posibles eventos
+
+Según las circunstancias, pueden incluir:
+
+a) catástrofes naturales;
+
+b) incendios externos;
+
+c) inundaciones;
+
+d) terremotos;
+
+e) conflictos graves;
+
+f) órdenes gubernamentales;
+
+g) interrupciones masivas de telecomunicaciones;
+
+h) fallos generalizados de infraestructura;
+
+i) ataques informáticos extraordinarios;
+
+j) decisiones obligatorias de Mojang/Microsoft;
+
+k) cualquier otro acontecimiento jurídicamente equiparable.
+
+---
+
+## Artículo 94.- Deber de mitigación
+
+La invocación de una causa externa no libera a ARKA WOOD de adoptar las medidas razonables que estén a su alcance para reducir sus consecuencias, restaurar el servicio o cumplir sus obligaciones cuando vuelva a ser posible.
+
+---
+
+# TÍTULO XX
+
+# CAMBIOS EN LOS TÉRMINOS DE COMPRA
+
+## Artículo 95.- Versiones futuras
+
+ARKA WOOD podrá modificar estos Términos por cambios:
+
+a) legales;
+
+b) regulatorios;
+
+c) tecnológicos;
+
+d) de procesamiento de pagos;
+
+e) de las reglas de Minecraft;
+
+f) de seguridad;
+
+g) de estructura comercial.
+
+---
+
+## Artículo 96.- Términos aplicables a una compra
+
+96.1. Como regla general, una compra se regirá por la versión de estos Términos que se encontraba vigente y fue puesta a disposición del Comprador al momento de perfeccionarse la operación.
+
+96.2. ARKA WOOD no utilizará modificaciones posteriores para despojar retroactivamente al consumidor de derechos ya adquiridos.
+
+96.3. Una norma imperativa posterior podrá resultar aplicable cuando legalmente así corresponda.
+
+Esta estructura coincide además con la práctica contractual observada en tiendas basadas en Tebex, donde la versión vigente al momento del pedido rige la operación y los cambios de precio posteriores no modifican pedidos ya aceptados.
+
+---
+
+## Artículo 97.- Cambios derivados de Minecraft
+
+Cuando una modificación posterior de las EULA o Usage Guidelines haga necesario cambiar una característica, se aplicará el artículo 58, procurando evitar perjuicios innecesarios al Comprador.
+
+---
+
+# TÍTULO XXI
+
+# PROPIEDAD INTELECTUAL Y MARCAS
+
+## Artículo 98.- Minecraft
+
+Minecraft y los activos de Minecraft pertenecen a Mojang/Microsoft o a sus respectivos titulares.
+
+La compra de un producto de ARKA WOOD no transfiere derechos sobre dichos activos.
+
+---
+
+## Artículo 99.- ARKA WOOD
+
+Los nombres, diseños, gráficos, códigos, interfaces, logotipos y contenidos originales de ARKA WOOD se encuentran sujetos a los derechos que correspondan a **ARKAWOOD NETWORK**, sin perjuicio de los activos pertenecientes a terceros.
+
+---
+
+## Artículo 100.- No confusión comercial
+
+ARKA WOOD no deberá presentar elementos de su tienda de manera que un consumidor razonable crea estar comprando directamente a Mojang o Microsoft.
+
+---
+
+# TÍTULO XXII
+
+# CONDUCTAS FRAUDULENTAS RELACIONADAS CON LA TIENDA
+
+## Artículo 101.- Prohibiciones
+
+Queda prohibido:
+
+a) explotar vulnerabilidades de checkout;
+
+b) alterar precios mediante manipulación no autorizada;
+
+c) utilizar scripts para abusar de promociones;
+
+d) efectuar fraude de pago;
+
+e) utilizar cuentas robadas;
+
+f) distribuir códigos obtenidos ilícitamente;
+
+g) realizar ataques contra la tienda;
+
+h) falsificar comprobantes;
+
+i) presentar deliberadamente pruebas falsas en solicitudes de reembolso;
+
+j) realizar compras con intención premeditada de contracargo fraudulento.
+
+---
+
+## Artículo 102.- Medidas antifraude
+
+ARKA WOOD podrá bloquear o revisar una operación cuando existan indicadores objetivos de fraude.
+
+La revisión antifraude deberá ser proporcional y no podrá utilizarse para retener arbitrariamente una prestación pagada por un consumidor legítimo.
+
+---
+
+# TÍTULO XXIII
+
+# DONACIONES
+
+## Artículo 103.- Diferencia entre compra y donación
+
+103.1. Cuando un pago se presente como **compra**, no podrá denominarse ficticiamente “donación” con la finalidad de eludir obligaciones de protección al consumidor.
+
+103.2. Una verdadera donación deberá distinguirse claramente de la adquisición onerosa de un producto.
+
+103.3. Las Minecraft Usage Guidelines permiten solicitar donaciones siempre que el donante no reciba algo de uso exclusivo por el solo hecho de donar, aunque pueden existir recompensas generales para todos cuando se alcancen objetivos comunitarios.
+
+---
+
+# TÍTULO XXIV
+
+# PRODUCTOS DE DURACIÓN LIMITADA Y TEMPORADAS
+
+## Artículo 104.- Inicio de duración
+
+El momento desde el cual comienza a computarse un producto temporal deberá indicarse en su descripción o configurarse de manera razonablemente previsible.
+
+---
+
+## Artículo 105.- Reinicios de temporada
+
+105.1. Cuando un producto sea expresamente anunciado como válido únicamente para una temporada, wipe, ciclo o edición concreta, finalizará conforme a esa condición.
+
+105.2. ARKA WOOD deberá informar dicha limitación antes de la compra.
+
+105.3. No podrá posteriormente alegarse una limitación temporal que no haya sido razonablemente comunicada al Comprador.
+
+---
+
+## Artículo 106.- Wipes de datos
+
+Los reinicios de mundos, estadísticas o economías virtuales no deberán eliminar productos de pago que hayan sido expresamente prometidos como persistentes fuera del ciclo objeto del wipe, salvo razón legal, técnica extraordinaria o regla previamente informada que resulte válida.
+
+---
+
+# TÍTULO XXV
+
+# REGALOS Y COMPRAS PARA TERCEROS
+
+## Artículo 107.- Regalos
+
+Cuando la tienda permita regalar un producto, el Comprador será responsable de introducir correctamente la cuenta beneficiaria.
+
+---
+
+## Artículo 108.- Consentimiento del destinatario
+
+ARKA WOOD podrá establecer restricciones para impedir que productos no deseados, fraudulentos o utilizados para perjudicar a terceros sean asignados a cuentas ajenas.
+
+---
+
+## Artículo 109.- Contracargo sobre regalo
+
+Si el Comprador revierte válidamente un pago correspondiente a un regalo, ARKA WOOD podrá retirar de la cuenta beneficiaria el entitlement asociado a la operación revertida.
+
+---
+
+# TÍTULO XXVI
+
+# SOPORTE TÉCNICO DE COMPRAS
+
+## Artículo 110.- Alcance
+
+El soporte de compras comprende principalmente:
+
+a) localización de pedidos;
+
+b) verificación de entrega;
+
+c) errores de activación;
+
+d) cobros duplicados;
+
+e) problemas razonablemente vinculados con la tienda;
+
+f) dudas sobre productos comprados.
+
+---
+
+## Artículo 111.- Exclusiones
+
+El soporte de compras no implica obligación de prestar asistencia ilimitada respecto de:
+
+a) reparación del equipo del Usuario;
+
+b) problemas de su proveedor de Internet;
+
+c) configuraciones no soportadas;
+
+d) launchers ilegítimos;
+
+e) modificaciones externas incompatibles;
+
+f) cuentas Microsoft suspendidas por terceros.
+
+---
+
+# TÍTULO XXVII
+
+# COMUNICACIONES
+
+## Artículo 112.- Comunicaciones transaccionales
+
+ARKA WOOD podrá enviar comunicaciones necesarias para:
+
+a) confirmar pedidos;
+
+b) informar entrega;
+
+c) responder reclamos;
+
+d) avisar problemas con una transacción;
+
+e) informar cambios directamente vinculados con un producto;
+
+f) prevenir fraude.
+
+---
+
+## Artículo 113.- Comunicación comercial
+
+El envío de marketing, promociones y publicidad deberá cumplir las reglas de consentimiento y protección de datos aplicables y no se considerará automáticamente autorizado por el mero hecho de realizar una compra cuando la ley requiera un fundamento adicional.
+
+---
+
+# TÍTULO XXVIII
+
+# PROTECCIÓN DEL CONSUMIDOR
+
+## Artículo 114.- Buena fe contractual
+
+Las partes deberán actuar conforme a buena fe.
+
+ARKA WOOD no podrá utilizar cláusulas generales para colocar al consumidor en una situación de desventaja contraria a normas imperativas.
+
+---
+
+## Artículo 115.- Cláusulas abusivas
+
+Los artículos 48 a 52 de la Ley N.° 29571 regulan las cláusulas de contratos de adhesión y declaran inexigibles determinadas estipulaciones abusivas, incluidas aquellas que limitan ilegalmente responsabilidad propia, eliminan derechos legales o dificultan desproporcionadamente reclamaciones.
+
+---
+
+## Artículo 116.- Interpretación de la política de no reembolso
+
+116.1. La expresión **“no hay devoluciones ni reembolsos”** debe interpretarse como una **política comercial de ventas finales respecto de solicitudes voluntarias**, no como exclusión de garantías legales.
+
+116.2. Consecuentemente:
+
+**NO habrá reembolso por mero arrepentimiento, desuso, pérdida de interés o circunstancias imputables exclusivamente al Comprador.**
+
+**SÍ se respetarán los remedios legalmente exigibles cuando exista, entre otros supuestos, cobro duplicado, pago en exceso, no entrega, falta de idoneidad jurídicamente relevante o fraude no atribuible al reclamante.**
+
+116.3. Esta formulación constituye parte esencial de estos Términos.
+
+---
+
+# TÍTULO XXIX
+
+# LEY APLICABLE Y SOLUCIÓN DE CONTROVERSIAS
+
+## Artículo 117.- Ley aplicable
+
+Estos Términos y las compras realizadas oficialmente a ARKA WOOD se regirán e interpretarán, en la medida legalmente permitida, conforme a las leyes de la **República del Perú**.
+
+---
+
+## Artículo 118.- Normativa peruana de consumo
+
+Cuando exista una relación de consumo, tendrá especial aplicación la Ley N.° 29571 y sus normas modificatorias o reglamentarias.
+
+---
+
+## Artículo 119.- Solución directa
+
+Antes de iniciar un procedimiento formal, cualquiera de las partes podrá intentar resolver la incidencia mediante el canal de soporte oficial.
+
+Ello no limita el acceso del consumidor a una autoridad competente.
+
+---
+
+## Artículo 120.- INDECOPI
+
+El consumidor conserva el derecho a recurrir al Instituto Nacional de Defensa de la Competencia y de la Protección de la Propiedad Intelectual —INDECOPI— en los supuestos de su competencia.
+
+El artículo 105 del Código de Protección y Defensa del Consumidor reconoce a INDECOPI como autoridad con competencia primaria y alcance nacional respecto de presuntas infracciones al Código.
+
+---
+
+## Artículo 121.- Jurisdicción
+
+121.1. Las controversias judiciales serán sometidas a los órganos jurisdiccionales que resulten competentes conforme al ordenamiento peruano.
+121.2. No se pretende imponer un foro exclusivo que resulte abusivo o legalmente ineficaz frente a un consumidor.
+
+---
+
+# TÍTULO XXX
+
+# DISPOSICIONES FINALES
+
+## Artículo 122.- Integridad contractual
+
+Estos Términos, la descripción del producto, el precio mostrado, la confirmación del pedido y las condiciones específicas informadas antes de la compra forman conjuntamente el marco contractual de la operación.
+
+---
+
+## Artículo 123.- Prelación
+
+En caso de contradicción:
+
+a) prevalecerá primero la norma imperativa;
+
+b) posteriormente, la condición específica inequívocamente ofrecida respecto del producto concreto;
+
+c) después, estos Términos generales;
+
+d) sin perjuicio del carácter vinculante que la ley atribuya a la publicidad y oferta.
+
+---
+
+## Artículo 124.- Falta de ejercicio
+
+El hecho de que ARKA WOOD no haga valer inmediatamente una facultad contractual no implica renuncia definitiva a ella.
+
+---
+
+## Artículo 125.- Nulidad o ineficacia parcial
+
+Si una autoridad competente determina que una cláusula es nula, abusiva o inexigible, se considerará inaplicable únicamente en la medida correspondiente, procurando conservar la eficacia del resto de los Términos.
+
+---
+
+## Artículo 126.- Cesión
+
+ARKA WOOD podrá reorganizar, transferir o ceder su operación empresarial cuando resulte jurídicamente válido.
+
+Tal operación no podrá utilizarse para eliminar derechos adquiridos o incumplir obligaciones de protección al consumidor.
+
+---
+
+## Artículo 127.- Idioma
+
+La versión oficial destinada al mercado peruano será redactada en idioma español.
+
+Si se elaboran traducciones, deberá indicarse qué versión prevalece, siempre sujeto a las normas de protección al consumidor aplicables.
+
+---
+
+## Artículo 128.- Encabezados
+
+Los títulos y encabezados tienen finalidad organizativa y no restringen el alcance material de las disposiciones.
+
+---
+
+# TÍTULO XXXI
+
+# DECLARACIONES ESPECIALES QUE DEBERÁ MOSTRAR LA TIENDA
+
+## Artículo 129.- Aviso de venta final
+
+Antes de completar el pago, ARKA WOOD deberá mostrar de forma razonablemente visible una advertencia sustancialmente equivalente a la siguiente:
+
+**“Los productos ofrecidos son contenidos o beneficios digitales. Como regla comercial, todas las ventas son finales y no se admiten devoluciones por arrepentimiento, cambio de opinión o falta de uso una vez realizada la compra, sin perjuicio de los derechos y remedios obligatorios reconocidos por la legislación peruana.”**
+
+---
+
+## Artículo 130.- Aviso Minecraft
+
+En la tienda, sitio web y materiales relacionados deberá mostrarse prominentemente una declaración sustancialmente equivalente a:
+
+**“ARKA WOOD NO ES UN SERVICIO OFICIAL DE MINECRAFT. NO ESTÁ APROBADO NI ASOCIADO CON MOJANG O MICROSOFT.”**
+
+---
+
+## Artículo 131.- Información de precio
+
+El precio y contenido aplicables al producto deberán estar disponibles antes de la adquisición.
+
+Las Minecraft Usage Guidelines exigen que la información sobre contenido y precios aplicables al servidor esté disponible antes de que una persona se una, se registre o inicie sesión, además de requerir historial de compras para pagos con dinero real.
+
+---
+
+# TÍTULO XXXII
+
+# REVISIÓN OBLIGATORIA ANTES DE PUBLICACIÓN
+
+## Artículo 132.- Validación jurídica
+
+ANTES DE PUBLICAR ESTE DOCUMENTO, ARKA WOOD DEBERÁ SOMETERLO A REVISIÓN POR UN ABOGADO COLEGIADO Y HABILITADO EN EL PERÚ.
+
+La revisión deberá determinar, como mínimo:
+
+a) identidad exacta del proveedor;
+
+b) RUC y domicilio;
+
+c) régimen tributario;
+
+d) emisión de comprobantes;
+
+e) procesador de pagos utilizado;
+
+f) condición jurídica de Tebex u otro merchant of record, si fuera aplicable;
+
+g) mecanismos de reembolso;
+
+h) Libro de Reclamaciones;
+
+i) regulación vigente del comercio electrónico;
+
+j) tratamiento de menores;
+
+k) datos personales;
+
+l) transferencias internacionales;
+
+m) obligaciones de protección al consumidor;
+
+n) adecuación a la versión vigente de la EULA y Minecraft Usage Guidelines.
+
+---
+
+## Artículo 133.- Actualización normativa 2026
+
+133.1. Esta minuta toma en consideración el Decreto Legislativo N.° 1729, publicado el 12 de febrero de 2026, que reforzó las obligaciones de atención de reclamos en comercio electrónico y prohibió determinadas interfaces digitales manipulativas.
+
+133.2. También toma en consideración la Ley N.° 32495, que incorporó expresamente a las plataformas digitales de comercio electrónico a la obligación del Libro de Reclamaciones.
+
+133.3. Debido a que al 18 de julio de 2026 todavía se había publicado un proyecto de adecuación del Reglamento del Libro de Reclamaciones para consulta pública, deberá verificarse el texto reglamentario definitivamente vigente antes del lanzamiento oficial de la tienda o de estos Términos.
+
+---
+
+# TÍTULO XXXIII
+
+# ACEPTACIÓN FINAL
+
+## Artículo 134.- Declaración de aceptación
+
+Al seleccionar la casilla correspondiente y completar una compra, el Comprador declara, dentro de los límites permitidos por la legislación aplicable, que:
+
+a) tuvo oportunidad razonable de revisar estos Términos;
+
+b) recibió información sobre el producto y su precio;
+
+c) comprendió que se trata de un producto digital;
+
+d) comprobó la cuenta beneficiaria;
+
+e) utiliza legítimamente el medio de pago;
+
+f) conoce la política general de ventas finales;
+
+g) entiende que dicha política no elimina derechos legales imperativos;
+
+h) reconoce que ARKA WOOD es independiente de Mojang y Microsoft;
+
+i) acepta que la operación se rija por la legislación peruana en los términos legalmente permitidos.
+
+---
+
+## Artículo 135.- Vigencia
+
+Estos Términos entrarán en vigor el **07/08/2026** y permanecerán aplicables hasta su sustitución por una versión posterior, sin perjuicio de las reglas de aplicación temporal establecidas en este documento.
+
+---
+
+---
+
+# ANEXO I
+
+# CRITERIO DE INTERPRETACIÓN DE RESPONSABILIDAD EXTERNA
+
+A efectos de evitar interpretaciones incorrectas, se establece expresamente que:
+
+**ARKA WOOD no asume responsabilidad por cualquier fallo simplemente porque ocurra dentro de Internet o implique un tercero.**
+
+La exoneración solo operará cuando la causa sea jurídicamente externa y rompa el nexo causal o cuando el perjuicio sea exclusivamente imputable al Usuario.
+
+Por el contrario, si ARKA WOOD incurre en dolo, culpa, incumplimiento de la prestación ofrecida, falta de idoneidad jurídicamente imputable o vulneración de una norma imperativa, no podrá ampararse artificialmente en la existencia de un plugin, hosting, página, procesador, proveedor o tercero para trasladar su propia responsabilidad al consumidor.
+
+Esta delimitación no debilita la protección contractual de ARKA WOOD: busca hacerla **jurídicamente defendible** frente a los artículos 49, 50 y 104 del Código de Protección y Defensa del Consumidor.
+
+---
+
+# ANEXO II
+
+# PRINCIPIO CENTRAL DE REEMBOLSOS
+
+La política contractual de ARKA WOOD será:
+
+**1. VENTA FINAL.**
+Las compras digitales no se devuelven por arrepentimiento, cambio de opinión, falta de uso, pérdida de interés, sanción legítima del jugador, error del Comprador correctamente advertido u otras razones puramente voluntarias.
+
+**2. COBROS DUPLICADOS O EN EXCESO.**
+Se restituyen cuando sean verificados.
+
+**3. PRODUCTO NO ENTREGADO.**
+Se reintentará, ejecutará, repondrá o devolverá cuando legalmente corresponda.
+
+**4. PRODUCTO MATERIALMENTE DISTINTO A LO OFRECIDO.**
+Se corregirá o aplicará el remedio que corresponda conforme al Código de Protección y Defensa del Consumidor.
+
+**5. FRAUDE NO ATRIBUIBLE AL TITULAR.**
+Será investigado y tratado conforme a la legislación, evidencia disponible y reglas del procesador.
+
+**6. NO EXISTE RENUNCIA A DERECHOS IMPERATIVOS.**
+Ninguna cláusula “no refund” prevalecerá frente a un derecho que la legislación peruana establezca como inderogable.
+
+---
+
+**FIN DE LA MINUTA BASE — TÉRMINOS Y CONDICIONES DE COMPRA DE ARKA WOOD**

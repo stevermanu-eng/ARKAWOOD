@@ -1,0 +1,1054 @@
+MINUTA BASE
+TÉRMINOS Y CONDICIONES DE LA NETWORK ARKA WOOD
+Aplicables al servidor de Minecraft, servidor de Discord y servicios comunitarios vinculados
+
+**Versión:** 1.5
+**Fecha de última actualización:** 07/08/2026
+**Fecha de entrada en vigor:** 07/08/2026
+**Correo de atención legal:** arkawoodnetwork@gmail.com
+Dirección del servidor de Minecraft: mc.arkawood.net
+Servidor oficial de Discord: https://discord.gg/HxEbRcQD7 | 1526622720123736295
+Bot oficial de Discord: ARKA WOOD#3486 Y ARCAWOOD NETWORK#6859
+
+TÍTULO I
+DISPOSICIONES GENERALES, OBJETO Y ÁMBITO DE APLICACIÓN
+
+Artículo 1.- Objeto.
+Los presentes Términos y Condiciones de la Network, en adelante, los “Términos”, regulan el acceso, conexión, permanencia, interacción y utilización de los servicios comunitarios operados o administrados directamente por ARKA WOOD, particularmente su servidor o conjunto de servidores de Minecraft, su servidor oficial de Discord, sus bots oficiales, mecanismos de autenticación, herramientas de moderación, sistemas de soporte y demás servicios expresamente identificados como oficiales.
+
+Artículo 2.- Alcance material.
+Estos Términos establecen derechos, deberes, prohibiciones, reglas de conducta, criterios de moderación, condiciones de seguridad, delimitaciones de responsabilidad, disposiciones sobre contenidos de usuarios, integridad competitiva, interacción económica virtual, uso de sistemas automatizados, solución de controversias y demás aspectos vinculados con la operación ordinaria de la Network.
+
+Artículo 3.- Ámbito subjetivo.
+Los presentes Términos son aplicables a toda persona que acceda, utilice, participe, se registre, se autentique o interactúe de cualquier manera con los servicios oficiales de ARKA WOOD, independientemente de que posea o no una cuenta registrada en otros canales del ecosistema de la Network.
+
+Artículo 4.- Definición de Usuario.
+A efectos del presente documento, “Usuario” comprende a cualquier jugador, miembro de Discord, visitante autenticado, titular de cuenta, participante, solicitante de soporte o persona que interactúe voluntariamente con un servicio oficial de ARKA WOOD.
+
+Artículo 5.- Titular de la cuenta.
+Se entenderá como “Titular de la Cuenta” a la persona jurídicamente legitimada para utilizar la cuenta de Minecraft, Microsoft, Discord o cuenta interna vinculada a ARKA WOOD. La mera posesión material de credenciales ajenas no otorga titularidad ni legitimación frente a ARKA WOOD.
+
+Artículo 6.- Servicios independientes.
+Los servicios de terceros enlazados o utilizados como infraestructura auxiliar no pasan a ser operados por ARKA WOOD por el solo hecho de ser accesibles desde la Network. Mojang, Microsoft, Discord, proveedores de hosting, registradores, sistemas DNS, CDN, pasarelas de pago, plugins, APIs y otros proveedores mantienen sus propias condiciones y responsabilidades.
+
+Artículo 7.- Separación documental.
+Estos Términos no sustituyen los Términos y Condiciones de Compra ni la Política de Privacidad de ARKA WOOD. Cuando una conducta implique simultáneamente uso de la Network, compra y tratamiento de datos, podrán aplicarse conjuntamente los documentos correspondientes, cada uno dentro de su materia.
+
+
+TÍTULO II
+MARCO JURÍDICO Y PRINCIPIOS DE INTERPRETACIÓN
+
+Artículo 8.- Legislación aplicable.
+En la medida permitida por las normas de derecho internacional privado y sin perjuicio de derechos imperativos que pudieran corresponder a un Usuario situado en otra jurisdicción, estos Términos se interpretarán principalmente conforme al ordenamiento jurídico de la República del Perú.
+
+Artículo 9.- Normativa peruana relevante.
+Sin que la enumeración sea taxativa, resultan especialmente relevantes: el Código Civil aprobado por Decreto Legislativo N.° 295; la Ley N.° 29571, Código de Protección y Defensa del Consumidor, cuando exista una relación de consumo; la Ley N.° 29733, Ley de Protección de Datos Personales, y su Reglamento aprobado por Decreto Supremo N.° 016-2024-JUS; la Ley N.° 30096, Ley de Delitos Informáticos y sus modificatorias; el Código Penal aprobado por Decreto Legislativo N.° 635; y las demás normas imperativas que resulten aplicables al caso concreto.
+
+Artículo 10.- Buena fe.
+La interpretación, celebración y ejecución de las relaciones jurídicas sujetas a estos Términos deberán observar la buena fe. Esta regla se encuentra en consonancia con el artículo 1362 del Código Civil peruano, conforme al cual los contratos deben negociarse, celebrarse y ejecutarse según las reglas de la buena fe y la común intención de las partes.
+
+Artículo 11.- Fuerza obligatoria de los acuerdos.
+En los supuestos en que exista una relación contractual, será aplicable el principio del artículo 1361 del Código Civil, conforme al cual los contratos son obligatorios en cuanto se haya expresado en ellos, sin perjuicio de las normas imperativas y de protección aplicables.
+
+Artículo 12.- Normas imperativas.
+Ninguna cláusula de estos Términos deberá interpretarse como renuncia a derechos inderogables, exclusión de una responsabilidad que legalmente no pueda excluirse, autorización para realizar conductas prohibidas por la ley ni sustitución de requisitos de consentimiento expreso exigidos por una norma especial.
+
+Artículo 13.- Relaciones de consumo.
+Cuando ARKA WOOD califique jurídicamente como proveedor y el Usuario como consumidor respecto de una determinada prestación, serán aplicables las garantías de la Ley N.° 29571. En particular, los artículos 47, 49 y 50 de dicho Código exigen condiciones contractuales accesibles, buena fe y equilibrio, y declaran inexigibles determinadas cláusulas abusivas que pretendan limitar ilícitamente derechos o responsabilidad del proveedor.
+
+
+TÍTULO III
+ACEPTACIÓN DE LOS TÉRMINOS Y MANIFESTACIÓN DE VOLUNTAD
+
+Artículo 14.- Aceptación por ingreso y uso.
+EL SOLO HECHO DE INGRESAR, CONECTARSE, PERMANECER O UTILIZAR VOLUNTARIAMENTE EL SERVIDOR DE MINECRAFT DE ARKA WOOD Y/O EL SERVIDOR OFICIAL DE DISCORD DE ARKA WOOD, DESPUÉS DE QUE ESTOS TÉRMINOS HAYAN SIDO PUESTOS RAZONABLEMENTE A DISPOSICIÓN DEL USUARIO, CONSTITUYE MANIFESTACIÓN DE VOLUNTAD DE ACEPTARLOS Y SOMETERSE A ELLOS, EN LA MEDIDA EN QUE EL ORDENAMIENTO JURÍDICO PERMITA TAL FORMA DE ACEPTACIÓN.
+
+Artículo 15.- Fundamento de la aceptación tácita.
+La regla anterior se sustenta, entre otras disposiciones, en el artículo 141 del Código Civil peruano, que reconoce la manifestación expresa o tácita de voluntad y considera tácita aquella que se infiere indubitablemente de una actitud o de circunstancias de comportamiento que revelen su existencia. Por consiguiente, el uso continuado y voluntario de un servicio después de una puesta a disposición clara de sus reglas podrá constituir conducta concluyente.
+
+Artículo 16.- Límite de la aceptación tácita.
+La aceptación por conducta no reemplazará una manifestación expresa cuando la ley, una política obligatoria de plataforma o la naturaleza del acto requieran consentimiento expreso. Esto comprende, entre otros supuestos, determinados tratamientos de datos personales, autorizaciones de publicidad o prospección comercial y otras materias sometidas a formalidades especiales.
+
+Artículo 17.- Accesibilidad previa.
+ARKA WOOD procurará mantener estos Términos razonablemente accesibles mediante esta pagina, mensajes de acceso, canales de información, comandos o mecanismos equivalentes. En relaciones de consumo, la aceptación no se presumirá respecto de condiciones que no hayan sido puestas oportunamente a disposición del Usuario cuando la legislación exija conocimiento previo.
+
+Artículo 18.- Desconocimiento.
+Una vez que los Términos hayan sido correctamente puestos a disposición del Usuario, el alegato de desconocimiento, falta de lectura o lectura incompleta no eximirá por sí mismo del deber de cumplir las reglas objetivamente aplicables al uso del servicio.
+
+Artículo 19.- Rechazo.
+Quien no acepte estos Términos deberá abstenerse de acceder o continuar utilizando los servicios de ARKA WOOD. Cuando una persona manifieste expresamente su rechazo, ARKA WOOD podrá cesar o restringir la prestación cuyo uso presuponga la aceptación de estas reglas.
+
+Artículo 20.- Aceptaciones expresas complementarias.
+ARKA WOOD podrá requerir casillas, botones, comandos, reacciones, formularios u otros mecanismos de aceptación expresa para funciones de especial relevancia, como vinculación de cuentas, programas de creadores, acceso a betas, participación en eventos, tratamiento opcional de datos, comunicaciones promocionales o uso de herramientas específicas.
+
+
+TÍTULO IV
+RELACIÓN CON MINECRAFT, MOJANG Y MICROSOFT
+
+Artículo 21.- Independencia institucional.
+ARKA WOOD ES UN PROYECTO INDEPENDIENTE. NO ES UN SERVICIO OFICIAL DE MINECRAFT, NO ESTÁ APROBADO, RESPALDADO, PATROCINADO NI ASOCIADO CON MOJANG AB O MICROSOFT CORPORATION.
+
+Artículo 22.- Titularidad de Minecraft.
+Minecraft, sus marcas, activos, software, denominaciones y demás elementos protegidos pertenecen a Mojang, Microsoft o a sus respectivos titulares. El acceso a ARKA WOOD no concede al Usuario derecho alguno sobre tales elementos más allá de los derechos que le correspondan bajo los términos oficiales de Minecraft.
+
+Artículo 23.- EULA y Usage Guidelines.
+El uso de ARKA WOOD deberá ser compatible con la versión vigente del Minecraft End User License Agreement (EULA), las Minecraft Usage Guidelines y demás reglas obligatorias de Mojang/Microsoft. Estos Términos complementan la regulación interna de ARKA WOOD y no sustituyen ni pretenden contradecir dichas disposiciones.
+
+Artículo 24.- Cambios en las reglas de Minecraft.
+Mojang/Microsoft puede modificar sus condiciones, protocolos, sistemas, software o directrices. Cuando una modificación externa obligatoria afecte a ARKA WOOD, la Network podrá adaptar funciones, reglas, productos, integraciones o mecanismos de acceso en la medida necesaria para mantener el cumplimiento, respetando los derechos imperativos que resulten aplicables.
+
+Artículo 25.- Cuentas legítimas.
+ARKA WOOD podrá exigir que el acceso se realice mediante cuentas de Minecraft válidamente autorizadas, particularmente cuando las reglas oficiales de Minecraft así lo requieran para la modalidad o infraestructura empleada.
+
+Artículo 26.- Contenido comercial.
+Toda monetización de ARKA WOOD se regirá adicionalmente por los Términos y Condiciones de Compra y deberá procurar mantenerse dentro de las autorizaciones y restricciones de las Minecraft Usage Guidelines vigentes.
+
+
+TÍTULO V
+RELACIÓN CON DISCORD
+
+Artículo 27.- Servicio independiente.
+Discord es una plataforma independiente de ARKA WOOD. El uso del servidor oficial de Discord está sujeto simultáneamente a los Términos de Servicio, Community Guidelines y demás políticas obligatorias de Discord vigentes.
+
+Artículo 28.- Reglas adicionales de ARKA WOOD.
+ARKA WOOD podrá establecer reglas internas más estrictas para su comunidad siempre que no pretendan autorizar conductas prohibidas por Discord. La ausencia de sanción por parte de Discord no impide que ARKA WOOD aplique medidas internas, y una sanción interna no implica necesariamente una sanción global de la plataforma.
+
+Artículo 29.- Edad mínima en Discord.
+El Usuario deberá cumplir la edad mínima exigida por Discord para su jurisdicción y cualesquiera requisitos adicionales aplicables. Si legalmente necesita autorización o intervención de su padre, madre, tutor o representante, deberá obtenerla antes de utilizar los servicios.
+
+Artículo 30.- Disponibilidad de Discord.
+ARKA WOOD no controla la infraestructura, disponibilidad, suspensión, cambios de API, políticas, cuentas ni decisiones de Discord. Una indisponibilidad de Discord no implica necesariamente un incumplimiento imputable a ARKA WOOD.
+
+
+TÍTULO VI
+CUENTAS, IDENTIDAD DIGITAL Y CUSTODIA DE CREDENCIALES
+
+Artículo 31.- Responsabilidad sobre credenciales.
+Cada Usuario es responsable de adoptar medidas razonables de seguridad respecto de sus cuentas de Minecraft/Microsoft, Discord y cualquier credencial propia asociada a ARKA WOOD.
+
+Artículo 32.- Prohibición de compartir credenciales.
+El Usuario no deberá entregar contraseñas, códigos de autenticación, sesiones, tokens, cookies, códigos de recuperación ni otras credenciales sensibles a terceros. El personal legítimo de ARKA WOOD no deberá solicitar contraseñas completas de Microsoft o Discord ni códigos de doble factor para prestar soporte ordinario.
+
+Artículo 33.- Cuentas compartidas.
+Cuando ARKA WOOD permita técnicamente el acceso desde distintos dispositivos, ello no supone autorización para compartir una cuenta con terceros. El titular asume el riesgo derivado de permitir voluntariamente el uso de su cuenta por otra persona, sin perjuicio de los límites de responsabilidad establecidos por ley.
+
+Artículo 34.- Acciones ejecutadas desde una cuenta.
+A efectos de moderación y seguridad, ARKA WOOD podrá presumir razonablemente que las acciones ejecutadas desde una cuenta autenticada corresponden a su titular, salvo que existan elementos suficientes que indiquen compromiso, robo o acceso no autorizado. Esta presunción es operativa y admite prueba en contrario.
+
+Artículo 35.- Cuenta comprometida.
+Ante indicios de compromiso, ARKA WOOD podrá suspender temporalmente funciones, congelar intercambios, limitar transacciones, solicitar verificaciones razonables, revocar sesiones internas o adoptar otras medidas proporcionadas destinadas a prevenir daños mayores.
+
+Artículo 36.- Recuperación.
+La recuperación de una cuenta de Microsoft o Discord se encuentra principalmente bajo los mecanismos de dichas plataformas. ARKA WOOD podrá colaborar con información interna que resulte razonablemente pertinente, pero no garantiza poder recuperar cuentas administradas por terceros.
+
+Artículo 37.- Vinculación de cuentas.
+Cuando ARKA WOOD permita vincular Minecraft con Discord u otros identificadores, el Usuario deberá utilizar exclusivamente cuentas respecto de las cuales tenga legitimación suficiente. La vinculación fraudulenta, suplantación o apropiación de una identidad ajena podrá ser sancionada.
+
+
+TÍTULO VII
+SEGURIDAD PREVENTIVA, SISTEMAS ANTI-ROBO Y DILIGENCIA DEL USUARIO
+
+Artículo 38.- Enfoque preventivo.
+Precisamente debido al riesgo inherente de fraude, robo de cuentas, engaño entre jugadores, suplantación y pérdida de activos virtuales, ARKA WOOD implementa y podrá continuar implementando un conjunto de medidas técnicas, procedimentales y de moderación destinadas a reducir dichos riesgos.
+
+Artículo 39.- Medidas de seguridad posibles.
+Según la modalidad, versión e infraestructura disponible, dichas medidas podrán comprender sistemas anti-robo, verificación de cuentas, confirmaciones de identidad, registros de transacciones, historiales de intercambio, registros técnicos, bloqueos preventivos, controles de acceso, autenticación adicional, alertas, límites temporales, moderación activa, sistemas antifraude, mecanismos de reporte y otras medidas razonables.
+
+Artículo 40.- Variabilidad técnica.
+La enumeración anterior no constituye promesa de que todas las medidas se encuentren permanentemente activas en cada modalidad, ni garantía de seguridad absoluta. Los mecanismos concretos podrán modificarse por mantenimiento, compatibilidad, seguridad, evolución tecnológica o necesidades operativas.
+
+Artículo 41.- Deber de colaboración del Usuario.
+El Usuario deberá utilizar diligentemente las herramientas de seguridad que se pongan a su disposición, especialmente cuando su activación sea opcional pero expresamente recomendada. La decisión consciente de desactivar, ignorar o eludir una protección puede ser considerada al evaluar solicitudes de restauración o soporte, siempre dentro de los límites de la ley.
+
+Artículo 42.- Diligencia ordinaria.
+La distribución de responsabilidades se interpretará teniendo presente el artículo 1314 del Código Civil, conforme al cual quien actúa con la diligencia ordinaria requerida no es imputable por la inejecución de una obligación en los supuestos allí contemplados. ARKA WOOD procurará adoptar medidas razonables según la naturaleza del servicio, sin asumir una garantía absoluta de imposibilidad de fraude.
+
+
+TÍTULO VIII
+ROBOS, ESTAFAS, FRAUDES Y PÉRDIDAS ENTRE USUARIOS
+
+Artículo 43.- Regla general de no garantía entre particulares.
+ARKA WOOD NO ES PARTE, FIADOR, GARANTE, ASEGURADOR, CUSTODIO NI INTERMEDIARIO FINANCIERO DE LOS ACUERDOS PRIVADOS QUE LOS USUARIOS CELEBREN ENTRE SÍ, salvo que exista un sistema oficial que expresamente asuma una función concreta y limitada en los términos publicados para dicho sistema.
+
+Artículo 44.- Exoneración respecto de hechos de terceros.
+En la máxima medida permitida por la legislación aplicable, ARKA WOOD no será responsable de robos, estafas, fraudes, engaños, apropiaciones, pérdidas patrimoniales reales o virtuales, intercambios desventajosos, incumplimientos privados o actos maliciosos ejecutados exclusivamente por otros Usuarios o terceros, cuando el daño no sea causalmente imputable a una conducta dolosa, culposa o jurídicamente responsable de ARKA WOOD.
+
+Artículo 45.- Bienes virtuales.
+La regla anterior comprende, según corresponda, pérdida de monedas internas, objetos, recursos, parcelas, accesos, recompensas, cuentas, estadísticas, progresos u otros elementos digitales transferidos mediante engaño, confianza indebida, suplantación o incumplimiento de un acuerdo privado.
+
+Artículo 46.- Pérdidas reales.
+ARKA WOOD tampoco garantiza ni asegura dinero real, criptomonedas, medios de pago, cuentas externas u otros bienes patrimoniales que Usuarios transfieran entre sí fuera de los sistemas oficiales. El comercio externo no autorizado podrá, además, constituir infracción de las reglas internas.
+
+Artículo 47.- Apoyo voluntario.
+Sin asumir obligación de resultado ni reconocer responsabilidad civil, ARKA WOOD PODRÁ, de manera voluntaria, razonable y discrecional, brindar apoyo, revisar registros, mediar, advertir, restringir cuentas, sancionar infractores, inmovilizar temporalmente activos, revertir técnicamente determinadas operaciones o restaurar determinados bienes cuando exista evidencia suficiente y la arquitectura del servicio lo permita.
+
+Artículo 48.- Ausencia de obligación de restauración.
+La existencia de logs, herramientas de moderación o facultades técnicas no crea por sí sola una obligación jurídica general de devolver todo bien sustraído o perdido. La restauración dependerá de la trazabilidad, integridad de la evidencia, posibilidad técnica, impacto económico virtual, riesgo de duplicación y demás circunstancias del caso.
+
+Artículo 49.- No precedente.
+Una asistencia, devolución, mediación o restauración concedida excepcionalmente no constituye reconocimiento de responsabilidad, novación de estos Términos ni precedente vinculante para casos futuros que presenten circunstancias diferentes.
+
+Artículo 50.- Límite de la cláusula de exoneración.
+Nada de los artículos anteriores pretende liberar a ARKA WOOD de responsabilidad por dolo, culpa inexcusable, infracción de deberes de orden público, incumplimiento propio jurídicamente imputable o cualquier responsabilidad cuya exclusión esté prohibida. El artículo 1328 del Código Civil declara nulas las estipulaciones que excluyan o limiten responsabilidad por dolo o culpa inexcusable en los supuestos allí previstos; y, cuando exista relación de consumo, los artículos 49 y 50 de la Ley N.° 29571 restringen las cláusulas abusivas que trasladen indebidamente al consumidor hechos u omisiones del proveedor.
+
+Artículo 51.- Estafa y tipificación penal.
+Determinadas conductas de engaño patrimonial podrán, según sus elementos objetivos y subjetivos, ser susceptibles de análisis bajo el artículo 196 del Código Penal peruano, relativo al delito de estafa. ARKA WOOD no califica definitivamente una conducta como delito ni sustituye al Ministerio Público o Poder Judicial; cualquier referencia penal se entenderá sin prejuzgamiento.
+
+Artículo 52.- Denuncias ante autoridades.
+La víctima de un hecho potencialmente delictivo conserva el derecho de acudir a la Policía Nacional del Perú, Ministerio Público u otra autoridad competente. ARKA WOOD podrá preservar y proporcionar información ante requerimientos válidos, conforme a la legislación aplicable y a su Política de Privacidad.
+
+
+TÍTULO IX
+TRANSACCIONES, INTERCAMBIOS Y ECONOMÍA VIRTUAL
+
+Artículo 53.- Sistemas oficiales.
+ARKA WOOD podrá habilitar mecanismos oficiales de comercio, subasta, intercambio o transferencia dentro del juego. El Usuario deberá utilizar las interfaces de confirmación y revisar cuidadosamente cantidades, destinatarios, objetos y condiciones antes de aceptar.
+
+Artículo 54.- Transacciones directas.
+Los acuerdos realizados mediante chat, Discord, mensajes privados u otros canales que no garanticen ejecución automática serán realizados bajo riesgo de los participantes. La palabra o promesa de otro Usuario no equivale a garantía de ARKA WOOD.
+
+Artículo 55.- Comercio externo.
+Salvo autorización expresa, queda prohibido vender o comprar por dinero real cuentas, monedas internas, objetos, beneficios o servicios virtuales de ARKA WOOD entre particulares, así como organizar mercados externos destinados a eludir los sistemas oficiales.
+
+Artículo 56.- Valor de bienes virtuales.
+Los bienes y monedas virtuales carecen de valor monetario garantizado y no constituyen depósitos, instrumentos financieros ni dinero de curso legal. No existe derecho general de conversión a dinero real salvo que una norma imperativa disponga otra cosa.
+
+Artículo 57.- Manipulación económica.
+Quedan prohibidas las prácticas destinadas a alterar ilícita o abusivamente la economía virtual mediante exploits, duplicación, automatización no autorizada, colusión fraudulenta, lavado de activos virtuales provenientes de exploits, manipulación de subastas o cualquier mecanismo equivalente.
+
+Artículo 58.- Reversiones técnicas.
+Cuando una operación derive de un bug, explotación, duplicación o fraude suficientemente acreditado, ARKA WOOD podrá revertirla, retirar ganancias ilícitas, reconstruir balances o ejecutar rollbacks proporcionados para proteger la integridad del servidor.
+
+Artículo 59.- Reinicios y temporadas.
+Los resets, wipes, temporadas y reinicios se regirán por las reglas anunciadas de cada modalidad. Los efectos sobre productos adquiridos con dinero real se sujetarán adicionalmente a los Términos y Condiciones de Compra y no podrán utilizarse para desconocer derechos legales imperativos.
+
+
+TÍTULO X
+CONDUCTA GENERAL Y CONVIVENCIA
+
+Artículo 60.- Respeto y convivencia.
+Todo Usuario deberá mantener una conducta compatible con la convivencia razonable de una comunidad digital. ARKA WOOD podrá intervenir frente a hostigamiento, amenazas, humillación deliberada, discriminación, lenguaje abusivo, persecución, intimidación o conductas que perturben sustancialmente la experiencia de terceros.
+
+Artículo 61.- Prohibición de amenazas graves.
+Quedan prohibidas las amenazas de daño real, ataques informáticos, DDoS, doxxing, swatting, obtención o difusión maliciosa de datos, extorsión, chantaje, intimidación penalmente relevante o cualquier amenaza creíble contra la integridad de una persona, sus bienes o sistemas.
+
+Artículo 62.- Acoso.
+La reiteración de contactos no deseados, persecución entre canales, hostigamiento sexual, campañas coordinadas de humillación o acciones destinadas a aislar, intimidar o perjudicar deliberadamente a otro Usuario podrán ser sancionadas.
+
+Artículo 63.- Discriminación y odio.
+Se prohíbe contenido que promueva odio, violencia o discriminación grave contra personas o grupos protegidos por la legislación aplicable o por las políticas obligatorias de las plataformas utilizadas.
+
+Artículo 64.- Contenido sexual y seguridad de menores.
+Queda prohibido utilizar ARKA WOOD para distribuir material sexual ilícito, explotación sexual, grooming, captación sexual de menores o contenido que vulnere normas de protección de niños y adolescentes. Los casos graves podrán ser reportados a las plataformas y autoridades competentes.
+
+Artículo 65.- Datos personales de terceros.
+Queda prohibido divulgar, comercializar, amenazar con divulgar o utilizar maliciosamente domicilios, teléfonos, documentos, credenciales, datos financieros, direcciones IP no públicas u otra información personal de terceros obtenida sin legitimación suficiente.
+
+Artículo 66.- Spam comunitario.
+ARKA WOOD podrá restringir mensajes repetitivos, publicidad no autorizada, menciones masivas abusivas, cadenas, bots no permitidos, flood y otras conductas que afecten la funcionalidad de chats o canales.
+
+Artículo 67.- Publicidad de terceros.
+La promoción de servidores, servicios, productos, esquemas comerciales, sorteos o comunidades ajenas a ARKA WOOD podrá requerir autorización previa. Las reglas específicas podrán variar según el canal y no deberán contradecir las políticas obligatorias de Discord o Minecraft.
+
+
+TÍTULO XI
+INTEGRIDAD COMPETITIVA, TRAMPAS Y EXPLOITS
+
+Artículo 68.- Juego limpio.
+Los Usuarios deberán respetar las reglas de integridad competitiva aplicables a cada modalidad. Se prohíben ventajas obtenidas mediante herramientas, modificaciones, automatizaciones o conductas expresamente clasificadas como no autorizadas.
+
+Artículo 69.- Clientes y modificaciones.
+ARKA WOOD podrá publicar una lista de modificaciones permitidas, restringidas o prohibidas en esta pagina. La ausencia de una modificación en una lista permisiva no garantiza su autorización cuando su funcionalidad produzca una ventaja objetivamente indebida.
+
+Artículo 70.- Automatización.
+Quedan prohibidos macros, scripts, autoclickers, bots, sistemas de reacción automatizada, automatizaciones AFK o herramientas equivalentes cuando proporcionen una ventaja prohibida o eludan límites diseñados por la Network.
+
+Artículo 71.- Exploits y bugs.
+El Usuario que descubra una vulnerabilidad o bug con potencial de generar ventaja indebida deberá abstenerse de explotarlo y reportarlo por arkawoodnetwork@gmail.com. Utilizarlo deliberadamente, ocultarlo para obtener beneficio o distribuir instrucciones de explotación podrá ser sancionado.
+
+Artículo 72.- Boosting y manipulación.
+Podrá sancionarse la manipulación artificial de estadísticas, clasificaciones, victorias, experiencia, recompensas, matchmaking, temporadas o progresión mediante cuentas alternativas, colusión, emparejamientos deliberadamente manipulados o mecanismos equivalentes.
+
+Artículo 73.- Evasión de sanciones.
+Está prohibido utilizar cuentas alternativas, VPN, proxies, identidades ajenas, bots o cualquier otro mecanismo con la finalidad principal de eludir una sanción legítimamente impuesta.
+
+Artículo 74.- Anticheat.
+ARKA WOOD podrá utilizar sistemas automatizados de detección de trampas. Un resultado automatizado podrá servir como indicio o fundamento técnico, pero la Network podrá revisar manualmente casos cuando las circunstancias lo justifiquen y no garantiza que todo sistema automatizado sea infalible.
+
+Artículo 75.- Falsos positivos.
+Los Usuarios podrán utilizar los mecanismos de apelación disponibles cuando consideren que una sanción técnica fue errónea. El hecho de admitir una apelación no implica reconocimiento previo de error.
+
+
+TÍTULO XII
+ATAQUES INFORMÁTICOS Y PROTECCIÓN DE LA INFRAESTRUCTURA
+
+Artículo 76.- Acceso no autorizado.
+Queda prohibido acceder o intentar acceder sin autorización a paneles, bases de datos, cuentas, consolas, sistemas, archivos, endpoints, interfaces administrativas, credenciales, redes o infraestructura de ARKA WOOD o de terceros vinculados.
+
+Artículo 77.- Interferencia y disponibilidad.
+Se prohíbe ejecutar, contratar, facilitar, amenazar o coordinar ataques de denegación de servicio, DDoS, botnets, saturación deliberada, crash exploits, packet abuse u otras acciones destinadas a impedir o dificultar el funcionamiento normal del servicio.
+
+Artículo 78.- Integridad de datos.
+Está prohibido destruir, alterar, suprimir, corromper, insertar o manipular ilegítimamente datos, registros, configuraciones o sistemas informáticos de ARKA WOOD.
+
+Artículo 79.- Malware y mecanismos ilícitos.
+Queda prohibido distribuir malware, credential stealers, token grabbers, ransomware, troyanos, herramientas de phishing, scripts maliciosos o mecanismos destinados a vulnerar cuentas o sistemas.
+
+Artículo 80.- Marco penal informático.
+Sin prejuzgar la configuración de un delito concreto, determinadas conductas pueden resultar comprendidas por la Ley N.° 30096, Ley de Delitos Informáticos. Entre otras materias, dicha ley regula el acceso ilícito a sistemas (artículo 2), atentados contra datos e integridad de sistemas (artículos 3 y 4), fraude informático (artículo 8), suplantación de identidad (artículo 9), abuso de mecanismos y dispositivos informáticos (artículo 10) y otras conductas incorporadas o modificadas posteriormente.
+
+Artículo 81.- Credenciales y bases de datos ilícitas.
+La legislación peruana de delitos informáticos ha sido objeto de modificaciones, incluido el Decreto Legislativo N.° 1741 publicado en febrero de 2026. ARKA WOOD podrá sancionar y reportar conductas vinculadas con tráfico o utilización ilegítima de credenciales, datos de autenticación o bases de datos cuando existan elementos objetivos suficientes.
+
+Artículo 82.- Investigación de seguridad autorizada.
+La investigación de vulnerabilidades solo estará autorizada cuando ARKA WOOD haya otorgado permiso previo, escrito y suficientemente delimitado, o cuando exista un programa oficial de divulgación responsable que defina el alcance. La Ley N.° 30096 contempla una exclusión para determinados actos de seguridad informática debidamente autorizados; ello no legitima pruebas unilaterales fuera del alcance autorizado.
+
+Artículo 83.- Divulgación responsable.
+Un investigador deberá minimizar el acceso a datos, abstenerse de persistir, no extraer información innecesaria, no alterar sistemas, no extorsionar, no divulgar una vulnerabilidad de forma que facilite ataques inmediatos y reportar de buena fe a arkawoodnetwork@gmail.com.
+
+
+TÍTULO XIII
+CONTENIDO GENERADO POR USUARIOS
+
+Artículo 84.- Responsabilidad del autor.
+Cada Usuario es responsable del contenido que publique, transmita o ponga a disposición mediante Minecraft, Discord u otros canales de ARKA WOOD. Las opiniones de Usuarios no representan necesariamente la posición institucional de ARKA WOOD.
+
+Artículo 85.- Prohibición de contenido ilícito.
+No podrá publicarse contenido cuya creación, posesión, comunicación o distribución resulte ilícita, vulnere derechos de terceros o infrinja políticas obligatorias de la plataforma utilizada.
+
+Artículo 86.- Derechos de propiedad intelectual de terceros.
+El Usuario deberá contar con derechos, licencias, permisos o base jurídica suficiente respecto de contenido protegido que publique. ARKA WOOD podrá retirar material razonablemente denunciado por infracción de propiedad intelectual, conforme al procedimiento aplicable.
+
+Artículo 87.- Licencia operativa limitada.
+Al publicar contenido en espacios comunitarios de ARKA WOOD, el Usuario concede a ARKA WOOD, únicamente en la medida necesaria para operar, moderar, almacenar, mostrar, respaldar y administrar el servicio, una licencia no exclusiva, mundial mientras resulte técnicamente necesario, gratuita y sublicenciable a proveedores técnicos estrictamente para dichas finalidades. Esta licencia no transfiere la titularidad del contenido del Usuario.
+
+Artículo 88.- Uso promocional de contenido público.
+Cuando un Usuario publique voluntariamente contenido en canales expresamente públicos, ARKA WOOD podrá reutilizar fragmentos razonables para documentar actividad comunitaria o promocionar la Network, siempre que ello sea compatible con la legislación de datos, derechos de imagen y propiedad intelectual. Cuando corresponda autorización específica, deberá obtenerse por separado.
+
+Artículo 89.- Moderación de contenido.
+ARKA WOOD podrá ocultar, eliminar, editar técnicamente, desindexar o restringir contenido que infrinja estos Términos, normas de plataforma, seguridad, derechos de terceros o legislación aplicable.
+
+Artículo 90.- No confidencialidad de canales públicos.
+El Usuario no debe presumir confidencialidad en chats o canales identificados como públicos. La existencia de moderadores y registros implica que el contenido puede ser revisado para seguridad y cumplimiento. Los mensajes privados o tickets estarán sujetos a las reglas específicas y a la Política de Privacidad.
+
+
+TÍTULO XIV
+MODERACIÓN Y POTESTAD DISCIPLINARIA INTERNA
+
+Artículo 91.- Facultad de moderación.
+ARKA WOOD podrá establecer, interpretar y aplicar reglas razonables para preservar seguridad, convivencia, integridad competitiva, estabilidad técnica y cumplimiento legal o de plataforma.
+
+Artículo 92.- Medidas posibles.
+Según la gravedad y contexto, las medidas podrán incluir advertencias, eliminación de contenido, silenciamiento, restricciones de chat, expulsión de sesión, suspensión temporal, suspensión permanente, restricción de funciones, congelamiento de intercambios, retirada de beneficios obtenidos ilícitamente, reversión de estadísticas, rollback técnico, limitaciones en Discord, revocación de roles o bloqueo de bots.
+
+Artículo 93.- Proporcionalidad.
+ARKA WOOD procurará valorar gravedad, intencionalidad, reincidencia, perjuicio, riesgo, cooperación, antecedentes y evidencia disponible. La proporcionalidad no obliga a aplicar siempre sanciones progresivas cuando una conducta grave justifique una medida inmediata.
+
+Artículo 94.- Medidas preventivas.
+Una suspensión preventiva podrá adoptarse antes de una decisión definitiva cuando existan indicios razonables de compromiso de cuenta, fraude, ataque, evasión, riesgo para terceros o necesidad de preservar evidencia.
+
+Artículo 95.- Moderación automatizada.
+ARKA WOOD podrá utilizar filtros automáticos, detección de lenguaje, antispam, anticheat, análisis antifraude y sistemas equivalentes. Los Usuarios reconocen que estas herramientas pueden producir errores y que, cuando proceda, podrán existir mecanismos de revisión.
+
+Artículo 96.- Moderadores.
+Las decisiones de moderación son actos internos de administración del servicio. Los miembros del equipo deberán actuar dentro de sus facultades, con diligencia y conforme a protocolos internos. La condición de miembro del staff no autoriza conductas ilícitas, abusivas o fuera de competencia.
+
+Artículo 97.- Suplantación del staff.
+Queda prohibido hacerse pasar por propietario, administrador, moderador, soporte, desarrollador, socio o representante oficial de ARKA WOOD sin autorización.
+
+Artículo 98.- Promesas no oficiales.
+Una promesa, ofrecimiento o declaración realizada por un miembro sin competencia para obligar jurídicamente al operador no modificará automáticamente estos Términos. Ello se entiende sin perjuicio de la responsabilidad que pudiera surgir si ARKA WOOD generó razonablemente una apariencia legítima de representación conforme a la ley.
+
+
+TÍTULO XV
+APELACIONES Y REVISIÓN DE SANCIONES
+
+Artículo 99.- Derecho interno de apelación.
+ARKA WOOD podrá habilitar un sistema de apelaciones mediante SOPORTE DE DISCORD. La existencia, número y alcance de revisiones podrá depender del tipo de sanción.
+
+Artículo 100.- Buena fe procesal interna.
+Las apelaciones deberán contener información veraz y suficiente. Falsificar pruebas, manipular capturas, hostigar revisores o presentar solicitudes automatizadas abusivas podrá ocasionar rechazo o medidas adicionales.
+
+Artículo 101.- Evidencia.
+ARKA WOOD podrá considerar logs de servidor, registros de moderación, evidencia audiovisual, historial de transacciones, mensajes pertinentes, telemetría de seguridad, datos aportados por Usuarios y demás elementos obtenidos lícitamente.
+
+Artículo 102.- Confidencialidad de mecanismos de detección.
+ARKA WOOD no estará obligado a revelar íntegramente reglas antifraude, configuraciones anticheat, firmas de detección, arquitectura de seguridad o información cuya divulgación facilite elusión, ataques o comprometa datos de terceros, salvo obligación legal de hacerlo.
+
+Artículo 103.- Error reconocido.
+Cuando ARKA WOOD determine que una sanción fue impuesta por error, podrá revocarla, corregirla, restaurar elementos cuando sea técnica y jurídicamente procedente o adoptar otras medidas razonables.
+
+
+TÍTULO XVI
+BOT OFICIAL DE DISCORD Y COMUNICACIONES FUNCIONALES
+
+Artículo 104.- Bot oficial.
+ARKA WOOD podrá operar uno o más bots identificados oficialmente, incluido ARKA WOOD#3486 y ARCAWOOD NETWORK#6859, para autenticación, moderación, soporte, tickets, vinculación de cuentas, seguridad, estadísticas, administración y otras funciones legítimas de la Network.
+
+Artículo 105.- Uso voluntario de funciones.
+Al ejecutar voluntariamente un comando, pulsar un componente interactivo, iniciar un ticket, vincular una cuenta o activar una función del Bot, el Usuario solicita la ejecución de dicha funcionalidad y acepta las comunicaciones estrictamente necesarias y directamente vinculadas con ella, en la medida permitida por Discord y la legislación aplicable.
+
+Artículo 106.- Mensajes directos funcionales.
+Cuando el funcionamiento de una característica lo requiera y exista el permiso correspondiente, el Bot podrá enviar mensajes directos para entregar resultados de comandos, códigos o enlaces de verificación, avisos de seguridad, alertas de actividad sospechosa, actualizaciones de tickets, información de moderación individual, avisos sobre vinculación de cuentas, confirmaciones, incidencias técnicas o comunicaciones operativas necesarias para mantener o mejorar la funcionalidad utilizada.
+
+Artículo 107.- Avisos administrativos de la Network.
+ARKA WOOD podrá utilizar el Bot para comunicar avisos administrativos relevantes relativos al funcionamiento del servicio —por ejemplo, cambios materiales de seguridad, mantenimiento, incidentes, migraciones, modificaciones sustanciales de funciones o reglas— siempre que el canal, frecuencia, permiso y naturaleza de la comunicación sean compatibles con la legislación aplicable y con las políticas de Discord.
+
+Artículo 108.- Prohibición de autorización ilimitada de DM.
+La aceptación de estos Términos NO se interpretará como autorización irrestricta para enviar mensajes directos arbitrarios, frecuentes, no solicitados o desconectados de la función del Bot. La política vigente de desarrolladores de Discord exige permiso explícito para contactar Usuarios y restringe mensajes directos no relacionados con el mantenimiento o mejora de la funcionalidad de la aplicación.
+
+Artículo 109.- Comunicaciones comerciales y marketing.
+El uso de un comando o del Bot NO constituye por sí mismo consentimiento general para publicidad, prospección comercial o mensajes masivos destinados a promover productos o servicios. Cuando una comunicación tenga naturaleza promocional, ARKA WOOD deberá obtener el consentimiento que exijan la Ley N.° 29571, su artículo 58 modificado por la Ley N.° 32323, la Ley N.° 29733 y las políticas de Discord. Dicho consentimiento deberá ser separado cuando corresponda, libre, previo, informado, expreso e inequívoco, y revocable conforme a ley.
+
+Artículo 110.- No calificación automática como spam.
+Las comunicaciones funcionales legítimamente solicitadas, necesarias para prestar una función utilizada y enviadas con el permiso exigible no deberán confundirse automáticamente con publicidad no solicitada. Sin embargo, ninguna cláusula contractual puede declarar por anticipado que todo mensaje de ARKA WOOD “nunca será spam” si en los hechos contraviene la ley o una política obligatoria de plataforma.
+
+Artículo 111.- Preferencias y revocación.
+Cuando una comunicación sea opcional, ARKA WOOD procurará habilitar mecanismos razonables de desactivación o revocación. La revocación no impedirá necesariamente que ARKA WOOD publique avisos esenciales en canales generales del servidor, pero deberá respetarse respecto de comunicaciones para las que la ley reconozca ese derecho.
+
+Artículo 112.- Seguridad del Bot.
+Queda prohibido intentar obtener el token, credenciales, secretos, permisos privilegiados, código no público, claves de API o sesiones del Bot, así como utilizarlo para abusos, automatizaciones maliciosas o bypass de controles.
+
+
+TÍTULO XVII
+MENSAJERÍA, NOTIFICACIONES Y CANALES DE SERVICIO
+
+Artículo 113.- Comunicaciones operativas.
+ARKA WOOD podrá emitir comunicaciones operativas mediante mensajes dentro de Minecraft, canales oficiales de Discord, anuncios, correo electrónico u otros medios legítimamente habilitados, según la naturaleza del aviso y la base jurídica aplicable.
+
+Artículo 114.- Cambios relevantes.
+Las modificaciones materiales de estos Términos podrán comunicarse mediante esta pagina o DISCORD, especialmente cuando alteren sustancialmente obligaciones del Usuario. El uso continuado después de una puesta a disposición adecuada podrá constituir aceptación tácita en los casos legalmente permitidos.
+
+Artículo 115.- Compras.
+Las comunicaciones relativas a pagos, productos adquiridos, reembolsos o entrega digital se regirán además por los Términos y Condiciones de Compra y por las exigencias legales aplicables al comercio electrónico.
+
+
+TÍTULO XVIII
+DATOS PERSONALES, LOGS Y EVIDENCIA TÉCNICA
+
+Artículo 116.- Documento separado.
+El tratamiento integral de datos personales será explicado en la Política de Privacidad de ARKA WOOD. Este Título contiene únicamente reglas mínimas necesarias para la comprensión del funcionamiento y moderación de la Network.
+
+Artículo 117.- Categorías operativas.
+Según los servicios efectivamente utilizados y lo descrito en la futura Política de Privacidad, ARKA WOOD podrá tratar identificadores de Minecraft, UUID, identificadores de Discord, nombres de usuario, direcciones IP, registros de conexión, logs técnicos, historial de sanciones, eventos de seguridad, registros de transacciones virtuales, contenido reportado y demás información necesaria para operar, asegurar o moderar la Network, siempre dentro de una base jurídica válida.
+
+Artículo 118.- Principios de protección de datos.
+El tratamiento deberá observar la Ley N.° 29733 y el Reglamento aprobado por Decreto Supremo N.° 016-2024-JUS. Entre otros aspectos, la normativa exige respetar finalidades determinadas, deber de información, seguridad, confidencialidad y las reglas sobre consentimiento cuando este sea jurídicamente requerido.
+
+Artículo 119.- Consentimiento de datos.
+La aceptación tácita general de estos Términos NO sustituye el consentimiento expreso cuando el artículo 13 de la Ley N.° 29733 u otra disposición aplicable exijan consentimiento previo, informado, expreso e inequívoco. ARKA WOOD deberá recabarlo separadamente cuando corresponda o sustentar el tratamiento en una excepción o base legal válida.
+
+Artículo 120.- Deber de información.
+La Política de Privacidad deberá desarrollar la información exigida por el artículo 18 de la Ley N.° 29733, incluyendo identidad del responsable, finalidades, destinatarios, banco de datos cuando corresponda, transferencias, conservación, consecuencias de proporcionar o no datos y mecanismos de ejercicio de derechos.
+
+Artículo 121.- Confidencialidad.
+El acceso interno a información personal y evidencia de moderación deberá limitarse a personal o proveedores que razonablemente lo requieran para sus funciones, bajo deberes de confidencialidad y seguridad consistentes con la normativa aplicable.
+
+Artículo 122.- Conservación de evidencia.
+ARKA WOOD podrá conservar evidencia de seguridad, fraude, moderación o soporte durante el tiempo razonablemente necesario para las finalidades informadas, defensa de derechos, cumplimiento de obligaciones o atención de requerimientos válidos. Los plazos concretos deberán definirse en la Política de Privacidad y políticas internas de retención.
+
+Artículo 123.- Requerimientos legales.
+ARKA WOOD podrá revelar información cuando exista obligación legal, orden válida de autoridad competente o base jurídica suficiente. Se procurará limitar la entrega a los datos pertinentes al requerimiento.
+
+
+TÍTULO XIX
+MENORES DE EDAD Y REPRESENTACIÓN
+
+Artículo 124.- Capacidad.
+El Usuario declara contar con capacidad suficiente para utilizar el servicio o, cuando ello sea necesario, con la intervención o autorización de su representante legal.
+
+Artículo 125.- Requisitos de terceros.
+Los menores deberán cumplir las reglas de edad y consentimiento de Minecraft/Microsoft, Discord y demás servicios empleados. ARKA WOOD no puede dispensar requisitos impuestos directamente por dichas plataformas.
+
+Artículo 126.- Protección reforzada.
+ARKA WOOD podrá establecer restricciones adicionales para proteger a menores, limitar contactos, impedir determinadas transacciones, restringir contenidos o solicitar intervención de representantes cuando resulte razonable o legalmente necesario.
+
+Artículo 127.- Datos de menores.
+El tratamiento de datos personales de niños y adolescentes se ajustará a las reglas especiales de la normativa peruana y a la Política de Privacidad. Ninguna aceptación tácita se utilizará para eludir requisitos especiales de consentimiento o información.
+
+
+TÍTULO XX
+SERVICIOS DE TERCEROS Y DEPENDENCIAS TECNOLÓGICAS
+
+Artículo 128.- Dependencias externas.
+El funcionamiento de ARKA WOOD puede depender de Minecraft, Microsoft, Discord, Java, sistemas operativos, proveedores de hosting, centros de datos, redes de tránsito, DNS, CDN, protección DDoS, bases de datos, plugins, APIs, librerías, sistemas de autenticación, proveedores de correo y otras infraestructuras externas.
+
+Artículo 129.- Fallos de terceros.
+ARKA WOOD no responderá por un daño o interrupción en la medida en que se acredite que su causa determinante fue exclusivamente un hecho objetivo, no imputable y jurídicamente atribuible a un tercero o a una circunstancia externa que rompa el nexo causal, sin perjuicio de los deberes propios de diligencia que correspondan a ARKA WOOD.
+
+Artículo 130.- Plugins y software externo.
+Los plugins, APIs y bibliotecas pueden contener errores, vulnerabilidades o incompatibilidades no razonablemente previsibles. ARKA WOOD podrá sustituir, actualizar, deshabilitar o reconfigurar componentes cuando sea necesario para seguridad, compatibilidad, rendimiento o cumplimiento.
+
+Artículo 131.- Selección negligente.
+La mera intervención de un tercero no exime automáticamente a ARKA WOOD si la ley atribuye responsabilidad por una selección, configuración, supervisión o actuación propia negligente. Esta precisión es especialmente relevante frente al artículo 1328 del Código Civil y, cuando exista relación de consumo, frente al artículo 50 de la Ley N.° 29571.
+
+Artículo 132.- Enlaces externos.
+Los enlaces a páginas de terceros no implican aprobación de todo su contenido ni garantía permanente de seguridad o disponibilidad. El Usuario deberá verificar el dominio y evitar introducir credenciales en páginas sospechosas.
+
+
+TÍTULO XXI
+DISPONIBILIDAD, MANTENIMIENTO Y CONTINUIDAD
+
+Artículo 133.- Ausencia de disponibilidad absoluta.
+Salvo compromiso específico por escrito, ARKA WOOD no garantiza disponibilidad ininterrumpida del cien por ciento. Un servicio en línea puede sufrir mantenimientos, actualizaciones, reinicios, fallos, mitigaciones de seguridad o interrupciones externas.
+
+Artículo 134.- Mantenimiento programado.
+ARKA WOOD podrá suspender temporalmente servicios para mantenimiento, migraciones, actualización de versiones, copias de seguridad, cambios de infraestructura, balance, correcciones y tareas de seguridad. Cuando sea razonablemente posible y la interrupción sea relevante, podrá comunicarla con antelación.
+
+Artículo 135.- Emergencias técnicas.
+Una vulnerabilidad crítica, corrupción de datos, ataque, compromiso de credenciales, explotación activa o riesgo grave podrá justificar suspensión inmediata sin preaviso para contener el incidente.
+
+Artículo 136.- Recuperación.
+ARKA WOOD realizará esfuerzos razonables de restauración según la gravedad, disponibilidad de copias de seguridad, integridad de datos y recursos técnicos. La existencia de backups no constituye garantía absoluta de restauración exacta de cada estado individual.
+
+Artículo 137.- Modificación de modalidades.
+ARKA WOOD podrá equilibrar, actualizar, migrar, fusionar, reformular o discontinuar modalidades por razones técnicas, de seguridad, actividad, cumplimiento o sostenibilidad. Los efectos sobre productos pagados se regirán por los Términos de Compra y derechos imperativos aplicables.
+
+
+TÍTULO XXII
+FUERZA MAYOR, CASO FORTUITO Y RUPTURA DEL NEXO CAUSAL
+
+Artículo 138.- Caso fortuito o fuerza mayor.
+El artículo 1315 del Código Civil define el caso fortuito o fuerza mayor como causa no imputable consistente en un evento extraordinario, imprevisible e irresistible que impide la ejecución de una obligación o determina su cumplimiento parcial, tardío o defectuoso. Los eventos invocados por ARKA WOOD deberán evaluarse conforme a esos elementos y no por mera denominación contractual.
+
+Artículo 139.- Ejemplos posibles.
+Según las circunstancias concretas, podrán constituir eventos relevantes catástrofes naturales, incendios externos, fallos masivos de telecomunicaciones, interrupciones eléctricas extraordinarias, actos de autoridad, ataques informáticos excepcionales, caída generalizada de proveedores esenciales, guerra, disturbios graves o circunstancias equivalentes fuera del control razonable.
+
+Artículo 140.- Mitigación.
+La existencia de fuerza mayor no elimina el deber de adoptar medidas razonables de mitigación, seguridad y recuperación cuando estas sean posibles.
+
+Artículo 141.- No uso abusivo.
+ARKA WOOD no calificará como fuerza mayor un problema ordinario previsible que sea atribuible a falta propia de mantenimiento, negligencia o incumplimiento de deberes esenciales.
+
+
+TÍTULO XXIII
+LIMITACIÓN Y DELIMITACIÓN DE RESPONSABILIDAD
+
+Artículo 142.- Principio de causalidad.
+La responsabilidad de ARKA WOOD deberá analizarse según la conducta imputable, existencia de daño, nexo causal, deber jurídico aplicable y demás elementos exigidos por el ordenamiento. ARKA WOOD no asume responsabilidad universal por todo hecho ocurrido dentro de una plataforma digital.
+
+Artículo 143.- Hechos del Usuario.
+En la máxima medida permitida por ley, ARKA WOOD no será responsable de daños causados exclusivamente por la conducta del propio Usuario, incluyendo compartir credenciales, instalar software malicioso, desactivar voluntariamente protecciones, utilizar canales de comercio no autorizados, ejecutar archivos de desconocidos o revelar información sensible pese a advertencias razonables.
+
+Artículo 144.- Hechos de terceros.
+ARKA WOOD tampoco responde automáticamente por actos ilícitos de otros Usuarios, atacantes, estafadores o proveedores externos cuando la conducta determinante no sea imputable a ARKA WOOD y la ley no le atribuya un deber específico incumplido.
+
+Artículo 145.- Daños indirectos.
+En relaciones en que legalmente resulte admisible, ARKA WOOD no asumirá daños meramente remotos, especulativos o sin nexo causal suficiente con un incumplimiento propio. Esta cláusula no restringe derechos inderogables ni daños cuya reparación sea obligatoria conforme a ley.
+
+Artículo 146.- Dolo y culpa inexcusable.
+Ninguna cláusula de exoneración o limitación contenida en estos Términos se aplicará para excluir responsabilidad que el artículo 1328 del Código Civil prohíba excluir, incluyendo la responsabilidad por dolo o culpa inexcusable en los supuestos legalmente previstos.
+
+Artículo 147.- Responsabilidad extracontractual.
+Cuando resulte aplicable, la responsabilidad por daños se evaluará también conforme al régimen correspondiente del Código Civil, incluido el artículo 1969 respecto del daño causado por dolo o culpa.
+
+Artículo 148.- Consumidores.
+Si existe una relación de consumo, ninguna limitación operará en contra de derechos reconocidos por la Ley N.° 29571. Las cláusulas que excluyan o limiten ilícitamente responsabilidad propia del proveedor podrán resultar absolutamente ineficaces conforme al artículo 50 de dicho Código.
+
+
+TÍTULO XXIV
+SOPORTE, MEDIACIÓN Y ASISTENCIA
+
+Artículo 149.- Alcance del soporte.
+ARKA WOOD podrá proporcionar soporte técnico y comunitario mediante DISCORD ya mencionado. El soporte está destinado a problemas razonablemente vinculados con los servicios oficiales y no constituye servicio profesional de asesoría jurídica, bancaria, informática forense o recuperación de cuentas de terceros.
+
+Artículo 150.- Mediación voluntaria.
+En conflictos entre Usuarios, ARKA WOOD podrá facilitar una mediación interna de carácter voluntario y administrativo. Dicha intervención no convierte a ARKA WOOD en árbitro legal, juez, garante del acuerdo ni representante de ninguna parte.
+
+Artículo 151.- Ausencia de reconocimiento de responsabilidad.
+El hecho de investigar, mediar, revisar logs, contactar a un Usuario, congelar activos o intentar restaurar bienes no constituye aceptación de culpa, reconocimiento de deuda ni asunción contractual de responsabilidad por el hecho investigado.
+
+Artículo 152.- Cooperación.
+El Usuario que solicite ayuda deberá aportar información veraz y evitar manipular evidencia. ARKA WOOD podrá rechazar solicitudes abusivas, fraudulentas, imposibles de verificar o destinadas a obtener duplicaciones de activos.
+
+Artículo 153.- Seguridad de soporte.
+El equipo de soporte no deberá solicitar contraseñas completas, tokens, códigos 2FA ni control remoto irrestricto del dispositivo del Usuario como requisito ordinario. Podrá solicitar capturas, logs o archivos técnicamente pertinentes, procurando minimizar datos personales innecesarios.
+
+
+TÍTULO XXV
+PROPIEDAD INTELECTUAL DE ARKA WOOD
+
+Artículo 154.- Licencia de uso.
+El acceso a ARKA WOOD concede únicamente un permiso limitado, revocable, no exclusivo, no transferible y condicionado al cumplimiento de estos Términos para utilizar las funciones del servicio conforme a su finalidad ordinaria.
+
+Artículo 155.- Ingeniería inversa y extracción.
+Sin perjuicio de las excepciones legales obligatorias, queda prohibida la extracción masiva no autorizada de datos, duplicación de sistemas, copia de recursos protegidos, scraping abusivo, ingeniería inversa de componentes propios o reproducción de activos con finalidad de suplantación o explotación ilícita.
+
+Artículo 156.- Marcas ajenas.
+La referencia a Minecraft, Microsoft o Discord tiene finalidad descriptiva y de interoperabilidad. ARKA WOOD no reivindica titularidad sobre marcas de terceros.
+
+
+TÍTULO XXVI
+PRIVACIDAD, IMAGEN, VOZ Y CONTENIDO AUDIOVISUAL
+
+Artículo 157.- Grabaciones públicas de juego.
+Los espacios multijugador pueden ser observados o grabados por otros Usuarios. ARKA WOOD podrá registrar material técnico o audiovisual en la medida necesaria para moderación, seguridad, eventos o creación de contenido institucional, sujeto a la legislación aplicable.
+
+Artículo 158.- Voz.
+La participación en canales de voz de Discord implica que la voz será transmitida a los demás participantes presentes. Cualquier grabación adicional por ARKA WOOD que requiera información o consentimiento específico deberá ajustarse a la normativa aplicable y a la Política de Privacidad.
+
+Artículo 159.- Prohibición de grabaciones ilícitas.
+Estos Términos no autorizan a Usuarios a realizar interceptaciones, grabaciones o difusión de comunicaciones cuando la ley las prohíba. Cada Usuario es responsable de respetar la normativa aplicable a sus propias grabaciones.
+
+
+TÍTULO XXVII
+EVENTOS, TORNEOS Y PROGRAMAS ESPECIALES
+
+Artículo 160.- Reglas particulares.
+Los torneos, concursos, betas, eventos, programas de creadores, voluntariado u otras iniciativas podrán estar sujetos a reglas adicionales. Dichas reglas deberán ponerse a disposición antes de la participación cuando impongan obligaciones relevantes.
+
+Artículo 161.- Conflicto de reglas.
+Cuando una regla específica de evento contradiga estos Términos, se interpretará de forma restrictiva y únicamente dentro del evento correspondiente. Una norma imperativa o política superior de plataforma prevalecerá en todo caso.
+
+Artículo 162.- Premios.
+Los premios, si existen, estarán sujetos a las condiciones publicadas, elegibilidad, verificación y normativa aplicable. Ninguna promoción deberá utilizar mecánicas que infrinjan las restricciones de Minecraft, Discord o la legislación peruana.
+
+
+TÍTULO XXVIII
+STAFF, VOLUNTARIOS Y CONFLICTOS DE INTERÉS
+
+Artículo 163.- Condición del staff.
+La pertenencia al equipo de moderación o soporte no otorga derechos de propiedad sobre ARKA WOOD ni capacidad general de representación legal, salvo designación expresa.
+
+Artículo 164.- Uso de facultades.
+Los miembros del equipo deberán utilizar permisos exclusivamente para finalidades autorizadas. El abuso de privilegios, filtración de información, favorecimiento fraudulento, robo de bienes virtuales o manipulación de sanciones podrá generar medidas internas y, cuando corresponda, acciones legales.
+
+Artículo 165.- Conflictos de interés.
+Un miembro del staff deberá abstenerse o escalar un asunto cuando mantenga un conflicto personal relevante que pueda comprometer razonablemente la imparcialidad de una decisión grave.
+
+Artículo 166.- Seguridad del staff.
+Queda prohibido acosar, doxxear, extorsionar o amenazar a integrantes del equipo por decisiones adoptadas en el ejercicio de sus funciones. Las críticas de buena fe podrán formularse por canales adecuados sin recurrir a amenazas o hostigamiento.
+
+
+TÍTULO XXIX
+CAMBIOS, SUSPENSIÓN Y TERMINACIÓN DEL SERVICIO
+
+Artículo 167.- Evolución del servicio.
+ARKA WOOD podrá introducir nuevas modalidades, retirar funciones, cambiar interfaces, modificar plugins, actualizar versiones y reorganizar su infraestructura cuando exista una razón técnica, de seguridad, cumplimiento, balance o sostenibilidad.
+
+Artículo 168.- Suspensión general.
+La Network podrá suspender temporalmente servicios por mantenimiento, incidentes, fuerza mayor, decisiones de proveedores, seguridad, cumplimiento normativo o investigación de un riesgo grave.
+
+Artículo 169.- Terminación del proyecto.
+ARKA WOOD no garantiza operación perpetua. En caso de cierre total o parcial, se procurará gestionar las obligaciones pendientes de acuerdo con la legislación aplicable y, respecto de adquisiciones, con los Términos y Condiciones de Compra.
+
+Artículo 170.- No desaparición retroactiva de derechos.
+La modificación o terminación del servicio no podrá utilizarse artificialmente para desconocer derechos patrimoniales o remedios que una norma imperativa ya hubiera reconocido al consumidor respecto de una prestación concreta.
+
+
+TÍTULO XXX
+MODIFICACIÓN DE ESTOS TÉRMINOS
+
+Artículo 171.- Facultad de actualización.
+ARKA WOOD podrá actualizar estos Términos por cambios legales, regulatorios, tecnológicos, operativos, de seguridad, de plataforma o de estructura de la Network.
+
+Artículo 172.- Publicación.
+La versión vigente deberá indicar fecha o número de versión y ponerse a disposición mediante esta pagina.
+
+Artículo 173.- Cambios materiales.
+Cuando una modificación afecte sustancialmente obligaciones, facultades disciplinarias, tratamiento del Usuario o condiciones esenciales, ARKA WOOD procurará comunicarla razonablemente antes o al momento de su entrada en vigor, según las circunstancias.
+
+Artículo 174.- Aceptación de cambios.
+El uso continuado después de una puesta a disposición adecuada podrá constituir aceptación de los cambios cuando la ley admita manifestación tácita. Si una norma requiere aceptación expresa para el cambio concreto, ARKA WOOD deberá recabarla expresamente.
+
+Artículo 175.- Derechos adquiridos y consumo.
+En una relación de consumo, ARKA WOOD no podrá modificar unilateralmente en perjuicio del consumidor condiciones de una prestación ya contratada cuando la Ley N.° 29571 exija consentimiento expreso, particularmente conforme a las reglas vigentes sobre métodos comerciales coercitivos.
+
+
+TÍTULO XXXI
+DENUNCIAS, RECLAMOS Y AUTORIDADES
+
+Artículo 176.- Reportes internos.
+Las infracciones de reglas podrán reportarse mediante SOPORTE DE DISCORD. El Usuario deberá evitar reportes falsos deliberados o campañas coordinadas de abuso del sistema.
+
+Artículo 177.- Reclamos de consumo.
+Cuando una cuestión corresponda a una relación de consumo, el Usuario conservará los derechos de reclamación reconocidos por la Ley N.° 29571 y podrá utilizar los mecanismos que ARKA WOOD deba mantener conforme a la normativa aplicable.
+
+Artículo 178.- INDECOPI.
+Nada de estos Términos pretende impedir que un consumidor acuda al Instituto Nacional de Defensa de la Competencia y de la Protección de la Propiedad Intelectual —INDECOPI— cuando dicha entidad sea competente.
+
+Artículo 179.- Autoridades penales.
+ARKA WOOD podrá denunciar hechos aparentemente delictivos o colaborar con investigaciones oficiales mediante canales legales. La mera sanción interna no equivale a declaración de culpabilidad penal.
+
+Artículo 180.- Reporte a plataformas.
+ARKA WOOD podrá reportar conductas a Mojang/Microsoft, Discord, proveedores de infraestructura o procesadores cuando infrinjan sus políticas o comprometan seguridad, siempre dentro de las bases jurídicas aplicables.
+
+
+TÍTULO XXXII
+LEY APLICABLE Y SOLUCIÓN DE CONTROVERSIAS
+
+Artículo 181.- Legislación peruana.
+Estos Términos se regirán por las leyes de la República del Perú en la medida legalmente permitida.
+
+Artículo 182.- Solución directa.
+Las partes podrán intentar resolver de buena fe las controversias mediante arkawoodnetwork@gmail.com / https://discord.gg/HxEbRcQD7, sin que ello constituya renuncia a acudir a una autoridad competente.
+
+Artículo 183.- Jurisdicción.
+Las controversias judiciales se someterán a los órganos jurisdiccionales competentes conforme a las reglas legales aplicables. Ninguna designación de foro se interpretará de manera que prive a un consumidor de una competencia territorial o derecho inderogable que le corresponda.
+
+Artículo 184.- No arbitraje obligatorio por esta minuta.
+Estos Términos no establecen por sí mismos una renuncia general al Poder Judicial ni un arbitraje forzoso. Cualquier convenio arbitral futuro deberá cumplir las exigencias legales de validez y protección al consumidor que correspondan.
+
+
+TÍTULO XXXIII
+NULIDAD PARCIAL, PRELACIÓN Y DISPOSICIONES INTERPRETATIVAS
+
+Artículo 185.- Nulidad o ineficacia parcial.
+Si una autoridad competente declara nula, abusiva, ilegal o inexigible una cláusula, la afectación se limitará, cuando jurídicamente sea posible, a la parte necesaria, manteniéndose vigentes las restantes disposiciones.
+
+Artículo 186.- Prelación normativa.
+En caso de conflicto prevalecerán: primero, las normas imperativas aplicables; segundo, las obligaciones vinculantes de la plataforma cuya utilización sea necesaria; tercero, las condiciones específicas válidamente aceptadas para una función; y luego estos Términos generales, según corresponda.
+
+Artículo 187.- No renuncia.
+La falta de ejercicio inmediato de una facultad no constituye necesariamente renuncia definitiva a ella. Una tolerancia excepcional no modifica por sí sola la regla general.
+
+Artículo 188.- Encabezados.
+Los títulos y encabezados tienen finalidad organizativa y no restringen el alcance de las disposiciones que contienen.
+
+Artículo 189.- Interpretación favorable a normas imperativas.
+Cuando existan varias interpretaciones posibles, se preferirá aquella que preserve la validez de la cláusula y respete derechos imperativos, sin transformar una disposición legítima en una exoneración absoluta prohibida.
+
+
+TÍTULO XXXIV
+DECLARACIONES ESPECÍFICAS SOBRE RESPONSABILIDAD POR ESTAFAS Y SEGURIDAD
+
+Artículo 190.- Declaración central de riesgo entre Usuarios.
+EL USUARIO RECONOCE QUE LA INTERACCIÓN CON OTRAS PERSONAS EN UN ENTORNO MULTIJUGADOR CONLLEVA RIESGOS DE ENGAÑO, SUPLANTACIÓN, ABUSO DE CONFIANZA Y PÉRDIDA DE ACTIVOS VIRTUALES. ARKA WOOD IMPLEMENTA MEDIDAS PREVENTIVAS, PERO NO PUEDE GARANTIZAR LA HONESTIDAD DE CADA PARTICIPANTE NI ELIMINAR TODO RIESGO HUMANO.
+
+Artículo 191.- Uso de protecciones.
+El Usuario deberá aprovechar sistemas de confirmación, verificación, bloqueo, autenticación, registros visibles, interfaces de comercio seguro y demás mecanismos de seguridad que ARKA WOOD ponga efectivamente a su disposición.
+
+Artículo 192.- Operaciones fuera de sistemas seguros.
+Si el Usuario decide voluntariamente transferir un activo mediante una vía no diseñada para comercio seguro, ignorar advertencias visibles o confiar en un tercero fuera de los mecanismos oficiales, ARKA WOOD podrá considerar tales circunstancias al determinar si existe posibilidad de soporte o restauración.
+
+Artículo 193.- No seguro ni fondo de garantía.
+La existencia de moderadores, logs, sistemas anti-robo o herramientas de restauración no crea un seguro, fondo de indemnización ni garantía de restitución universal frente a pérdidas ocasionadas por terceros.
+
+Artículo 194.- Reserva de responsabilidad propia.
+Las reglas anteriores no se aplicarán para excluir responsabilidad propia de ARKA WOOD cuando, conforme a la ley, se pruebe que el daño deriva causalmente de un incumplimiento imputable a ARKA WOOD que no pueda ser válidamente excluido.
+
+
+TÍTULO XXXV
+NORMAS ESPECIALES DEL SERVIDOR DE DISCORD
+
+Artículo 195.- Finalidad comunitaria.
+El servidor oficial de Discord funciona como espacio complementario para soporte, anuncios, conversación, organización de eventos, moderación y vinculación con el servidor de Minecraft.
+
+Artículo 196.- Canales y permisos.
+ARKA WOOD podrá crear, archivar, bloquear, limitar o reorganizar canales y roles. El acceso a un canal no constituye derecho adquirido perpetuo.
+
+Artículo 197.- Moderación de mensajes.
+Los mensajes podrán ser eliminados o restringidos cuando infrinjan estos Términos, las reglas específicas del canal o las Community Guidelines de Discord.
+
+Artículo 198.- Bots ajenos.
+No podrán añadirse bots, webhooks o integraciones de terceros al servidor oficial sin autorización de quienes tengan competencia administrativa.
+
+Artículo 199.- Automatización abusiva.
+Queda prohibido self-botting, automatización no autorizada, raid, mass mention, spam coordinado, creación automatizada de cuentas, evasión de verificación o abuso de webhooks.
+
+Artículo 200.- Invitaciones externas.
+ARKA WOOD podrá limitar invitaciones a otros servidores de Discord cuando constituyan publicidad no autorizada, captación abusiva o riesgo de seguridad.
+
+Artículo 201.- DMs entre Usuarios.
+Los mensajes directos entre Usuarios ocurren fuera del control directo del servidor de ARKA WOOD. No obstante, cuando un DM tenga relación suficiente con la comunidad y exista evidencia de acoso, estafa, amenaza, phishing o conducta grave, ARKA WOOD podrá considerar dicho comportamiento para medidas internas, sin asumir control general sobre las comunicaciones privadas de Discord.
+
+
+TÍTULO XXXVI
+NORMAS ESPECIALES DEL SERVIDOR DE MINECRAFT
+
+Artículo 202.- Reglas por modalidad.
+Cada modalidad podrá contar con reglas complementarias de juego, economía, construcción, PvP, equipos, clanes, chat o eventos. El Usuario deberá revisar las reglas razonablemente publicadas para la modalidad que utilice.
+
+Artículo 203.- Construcciones y nombres.
+ARKA WOOD podrá retirar construcciones, skins, nombres, etiquetas, libros, carteles o contenido que vulnere reglas de convivencia, propiedad intelectual, seguridad o legislación aplicable.
+
+Artículo 204.- Griefing y sabotaje.
+El griefing, destrucción, saqueo o sabotaje se sancionará según las reglas de la modalidad. Cuando una modalidad permita expresamente determinadas formas de PvP o saqueo, no se considerarán infracción por ese solo hecho.
+
+Artículo 205.- Equipos y clanes.
+Los líderes de clanes, equipos, islas, parcelas u organizaciones virtuales administran permisos internos bajo su responsabilidad. ARKA WOOD no garantiza la restitución por decisiones legítimamente ejecutadas por quienes tenían permisos concedidos por el propio grupo, salvo reglas específicas en contrario.
+
+Artículo 206.- Contenido técnico del mundo.
+ARKA WOOD podrá eliminar entidades, chunks, granjas, mecanismos, redstone, máquinas o estructuras que causen lag, exploten bugs, afecten estabilidad o infrinjan límites técnicos razonablemente publicados.
+
+Artículo 207.- Acceso a recursos del cliente.
+ARKA WOOD no obtiene por el mero acceso al servidor autorización ilimitada para inspeccionar el dispositivo personal del Usuario. Las verificaciones de seguridad deberán realizarse por medios compatibles con la ley, la plataforma y la privacidad. No se exigirá control remoto irrestricto como condición ordinaria de juego.
+
+
+TÍTULO XXXVII
+PROHIBICIÓN DE ACTIVIDADES ILEGALES Y ABUSOS DE LA NETWORK
+
+Artículo 208.- Finalidad ilícita.
+Queda prohibido utilizar ARKA WOOD como medio para coordinar delitos, distribuir malware, cometer fraude, comercializar credenciales robadas, extorsionar, amenazar o facilitar otras conductas ilegales.
+
+Artículo 209.- Phishing.
+Está prohibido crear o distribuir páginas, formularios o mensajes diseñados para hacerse pasar por ARKA WOOD, Microsoft, Minecraft, Discord u otra entidad con el objetivo de obtener credenciales o información sensible.
+
+Artículo 210.- Suplantación.
+La suplantación de Usuarios, staff, terceros o entidades podrá ser sancionada y, dependiendo de los hechos, resultar jurídicamente relevante bajo el artículo 9 de la Ley N.° 30096 u otras normas aplicables.
+
+Artículo 211.- Fraude informático.
+La manipulación de sistemas, datos o procesos tecnológicos destinada a obtener un provecho ilícito en perjuicio de tercero podrá, según los hechos, ser relevante bajo el artículo 8 de la Ley N.° 30096, sin perjuicio de otras figuras penales.
+
+Artículo 212.- Reserva de calificación jurídica.
+La referencia a una norma penal no significa que ARKA WOOD tenga competencia para determinar responsabilidad penal. Las autoridades competentes decidirán la tipificación y responsabilidad conforme al debido proceso.
+
+
+TÍTULO XXXVIII
+COMUNICACIONES COMERCIALES, ANUNCIOS Y CONSENTIMIENTO
+
+Artículo 213.- Diferenciación funcional/comercial.
+ARKA WOOD diferenciará las comunicaciones necesarias para la prestación, seguridad o administración del servicio de aquellas cuya finalidad principal sea promover comercialmente productos o servicios.
+
+Artículo 214.- Consentimiento para publicidad electrónica.
+Cuando la legislación peruana sea aplicable, las comunicaciones electrónicas masivas de naturaleza promocional se ajustarán al artículo 58 del Código de Protección y Defensa del Consumidor en su versión modificada por la Ley N.° 32323. ARKA WOOD no utilizará el mero silencio ni la sola permanencia en el servidor como sustituto del consentimiento expreso que dicha norma exija.
+
+Artículo 215.- Revocación.
+El consentimiento para comunicaciones comerciales podrá revocarse conforme a la normativa aplicable. ARKA WOOD deberá proporcionar mecanismos razonables para dejar de recibir comunicaciones promocionales cuando exista dicho derecho.
+
+Artículo 216.- Anuncios dentro del servicio.
+La publicación de anuncios generales en canales expresamente destinados a novedades o información de la Network se regirá por las reglas de la plataforma y la legislación aplicable. La mera existencia de un canal de anuncios no autoriza el envío de publicidad directa a cada Usuario fuera de las reglas aplicables.
+
+
+TÍTULO XXXIX
+REGLAS SOBRE REPORTES, PRUEBAS Y FALSIFICACIÓN
+
+Artículo 217.- Reportes de buena fe.
+Los sistemas de reporte deberán utilizarse de buena fe. Un reporte erróneo no será sancionado por el solo hecho de no prosperar, siempre que no exista falsedad deliberada o abuso sistemático.
+
+Artículo 218.- Falsificación de evidencia.
+Queda prohibido alterar capturas, logs, videos, identificadores, comprobantes, timestamps o cualquier evidencia con la finalidad de incriminar a otro Usuario, obtener beneficios o engañar al staff.
+
+Artículo 219.- Evidencia contextual.
+Una captura aislada podrá resultar insuficiente. ARKA WOOD podrá valorar contexto, logs propios, secuencias, metadatos disponibles, coherencia temporal y demás elementos razonablemente pertinentes.
+
+Artículo 220.- Protección de denunciantes.
+ARKA WOOD procurará no divulgar innecesariamente la identidad de quien reporta una infracción grave cuando ello pueda incrementar el riesgo de represalias, sin garantizar anonimato absoluto frente a requerimientos legales o necesidades de defensa.
+
+
+TÍTULO XL
+RESPONSABILIDAD DEL USUARIO Y DEBER DE INDEMNIDAD LIMITADA
+
+Artículo 221.- Responsabilidad por actos propios.
+Cada Usuario responde por sus propios actos conforme a la ley y por el uso que haga de sus cuentas, sin perjuicio de poder demostrar compromiso o acceso no autorizado.
+
+Artículo 222.- Daños a ARKA WOOD.
+Si un Usuario causa dolosa o culposamente daños verificables a ARKA WOOD mediante fraude, ataques, destrucción de infraestructura, apropiación de activos o conducta ilícita, ARKA WOOD podrá ejercer las acciones legales que correspondan para obtener reparación.
+
+Artículo 223.- Sin indemnidad abusiva.
+No se establece mediante estos Términos una obligación genérica e ilimitada del consumidor de mantener indemne a ARKA WOOD por cualquier hecho, pues una cláusula de esa naturaleza podría resultar desproporcionada o abusiva. Cualquier pretensión resarcitoria deberá sustentarse en los presupuestos legales aplicables y en un daño causalmente atribuible.
+
+
+TÍTULO XLI
+SITUACIONES DE EMERGENCIA, SEGURIDAD Y PRESERVACIÓN DE EVIDENCIA
+
+Artículo 224.- Incidente de seguridad.
+Ante un incidente grave, ARKA WOOD podrá limitar temporalmente accesos, bloquear transacciones, congelar sistemas, revocar sesiones y preservar logs para contener daños y facilitar investigación.
+
+Artículo 225.- Minimización.
+Las medidas de emergencia deberán ser razonablemente proporcionales al riesgo y retirarse o ajustarse cuando la causa que las justificó desaparezca.
+
+Artículo 226.- Notificación.
+Cuando exista una obligación legal de notificar una brecha de seguridad o incidente de datos personales, ARKA WOOD deberá cumplir los plazos, contenidos y canales previstos por la normativa vigente, cuestión que deberá detallarse en la Política de Privacidad y plan interno de respuesta.
+
+
+TÍTULO XLII
+REGLAS SOBRE DOMINIOS, SITIOS Y REPRESENTACIÓN OFICIAL
+
+Artículo 227.- Dominios oficiales.
+Los únicos sitios oficiales serán los publicados en esta pagina y/o DISCORD. ARKA WOOD no responderá por páginas de phishing o imitaciones creadas por terceros cuando no exista una conducta propia imputable, aunque podrá colaborar en su denuncia o retirada.
+
+Artículo 228.- Verificación de enlaces.
+El Usuario deberá revisar cuidadosamente dominios, nombres de bot, etiquetas de Discord y certificados antes de introducir credenciales o efectuar acciones sensibles.
+
+Artículo 229.- Comunicados institucionales.
+Las declaraciones oficiales sobre seguridad, cambios críticos o incidentes podrán publicarse por esta pagina y/o DISCORD. Rumores o mensajes de Usuarios no sustituyen comunicaciones institucionales verificadas.
+
+
+TÍTULO XLIII
+REGLAS SOBRE SANCIONES ECONÓMICAS VIRTUALES Y BIENES OBTENIDOS ILÍCITAMENTE
+
+Artículo 230.- Retirada de ganancias ilícitas.
+ARKA WOOD podrá retirar objetos, monedas, estadísticas o beneficios obtenidos mediante exploit, fraude, duplicación, boosting, evasión o transacciones vinculadas con activos ilícitamente generados.
+
+Artículo 231.- Terceros de buena fe.
+Cuando un activo ilícito haya pasado a un tercero de buena fe, ARKA WOOD podrá evaluar proporcionalidad, trazabilidad y equilibrio económico antes de ejecutar una reversión. No se garantiza que el tercero conserve el activo si su mantenimiento compromete gravemente la integridad del servidor.
+
+Artículo 232.- No equivalencia con multa estatal.
+Las retiradas de bienes virtuales constituyen medidas internas de administración del servicio y no son multas estatales, sanciones penales ni decisiones jurisdiccionales.
+
+
+TÍTULO XLIV
+TRANSPARENCIA DE REGLAS Y CAMBIOS DE MODERACIÓN
+
+Artículo 233.- Publicación de reglas complementarias.
+ARKA WOOD podrá mantener reglas resumidas, matrices de sanciones, guías, FAQs o anuncios que desarrollen estos Términos. Dichos materiales deberán interpretarse coherentemente con este documento y con las normas superiores aplicables.
+
+Artículo 234.- Actualización operativa.
+Los parámetros técnicos de antispam, límites de chat, tiempos de cooldown, listas de modificaciones y detalles equivalentes podrán modificarse sin reforma completa de estos Términos cuando no alteren sustancialmente la posición jurídica del Usuario.
+
+Artículo 235.- Cambios sustanciales.
+Las modificaciones que amplíen significativamente categorías de datos tratados, facultades contractuales, comunicaciones comerciales o limitaciones relevantes deberán seguir el procedimiento de actualización apropiado y, cuando la ley exija consentimiento expreso, no podrán imponerse solo por silencio.
+
+
+TÍTULO XLV
+RECONOCIMIENTO DE RIESGOS TÉCNICOS
+
+Artículo 236.- Bugs.
+El Usuario reconoce que el software complejo puede contener errores y que ARKA WOOD no puede garantizar ausencia absoluta de bugs. La Network deberá, no obstante, actuar con diligencia razonable frente a defectos que conozca y que afecten significativamente seguridad o funcionamiento.
+
+Artículo 237.- Compatibilidad.
+Cambios de Minecraft, Java, Discord, APIs, sistemas operativos o proveedores pueden generar incompatibilidades temporales. ARKA WOOD podrá necesitar adaptar sus sistemas antes de restaurar determinadas funciones.
+
+Artículo 238.- Conectividad del Usuario.
+ARKA WOOD no controla la conexión de Internet, hardware, red local, ISP, firewall o configuración particular del Usuario. Los problemas exclusivamente originados en dichos elementos no serán imputables a ARKA WOOD.
+
+Artículo 239.- Latencia.
+El ping, latencia o pérdida de paquetes depende de múltiples factores. La existencia de latencia no prueba por sí sola incumplimiento de ARKA WOOD.
+
+
+TÍTULO XLVI
+REGLAS SOBRE COLABORACIONES, CREADORES Y CONTENIDO PATROCINADO
+
+Artículo 240.- Programas específicos.
+Creadores, socios comunitarios, afiliados o colaboradores podrán estar sujetos a términos específicos adicionales.
+
+Artículo 241.- Divulgación de relación.
+Cuando las Minecraft Usage Guidelines, legislación publicitaria o políticas de plataforma exijan revelar una relación comercial o beneficio, el creador deberá realizar una divulgación clara y suficiente.
+
+Artículo 242.- No representación automática.
+La colaboración con ARKA WOOD no convierte a un creador en representante legal ni autoriza compromisos en nombre de la Network salvo mandato expreso.
+
+
+TÍTULO XLVII
+PROTECCIÓN DE LA NETWORK FRENTE A AMENAZAS Y EXTORSIÓN
+
+Artículo 243.- Amenazas de ataque.
+Las amenazas creíbles de DDoS, filtración, destrucción de datos, ataque a infraestructura, doxxing, extorsión o sabotaje podrán justificar medidas preventivas inmediatas, preservación de evidencia y comunicación a proveedores o autoridades.
+
+Artículo 244.- Extorsión mediante vulnerabilidades.
+Reportar una vulnerabilidad de buena fe es legítimo; amenazar con explotarla o divulgar datos salvo pago, beneficio, rango o ventaja podrá ser tratado como conducta maliciosa y denunciado cuando corresponda.
+
+Artículo 245.- Preservación de logs.
+ARKA WOOD podrá preservar logs pertinentes a amenazas o incidentes durante el período jurídicamente necesario, con sujeción a la Política de Privacidad.
+
+
+TÍTULO XLVIII
+MECANISMOS DE CONTACTO SEGURO Y ANTISUPLANTACIÓN
+
+Artículo 246.- Identidad del soporte.
+ARKA WOOD deberá publicar criterios para identificar cuentas, bots y canales oficiales. Los Usuarios deberán desconfiar de contactos que soliciten secretos, pagos o acceso remoto fuera de los mecanismos oficiales.
+
+Artículo 247.- Pagos y soporte.
+El personal de moderación no deberá solicitar transferencias privadas a cuentas personales como condición para retirar sanciones, recuperar cuentas o resolver tickets, salvo que exista un proceso comercial oficial documentado en los Términos de Compra.
+
+Artículo 248.- Denuncia de impersonación.
+Las cuentas que se hagan pasar por ARKA WOOD podrán ser reportadas a https://discord.gg/HxEbRcQD7 y, cuando corresponda, a Discord, Microsoft, registradores o autoridades.
+
+
+TÍTULO XLIX
+VIGENCIA, INTEGRIDAD Y CIERRE DOCUMENTAL
+
+Artículo 249.- Vigencia.
+Estos Términos entrarán en vigor en 07/08/2026 y permanecerán vigentes hasta su modificación o sustitución.
+
+Artículo 250.- Integridad.
+Estos Términos, junto con las reglas complementarias válidamente publicadas y los documentos separados aplicables a materias específicas, conforman el marco regulatorio interno de uso de ARKA WOOD.
+
+Artículo 251.- Datos pendientes.
+Antes de su publicación deberán completarse todos los campos esenciales entre corchetes y eliminarse las notas internas que no deban formar parte de la versión pública.
+
+Artículo 252.- Revisión profesional obligatoria.
+LA PUBLICACIÓN DEFINITIVA DE ESTE DOCUMENTO DEBERÁ SER PRECEDIDA POR REVISIÓN Y APROBACIÓN DE UN ABOGADO COLEGIADO Y HABILITADO EN EL PERÚ, especialmente para validar las cláusulas de aceptación tácita, responsabilidad, menores, comunicaciones electrónicas, tratamiento de datos, relaciones de consumo, moderación, jurisdicción y cualquier normativa emitida después de la fecha de esta minuta.
+
+
+ANEXO I
+DECLARACIONES QUE DEBERÍAN MOSTRARSE DE FORMA VISIBLE EN LA NETWORK
+
+1. AVISO DE ACEPTACIÓN POR USO
+“Al ingresar o continuar utilizando ARKA WOOD después de haber tenido acceso a nuestros Términos y Condiciones de la Network, aceptas las reglas aplicables a su uso. Cuando la ley requiera consentimiento expreso para una materia concreta, te lo solicitaremos por separado.”
+
+2. AVISO DE NO AFILIACIÓN CON MINECRAFT
+“ARKA WOOD NO ES UN SERVICIO OFICIAL DE MINECRAFT. NO ESTÁ APROBADO NI ASOCIADO CON MOJANG O MICROSOFT.”
+
+3. AVISO DE SEGURIDAD
+“Ningún miembro legítimo del staff necesita tu contraseña completa, token de Discord ni código 2FA. Usa únicamente canales oficiales y las herramientas de seguridad disponibles.”
+
+4. AVISO DE INTERCAMBIOS
+“ARKA WOOD no garantiza acuerdos privados entre jugadores. Usa sistemas oficiales de intercambio y verifica siempre destinatario, cantidad y objeto antes de confirmar.”
+
+5. AVISO DEL BOT
+“El Bot puede enviarte mensajes funcionales relacionados con comandos, verificación, seguridad, tickets o administración cuando cuente con el permiso aplicable. El uso del Bot no constituye consentimiento general para publicidad por DM.”
+
+
+ANEXO II
+MATRIZ NORMATIVA BÁSICA PARA REVISIÓN DEL ABOGADO
+
+A. CÓDIGO CIVIL — DECRETO LEGISLATIVO N.° 295
+- Artículo 141: manifestación expresa y tácita de voluntad.
+- Artículo 1314: diligencia ordinaria.
+- Artículo 1315: caso fortuito o fuerza mayor.
+- Artículo 1328: nulidad de estipulaciones de exoneración o limitación por dolo o culpa inexcusable en los supuestos previstos por la ley.
+- Artículo 1361: fuerza obligatoria de lo expresado contractualmente.
+- Artículo 1362: buena fe en negociación, celebración y ejecución contractual.
+- Artículo 1969: responsabilidad por daño causado por dolo o culpa.
+
+B. CÓDIGO DE PROTECCIÓN Y DEFENSA DEL CONSUMIDOR — LEY N.° 29571
+Aplicable cuando exista jurídicamente una relación de consumo.
+- Artículo 47: protección mínima en contratos de consumo y reglas de contratación a distancia/electrónica.
+- Artículo 49: definición de cláusulas abusivas.
+- Artículo 50: cláusulas abusivas de ineficacia absoluta.
+- Artículo 56: métodos comerciales coercitivos.
+- Artículo 58: métodos comerciales agresivos o engañosos y régimen de comunicaciones comerciales, conforme a sus modificatorias.
+
+C. LEY N.° 32323
+Modificó en 2025 el régimen peruano de comunicaciones comerciales electrónicas, reforzando el consentimiento previo, libre, informado, expreso e inequívoco para determinadas comunicaciones destinadas a promover productos y servicios.
+
+D. LEY DE PROTECCIÓN DE DATOS PERSONALES — LEY N.° 29733
+- Artículo 13: reglas sobre consentimiento y tratamiento.
+- Artículo 17: deber de confidencialidad.
+- Artículo 18: derecho/deber de información.
+- Artículo 28: obligaciones del titular y encargado del banco de datos personales, según corresponda.
+Reglamento vigente aprobado por Decreto Supremo N.° 016-2024-JUS, en vigor desde el 31 de marzo de 2025.
+
+E. LEY DE DELITOS INFORMÁTICOS — LEY N.° 30096, CON SUS MODIFICATORIAS
+- Artículo 2: acceso ilícito.
+- Artículos 3 y 4: integridad de datos y sistemas.
+- Artículo 8: fraude informático.
+- Artículo 9: suplantación de identidad.
+- Artículo 10: abuso de mecanismos y dispositivos informáticos.
+- Artículo 12: reglas vinculadas con investigación de seguridad debidamente autorizada.
+- Artículo 12-A y modificaciones vigentes: revisar texto actualizado al momento de publicación.
+
+F. CÓDIGO PENAL — DECRETO LEGISLATIVO N.° 635
+- Artículo 196: estafa, aplicable cuando concurran los elementos típicos exigidos por la norma.
+
+
+
+
+ANEXO III
+NOTAS CRÍTICAS PARA LA REVISIÓN PREPUBLICACIÓN
+
+1. ACEPTACIÓN TÁCITA.
+La cláusula ha sido redactada para que el ingreso y uso constituyan manifestación tácita de voluntad conforme al artículo 141 del Código Civil, siempre que el documento esté razonablemente disponible. El abogado deberá revisar la interfaz concreta de ingreso para determinar si conviene añadir un aviso visible, comando /terms, mensaje de bienvenida o aceptación expresa en determinadas funciones.
+
+2. BOT Y MENSAJES DIRECTOS.
+No debe sustituirse el régimen actual por una cláusula que diga simplemente “usar el bot autoriza cualquier DM masivo”. Discord prohíbe contactos sin permiso explícito y restringe mensajes no relacionados con la funcionalidad de la aplicación. Además, la legislación peruana exige consentimiento reforzado para determinadas comunicaciones comerciales. Debe diferenciarse estrictamente comunicación funcional de publicidad.
+
+3. ROBOS Y ESTAFAS.
+La exoneración ha sido formulada respecto de hechos atribuibles a otros Usuarios o terceros, pero conserva responsabilidad propia cuando jurídicamente corresponda. Una exoneración absoluta por “todo lo que ocurra” podría resultar inválida bajo el artículo 1328 del Código Civil y, en una relación de consumo, bajo los artículos 49 y 50 de la Ley N.° 29571.
+
+4. MEDIDAS ANTI-ROBO.
+Antes de publicar, revisar qué sistemas existen realmente en producción. Si ARKA WOOD no cuenta con una medida concreta mencionada a modo de ejemplo, mantener la redacción condicional “podrá comprender” o eliminar la referencia específica para evitar generar una garantía inexistente.
+
+5. PRIVACIDAD.
+Este documento NO reemplaza la Política de Privacidad. Antes del lanzamiento público, el mapa real de datos, proveedores, transferencias internacionales, retención, derechos ARCO y bancos de datos deberá documentarse separadamente conforme a la Ley N.° 29733 y el Decreto Supremo N.° 016-2024-JUS.
+
+6. MENORES.
+Revisar edad mínima efectiva, flujo de consentimiento y condiciones específicas de Minecraft/Microsoft y Discord vigentes en la fecha de publicación.
+
+7. ACTUALIZACIÓN DE PLATAFORMAS.
+El EULA, Minecraft Usage Guidelines, Discord Terms, Community Guidelines y Developer Policy pueden cambiar. Deben comprobarse nuevamente justo antes de publicación.
+
+8. NO HAY “VACÍOS CERO”.
+Ningún documento contractual puede eliminar por completo toda contingencia legal, técnica o fáctica. La finalidad de esta minuta es cubrir de manera extensa los riesgos previsibles y establecer reglas coherentes, sin pretender sustituir el análisis jurídico de hechos futuros ni cláusulas imperativas.

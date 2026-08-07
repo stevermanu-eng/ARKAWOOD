@@ -15,7 +15,7 @@ export async function onRequestGet(context) {
 
   if (!requiredAuthConfig(env)) {
     const requested = safeReturnPath(current.searchParams.get('return'));
-    const access = requested.includes('builders') ? '/acceso-builders.html' : requested.includes('marketing') ? '/acceso-marketing.html' : '/acceso-moderacion.html';
+    const access = requested.includes('/wiki/auditoria-staff') ? '/wiki/auditoria-staff-acceso.html' : requested.includes('builders') ? '/acceso-builders.html' : requested.includes('marketing') ? '/acceso-marketing.html' : '/acceso-moderacion.html';
     return Response.redirect(new URL(`${access}?error=configuration`, current.origin).toString(), 302);
   }
 

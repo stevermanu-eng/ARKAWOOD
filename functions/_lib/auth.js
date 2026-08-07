@@ -2,6 +2,7 @@ const encoder = new TextEncoder();
 
 export const DEFAULT_DISCORD_CLIENT_ID = '1532912146604621924';
 export const DEFAULT_DISCORD_GUILD_ID = '1526622720123736295';
+export const DEFAULT_STAFF_AUDIT_ROLE_ID = '1531538149967396964';
 export const SESSION_COOKIE = 'arka_session';
 export const OAUTH_STATE_COOKIE = 'arka_oauth_state';
 export const OAUTH_RETURN_COOKIE = 'arka_oauth_return';
@@ -82,6 +83,8 @@ export async function createSessionToken(session, secret) {
     displayName: String(session.displayName || session.username || ''),
     avatar: session.avatar || null,
     member: Boolean(session.member),
+    auditStaff: Boolean(session.auditStaff),
+    roleCheckedAt: session.roleCheckedAt || null,
     startedAt: session.startedAt || null,
     iat: now,
     exp: now + SESSION_TTL_SECONDS
@@ -141,6 +144,7 @@ export function authConfig(env) {
     clientId: env.DISCORD_CLIENT_ID || DEFAULT_DISCORD_CLIENT_ID,
     clientSecret: env.DISCORD_CLIENT_SECRET || '',
     guildId: env.DISCORD_GUILD_ID || DEFAULT_DISCORD_GUILD_ID,
+    staffAuditRoleId: env.DISCORD_STAFF_AUDIT_ROLE_ID || DEFAULT_STAFF_AUDIT_ROLE_ID,
     sessionSecret: env.SESSION_SECRET || ''
   };
 }

@@ -19,4 +19,5 @@ for (const entry of files) {
 }
 
 await cp(join(root, 'assets'), join(dist, 'assets'), { recursive: true });
+await cp(join(root, 'wiki'), join(dist, 'wiki'), { recursive: true });
 console.log('Cloudflare Pages build listo en dist/.');

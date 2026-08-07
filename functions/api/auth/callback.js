@@ -24,6 +24,7 @@ function redirectWithCookies(target, requestUrl, cookies = []) {
 
 function accessPathFromReturn(returnPath) {
   const safe = safeReturnPath(returnPath);
+  if (safe.includes('/wiki/auditoria-staff')) return '/wiki/auditoria-staff-acceso.html';
   if (safe.includes('builders')) return '/acceso-builders.html';
   if (safe.includes('marketing')) return '/acceso-marketing.html';
   return '/acceso-moderacion.html';
@@ -83,6 +84,7 @@ export async function onRequestGet(context) {
 
   let user;
   let isMember = false;
+  let auditStaff = false;
   try {
     const [userResponse, memberResponse] = await Promise.all([
       fetch(`${API}/users/@me`, { headers: authHeaders }),
@@ -94,6 +96,9 @@ export async function onRequestGet(context) {
 
     if (memberResponse.ok) {
       isMember = true;
+      const guildMember = await memberResponse.json();
+      const roles = Array.isArray(guildMember?.roles) ? guildMember.roles.map(String) : [];
+      auditStaff = roles.includes(String(config.staffAuditRoleId));
     } else if (memberResponse.status === 404) {
       isMember = false;
     } else {
@@ -116,6 +121,8 @@ export async function onRequestGet(context) {
     displayName: user.global_name || user.username,
     avatar: user.avatar || null,
     member: isMember,
+    auditStaff,
+    roleCheckedAt: isMember ? new Date().toISOString() : null,
     startedAt
   }, env.SESSION_SECRET);
 

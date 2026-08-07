@@ -7,6 +7,7 @@ export async function onRequestGet(context) {
   return json({
     authenticated: true,
     member: Boolean(session.member),
+    staffAuditAccess: Boolean(session.auditStaff),
     user: {
       id: session.sub,
       username: session.username,

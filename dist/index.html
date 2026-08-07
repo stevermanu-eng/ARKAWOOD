@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#080706" />
+  <link rel="icon" type="image/png" href="assets/arka-wood-favicon.png" />
+  <title>ARKA WOOD</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="embers" id="embers" aria-hidden="true"></div>
+
+  <header class="topbar" id="topbar">
+    <div class="topbar__inner">
+      <a class="topbar__brand" href="index.html#home" aria-label="ARKA WOOD — Inicio"><img src="assets/arka-wood-header-logo.webp" alt="ARKA WOOD" width="256" height="256" decoding="async" /></a>
+      <nav class="nav" aria-label="Navegación principal">
+        <a class="nav__item nav__item--active" href="index.html#home">HOME</a>
+        <button class="nav__item dummy" type="button">FOROS</button>
+        <a class="nav__item" href="wiki/">WIKI</a>
+        <button class="nav__item dummy" type="button">MIEMBROS</button>
+        <button class="nav__item dummy" type="button">SANCIONES</button>
+        <button class="nav__item dummy" type="button">TIENDA</button>
+        <a class="nav__item" href="/support">SOPORTE</a>
+        <a class="nav__item nav__item--application" href="postulaciones.html">POSTULACIONES</a>
+      </nav>
+      <button class="profile" id="homeProfile" type="button" aria-label="Perfil de usuario" title="Perfil"><span id="homeProfileFallback">♜</span><img id="homeProfileAvatar" alt="" hidden /></button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero__sky" aria-hidden="true"></div>
+      <div class="hero__lightning-field" id="heroLightning" aria-hidden="true"></div>
+      <div class="fortress fortress--left" aria-hidden="true"></div>
+      <div class="fortress fortress--right" aria-hidden="true"></div>
+      <div class="portal portal--left" aria-hidden="true"><span></span></div>
+      <div class="portal portal--right" aria-hidden="true"><span></span></div>
+      <div class="hero__vignette" aria-hidden="true"></div>
+
+      <div class="hero__content">
+        <div class="eyebrow"><span></span> EL REINO AGUARDA <span></span></div>
+        <div class="project-badge"><i></i><span>PROYECTO EN CONSTRUCCIÓN</span><small>DESARROLLO ACTIVO</small></div>
+        <div class="hero__logo-wrap">
+          <div class="hero__halo"></div>
+          <img src="assets/arka-wood-logo.webp" alt="ARKA WOOD" class="hero__logo" width="768" height="768" fetchpriority="high" decoding="async" />
+        </div>
+        <div class="hero__copy">
+          <h1>FORJA TU NOMBRE EN <strong>ARKA WOOD</strong></h1>
+          <p>Estamos construyendo un nuevo reino de aventura, competencia y comunidad alrededor de Minecraft. ARKA WOOD sigue en desarrollo y cada sistema, modalidad y espacio del servidor se está forjando para su futura apertura.</p>
+        </div>
+        <div class="hero__actions">
+          <button class="btn btn--gold dummy" type="button"><span>EXPLORAR EL REINO</span></button>
+          <a class="btn btn--ghost" href="https://discord.gg/HxEbRcQD7" target="_blank" rel="noopener"><span>DISCORD</span></a>
+        </div>
+        <div class="hero__server-strip">
+          <div><small>ESTADO</small><b>EN CONSTRUCCIÓN</b></div><i></i>
+          <div><small>FASE</small><b>DESARROLLO INTERNO</b></div><i></i>
+          <div><small>APERTURA</small><b>PRÓXIMAMENTE</b></div>
+        </div>
+      </div>
+      <div class="scroll-mark" aria-hidden="true"><span></span></div>
+    </section>
+
+    <section class="section showcase-section reveal">
+      <div class="section__heading">
+        <p class="section__kicker">DESCUBRE ARKA WOOD</p>
+        <h2>UN REINO, MÚLTIPLES AVENTURAS</h2>
+        <span class="ornament">◆</span>
+        <p>Conoce algunas de las experiencias que forman parte del universo de ARKA WOOD.</p>
+      </div>
+
+      <div class="showcase-frame" id="showcaseCarousel">
+        <div class="showcase-slide is-active" aria-hidden="false">
+          <img src="assets/bedwars.webp" alt="Modalidad BedWars de ARKA WOOD" width="1280" height="853" loading="lazy" decoding="async" />
+          <div class="showcase-slide__shade"></div>
+          <div class="showcase-slide__meta"><small>MODALIDAD</small><strong>BEDWARS</strong><span>DEFENDE · PROTEGE · DESTRUYE</span></div>
+        </div>
+        <div class="showcase-slide" aria-hidden="true">
+          <img src="assets/survival.webp" alt="Modalidad Survival de ARKA WOOD" width="1280" height="720" loading="lazy" decoding="async" />
+          <div class="showcase-slide__shade"></div>
+          <div class="showcase-slide__meta"><small>MODALIDAD</small><strong>SURVIVAL</strong><span>EXPLORA · PROGRESA · CONSTRUYE</span></div>
+        </div>
+        <div class="showcase-slide" aria-hidden="true">
+          <img src="assets/kitpvp.webp" alt="Modalidad KitPvP de ARKA WOOD" width="1280" height="720" loading="lazy" decoding="async" />
+          <div class="showcase-slide__shade"></div>
+          <div class="showcase-slide__meta"><small>MODALIDAD</small><strong>KITPVP</strong><span>COMBATE · ESTRATEGIA · PRESTIGIO</span></div>
+        </div>
+        <button class="carousel-arrow carousel-arrow--prev" type="button" aria-label="Imagen anterior">‹</button>
+        <button class="carousel-arrow carousel-arrow--next" type="button" aria-label="Imagen siguiente">›</button>
+        <div class="carousel-ui">
+          <div class="carousel-dots" aria-label="Seleccionar imagen">
+            <button class="carousel-dot is-active" type="button" aria-label="BedWars" aria-current="true"></button>
+            <button class="carousel-dot" type="button" aria-label="Survival"></button>
+            <button class="carousel-dot" type="button" aria-label="KitPvP"></button>
+          </div>
+          <div class="carousel-progress"><span></span></div>
+          <div class="carousel-counter"><b id="carouselCurrent">01</b><span>/ 03</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section modalities-section reveal">
+      <div class="section__heading section__heading--left">
+        <p class="section__kicker">ELIGE TU CAMINO</p>
+        <h2>MODALIDADES</h2>
+        <p>Cada modalidad ofrece una forma distinta de vivir ARKA WOOD.</p>
+      </div>
+      <div class="modalities-grid">
+        <article class="modality-card interactive-card">
+          <img src="assets/survival.webp" alt="Survival" width="1280" height="720" loading="lazy" decoding="async" />
+          <div class="modality-card__overlay"></div>
+          <div class="modality-card__content"><small>MUNDO ABIERTO</small><h3>SURVIVAL</h3><p>En desarrollo: progresión, mundo y sistemas se encuentran en construcción.</p><button class="mini-btn dummy" type="button">DESCUBRIR</button></div>
+        </article>
+        <article class="modality-card interactive-card">
+          <img src="assets/kitpvp.webp" alt="KitPvP" width="1280" height="720" loading="lazy" decoding="async" />
+          <div class="modality-card__overlay"></div>
+          <div class="modality-card__content"><small>COMBATE</small><h3>KITPVP</h3><p>En desarrollo: kits, combate, balance y clasificación están siendo preparados.</p><button class="mini-btn dummy" type="button">DESCUBRIR</button></div>
+        </article>
+        <article class="modality-card interactive-card">
+          <img src="assets/bedwars.webp" alt="BedWars" width="1280" height="853" loading="lazy" decoding="async" />
+          <div class="modality-card__overlay"></div>
+          <div class="modality-card__content"><small>EQUIPOS</small><h3>BEDWARS</h3><p>En desarrollo: mapas, mecánicas y ritmo competitivo están en fase de diseño.</p><button class="mini-btn dummy" type="button">DESCUBRIR</button></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="realm-strip reveal">
+      <div class="realm-strip__inner">
+        <div class="realm-strip__brand"><img src="assets/arka-wood-logo.webp" alt="" width="768" height="768" loading="lazy" decoding="async" /><div><small>ARKA WOOD NETWORK</small><strong>PROYECTO EN CONSTRUCCIÓN</strong></div></div>
+        <div class="realm-strip__data"><div><small>IP</small><b>EN PREPARACIÓN</b></div><div><small>VERSIÓN</small><b>POR DEFINIR</b></div><div><small>ESTADO</small><b>DESARROLLO ACTIVO</b></div></div>
+        <a class="realm-strip__discord discord-link" href="https://discord.gg/HxEbRcQD7" target="_blank" rel="noopener" aria-label="Discord">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19.5 5.3A17 17 0 0 0 15.4 4l-.5 1.1a15 15 0 0 0-5.8 0L8.6 4a17 17 0 0 0-4.1 1.3C1.9 9.2 1.2 13 1.5 16.8a17 17 0 0 0 5 2.5l1.2-1.7c-.7-.3-1.4-.7-2-1.2l.5-.4c3.8 1.8 7.8 1.8 11.6 0l.5.4c-.6.5-1.3.9-2 1.2l1.2 1.7a17 17 0 0 0 5-2.5c.4-4.4-.8-8.1-3-11.5ZM8.5 14.5c-1.2 0-2.1-1.1-2.1-2.5s.9-2.5 2.1-2.5 2.1 1.1 2.1 2.5-.9 2.5-2.1 2.5Zm7 0c-1.2 0-2.1-1.1-2.1-2.5s.9-2.5 2.1-2.5 2.1 1.1 2.1 2.5-.9 2.5-2.1 2.5Z"/></svg>
+        </a>
+      </div>
+    </section>
+
+    <section class="section pillars-section reveal">
+      <div class="section__heading">
+        <p class="section__kicker">MÁS QUE UN SERVIDOR</p>
+        <h2>VIVE ARKA WOOD</h2>
+        <span class="ornament">◆</span>
+      </div>
+      <div class="pillars-grid">
+        <article class="pillar-card interactive-card"><span class="pillar-card__icon">⚔</span><small>COMPITE</small><h3>SUPERA TUS LÍMITES</h3><p>Enfréntate a nuevos retos y demuestra de qué eres capaz dentro del reino.</p></article>
+        <article class="pillar-card interactive-card"><span class="pillar-card__icon">♜</span><small>CONSTRUYE</small><h3>DEJA TU HUELLA</h3><p>Crea, progresa y convierte cada aventura en una historia que valga la pena recordar.</p></article>
+        <article class="pillar-card interactive-card"><span class="pillar-card__icon">✦</span><small>COMUNIDAD</small><h3>FORMA PARTE DEL REINO</h3><p>Conoce jugadores, participa en la comunidad y crece junto a ARKA WOOD.</p></article>
+      </div>
+    </section>
+
+    <section class="cta-section reveal">
+      <div class="cta-section__glow"></div>
+      <img class="cta-section__logo" src="assets/arka-wood-logo.webp" alt="ARKA WOOD" width="768" height="768" loading="lazy" decoding="async" />
+      <div class="cta-section__copy"><small>¿QUIERES CONSTRUIR EL REINO CON NOSOTROS?</small><h2>POSTULACIONES DE STAFF</h2><span>ARKA WOOD aún está en construcción. Conoce las áreas disponibles y descubre dónde puedes aportar durante esta etapa de desarrollo.</span></div>
+      <a class="btn btn--gold" href="postulaciones.html"><span>VER POSTULACIONES</span></a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__main">
+      <div class="footer__identity">
+        <img class="footer__logo" src="assets/arka-wood-logo.webp" alt="ARKA WOOD" width="768" height="768" loading="lazy" decoding="async" />
+        <p>Un proyecto de Minecraft actualmente en construcción, forjado entre obsidiana, aventura, competencia y comunidad.</p>
+        <div class="footer__socials">
+          <a class="social-icon" href="https://discord.gg/HxEbRcQD7" target="_blank" rel="noopener" aria-label="Discord"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19.5 5.3A17 17 0 0 0 15.4 4l-.5 1.1a15 15 0 0 0-5.8 0L8.6 4a17 17 0 0 0-4.1 1.3C1.9 9.2 1.2 13 1.5 16.8a17 17 0 0 0 5 2.5l1.2-1.7c-.7-.3-1.4-.7-2-1.2l.5-.4c3.8 1.8 7.8 1.8 11.6 0l.5.4c-.6.5-1.3.9-2 1.2l1.2 1.7a17 17 0 0 0 5-2.5c.4-4.4-.8-8.1-3-11.5ZM8.5 14.5c-1.2 0-2.1-1.1-2.1-2.5s.9-2.5 2.1-2.5 2.1 1.1 2.1 2.5-.9 2.5-2.1 2.5Zm7 0c-1.2 0-2.1-1.1-2.1-2.5s.9-2.5 2.1-2.5 2.1 1.1 2.1 2.5-.9 2.5-2.1 2.5Z"/></svg></a>
+          <a class="social-icon" href="https://www.instagram.com/arkwood_net" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" ry="5"></rect><circle cx="12" cy="12" r="4.2"></circle><circle cx="17.5" cy="6.6" r="1"></circle></svg></a>
+        </div>
+      </div>
+      <div class="footer__columns">
+        <div class="footer__column"><h3>NAVEGACIÓN</h3><button class="footer-link dummy" type="button">Tienda</button><button class="footer-link dummy" type="button">Normativa</button><button class="footer-link dummy" type="button">Votar</button></div>
+        <div class="footer__column"><h3>SOPORTE Y AYUDA</h3><button class="footer-link dummy" type="button">Contacto</button><a class="footer-link" href="postulaciones.html">Postulaciones</a><button class="footer-link dummy" type="button">Preguntas Frecuentes (FAQ)</button></div>
+        <div class="footer__column footer__column--legal"><h3>LEGAL</h3><a class="footer-link" href="terminos-compra.html">Términos y Condiciones de Compra</a><a class="footer-link" href="terminos-network.html">Términos y Condiciones de la Network</a><a class="footer-link" href="politica-privacidad.html">Política de Privacidad</a><button class="footer-link dummy" type="button">Aviso de Mojang (EULA Disclaimer)</button></div>
+      </div>
+    </div>
+    <div class="footer__legal-note">ARKA WOOD no está afiliado, asociado ni respaldado por Mojang Studios o Microsoft. Minecraft es una marca registrada de Mojang Studios.</div>
+    <div class="footer__bottom"><span>© 2026 ARKA WOOD. Todos los derechos reservados.</span><span>ARKA WOOD NETWORK</span></div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

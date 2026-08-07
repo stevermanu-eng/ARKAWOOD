@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#080706" />
+  <meta name="robots" content="noindex,nofollow" />
+  <link rel="icon" type="image/png" href="assets/arka-wood-favicon.png" />
+  <link rel="preload" as="image" href="assets/arbol-sagrado-postulacion.webp" fetchpriority="high" />
+  <link rel="preconnect" href="https://cdn.discordapp.com" crossorigin />
+  <title>Acceso a Marketing / Management — ARKA WOOD</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="moderation-application-page moderation-access-page">
+  <div class="moderation-backdrop moderation-access-backdrop" aria-hidden="true"></div>
+
+  <header class="topbar" id="topbar">
+    <div class="topbar__inner">
+      <a class="topbar__brand" href="index.html#home" aria-label="ARKA WOOD — Inicio"><img src="assets/arka-wood-header-logo.webp" alt="ARKA WOOD" width="256" height="256" decoding="async" /></a>
+      <nav class="nav" aria-label="Navegación principal">
+        <a class="nav__item" href="index.html#home">HOME</a>
+        <button class="nav__item dummy" type="button">FOROS</button>
+        <a class="nav__item" href="wiki/">WIKI</a>
+        <button class="nav__item dummy" type="button">MIEMBROS</button>
+        <button class="nav__item dummy" type="button">SANCIONES</button>
+        <button class="nav__item dummy" type="button">TIENDA</button>
+        <a class="nav__item" href="/support">SOPORTE</a>
+        <a class="nav__item nav__item--application nav__item--active" href="postulaciones.html">POSTULACIONES</a>
+      </nav>
+      <button class="profile" id="homeProfile" type="button" aria-label="Perfil de usuario" title="Perfil"><span id="homeProfileFallback">♜</span><img id="homeProfileAvatar" alt="" hidden /></button>
+    </div>
+  </header>
+
+  <main class="moderation-access-shell">
+    <section class="moderation-access-heading">
+      <p class="section__kicker">◆ CONTROL DE ACCESO ◆</p>
+      <h1>POSTULACIÓN A <strong>MARKETING / MANAGEMENT</strong></h1>
+      <p>Antes de mostrar las preguntas necesitamos verificar tu cuenta de Discord y confirmar que formas parte del servidor oficial de ARKA WOOD.</p>
+    </section>
+
+    <section class="moderation-access-card" aria-live="polite">
+      <div class="moderation-access-card__ornament" aria-hidden="true"><img src="assets/arka-wood-staff-logo.webp" alt="" width="508" height="512" decoding="async" /></div>
+
+      <div class="moderation-access-card__status" id="accessStatusIcon" aria-hidden="true">
+        <span>◈</span>
+      </div>
+
+      <p class="moderation-access-card__eyebrow" id="accessEyebrow">VERIFICANDO ACCESO</p>
+      <h2 id="accessTitle">Comprobando tu sesión...</h2>
+      <p class="moderation-access-card__copy" id="accessCopy">Estamos revisando si ya existe una sesión válida de Discord en este navegador.</p>
+
+      <div class="discord-identity-card" id="discordIdentity" hidden>
+        <img id="discordAvatar" alt="Avatar de Discord" />
+        <div>
+          <small>CUENTA DE DISCORD</small>
+          <strong id="discordDisplayName">—</strong>
+          <span id="discordUsername">—</span>
+        </div>
+        <b id="discordIdentityState">VERIFICADA</b>
+      </div>
+
+      <div class="moderation-access-steps" id="accessSteps">
+        <div class="moderation-access-step" data-step="discord">
+          <span>01</span><div><small>IDENTIDAD</small><strong>Iniciar sesión con Discord</strong></div><i>•</i>
+        </div>
+        <div class="moderation-access-step" data-step="guild">
+          <span>02</span><div><small>COMUNIDAD</small><strong>Pertenecer al servidor de ARKA WOOD</strong></div><i>•</i>
+        </div>
+        <div class="moderation-access-step" data-step="form">
+          <span>03</span><div><small>POSTULACIÓN</small><strong>Desbloquear las preguntas de Marketing / Management</strong></div><i>•</i>
+        </div>
+      </div>
+
+      <div class="moderation-access-actions" id="accessActions">
+        <a class="discord-login-btn" id="discordLogin" href="/api/auth/discord">
+          <span class="discord-login-btn__mark">◉</span>
+          <span>INICIAR SESIÓN CON DISCORD</span>
+          <b>→</b>
+        </a>
+        <a class="discord-join-btn" id="discordJoin" href="https://discord.gg/HxEbRcQD7" target="_blank" rel="noopener" hidden>
+          <span>UNIRME AL SERVIDOR</span><b>↗</b>
+        </a>
+        <a class="discord-recheck-btn" id="discordRecheck" href="/api/auth/discord" hidden>
+          <span>YA ME UNÍ · COMPROBAR DE NUEVO</span><b>↻</b>
+        </a>
+        <a class="discord-enter-btn" id="discordEnter" href="postulacion-marketing.html" hidden>
+          <span>ENTRAR A LA POSTULACIÓN</span><b>→</b>
+        </a>
+        <button class="discord-logout-btn" id="discordLogout" type="button" hidden>CERRAR SESIÓN</button>
+      </div>
+
+      <div class="moderation-access-privacy">
+        <span>▣</span>
+        <p><b>Datos mínimos.</b> Para este acceso solo se conserva tu Discord User ID, nombre de usuario, nombre visible, avatar y la fecha/hora de inicio de la postulación. No solicitamos tu correo, contraseña ni mensajes privados.</p>
+      </div>
+    </section>
+
+    <section class="moderation-access-build-note">
+      <small>SISTEMA EN PREPARACIÓN</small>
+      <p>ARKA WOOD continúa en construcción. La autenticación, la validación de pertenencia al Discord, el bloqueo de cuentas duplicadas y el envío privado al canal interno correspondiente ya están preparados para Cloudflare Pages Functions.</p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__main">
+      <div class="footer__identity">
+        <img class="footer__logo" src="assets/arka-wood-logo.webp" alt="ARKA WOOD" width="768" height="768" loading="lazy" decoding="async" />
+        <p>Un proyecto de Minecraft actualmente en construcción, forjado entre obsidiana, aventura, competencia y comunidad.</p>
+        <div class="footer__socials">
+          <a class="social-icon" href="https://discord.gg/HxEbRcQD7" target="_blank" rel="noopener" aria-label="Discord"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19.5 5.3A17 17 0 0 0 15.4 4l-.5 1.1a15 15 0 0 0-5.8 0L8.6 4a17 17 0 0 0-4.1 1.3C1.9 9.2 1.2 13 1.5 16.8a17 17 0 0 0 5 2.5l1.2-1.7c-.7-.3-1.4-.7-2-1.2l.5-.4c3.8 1.8 7.8 1.8 11.6 0l.5.4c-.6.5-1.3.9-2 1.2l1.2 1.7a17 17 0 0 0 5-2.5c.4-4.4-.8-8.1-3-11.5ZM8.5 14.5c-1.2 0-2.1-1.1-2.1-2.5s.9-2.5 2.1-2.5 2.1 1.1 2.1 2.5-.9 2.5-2.1 2.5Zm7 0c-1.2 0-2.1-1.1-2.1-2.5s.9-2.5 2.1-2.5 2.1 1.1 2.1 2.5-.9 2.5-2.1 2.5Z"/></svg></a>
+          <a class="social-icon" href="https://www.instagram.com/arkwood_net" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" ry="5"></rect><circle cx="12" cy="12" r="4.2"></circle><circle cx="17.5" cy="6.6" r="1"></circle></svg></a>
+        </div>
+      </div>
+      <div class="footer__columns">
+        <div class="footer__column"><h3>NAVEGACIÓN</h3><button class="footer-link dummy" type="button">Tienda</button><button class="footer-link dummy" type="button">Normativa</button><button class="footer-link dummy" type="button">Votar</button></div>
+        <div class="footer__column"><h3>SOPORTE Y AYUDA</h3><button class="footer-link dummy" type="button">Contacto</button><a class="footer-link" href="postulaciones.html">Postulaciones</a><button class="footer-link dummy" type="button">Preguntas Frecuentes (FAQ)</button></div>
+        <div class="footer__column footer__column--legal"><h3>LEGAL</h3><a class="footer-link" href="terminos-compra.html">Términos y Condiciones de Compra</a><a class="footer-link" href="terminos-network.html">Términos y Condiciones de la Network</a><a class="footer-link" href="politica-privacidad.html">Política de Privacidad</a><button class="footer-link dummy" type="button">Aviso de Mojang (EULA Disclaimer)</button></div>
+      </div>
+    </div>
+    <div class="footer__legal-note">ARKA WOOD no está afiliado, asociado ni respaldado por Mojang Studios o Microsoft. Minecraft es una marca registrada de Mojang Studios.</div>
+    <div class="footer__bottom"><span>© 2026 ARKA WOOD. Todos los derechos reservados.</span><span>ARKA WOOD NETWORK</span></div>
+  </footer>
+
+  <script src="script.js" defer></script>
+  <script src="discord-access-marketing.js"></script>
+</body>
+</html>
