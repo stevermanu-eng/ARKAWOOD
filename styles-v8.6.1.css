@@ -876,3 +876,110 @@ body.wiki-page-v2:after{content:"";position:fixed;z-index:-3;inset:0;background:
   .application-success-page > .topbar + .application-success-shell,
   .application-success-page > .topbar ~ .application-success-shell{padding-top:94px}
 }
+
+/* v8.6.2 — perfil Discord circular y mundo en construcción */
+.profile{
+  position:relative;
+  width:45px;
+  height:45px;
+  min-width:45px;
+  max-width:45px;
+  aspect-ratio:1/1;
+  flex:0 0 45px;
+  padding:0;
+  overflow:hidden;
+  line-height:0;
+  border-radius:999px;
+}
+.profile span{
+  position:relative;
+  z-index:1;
+  line-height:1;
+}
+.profile img{
+  position:absolute;
+  z-index:2;
+  inset:3px;
+  width:calc(100% - 6px);
+  height:calc(100% - 6px);
+  max-width:none;
+  border-radius:999px;
+  object-fit:cover;
+  object-position:center;
+  clip-path:circle(50% at 50% 50%);
+}
+.profile.is-authenticated span{display:none}
+
+.wiki-branches-grid article p+p{margin-top:12px}
+
+.construction-page{background:#080b0f}
+.construction-main{
+  position:relative;
+  isolation:isolate;
+  min-height:100vh;
+  padding:138px 24px 70px;
+  display:grid;
+  place-items:center;
+  overflow:hidden;
+  text-align:center;
+  background:url('/assets/reino-en-construccion.png') center center/cover no-repeat;
+}
+.construction-main:before{
+  content:"";
+  position:absolute;
+  inset:0;
+  z-index:-2;
+  background:linear-gradient(180deg,rgba(5,10,17,.17),rgba(3,7,12,.28) 46%,rgba(5,7,9,.72) 100%);
+}
+.construction-main:after{
+  content:"";
+  position:absolute;
+  inset:0;
+  z-index:-1;
+  background:radial-gradient(circle at 50% 36%,rgba(255,255,255,.04),transparent 34%),radial-gradient(circle at 50% 68%,rgba(5,12,21,.1),rgba(3,5,8,.38) 72%);
+}
+.construction-message{
+  width:min(860px,100%);
+  margin-top:18vh;
+  padding:36px 42px 34px;
+  border:1px solid rgba(255,224,158,.3);
+  background:linear-gradient(180deg,rgba(5,12,20,.66),rgba(7,9,11,.76));
+  box-shadow:0 28px 80px rgba(0,0,0,.35),inset 0 1px rgba(255,255,255,.06);
+}
+.construction-message small{
+  display:block;
+  margin-bottom:10px;
+  color:#f4d47c;
+  font-size:9px;
+  font-weight:950;
+  letter-spacing:.25em;
+}
+.construction-message h1{
+  margin:0;
+  font-family:Impact,Haettenschweiler,'Arial Narrow Bold',sans-serif;
+  font-size:clamp(48px,7vw,88px);
+  line-height:.96;
+  letter-spacing:.055em;
+  color:#fff;
+  text-shadow:0 6px 28px rgba(0,0,0,.7);
+}
+.construction-message h1 span{color:#ffe39a}
+.construction-message p{
+  max-width:680px;
+  margin:20px auto 0;
+  color:#e9edf2;
+  font-size:14px;
+  line-height:1.8;
+  text-shadow:0 2px 12px rgba(0,0,0,.75);
+}
+@media(max-width:930px){
+  .profile{width:42px;height:42px;min-width:42px;max-width:42px;flex-basis:42px}
+  .construction-main{padding-top:120px;background-position:center center}
+}
+@media(max-width:650px){
+  .profile{display:grid;width:38px;height:38px;min-width:38px;max-width:38px;flex:0 0 38px}
+  .construction-main{min-height:820px;padding:104px 14px 50px;background-position:58% center}
+  .construction-message{margin-top:28vh;padding:28px 20px 26px}
+  .construction-message p{font-size:12px}
+}
+.wiki-principles-grid article>div p+p{margin-top:8px}

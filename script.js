@@ -76,12 +76,13 @@
     }
   }
 
-  // Un único listener reemplaza decenas de listeners idénticos de los botones aún no activos.
+  // Los accesos que todavía no tienen una sección pública llevan a la página de mundo en construcción.
   document.addEventListener('click', (event) => {
     const dummy = event.target.closest('.dummy');
     if (!dummy) return;
     event.preventDefault();
     dummy.blur?.();
+    window.location.href = '/construccion.html';
   });
 
   const topbar = document.getElementById('topbar');
@@ -99,10 +100,19 @@
     }, { passive: true });
   }
 
-  // Avatar de Discord: una petición pequeña, independiente del render inicial.
+  // Perfil de Discord: conserva el botón existente, fuerza un avatar perfectamente circular
+  // y, si no hay sesión, usa el propio botón para iniciar sesión con Discord.
   const homeProfile = document.getElementById('homeProfile');
   const homeProfileAvatar = document.getElementById('homeProfileAvatar');
   if (homeProfile && homeProfileAvatar) {
+    const currentReturnPath = `${window.location.pathname}${window.location.search}${window.location.hash}`;
+    const discordLoginUrl = `/api/auth/discord?return=${encodeURIComponent(currentReturnPath)}`;
+    let profileAuthenticated = false;
+
+    homeProfile.addEventListener('click', () => {
+      if (!profileAuthenticated) window.location.href = discordLoginUrl;
+    });
+
     const defaultDiscordAvatar = (id) => {
       try { return `https://cdn.discordapp.com/embed/avatars/${Number(BigInt(id) >> 22n) % 6}.png`; }
       catch (_) { return 'https://cdn.discordapp.com/embed/avatars/0.png'; }
@@ -111,21 +121,29 @@
     fetch('/api/auth/session', { credentials: 'same-origin', cache: 'no-store' })
       .then((response) => response.ok ? response.json() : null)
       .then((session) => {
-        if (!session?.authenticated || !session?.user?.id) return;
+        if (!session?.authenticated || !session?.user?.id) {
+          homeProfile.title = 'Iniciar sesión con Discord';
+          homeProfile.setAttribute('aria-label', 'Iniciar sesión con Discord');
+          return;
+        }
+        profileAuthenticated = true;
         const user = session.user;
         homeProfileAvatar.src = user.avatar
-          ? `https://cdn.discordapp.com/avatars/${user.id}/${user.avatar}.webp?size=96`
+          ? `https://cdn.discordapp.com/avatars/${user.id}/${user.avatar}.webp?size=128`
           : defaultDiscordAvatar(user.id);
         homeProfileAvatar.alt = `Avatar de ${user.displayName || user.username}`;
-        homeProfileAvatar.width = 96;
-        homeProfileAvatar.height = 96;
+        homeProfileAvatar.width = 128;
+        homeProfileAvatar.height = 128;
         homeProfileAvatar.decoding = 'async';
         homeProfileAvatar.hidden = false;
         homeProfile.classList.add('is-authenticated');
         homeProfile.title = `Discord: ${user.displayName || user.username}`;
         homeProfile.setAttribute('aria-label', `Sesión de Discord: ${user.displayName || user.username}`);
       })
-      .catch(() => {});
+      .catch(() => {
+        homeProfile.title = 'Iniciar sesión con Discord';
+        homeProfile.setAttribute('aria-label', 'Iniciar sesión con Discord');
+      });
   }
 
   // Efectos decorativos no críticos: se crean en tiempo ocioso y en menor cantidad.
