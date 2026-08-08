@@ -1,0 +1,18 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "arkawood-postulaciones",
+  "compatibility_date": "2026-08-07",
+  "pages_build_output_dir": "./public",
+  "d1_databases": [
+    {
+      "binding": "applications_db",
+      "database_name": "arkawood-postulaciones-db",
+      "database_id": "41588053-5d61-40e2-8441-17f124a5c285"
+    }
+  ],
+  "vars": {
+    "DISCORD_CLIENT_ID": "1532912146604621924",
+    "DISCORD_GUILD_ID": "1526622720123736295",
+    "DISCORD_STAFF_AUDIT_ROLE_ID": "1531538149967396964"
+  }
+}
