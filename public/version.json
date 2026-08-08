@@ -1,0 +1,14 @@
+{
+  "project": "ARKA WOOD",
+  "release": "8.9.1",
+  "deploymentLayout": "cloudflare-pages-public-no-required-d1-binding",
+  "expectedStylesheet": "/styles-v8.9.1.css",
+  "features": [
+    "discord-profile-circular",
+    "profile-click-discord-login",
+    "construction-page-routes",
+    "expanded-wiki-staff"
+  ],
+  "deploymentNote": "D1 is optional at deploy time; bind a database as applications_db before enabling application submissions.",
+  "fix": "Removed custom extensionless wiki rewrites; Cloudflare Pages native HTML routing now handles /wiki/reglas and related routes."
+}
