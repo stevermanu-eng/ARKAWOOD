@@ -1,4 +1,25 @@
 (() => {
+  const BRANCHES = Object.freeze({
+    moderation: {
+      form: '/postulacion-moderacion.html',
+      access: '/acceso-moderacion.html',
+      title: 'Ya puedes acceder a Moderación'
+    },
+    builders: {
+      form: '/postulacion-builders.html',
+      access: '/acceso-builders.html',
+      title: 'Ya puedes acceder a Builders'
+    },
+    marketing: {
+      form: '/postulacion-marketing.html',
+      access: '/acceso-marketing.html',
+      title: 'Ya puedes acceder a Marketing / Management'
+    }
+  });
+
+  const branch = document.body?.dataset?.applicationBranch || 'moderation';
+  const config = BRANCHES[branch] || BRANCHES.moderation;
+
   const statusIcon = document.getElementById('accessStatusIcon');
   const eyebrow = document.getElementById('accessEyebrow');
   const title = document.getElementById('accessTitle');
@@ -14,19 +35,26 @@
   const enter = document.getElementById('discordEnter');
   const logout = document.getElementById('discordLogout');
   const steps = [...document.querySelectorAll('.moderation-access-step')];
+  let currentSession = null;
+
+  if (![statusIcon, eyebrow, title, copy, identity, avatar, displayName, username, identityState, login, join, recheck, enter, logout].every(Boolean)) return;
 
   const params = new URLSearchParams(location.search);
   const requestedNext = params.get('next');
-  const safeNext = requestedNext && requestedNext.startsWith('/') && !requestedNext.startsWith('//')
-    ? requestedNext
-    : '/postulacion-moderacion.html';
+  const safeClientPath = (value) => typeof value === 'string'
+    && value.length <= 2048
+    && value.startsWith('/')
+    && !value.startsWith('//')
+    && !value.includes('\\')
+    && !/[\u0000-\u001F\u007F]/.test(value);
+  const safeNext = safeClientPath(requestedNext) ? requestedNext : config.form;
 
   login.href = `/api/auth/discord?return=${encodeURIComponent(safeNext)}`;
   recheck.href = `/api/auth/discord?return=${encodeURIComponent(safeNext)}`;
   enter.href = safeNext;
 
   const errorMessages = {
-    configuration: 'Falta completar la configuración privada de Discord en Cloudflare. El administrador debe añadir DISCORD_CLIENT_SECRET y SESSION_SECRET antes de activar el acceso.',
+    configuration: 'Falta completar la configuración privada de Discord en Cloudflare. El administrador debe añadir DISCORD_CLIENT_SECRET y un SESSION_SECRET seguro antes de activar el acceso.',
     cancelled: 'Cancelaste la autorización de Discord. Puedes intentarlo de nuevo cuando quieras.',
     discord_authorization: 'Discord no pudo completar la autorización. Intenta iniciar sesión nuevamente.',
     invalid_state: 'La verificación de seguridad del inicio de sesión expiró o no coincide. Inicia el proceso otra vez.',
@@ -50,7 +78,8 @@
     steps.forEach((step, index) => {
       step.classList.toggle('is-complete', Boolean(values[index]));
       step.classList.toggle('is-current', !values[index] && (index === 0 || values[index - 1]));
-      step.querySelector('i').textContent = values[index] ? '✓' : (step.classList.contains('is-current') ? '→' : '•');
+      const marker = step.querySelector('i');
+      if (marker) marker.textContent = values[index] ? '✓' : (step.classList.contains('is-current') ? '→' : '•');
     });
   };
 
@@ -61,6 +90,9 @@
   const showIdentity = (user, stateLabel = 'VERIFICADA') => {
     identity.hidden = false;
     avatar.src = avatarUrl(user);
+    avatar.width = 96;
+    avatar.height = 96;
+    avatar.decoding = 'async';
     displayName.textContent = user.displayName || user.username;
     username.textContent = `@${user.username}`;
     identityState.textContent = stateLabel;
@@ -75,7 +107,8 @@
     title.textContent = 'Hay un problema con la autenticación';
     copy.textContent = message;
     login.hidden = false;
-    login.querySelector('span:nth-child(2)').textContent = 'INTENTAR DE NUEVO CON DISCORD';
+    const label = login.querySelector('span:nth-child(2)');
+    if (label) label.textContent = 'INTENTAR DE NUEVO CON DISCORD';
     setSteps(false, false, false);
   };
 
@@ -111,7 +144,7 @@
     statusIcon.dataset.state = 'success';
     statusIcon.querySelector('span').textContent = '✓';
     eyebrow.textContent = 'VERIFICACIÓN COMPLETADA';
-    title.textContent = 'Ya puedes acceder a Moderación';
+    title.textContent = config.title;
     copy.textContent = 'Tu cuenta está verificada y pertenece al servidor de ARKA WOOD. Las preguntas de la postulación ya están desbloqueadas para esta sesión.';
     enter.hidden = false;
     logout.hidden = false;
@@ -127,7 +160,8 @@
     title.textContent = 'Esta cuenta ya envió una postulación';
     copy.textContent = 'Para mantener el proceso justo, una misma cuenta de Discord no puede enviar una segunda postulación. Puedes revisar la pantalla de confirmación mientras esperas la respuesta del equipo.';
     enter.href = `/postulacion-enviada.html?already=1${application?.applicationId ? `&id=${encodeURIComponent(application.applicationId)}` : ''}`;
-    enter.querySelector('span').textContent = 'VER ESTADO DE MI POSTULACIÓN';
+    const label = enter.querySelector('span');
+    if (label) label.textContent = 'VER ESTADO DE MI POSTULACIÓN';
     enter.hidden = false;
     logout.hidden = false;
     setSteps(true, true, true);
@@ -141,12 +175,18 @@
     }
 
     try {
-      const [sessionResponse, applicationResponse] = await Promise.all([
-        fetch('/api/auth/session', { credentials: 'same-origin', cache: 'no-store' }),
+      const sessionTask = window.arkaSessionPromise || fetch('/api/auth/session', {
+        credentials: 'same-origin',
+        cache: 'no-store'
+      }).then((response) => response.ok ? response.json() : null).catch(() => null);
+      window.arkaSessionPromise = sessionTask;
+
+      const [session, applicationResponse] = await Promise.all([
+        sessionTask,
         fetch('/api/applications/me', { credentials: 'same-origin', cache: 'no-store' })
       ]);
-      if (!sessionResponse.ok) throw new Error('session');
-      const session = await sessionResponse.json();
+      if (!session) throw new Error('session');
+      currentSession = session;
       if (!session.authenticated) return renderLoggedOut();
       if (!session.member) return renderNotMember(session.user);
 
@@ -163,8 +203,15 @@
 
   logout.addEventListener('click', async () => {
     logout.disabled = true;
-    try { await fetch('/api/auth/logout', { method: 'POST', credentials: 'same-origin' }); }
-    finally { location.replace('/acceso-moderacion.html'); }
+    try {
+      await fetch('/api/auth/logout', {
+        method: 'POST',
+        credentials: 'same-origin',
+        headers: currentSession?.csrfToken ? { 'X-CSRF-Token': currentSession.csrfToken } : {}
+      });
+    } finally {
+      location.replace(config.access);
+    }
   });
 
   load();

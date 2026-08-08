@@ -10,9 +10,9 @@
 <link as="image" fetchpriority="high" href="/assets/arbol-sagrado-postulacion.webp" rel="preload"/>
 <link crossorigin="" href="https://cdn.discordapp.com" rel="preconnect"/>
 <title>Acceso a Marketing / Management — ARKA WOOD</title>
-<link href="/styles-v8.6.1.css" rel="stylesheet"/>
+<link href="/styles-v8.7.css" rel="stylesheet"/>
 </head>
-<body class="moderation-application-page moderation-access-page">
+<body class="moderation-application-page moderation-access-page" data-application-branch="marketing">
 <div aria-hidden="true" class="moderation-backdrop moderation-access-backdrop"></div>
 <header class="topbar" id="topbar">
 <div class="topbar__inner">
@@ -25,9 +25,9 @@
 <button class="nav__item dummy" type="button">SANCIONES</button>
 <button class="nav__item dummy" type="button">TIENDA</button>
 <a class="nav__item" href="/support">SOPORTE</a>
-<a class="nav__item nav__item--application nav__item--active" href="/postulaciones.html">POSTULACIONES</a>
+<a class="nav__item nav__item--application nav__item--active" href="/postulaciones.html" aria-current="page">POSTULACIONES</a>
 </nav>
-<button aria-label="Perfil de usuario" class="profile" id="homeProfile" title="Perfil" type="button"><span id="homeProfileFallback">♜</span><img alt="" hidden="" id="homeProfileAvatar"/></button>
+<button aria-label="Perfil de usuario" class="profile" id="homeProfile" title="Perfil" type="button"><span id="homeProfileFallback">♜</span><img alt="" decoding="async" height="128" hidden="" id="homeProfileAvatar" width="128"/></button>
 </div>
 </header>
 <main class="moderation-access-shell">
@@ -45,7 +45,7 @@
 <h2 id="accessTitle">Comprobando tu sesión...</h2>
 <p class="moderation-access-card__copy" id="accessCopy">Estamos revisando si ya existe una sesión válida de Discord en este navegador.</p>
 <div class="discord-identity-card" hidden="" id="discordIdentity">
-<img alt="Avatar de Discord" id="discordAvatar"/>
+<img alt="Avatar de Discord" decoding="async" height="96" id="discordAvatar" width="96"/>
 <div>
 <small>CUENTA DE DISCORD</small>
 <strong id="discordDisplayName">—</strong>
@@ -111,6 +111,6 @@
 <div class="footer__bottom"><span>© 2026 ARKA WOOD. Todos los derechos reservados.</span><span>ARKA WOOD NETWORK</span></div>
 </footer>
 <script defer="" src="/script.js"></script>
-<script src="/discord-access-marketing.js"></script>
+<script defer src="/discord-access.js"></script>
 </body>
 </html>

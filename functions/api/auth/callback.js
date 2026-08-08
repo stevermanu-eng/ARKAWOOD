@@ -15,6 +15,17 @@ import {
 } from '../../_lib/auth.js';
 
 const API = 'https://discord.com/api/v10';
+const DISCORD_TIMEOUT_MS = 10000;
+
+async function discordFetch(input, init = {}) {
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort('discord_timeout'), DISCORD_TIMEOUT_MS);
+  try {
+    return await fetch(input, { ...init, signal: controller.signal });
+  } finally {
+    clearTimeout(timer);
+  }
+}
 
 function redirectWithCookies(target, requestUrl, cookies = []) {
   const headers = new Headers({ Location: target, 'Cache-Control': 'no-store' });
@@ -68,7 +79,7 @@ export async function onRequestGet(context) {
 
   let token;
   try {
-    const tokenResponse = await fetch(`${API}/oauth2/token`, {
+    const tokenResponse = await discordFetch(`${API}/oauth2/token`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
       body: tokenBody
@@ -87,8 +98,8 @@ export async function onRequestGet(context) {
   let auditStaff = false;
   try {
     const [userResponse, memberResponse] = await Promise.all([
-      fetch(`${API}/users/@me`, { headers: authHeaders }),
-      fetch(`${API}/users/@me/guilds/${encodeURIComponent(config.guildId)}/member`, { headers: authHeaders })
+      discordFetch(`${API}/users/@me`, { headers: authHeaders }),
+      discordFetch(`${API}/users/@me/guilds/${encodeURIComponent(config.guildId)}/member`, { headers: authHeaders })
     ]);
 
     if (!userResponse.ok) return errorRedirect(url.origin, 'profile_read', request.url, returnPath);

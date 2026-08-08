@@ -21,8 +21,13 @@
 
   if (!auditIdentity && !auditAuthorizedIdentity) return;
 
-  fetch('/api/auth/session', { credentials: 'same-origin', cache: 'no-store' })
-    .then((response) => response.ok ? response.json() : null)
+  const sessionTask = window.arkaSessionPromise || fetch('/api/auth/session', {
+    credentials: 'same-origin',
+    cache: 'no-store'
+  }).then((response) => response.ok ? response.json() : null).catch(() => null);
+  window.arkaSessionPromise = sessionTask;
+
+  sessionTask
     .then((session) => {
       if (!session?.authenticated || !session?.user) return;
       const label = session.user.displayName || session.user.username || 'Discord';

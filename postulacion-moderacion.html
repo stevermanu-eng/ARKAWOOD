@@ -10,7 +10,7 @@
 <link as="image" fetchpriority="high" href="/assets/arbol-sagrado-postulacion.webp" rel="preload"/>
 <link crossorigin="" href="https://cdn.discordapp.com" rel="preconnect"/>
 <title>Postulación a Moderación — ARKA WOOD</title>
-<link href="/styles-v8.6.1.css" rel="stylesheet"/>
+<link href="/styles-v8.7.css" rel="stylesheet"/>
 </head>
 <body class="moderation-application-page">
 <div aria-hidden="true" class="moderation-backdrop"></div>
@@ -25,9 +25,9 @@
 <button class="nav__item dummy" type="button">SANCIONES</button>
 <button class="nav__item dummy" type="button">TIENDA</button>
 <a class="nav__item" href="/support">SOPORTE</a>
-<a class="nav__item nav__item--application nav__item--active" href="/postulaciones.html">POSTULACIONES</a>
+<a class="nav__item nav__item--application nav__item--active" href="/postulaciones.html" aria-current="page">POSTULACIONES</a>
 </nav>
-<button aria-label="Perfil de usuario" class="profile" id="homeProfile" title="Perfil" type="button"><span id="homeProfileFallback">♜</span><img alt="" hidden="" id="homeProfileAvatar"/></button>
+<button aria-label="Perfil de usuario" class="profile" id="homeProfile" title="Perfil" type="button"><span id="homeProfileFallback">♜</span><img alt="" decoding="async" height="128" hidden="" id="homeProfileAvatar" width="128"/></button>
 </div>
 </header>
 <main class="moderation-form-shell">
@@ -122,7 +122,7 @@
 <h2 id="applicationReviewTitle">REVISA TODA TU <strong>POSTULACIÓN</strong></h2>
 <p>Este es el resumen completo antes del envío. Revisa cada respuesta con calma. Puedes volver a cualquier categoría y editarla; el sistema no permitirá enviar la postulación mientras falte una respuesta obligatoria o exista un dato inválido.</p>
 <div class="application-review-user">
-<img alt="Avatar de Discord" id="applicationReviewAvatar"/>
+<img alt="Avatar de Discord" decoding="async" height="96" id="applicationReviewAvatar" width="96"/>
 <div><small>IDENTIDAD VERIFICADA</small><strong id="applicationReviewName">Cuenta de Discord</strong><span id="applicationReviewMeta">Cargando identidad...</span></div>
 <b>✓ DISCORD</b>
 </div>
@@ -145,7 +145,7 @@
 <div class="application-review-actions">
 <button class="form-btn form-btn--ghost" id="applicationReviewSave" type="button"><span>▣</span> GUARDAR BORRADOR</button>
 <div>
-<button class="form-btn form-btn--ghost" onclick="document.getElementById('applicationReviewBack').click()" type="button">← EDITAR RESPUESTAS</button>
+<button class="form-btn form-btn--ghost" id="applicationReviewEdit" type="button">← EDITAR RESPUESTAS</button>
 <button class="form-btn form-btn--gold application-review-submit" id="applicationReviewSubmit" type="button">ENVIAR POSTULACIÓN <span>→</span></button>
 </div>
 </div>
@@ -154,6 +154,6 @@
 </section>
 <div aria-live="polite" class="application-toast" id="applicationToast" role="status"></div>
 <script defer="" src="/script.js"></script>
-<script src="/moderation-form.js"></script>
+<script defer src="/moderation-form.js"></script>
 </body>
 </html>

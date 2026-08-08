@@ -8,6 +8,7 @@ export async function onRequestGet(context) {
     authenticated: true,
     member: Boolean(session.member),
     staffAuditAccess: Boolean(session.auditStaff),
+    csrfToken: session.csrf || null,
     user: {
       id: session.sub,
       username: session.username,

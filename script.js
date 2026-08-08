@@ -100,6 +100,14 @@
     }, { passive: true });
   }
 
+  // Una sola consulta de sesión por documento. Las páginas de acceso, formularios y WIKI
+  // reutilizan esta promesa para evitar solicitudes duplicadas a Pages Functions.
+  const sessionPromise = window.arkaSessionPromise || fetch('/api/auth/session', {
+    credentials: 'same-origin',
+    cache: 'no-store'
+  }).then((response) => response.ok ? response.json() : null).catch(() => null);
+  window.arkaSessionPromise = sessionPromise;
+
   // Perfil de Discord: conserva el botón existente, fuerza un avatar perfectamente circular
   // y, si no hay sesión, usa el propio botón para iniciar sesión con Discord.
   const homeProfile = document.getElementById('homeProfile');
@@ -118,9 +126,7 @@
       catch (_) { return 'https://cdn.discordapp.com/embed/avatars/0.png'; }
     };
 
-    fetch('/api/auth/session', { credentials: 'same-origin', cache: 'no-store' })
-      .then((response) => response.ok ? response.json() : null)
-      .then((session) => {
+    sessionPromise.then((session) => {
         if (!session?.authenticated || !session?.user?.id) {
           homeProfile.title = 'Iniciar sesión con Discord';
           homeProfile.setAttribute('aria-label', 'Iniciar sesión con Discord');

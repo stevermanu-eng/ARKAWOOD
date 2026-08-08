@@ -27,9 +27,15 @@
   };
 
   try {
-    const [statsResponse, sessionResponse] = await Promise.all([
+    const sessionTask = window.arkaSessionPromise || fetch('/api/auth/session', {
+      credentials: 'same-origin',
+      cache: 'no-store'
+    }).then((response) => response.ok ? response.json() : null).catch(() => null);
+    window.arkaSessionPromise = sessionTask;
+
+    const [statsResponse, session] = await Promise.all([
       fetch('/api/applications/stats', { cache: 'no-store' }),
-      fetch('/api/auth/session', { credentials: 'same-origin', cache: 'no-store' })
+      sessionTask
     ]);
 
     if (statsResponse.ok) {
@@ -39,17 +45,14 @@
       }
     }
 
-    if (sessionResponse.ok) {
-      const session = await sessionResponse.json();
-      if (session?.authenticated && session?.user?.id) {
-        const user = session.user;
-        avatar.src = user.avatar
-          ? `https://cdn.discordapp.com/avatars/${user.id}/${user.avatar}.webp?size=96`
-          : defaultAvatar(user.id);
-        displayName.textContent = user.displayName || user.username;
-        username.textContent = `@${user.username} · Discord ID ${user.id}`;
-        userBox.hidden = false;
-      }
+    if (session?.authenticated && session?.user?.id) {
+      const user = session.user;
+      avatar.src = user.avatar
+        ? `https://cdn.discordapp.com/avatars/${user.id}/${user.avatar}.webp?size=96`
+        : defaultAvatar(user.id);
+      displayName.textContent = user.displayName || user.username;
+      username.textContent = `@${user.username} · Discord ID ${user.id}`;
+      userBox.hidden = false;
     }
   } catch (_) {
     // La pantalla mantiene el valor base si el contador remoto no está disponible.

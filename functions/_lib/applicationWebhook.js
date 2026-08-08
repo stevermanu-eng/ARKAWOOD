@@ -7,6 +7,17 @@ const BRANCH_WEBHOOK_ENV = Object.freeze({
 const DISCORD_EMBED_TOTAL_LIMIT = 6000;
 const FIELD_VALUE_LIMIT = 1024;
 const CATEGORY_TARGET_LIMIT = 820;
+const WEBHOOK_TIMEOUT_MS = 12000;
+
+async function webhookFetch(url, init = {}) {
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort('discord_webhook_timeout'), WEBHOOK_TIMEOUT_MS);
+  try {
+    return await fetch(url, { ...init, signal: controller.signal });
+  } finally {
+    clearTimeout(timer);
+  }
+}
 
 const MODERATION_QUESTIONS = [
   { number: 1, id: 'realName', short: 'Nombre', full: '¿Cuál es tu nombre? (o nombre real que uses habitualmente)', category: 0 },
@@ -592,8 +603,12 @@ function buildApplicationAttachment(branch, { applicant, answers, applicationId,
 }
 
 export function applicationWebhookConfigured(env, branch) {
-  const envName = BRANCH_WEBHOOK_ENV[branch];
-  return Boolean(envName && String(env?.[envName] || '').trim());
+  try {
+    branchWebhookUrl(env, branch);
+    return true;
+  } catch {
+    return false;
+  }
 }
 
 export async function sendApplicationWebhook(env, branch, { applicant, answers, applicationId, submittedAt }) {
@@ -614,7 +629,7 @@ export async function sendApplicationWebhook(env, branch, { applicant, answers, 
   form.set('payload_json', JSON.stringify(payload));
   form.set('files[0]', new Blob([attachmentText], { type: 'text/plain;charset=utf-8' }), `postulacion-${config.slug}-${applicationId}.txt`);
 
-  const response = await fetch(webhookUrl, { method: 'POST', body: form });
+  const response = await webhookFetch(webhookUrl, { method: 'POST', body: form });
   if (!response.ok) {
     const body = truncate(await response.text().catch(() => ''), 700);
     throw new Error(`Discord webhook rejected the application (${response.status}): ${body}`);

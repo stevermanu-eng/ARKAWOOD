@@ -17,17 +17,29 @@ export async function onRequestGet(context) {
     }, { status: 503 });
   }
 
-  const application = await findApplicationByDiscordId(context.env, session.sub);
-  return json({
-    ok: true,
-    authenticated: true,
-    configured: true,
-    hasApplication: Boolean(application),
-    application: application ? {
-      applicationId: application.application_id,
-      branch: application.branch,
-      submittedAt: application.submitted_at,
-      status: application.status
-    } : null
-  });
+  try {
+    const application = await findApplicationByDiscordId(context.env, session.sub);
+    return json({
+      ok: true,
+      authenticated: true,
+      configured: true,
+      hasApplication: Boolean(application),
+      application: application ? {
+        applicationId: application.application_id,
+        branch: application.branch,
+        submittedAt: application.submitted_at,
+        status: application.status
+      } : null
+    });
+  } catch (error) {
+    console.error('Application lookup failed', error instanceof Error ? error.message : error);
+    return json({
+      ok: false,
+      authenticated: true,
+      configured: true,
+      code: 'database_error',
+      hasApplication: false,
+      message: 'No se pudo consultar el estado de tu postulación.'
+    }, { status: 503 });
+  }
 }

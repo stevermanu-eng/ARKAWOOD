@@ -57,7 +57,7 @@ export async function markApplicationSubmitted(env, applicationId, webhookMessag
   return db.prepare(`
     UPDATE staff_applications
     SET status = 'submitted', webhook_message_id = ?
-    WHERE application_id = ?
+    WHERE application_id = ? AND status = 'pending'
   `).bind(webhookMessageId || null, applicationId).run();
 }
 

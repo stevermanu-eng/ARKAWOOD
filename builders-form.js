@@ -7,11 +7,17 @@
   let authSession = null;
   let applicationState = null;
   try {
-    const [sessionResponse, applicationResponse] = await Promise.all([
-      fetch('/api/auth/session', { credentials: 'same-origin', cache: 'no-store' }),
+    const sessionTask = window.arkaSessionPromise || fetch('/api/auth/session', {
+      credentials: 'same-origin',
+      cache: 'no-store'
+    }).then((response) => response.ok ? response.json() : null).catch(() => null);
+    window.arkaSessionPromise = sessionTask;
+
+    const [session, applicationResponse] = await Promise.all([
+      sessionTask,
       fetch('/api/applications/me', { credentials: 'same-origin', cache: 'no-store' })
     ]);
-    authSession = sessionResponse.ok ? await sessionResponse.json() : null;
+    authSession = session;
     applicationState = applicationResponse.ok ? await applicationResponse.json() : null;
   } catch (_) {}
 
@@ -32,6 +38,14 @@
   }
 
   const STORAGE_KEY = `arkaWoodBuildersApplicationV1:${discordUser.id}`;
+  const DRAFT_TTL_MS = 7 * 24 * 60 * 60 * 1000;
+  // Migra una sola vez los borradores de versiones anteriores y elimina la copia
+  // persistente. Los datos personales quedan limitados a la sesión de esta pestaña.
+  try {
+    const legacyDraft = localStorage.getItem(STORAGE_KEY);
+    if (legacyDraft && !sessionStorage.getItem(STORAGE_KEY)) sessionStorage.setItem(STORAGE_KEY, legacyDraft);
+    localStorage.removeItem(STORAGE_KEY);
+  } catch (_) {}
   const REVIEW_STEP_INDEX = 6;
   const state = {
     current: 0,
@@ -452,6 +466,7 @@
   const reviewConsent = document.getElementById('applicationReviewConsent');
   const reviewConsentBox = document.getElementById('applicationReviewConsentBox');
   const reviewBack = document.getElementById('applicationReviewBack');
+  const reviewEdit = document.getElementById('applicationReviewEdit');
   const reviewSave = document.getElementById('applicationReviewSave');
   const reviewSubmit = document.getElementById('applicationReviewSubmit');
 
@@ -488,7 +503,13 @@
 
   logoutButton?.addEventListener('click', async () => {
     logoutButton.disabled = true;
-    try { await fetch('/api/auth/logout', { method: 'POST', credentials: 'same-origin' }); }
+    try {
+      await fetch('/api/auth/logout', {
+        method: 'POST',
+        credentials: 'same-origin',
+        headers: authSession?.csrfToken ? { 'X-CSRF-Token': authSession.csrfToken } : {}
+      });
+    }
     finally { window.location.replace('/acceso-builders.html'); }
   });
 
@@ -535,11 +556,17 @@
 
   const load = () => {
     try {
-      const saved = JSON.parse(localStorage.getItem(STORAGE_KEY));
+      const saved = JSON.parse(sessionStorage.getItem(STORAGE_KEY));
       if (saved && typeof saved === 'object') {
-        state.data = saved.data && typeof saved.data === 'object' ? saved.data : {};
-        state.current = Number.isInteger(saved.current) ? Math.min(Math.max(saved.current, 0), categories.length - 1) : 0;
-        state.finalConsent = Boolean(saved.finalConsent);
+        const savedAt = Number(saved.savedAt || Date.now());
+        const age = Date.now() - savedAt;
+        if (Number.isFinite(savedAt) && age >= 0 && age <= DRAFT_TTL_MS) {
+          state.data = saved.data && typeof saved.data === 'object' ? saved.data : {};
+          state.current = Number.isInteger(saved.current) ? Math.min(Math.max(saved.current, 0), categories.length - 1) : 0;
+          state.finalConsent = Boolean(saved.finalConsent);
+        } else {
+          sessionStorage.removeItem(STORAGE_KEY);
+        }
       }
     } catch (_) {}
     state.data.discordIdentity = discordIdentity;
@@ -552,17 +579,18 @@
     window.clearTimeout(persistTimer);
     persistTimer = 0;
     try {
-      localStorage.setItem(STORAGE_KEY, JSON.stringify({
+      sessionStorage.setItem(STORAGE_KEY, JSON.stringify({
         data: state.data,
         current: state.current,
-        finalConsent: state.finalConsent
+        finalConsent: state.finalConsent,
+        savedAt: Date.now()
       }));
       if (notify) showToast('Borrador guardado en este navegador.', 'success');
     } catch (_) {
       if (notify) showToast('No se pudo guardar el borrador en este navegador.', 'error');
     }
   };
-  // localStorage es síncrono. En escritura continua guardamos con debounce para
+  // sessionStorage es síncrono. En escritura continua guardamos con debounce para
   // no bloquear el hilo principal en cada tecla.
   const persist = (notify = false) => {
     if (notify) {
@@ -992,7 +1020,10 @@
       const response = await fetch('/api/applications/builders', {
         method: 'POST',
         credentials: 'same-origin',
-        headers: { 'Content-Type': 'application/json' },
+        headers: {
+          'Content-Type': 'application/json',
+          'X-CSRF-Token': authSession.csrfToken || ''
+        },
         body: JSON.stringify(buildSubmissionPayload())
       });
       const result = await response.json().catch(() => ({}));
@@ -1000,7 +1031,7 @@
       if (response.ok && result.ok) {
         persistenceEnabled = false;
         window.clearTimeout(persistTimer);
-        localStorage.removeItem(STORAGE_KEY);
+        sessionStorage.removeItem(STORAGE_KEY);
         reviewSubmit.innerHTML = 'POSTULACIÓN ENVIADA ✓';
         reviewSubmit.disabled = true;
         showToast('Postulación enviada. Abriendo la confirmación...', 'success', 2400);
@@ -1009,10 +1040,20 @@
         return;
       }
 
+      if (result.code === 'reauth_required') {
+        persistNow(false);
+        showToast(result.message || 'Necesitamos renovar tu verificación de Discord antes de enviar.', 'error', 5200);
+        const loginUrl = typeof result.login === 'string' && result.login.startsWith('/api/auth/discord')
+          ? result.login
+          : `/api/auth/discord?return=${encodeURIComponent(window.location.pathname)}`;
+        window.setTimeout(() => window.location.assign(loginUrl), 900);
+        return;
+      }
+
       if (result.code === 'already_submitted') {
         persistenceEnabled = false;
         window.clearTimeout(persistTimer);
-        localStorage.removeItem(STORAGE_KEY);
+        sessionStorage.removeItem(STORAGE_KEY);
         showToast('Esta cuenta de Discord ya tiene una postulación registrada.', 'error', 4200);
         const id = result.applicationId ? `&id=${encodeURIComponent(result.applicationId)}` : '';
         window.setTimeout(() => window.location.replace(`/postulacion-enviada.html?already=1${id}`), 700);
@@ -1087,6 +1128,7 @@
   });
 
   reviewBack?.addEventListener('click', closeReview);
+  reviewEdit?.addEventListener('click', () => reviewBack?.click());
   reviewSave?.addEventListener('click', () => persist(true));
   reviewConsentBox?.addEventListener('change', () => {
     state.finalConsent = Boolean(reviewConsentBox.checked);

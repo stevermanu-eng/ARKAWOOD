@@ -1,10 +1,13 @@
 {
   "name": "arka-wood-web",
-  "version": "0.8.6",
+  "version": "0.8.7",
   "private": true,
   "description": "Sitio de ARKA WOOD, Wiki, postulaciones con Discord OAuth2, Cloudflare Pages Functions, D1 y webhooks.",
   "scripts": {
-    "build": "node scripts/build.mjs",
+    "check": "node scripts/check.mjs",
+    "test:security": "node scripts/security-test.mjs",
+    "verify": "npm run check && npm run test:security",
+    "build": "npm run verify && node scripts/build.mjs",
     "preview": "npx wrangler pages dev dist",
     "deploy": "npm run build && npx wrangler pages deploy dist"
   },
