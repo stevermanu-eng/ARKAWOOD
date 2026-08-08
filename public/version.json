@@ -1,6 +1,6 @@
 {
   "project": "ARKA WOOD",
-  "release": "8.8.1",
+  "release": "8.8.2",
   "deploymentLayout": "cloudflare-pages-public",
   "expectedStylesheet": "/styles-v8.8.1.css",
   "features": [
