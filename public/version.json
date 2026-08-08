@@ -1,8 +1,8 @@
 {
   "project": "ARKA WOOD",
-  "release": "8.8.2",
+  "release": "8.9.0",
   "deploymentLayout": "cloudflare-pages-public-no-required-d1-binding",
-  "expectedStylesheet": "/styles-v8.8.2.css",
+  "expectedStylesheet": "/styles-v8.9.0.css",
   "features": [
     "discord-profile-circular",
     "profile-click-discord-login",
