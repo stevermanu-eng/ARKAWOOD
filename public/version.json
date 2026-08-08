@@ -1,8 +1,8 @@
 {
   "project": "ARKA WOOD",
-  "release": "8.10.0",
+  "release": "8.10.2",
   "deploymentLayout": "cloudflare-pages-public-no-required-d1-binding",
-  "expectedStylesheet": "/styles-v8.10.0.css",
+  "expectedStylesheet": "/styles-v8.10.2.css",
   "features": [
     "discord-profile-circular",
     "profile-click-discord-login",
@@ -13,12 +13,14 @@
     "darker-rules-background",
     "full-staff-audit-master",
     "audit-staff-role-catalog",
-    "audit-staff-ascension-system",
     "audit-staff-background-art",
-    "creator-renamed-marketing-chief"
+    "creator-renamed-marketing-chief",
+    "audit-staff-role-tooltips",
+    "audit-staff-designed-authority-map",
+    "audit-staff-branches-separated"
   ],
   "deploymentNote": "D1 is optional at deploy time; bind a database as applications_db before enabling application submissions.",
   "fix": "Removed custom extensionless wiki rewrites; Cloudflare Pages native HTML routing now handles /wiki/reglas and related routes.",
   "rules": "Full official Network and Discord rule documents rendered on background artwork.",
-  "auditStaff": "Full internal staff/organization source integrated with JEFE DE MARKETING as the canonical position name."
+  "auditStaff": "Internal staff catalog refined: branches separated, redesigned authority map, hover role descriptions, no Discord-color/Minecraft-tag metadata, and removed pending/operational/technical/visual/ascension sections as requested."
 }
