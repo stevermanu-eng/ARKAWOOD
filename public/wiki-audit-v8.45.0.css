@@ -1,0 +1,36 @@
+/* ARKAWOOD v8.45.0 — CSS consolidado. Orden de cascada preservado. */
+
+/* ===== wiki-audit-v8.33.0.css ===== */
+.audit-index__parent{color:#e3c78e!important;border-left-color:rgba(231,179,79,.45)!important}
+.audit-index__subnav{display:grid!important;margin:0 7px 7px;padding:4px 0 5px 13px!important;border-left:1px solid rgba(231,179,79,.14)}
+.audit-index__subnav a{padding:7px 9px!important;font-size:7.5px!important;letter-spacing:.09em!important;color:#776f66!important}
+.audit-index__subnav a:hover{color:#e7d4b2!important;background:rgba(231,179,79,.035)!important}
+.audit-authority-branches--v833{grid-template-columns:1.25fr 1fr!important}
+.audit-authority-branches--v833 .audit-authority-lane{min-height:100%}
+.audit-authority-flow{display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:8px;padding:15px 0}
+.audit-authority-flow span,.audit-authority-fanout span,.audit-authority-chips span{padding:9px 11px;border:1px solid rgba(255,255,255,.08);background:#090909;color:#cfc5b8;font-size:8px;font-weight:900;letter-spacing:.08em;text-align:center}
+.audit-authority-flow i{color:var(--lane);font-style:normal;font-weight:900}
+.audit-authority-split--wide>div{min-height:138px}
+.audit-authority-chips{display:flex!important;flex-wrap:wrap;gap:5px;margin:9px 0!important}
+.audit-authority-chips span{padding:6px 8px;font-size:7px;border-color:color-mix(in srgb,var(--lane) 26%,transparent)}
+.audit-authority-fanout{position:relative;display:grid;grid-template-columns:repeat(4,1fr);gap:7px;padding-top:22px}
+.audit-authority-fanout:before{content:"";position:absolute;left:12.5%;right:12.5%;top:11px;height:1px;background:color-mix(in srgb,var(--lane) 42%,transparent)}
+.audit-authority-fanout span:before{content:"";position:absolute;top:-11px;left:50%;height:11px;width:1px;background:color-mix(in srgb,var(--lane) 42%,transparent)}
+.audit-authority-fanout span{position:relative}
+.audit-authority-fanout--five{grid-template-columns:repeat(5,1fr)}
+.audit-authority-fanout--five:before{left:10%;right:10%}
+@media(max-width:900px){.audit-index__subnav{display:flex!important;border-left:0;border-bottom:1px solid rgba(231,179,79,.1);padding:0 5px 5px!important;margin:0!important}.audit-index__subnav a{flex:0 0 auto}.audit-authority-branches--v833{grid-template-columns:1fr!important}}
+@media(max-width:650px){.audit-authority-fanout,.audit-authority-fanout--five{grid-template-columns:1fr 1fr}.audit-authority-fanout:before,.audit-authority-fanout span:before{display:none}.audit-authority-flow{flex-direction:column}.audit-authority-flow i{transform:rotate(0deg)}}
+
+/* ===== site-v8.44.0.css ===== */
+/* v8.44.0 — menú del avatar superior */
+.topbar__account{position:relative}
+.topbar-profile-menu{position:absolute;right:0;top:calc(100% + 13px);z-index:420;width:244px;padding:9px;border:1px solid rgba(231,179,79,.2);background:linear-gradient(180deg,#15110e,#090807);box-shadow:0 24px 60px rgba(0,0,0,.58)}
+.topbar-profile-menu[hidden]{display:none!important}
+.topbar-profile-menu__head{display:grid;grid-template-columns:40px 1fr;gap:10px;align-items:center;padding:8px 8px 12px;border-bottom:1px solid rgba(255,255,255,.07);margin-bottom:6px}
+.topbar-profile-menu__head img{width:40px;height:40px;border-radius:50%;object-fit:cover;border:1px solid rgba(231,179,79,.3)}
+.topbar-profile-menu__head b{display:block;color:#fff0cf;font-size:10px;letter-spacing:.13em}.topbar-profile-menu__head small{display:block;margin-top:4px;color:#8f8477;font-size:10px}
+.topbar-profile-menu>a,.topbar-profile-menu>button{width:100%;min-height:38px;display:flex;align-items:center;padding:0 11px;border:0;border-bottom:1px solid rgba(255,255,255,.045);background:transparent;color:#d7ccbc;text-align:left;font-size:9px;font-weight:900;letter-spacing:.12em;cursor:pointer;text-decoration:none;box-sizing:border-box}
+.topbar-profile-menu>a:hover,.topbar-profile-menu>button:hover{background:rgba(231,179,79,.075);color:#ffe0a1}.topbar-profile-menu>button.is-danger{color:#e7a19a}.topbar-profile-menu>button:disabled{opacity:.5}
+.topbar-profile-menu__status{margin:7px 7px 2px;color:#a89983;font-size:9px;line-height:1.45;overflow-wrap:anywhere}
+@media(max-width:650px){.topbar-profile-menu{position:fixed;right:10px;top:66px;width:min(270px,calc(100vw - 20px))}}

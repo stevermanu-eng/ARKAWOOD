@@ -1,0 +1,57 @@
+
+/* ARKA WOOD · Staff oficial v8.45.2
+   Los acentos son de interfaz. NO representan colores oficiales de los nuevos rangos. */
+.staff-five-branches{grid-template-columns:repeat(2,minmax(0,1fr))}
+.staff-five-branches article:last-child{grid-column:1/-1}
+.staff-branch-chain{margin-top:16px!important;padding-top:14px;border-top:1px solid rgba(231,179,79,.12);color:#d8b66d!important;font-size:11px!important;font-weight:850;letter-spacing:.055em}
+.staff-catalog-section{padding-top:34px}
+.staff-branch-nav{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:8px;margin:28px 0 34px}
+.staff-branch-nav a{min-height:78px;padding:16px 14px;border:1px solid rgba(231,179,79,.14);background:linear-gradient(145deg,rgba(18,13,9,.9),rgba(8,7,6,.94));text-decoration:none;display:flex;flex-direction:column;justify-content:center;gap:5px;transition:transform .18s ease,border-color .18s ease,background .18s ease}
+.staff-branch-nav a:hover{transform:translateY(-2px);border-color:rgba(231,179,79,.42);background:linear-gradient(145deg,rgba(35,24,12,.92),rgba(8,7,6,.96))}
+.staff-branch-nav b{color:#eadfcf;font-size:11px;letter-spacing:.06em}
+.staff-branch-nav span{color:#9a7340;font-size:8px;font-weight:850;letter-spacing:.12em}
+.staff-branch-panel{margin:0 0 52px;padding:28px;border:1px solid rgba(231,179,79,.13);background:linear-gradient(145deg,rgba(14,10,8,.88),rgba(7,6,5,.92))}
+.staff-branch-panel>header{margin-bottom:22px}
+.staff-branch-panel>header small{color:#b47b32;font-size:9px;font-weight:900;letter-spacing:.18em}
+.staff-branch-panel>header h3{margin:7px 0 9px;font-family:Impact,Haettenschweiler,'Arial Narrow Bold',sans-serif;font-size:clamp(31px,4vw,47px);letter-spacing:.045em;color:#eee5d8}
+.staff-branch-panel>header p{max-width:920px;margin:0;color:#a1988d;font-size:13px;line-height:1.8}
+.staff-hierarchy{margin-top:16px;padding:13px 15px;border-left:2px solid #ad742b;background:rgba(113,68,20,.10);color:#dfc17f;font-size:11px;font-weight:800;line-height:1.65;letter-spacing:.04em}
+.staff-tier-note{margin:0 0 18px;padding:14px 16px;display:grid;gap:5px;border:1px solid rgba(231,179,79,.1);background:rgba(8,7,6,.66)}
+.staff-tier-note b{color:#d9b565;font-size:10px;letter-spacing:.08em}
+.staff-tier-note span{color:#968c80;font-size:11px;line-height:1.65}
+.staff-rank-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.staff-rank-card{border:1px solid rgba(231,179,79,.11);background:rgba(7,6,5,.82);overflow:hidden}
+.staff-rank-card[open]{border-color:rgba(231,179,79,.27);box-shadow:0 20px 55px rgba(0,0,0,.18)}
+.staff-rank-card summary{list-style:none;cursor:pointer;min-height:112px;padding:18px 50px 18px 18px;display:grid;align-content:center;gap:4px;position:relative}
+.staff-rank-card summary::-webkit-details-marker{display:none}
+.staff-rank-level{color:#9f6c2d;font-size:8px;font-weight:900;letter-spacing:.13em}
+.staff-rank-card summary strong{color:#eee5d9;font-family:Impact,Haettenschweiler,'Arial Narrow Bold',sans-serif;font-size:25px;letter-spacing:.055em;font-style:normal}
+.staff-rank-card summary em{color:#8f877c;font-size:11.5px;line-height:1.5;font-style:normal}
+.staff-rank-card summary>b{position:absolute;right:17px;top:50%;transform:translateY(-50%);display:grid;place-items:center;width:28px;height:28px;border:1px solid rgba(231,179,79,.18);color:#bb8137;font-size:18px;transition:transform .18s ease}
+.staff-rank-card[open] summary>b{transform:translateY(-50%) rotate(45deg)}
+.staff-rank-body{padding:0 18px 18px;border-top:1px solid rgba(231,179,79,.08)}
+.staff-rank-detail{padding-top:15px}
+.staff-rank-detail h5{margin:0 0 8px;color:#d0a75c;font-size:9px;letter-spacing:.12em}
+.staff-rank-detail p,.staff-rank-detail li{color:#a39a8e;font-size:11.5px;line-height:1.72}
+.staff-rank-detail p{margin:0 0 8px}
+.staff-rank-detail ul{margin:0;padding-left:18px}
+.staff-rank-detail li+li{margin-top:4px}
+.staff-policy-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.staff-policy-grid article{padding:23px;border:1px solid rgba(231,179,79,.11);background:rgba(8,7,6,.82)}
+.staff-policy-grid h3{margin:0 0 9px;color:#e2d6c6;font-size:14px;letter-spacing:.055em}
+.staff-policy-grid p{margin:0;color:#9a9186;font-size:12.5px;line-height:1.78}
+.staff-policy-grid strong{color:#e0bd75}
+@media(max-width:1040px){
+  .staff-branch-nav{grid-template-columns:repeat(3,minmax(0,1fr))}
+}
+@media(max-width:760px){
+  .staff-five-branches{grid-template-columns:1fr}
+  .staff-five-branches article:last-child{grid-column:auto}
+  .staff-branch-nav{grid-template-columns:1fr 1fr}
+  .staff-branch-panel{padding:19px}
+  .staff-rank-grid,.staff-policy-grid{grid-template-columns:1fr}
+}
+@media(max-width:480px){
+  .staff-branch-nav{grid-template-columns:1fr}
+  .staff-rank-card summary{padding-right:45px}
+}

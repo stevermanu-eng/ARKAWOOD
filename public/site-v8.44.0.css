@@ -1,0 +1,11 @@
+/* v8.44.0 — menú del avatar superior */
+.topbar__account{position:relative}
+.topbar-profile-menu{position:absolute;right:0;top:calc(100% + 13px);z-index:420;width:244px;padding:9px;border:1px solid rgba(231,179,79,.2);background:linear-gradient(180deg,#15110e,#090807);box-shadow:0 24px 60px rgba(0,0,0,.58)}
+.topbar-profile-menu[hidden]{display:none!important}
+.topbar-profile-menu__head{display:grid;grid-template-columns:40px 1fr;gap:10px;align-items:center;padding:8px 8px 12px;border-bottom:1px solid rgba(255,255,255,.07);margin-bottom:6px}
+.topbar-profile-menu__head img{width:40px;height:40px;border-radius:50%;object-fit:cover;border:1px solid rgba(231,179,79,.3)}
+.topbar-profile-menu__head b{display:block;color:#fff0cf;font-size:10px;letter-spacing:.13em}.topbar-profile-menu__head small{display:block;margin-top:4px;color:#8f8477;font-size:10px}
+.topbar-profile-menu>a,.topbar-profile-menu>button{width:100%;min-height:38px;display:flex;align-items:center;padding:0 11px;border:0;border-bottom:1px solid rgba(255,255,255,.045);background:transparent;color:#d7ccbc;text-align:left;font-size:9px;font-weight:900;letter-spacing:.12em;cursor:pointer;text-decoration:none;box-sizing:border-box}
+.topbar-profile-menu>a:hover,.topbar-profile-menu>button:hover{background:rgba(231,179,79,.075);color:#ffe0a1}.topbar-profile-menu>button.is-danger{color:#e7a19a}.topbar-profile-menu>button:disabled{opacity:.5}
+.topbar-profile-menu__status{margin:7px 7px 2px;color:#a89983;font-size:9px;line-height:1.45;overflow-wrap:anywhere}
+@media(max-width:650px){.topbar-profile-menu{position:fixed;right:10px;top:66px;width:min(270px,calc(100vw - 20px))}}

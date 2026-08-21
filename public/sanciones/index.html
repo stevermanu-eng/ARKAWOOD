@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="#080706" name="theme-color"/>
+<meta content="Consulta sanciones, historial reciente y actividad del staff de ARKA WOOD." name="description"/>
+<link href="/assets/arka-wood-favicon.png" rel="icon" type="image/png"/>
+<title>Sanciones · ARKA WOOD</title>
+<link href="/styles-v8.21.0.css?rev=8.45.1" rel="stylesheet"/>
+<link href="/site-v8.35.0.css?rev=8.45.1" rel="stylesheet"/>
+<link href="/sanciones-v8.35.0.css?rev=8.45.1" rel="stylesheet"/>
+<link href="/site-v8.44.0.css?rev=8.45.1" rel="stylesheet"/>
+</head>
+<body class="sanctions-page sanctions-dashboard-page">
+<div aria-hidden="true" class="noise"></div><div aria-hidden="true" class="embers" id="embers"></div>
+<header class="topbar" id="topbar"><div class="topbar__inner"><a aria-label="ARKA WOOD — Inicio" class="topbar__brand" href="/#home"><img alt="ARKA WOOD" decoding="async" height="256" src="/assets/arka-wood-header-logo.webp" width="256"/></a><nav aria-label="Navegación principal" class="nav"><a class="nav__item" href="/#home">HOME</a><a class="nav__item" href="/foro/">FOROS</a><a class="nav__item" href="/wiki/">WIKI</a><a class="nav__item" href="/miembros">MIEMBROS</a><a aria-current="page" class="nav__item nav__item--active" href="/sanciones/">SANCIONES</a><a class="nav__item" href="/tienda/">TIENDA</a><a class="nav__item" href="/support">SOPORTE</a><a class="nav__item nav__item--application" href="/postulaciones.html">POSTULACIONES</a></nav><button aria-label="Perfil de usuario" class="profile" id="homeProfile" title="Perfil" type="button"><span id="homeProfileFallback">♜</span><img alt="" decoding="async" height="128" hidden="" id="homeProfileAvatar" width="128"/></button></div></header>
+<main class="sanctions-dashboard">
+<section class="sanctions-hero">
+<div class="sanctions-hero__backdrop"></div><div class="sanctions-hero__overlay"></div>
+<div class="sanctions-hero__inner">
+<p class="sanctions-kicker">CENTRO DE CONTROL · MODERACIÓN Y ANTICHEAT</p>
+<h1><span>SANCIONES</span><strong>ARKA WOOD</strong></h1>
+<p class="sanctions-hero__description">Consulta el historial disciplinario del servidor por nickname o UUID, revisa quién aplicó cada sanción y entra al historial completo del jugador o del staff responsable.</p>
+<form class="sanctions-search" id="sanctionsSearchForm" role="search">
+<label class="sr-only" for="sanctionsSearchInput">Buscar sanciones</label>
+<input autocomplete="off" id="sanctionsSearchInput" name="buscar" placeholder="Nickname, UUID, staff, razón o ID de sanción..." type="search"/>
+<button class="sanctions-button sanctions-button--gold" type="submit">BUSCAR</button>
+</form>
+<div aria-label="Filtrar sanciones por tipo" class="sanctions-filters" id="sanctionsFilters" role="tablist"><button class="sanctions-filter is-active" data-filter="ALL" type="button">TODO</button><button class="sanctions-filter" data-filter="BAN" type="button">BAN</button><button class="sanctions-filter" data-filter="MUTE" type="button">MUTE</button><button class="sanctions-filter" data-filter="KICK" type="button">KICK</button><button class="sanctions-filter" data-filter="WARN" type="button">WARN</button><button class="sanctions-filter" data-filter="BLACKLIST" type="button">BLACKLIST</button></div>
+</div>
+</section>
+<section class="sanctions-overview" id="resultados">
+<div class="sanctions-stats sanctions-stats--summary" id="sanctionsStats"><article class="sanctions-stat-card"><span>TOTAL REGISTRADAS</span><strong id="statTotal">0</strong><small>Sanciones del registro</small></article><article class="sanctions-stat-card sanctions-stat-card--staff"><span>STAFF MÁS ACTIVO</span><div class="sanctions-stat-staff-identity" id="statTopStaff"><b>—</b></div><small id="statTopStaffMeta">0 sanciones</small></article><article class="sanctions-stat-card"><span>WARNS</span><strong id="statWarn">0</strong><small>Advertencias registradas</small></article><article class="sanctions-stat-card"><span>BANS</span><strong id="statBan">0</strong><small>Baneos registrados</small></article><article class="sanctions-stat-card"><span>MUTES</span><strong id="statMute">0</strong><small>Silencios registrados</small></article></div>
+<div class="sanctions-grid">
+<section class="sanctions-panel sanctions-panel--main">
+<div class="sanctions-panel__header"><div><p class="sanctions-panel__eyebrow">REGISTRO GENERAL</p><h2>Últimas sanciones</h2></div><div class="sanctions-panel__actions"><button class="sanctions-button sanctions-button--ghost" id="clearSearchButton" type="button">LIMPIAR BÚSQUEDA</button></div></div>
+<div class="sanctions-results-meta" id="sanctionsResultsMeta">Mostrando todas las sanciones registradas.</div>
+<div aria-label="Listado de sanciones" class="sanctions-table" role="table"><div class="sanctions-table__head" role="rowgroup"><div class="sanctions-row sanctions-row--head" role="row"><span>USUARIO</span><span>TIPO</span><span>STAFF</span><span>DURACIÓN</span><span>FECHA</span><span>DETALLE</span></div></div><div class="sanctions-table__body" id="sanctionsList" role="rowgroup"></div></div>
+</section>
+<aside class="sanctions-sidebar">
+<section class="sanctions-panel sanctions-panel--side"><div class="sanctions-panel__header"><div><p class="sanctions-panel__eyebrow">ACTIVIDAD DEL STAFF</p><h2>ESTADÍSTICAS</h2></div></div><label class="staff-activity-search" for="staffActivitySearchInput"><span aria-hidden="true" class="staff-activity-search__icon"></span><input autocomplete="off" id="staffActivitySearchInput" name="staff" placeholder="Buscar por nombre o rango..." type="search"/></label><div class="staff-activity-chart" id="staffActivityChart"></div><a class="sanctions-button sanctions-button--gold sanctions-full-button" href="/sanciones/staff/">VER ESTADÍSTICAS</a></section>
+<section class="sanctions-panel sanctions-panel--side"><div class="sanctions-panel__header"><div><p class="sanctions-panel__eyebrow">BÚSQUEDA RÁPIDA</p><h2>Sanciones por usuario</h2></div></div><form class="quick-search-card" id="quickSearchForm"><label class="sr-only" for="quickSearchInput">Usuario o UUID</label><input autocomplete="off" id="quickSearchInput" name="usuario" placeholder="Nickname o UUID" type="text"><button class="sanctions-button sanctions-button--gold" type="submit">CONSULTAR</button><p>Puedes usar el nombre exacto del jugador o su UUID de Minecraft.</p></form></section>
+</aside>
+</div>
+</section>
+</main>
+<script defer="" src="/script-v8.45.0.js?rev=8.45.1"></script><script defer="" src="/sanctions-data-v8.45.3.js?rev=8.45.3"></script><script defer="" src="/sanciones-v8.33.0.js?rev=8.44.4"></script>
+</body></html>

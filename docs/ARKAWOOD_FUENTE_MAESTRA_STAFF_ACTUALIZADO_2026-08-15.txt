@@ -1,0 +1,1182 @@
+================================================================================================
+ARKAWOOD NETWORK — FUENTE MAESTRA CONSOLIDADA PARA IA — STAFF Y ORGANIZACIÓN
+Versión: 15 de agosto de 2026
+Estado: nueva estructura oficial de ramas y rangos; sustituye la jerarquía anterior de staff.
+================================================================================================
+
+PROPÓSITO
+------------------------------------------------------------------------------------------------
+Este archivo funciona como fuente maestra para chats de IA, documentación interna, desarrollo
+del bot de Discord, paneles de staff, sistemas de ascenso y futuras páginas de ARKAWOOD NETWORK.
+
+Conserva la identidad temática y los principios institucionales de la fuente anterior, pero adapta
+toda la organización a los nuevos nombres y cargos definidos para:
+
+1. MODERACIÓN — LEGIÓN DEL JUICIO.
+2. BUILDERS — FORJA DEL EDÉN.
+3. ADMINISTRACIÓN — CÓNCLAVE DEL NEXO.
+4. PARTNERS — ATRIO DE LOS PACTOS.
+5. MARKETING — EQUIPO DE DIFUSIÓN.
+
+Los rangos anteriores de Moderación como HELPER, HELPER+, GULA, ACEDIA, CUSTOS, CODICIA, LIVOR,
+EROS, IRA, SUPERBIA y VIRTUS dejan de formar parte de la estructura oficial.
+
+1. IDENTIDAD GENERAL DE ARKAWOOD
+------------------------------------------------------------------------------------------------
+ARKAWOOD NETWORK es una Network de Minecraft con una temática de fantasía épica inspirada en
+elementos bíblicos, apocalípticos, celestiales, demoníacos, naturales y mitológicos.
+
+No representa una religión concreta y no necesita una historia única. La temática funciona como
+una identidad flexible, reconocible y propia, capaz de combinar conceptos fantásticos con una
+estructura profesional y comprensible.
+
+Conceptos permitidos:
+- Ángeles.
+- Arcángeles.
+- Serafines.
+- Querubines.
+- Demonios.
+- Pecados capitales.
+- Mandamientos.
+- Jinetes y trompetas del Apocalipsis.
+- Caballeros negros.
+- Dioses y divinidades.
+- Luz y oscuridad.
+- Naturaleza.
+- Bosques.
+- Árboles sagrados.
+- Mitología.
+- Fantasía.
+- Referencias conceptuales a Nanatsu no Taizai.
+- Referencias conceptuales a Dante Alighieri y obras relacionadas.
+
+Sensaciones de marca:
+- Divina.
+- Oscura.
+- Majestuosa.
+- Antigua.
+- Misteriosa.
+- Épica.
+- Elegante.
+- Poderosa.
+
+Colores centrales de identidad:
+- Negro.
+- Rojo.
+- Blanco.
+- Dorado.
+
+Tono institucional:
+Serio y profesional, pero no excesivamente formal. La temática debe complementar la funcionalidad
+y nunca dificultar la comprensión de permisos, responsabilidades, sanciones, ascensos o procesos.
+
+
+1.1. DEIDADES
+------------------------------------------------------------------------------------------------
+DEIDAD es el grupo de máxima propiedad de ARKAWOOD.
+
+Las DEIDADES conservan identidades personales equivalentes:
+
+- DEIDAD SUPREMA:
+  Luz, orden, autoridad celestial y dominio de lo elevado.
+
+- DEIDAD DEL INFRAMUNDO:
+  Oscuridad, dominio, poder infernal y fuerza destructiva.
+
+- DEIDAD DEL ÁRBOL SAGRADO:
+  Naturaleza, creación, vida, equilibrio y origen.
+
+DEIDAD SUPREMA, DEIDAD DEL INFRAMUNDO y DEIDAD DEL ÁRBOL SAGRADO son títulos personales de propietarios que pertenecen
+al mismo nivel de propiedad: DEIDAD.
+
+
+2. ORGANIZACIÓN GENERAL
+------------------------------------------------------------------------------------------------
+ARKAWOOD posee cinco ramas principales.
+
+1. MODERACIÓN — LEGIÓN DEL JUICIO
+   Convivencia, reportes, sanciones, reglas, disciplina, supervisión, apelaciones e investigaciones
+   relacionadas con la conducta de jugadores y miembros del staff de Moderación.
+
+2. BUILDERS — FORJA DEL EDÉN
+   Mapas, lobbies, arenas, escenarios, calidad constructiva, identidad visual dentro de Minecraft,
+   planificación arquitectónica y ejecución de proyectos.
+
+3. ADMINISTRACIÓN — CÓNCLAVE DEL NEXO
+   Modalidades, desarrollo técnico, coordinación institucional, documentación, seguimiento de bugs,
+   políticas, operaciones administrativas y dirección general de la Network.
+
+4. PARTNERS — ATRIO DE LOS PACTOS
+   Colaboraciones externas, alianzas oficiales e inversión.
+
+5. MARKETING — EQUIPO DE DIFUSIÓN
+   Creadores, YouTubers, influencers, campañas, contenido, redes sociales, comunicación y difusión.
+
+
+2.1. PRINCIPIOS GENERALES DE AUTORIDAD
+------------------------------------------------------------------------------------------------
+- Cada rama controla sus propios procesos de ingreso, evaluación y ascenso.
+- Ninguna rama (al menos que sea administración) puede introducir miembros o modificar jerarquías de otra rama sin autorización de
+  la cabeza correspondiente.
+- Un rango superior implica más responsabilidad, no derecho absoluto a todos los permisos.
+- Una autoridad que modifique una decisión inferior debe justificar el cambio, registrar el motivo
+  y conservar las pruebas necesarias.
+- Los rangos superiores deben supervisar el funcionamiento del sistema; no deben convertirse en una
+  vía para evitar procedimientos.
+- Toda sanción relevante debe poder reconstruirse mediante registros, pruebas, historial y responsable.
+
+3. CATÁLOGO OFICIAL DE RANGOS
+================================================================================================
+
+
+3.1. MODERACIÓN — LEGIÓN DEL JUICIO
+------------------------------------------------------------------------------------------------
+La LEGIÓN DEL JUICIO es la rama responsable de convivencia, reportes, sanciones, disciplina,
+apelaciones, investigación y control interno de la Moderación.
+
+La nueva estructura está organizada en cuatro grandes niveles:
+
+A. OPERADORES DE MODERACIÓN
+   ZELUM → NEMIS → VEXEN → INVAR → SABLE → VORIEN
+
+B. TRANSICIÓN A SUPERVISIÓN
+   MALVEN
+
+C. SUPERVISIÓN
+   ELYON → LUMEN → ORACLE
+
+D. ALTO MANDO
+   OFÁN → QUERUBÍN → SERAFÍN
+
+La finalidad de esta organización es evitar que todos los rangos sean simplemente "moderadores con
+más permisos". A partir de MALVEN cambia progresivamente la naturaleza del trabajo: se pasa de
+atender jugadores a controlar la calidad del propio equipo.
+
+
+3.1.1. ZELUM
+------------------------------------------------------------------------------------------------
+Nivel o posición:
+RANGO 1 — ZELUM
+
+Descripción breve:
+Ingreso operativo a la LEGIÓN DEL JUICIO.
+
+Significado:
+ZELUM representa la falta de impulso, la quietud y el estancamiento. Dentro de ARKAWOOD se
+relaciona simbólicamente con la pereza y funciona como contraste con aquello que debe demostrar
+quien inicia en Moderación: actividad, constancia, iniciativa y responsabilidad.
+
+Funciones:
+- Atender dudas básicas de jugadores.
+- Recibir reportes iniciales y sancionarlos.
+- Reunir pruebas.
+- Orientar al usuario hacia el procedimiento correcto.
+- Observar y aprender protocolos de sanción.
+- Reclamar y atender tickets permitidos.
+- Escalar situaciones que excedan sus permisos.
+- Participar en capacitaciones.
+- Aprender el reglamento de Discord y Minecraft.
+- Registrar correctamente toda actuación que requiera historial.
+
+Limitaciones:
+- No debe resolver por cuenta propia casos graves.
+- No debe realizar investigaciones internas.
+- No debe modificar sanciones de otros miembros.
+- Sus sanciones sensibles pueden requerir revisión superior.
+
+3.1.2. NEMIS
+------------------------------------------------------------------------------------------------
+Nivel o posición:
+RANGO 2 — NEMIS
+
+Significado:
+NEMIS representa el consumo desmedido y la necesidad que nunca parece quedar satisfecha. Se
+relaciona temáticamente con la gula. Dentro de la Legión recuerda que un moderador no debe
+convertir la acumulación de sanciones, actividad o permisos en una búsqueda de exceso.
+
+Funciones:
+- Resolver tickets.
+- Aplicar advertencias y sanciones menores dentro de sus permisos.
+- Revisar reportes sencillos.
+- Controlar chat y comportamiento.
+- Reunir antecedentes de usuarios.
+- Identificar reincidencias básicas.
+- Guiar a ZELUM en procedimientos ya dominados.
+- Escalar casos complejos a VEXEN, INVAR o superiores.
+
+3.1.3. VEXEN
+------------------------------------------------------------------------------------------------
+Nivel o posición:
+RANGO 3 — VEXEN
+
+Significado:
+VEXEN representa atracción, deseo, tentación y pérdida de control ante aquello que genera placer
+o fascinación. Se relaciona con la lujuria. Dentro de Moderación simboliza la necesidad de mantener
+imparcialidad incluso cuando existen amistades, preferencias o conflictos personales.
+
+Funciones:
+- Atender reportes y tickets generales.
+- Aplicar sanciones ordinarias.
+- Moderar Discord y Minecraft.
+- Revisar pruebas aportadas por jugadores.
+- Resolver conflictos comunes.
+- Registrar antecedentes.
+- Detectar favoritismo o conflictos de interés.
+- Solicitar revisión cuando una situación pueda comprometer su imparcialidad.
+- Apoyar la formación de ZELUM y NEMIS.
+
+3.1.4. INVAR
+------------------------------------------------------------------------------------------------
+Nivel o posición:
+RANGO 4 — INVAR
+
+Significado:
+INVAR representa comparación, inconformidad, rivalidad silenciosa y deseo de poseer aquello que
+pertenece a otro. Se relaciona con la envidia. Dentro de Moderación recuerda que los rangos,
+reconocimientos y ascensos de otros miembros nunca deben provocar competencia destructiva.
+
+Funciones:
+- Resolver reportes complejos.
+- Analizar reincidencias.
+- Revisar historiales amplios.
+- Intervenir en conflictos con múltiples participantes.
+- Apoyar apelaciones menores.
+- Revisar sanciones dudosas cuando sea solicitado.
+- Acompañar a VEXEN, NEMIS y ZELUM en casos difíciles.
+- Detectar patrones de conducta repetitiva.
+- Preparar casos para SABLE o VORIEN cuando requieran mayor autoridad.
+
+3.1.5. SABLE
+------------------------------------------------------------------------------------------------
+Nivel o posición:
+RANGO 5 — SABLE
+
+Significado:
+SABLE representa posesión, acumulación, control y apego a aquello que se considera valioso.
+Se relaciona con la avaricia. Dentro de la Legión recuerda que recibir más autoridad nunca debe
+convertirse en apropiación del poder o resistencia a compartir conocimiento.
+
+Funciones:
+- Resolver sanciones de mayor peso.
+- Revisar apelaciones ordinarias.
+- Analizar reincidencias graves.
+- Apoyar la capacitación de rangos inferiores.
+- Revisar calidad de pruebas antes de escalar.
+- Detectar errores frecuentes de procedimiento.
+- Informar a supervisión sobre necesidades formativas.
+- Actuar como referencia operativa cuando no existe un supervisor disponible.
+- Preparar informes sobre casos relevantes.
+
+
+3.1.6. VORIEN
+------------------------------------------------------------------------------------------------
+Nivel o posición:
+RANGO 6 — VORIEN
+
+Significado:
+VORIEN representa una fuerza emocional intensa, explosiva y difícil de contener. Se relaciona
+con la ira. Dentro de ARKAWOOD simboliza la capacidad de responder con firmeza ante incidentes
+graves sin dejar que la presión sustituya al criterio.
+
+Funciones:
+- Intervenir en incidentes graves.
+- Resolver casos de alta tensión.
+- Investigar evasiones sencillas de sanción.
+- Revisar comportamientos coordinados o reincidentes.
+- Apoyar investigaciones internas cuando un supervisor lo solicite.
+- Revisar actuaciones de rangos menores.
+- Ayudar a contener crisis operativas.
+- Actuar como encargado temporal de un grupo cuando la supervisión lo determine.
+
+3.1.7. MALVEN
+------------------------------------------------------------------------------------------------
+Nivel o posición:
+RANGO 7 — MALVEN
+
+Significado:
+MALVEN representa superioridad, orgullo, arrogancia y la creencia de encontrarse por encima de
+otros. Se relaciona con la soberbia. Su ubicación como transición a Supervisión funciona como un
+recordatorio: quien comienza a supervisar nunca debe creer que está por encima del reglamento.
+
+Funciones:
+- Aprender procedimientos de supervisión.
+- Observar desempeño de operadores.
+- Revisar tickets cerrados.
+- Comprobar que las sanciones posean pruebas suficientes.
+- Detectar errores de registro.
+- Ayudar con evaluaciones.
+- Acompañar a ELYON durante revisiones de personal.
+- Supervisar grupos pequeños bajo autorización.
+- Emitir observaciones sobre candidatos a ascenso.
+- Registrar irregularidades y remitirlas al supervisor responsable.
+
+Autoridad:
+MALVEN puede observar, revisar y recomendar, pero las decisiones disciplinarias o de ascenso que
+correspondan a Supervisión deben ser confirmadas por ELYON o un rango superior.
+
+3.1.8. ELYON
+------------------------------------------------------------------------------------------------
+Nivel o posición:
+RANGO 8 — ELYON
+
+Significado:
+ELYON procede de un concepto asociado con lo elevado, superior o altísimo. Representa el primer
+gran cambio desde los rangos relacionados con los pecados hacia una etapa de elevación, equilibrio
+y responsabilidad sobre otros.
+
+Funciones:
+- Supervisar grupos de ZELUM a MALVEN.
+- Revisar actividad y rendimiento.
+- Auditar tickets y sanciones.
+- Detectar errores de procedimiento.
+- Realizar retroalimentación individual.
+- Recomendar ascensos.
+- Proponer medidas correctivas.
+- Atender apelaciones delicadas.
+- Mediar en conflictos internos.
+- Corregir errores cometidos por el staff cuando el procedimiento lo permita.
+- Coordinar reintegraciones o rectificaciones.
+- Informar a LUMEN sobre necesidades de formación.
+- Informar a ORACLE sobre irregularidades que requieran investigación.
+
+3.1.9. LUMEN
+------------------------------------------------------------------------------------------------
+Nivel o posición:
+RANGO 9 — LUMEN
+
+Significado:
+LUMEN significa luz. Representa claridad, conocimiento, orientación y la capacidad de hacer visible
+aquello que no estaba suficientemente comprendido.
+
+Teoría funcional conservada:
+LUMEN mantiene su asociación con formación, comunicación, manuales, protocolos y transmisión de
+conocimiento.
+
+Funciones:
+- Supervisar a ELYON.
+- Revisar la calidad de evaluaciones realizadas por ELYON.
+- Coordinar capacitaciones.
+- Redactar y actualizar manuales.
+- Mantener protocolos de Moderación.
+- Diseñar evaluaciones internas.
+- Organizar comunicaciones oficiales de la Legión.
+- Resolver discrepancias formativas.
+- Revisar apelaciones importantes.
+- Apoyar auditorías de ascensos.
+- Detectar criterios contradictorios entre supervisores.
+- Cubrir temporalmente funciones de ORACLE cuando sea necesario.
+
+Objetivo del rango:
+Mantener un estándar común de conocimiento, formación y criterio dentro de la Legión.
+
+
+3.1.10. ORACLE
+------------------------------------------------------------------------------------------------
+Nivel o posición:
+RANGO 10 — ORACLE
+
+Significado:
+ORACLE representa interpretación, sabiduría, percepción e información oculta. Simboliza la
+capacidad de observar datos complejos, conectar evidencias y descubrir aquello que no resulta
+evidente a primera vista.
+
+Teoría funcional conservada:
+ORACLE mantiene su asociación con investigación, discernimiento, redes de cuentas, evasiones,
+filtraciones, manipulación de pruebas y casos internos sensibles.
+
+Funciones:
+- Dirigir a ELYON y LUMEN.
+- Organizar el sistema de supervisores.
+- Investigar denuncias contra miembros de Moderación.
+- Revisar redes de cuentas y evasiones complejas.
+- Investigar manipulación de pruebas.
+- Investigar filtraciones internas.
+- Auditar sanciones de alto impacto.
+- Revisar abuso de permisos.
+- Coordinar investigaciones sensibles.
+- Presentar conclusiones a OFÁN.
+- Apoyar a QUERUBÍN en investigaciones superiores.
+- Proponer modificaciones a protocolos cuando un patrón de errores lo justifique.
+- Revisar expedientes de ascenso de candidatos a niveles altos.
+
+Objetivo del rango:
+Garantizar que la Supervisión no dependa únicamente de opiniones, sino de pruebas, análisis y
+procedimientos verificables.
+
+
+3.1.11. OFÁN
+------------------------------------------------------------------------------------------------
+Nivel o posición:
+RANGO 11 — SUBJEFE DE MODERACIÓN
+
+Significado:
+OFÁN se inspira en los Ophanim u Ofanim, asociados simbólicamente con ruedas, vigilancia, movimiento
+y orden celestial. Representa supervisión superior sobre quienes ya tienen responsabilidad de
+supervisar.
+
+Funciones:
+- Supervisar a ORACLE, LUMEN y ELYON.
+- Recibir reportes internos contra supervisores.
+- Revisar decisiones controvertidas de Supervisión.
+- Coordinar respuestas entre supervisores.
+- Corregir conflictos de criterio.
+- Auditar procesos de ascenso.
+- Ordenar nuevas investigaciones cuando existan fallas.
+- Resolver apelaciones internas contra decisiones de supervisores.
+- Autorizar medidas correctivas importantes.
+- Representar a Moderación ante Administración cuando QUERUBÍN no esté disponible.
+- Sustituir temporalmente a QUERUBÍN cuando exista autorización.
+- Escalar irregularidades graves a QUERUBÍN.
+
+Principio especial:
+OFÁN debe actuar como supervisor de los supervisores, no como un moderador cotidiano.
+
+3.1.12. QUERUBÍN
+------------------------------------------------------------------------------------------------
+Nivel o posición:
+RANGO 12 — JEFE DE MODERACIÓN
+
+Significado:
+QUERUBÍN se asocia con custodia, protección, conocimiento y cercanía a lo sagrado. Dentro de
+ARKAWOOD representa la responsabilidad de custodiar la integridad de la rama y proteger sus
+procedimientos.
+
+Funciones:
+- Segunda mano que dirige toda la LEGIÓN DEL JUICIO.
+- Supervisar a OFÁN.
+- Aprobar estructuras de supervisión.
+- Resolver conflictos graves entre miembros del staff.
+- Aprobar ascensos superiores.
+- Aprobar degradaciones de alto nivel.
+- Aprobar expulsiones de Moderación, salvo decisión reservada a SERAFÍN.
+- Auditar decisiones importantes.
+- Definir criterios disciplinarios.
+- Coordinar con Administración.
+- Revisar cambios al reglamento.
+- Convocar ÁGORAS superiores.
+- Aprobar la apertura de investigaciones de alto nivel.
+- Revisar conclusiones presentadas por ORACLE y OFÁN.
+
+Objetivo del rango:
+Dirigir la rama y garantizar que Supervisión, ascensos y disciplina funcionen como un sistema.
+
+
+3.1.13. SERAFÍN
+------------------------------------------------------------------------------------------------
+Nivel o posición:
+RANGO 13 — MÁXIMA AUTORIDAD DE MODERACIÓN
+
+Significado:
+SERAFÍN toma su nombre de una de las jerarquías celestiales más elevadas y se relaciona con la
+idea de los ardientes, fuego celestial, pureza y cercanía a lo divino. Representa la culminación
+de la progresión de Moderación.
+
+Funciones:
+- Definir los lineamientos finales de Moderación.
+- Supervisar a QUERUBÍN.
+- Primera mano que dirige toda la LEGIÓN DEL JUICIO.
+- Aprobar reformas estructurales de la rama.
+- Resolver crisis internas.
+- Resolver expulsiones o decisiones excepcionales de alto impacto.
+- Definir requisitos especiales para rangos superiores.
+- Convocar y dirigir decisiones extraordinarias.
+- Representar la LEGIÓN DEL JUICIO ante CO-OWNER y DEIDAD.
+- Solicitar investigaciones extraordinarias.
+- Intervenir cuando el sistema de supervisión haya fallado.
+- Tener la última autoridad interna de Moderación, salvo decisiones superiores de propiedad.
+
+
+3.2. BUILDERS — FORJA DEL EDÉN
+================================================================================================
+La FORJA DEL EDÉN construye mapas, lobbies, arenas, escenarios y espacios visuales de ARKAWOOD.
+
+Jerarquía:
+BUILDER → BUILDER+ → SENIOR BUILDER → AK → GÉNESIS
+
+
+3.2.1. BUILDER
+------------------------------------------------------------------------------------------------
+Nivel:
+RANGO 1
+
+Funciones:
+- Construir secciones asignadas.
+- Respetar paletas, estilos y referencias.
+- Corregir detalles señalados.
+- Mantener orden en los proyectos.
+- Documentar avances cuando sea solicitado.
+
+3.2.2. BUILDER+
+------------------------------------------------------------------------------------------------
+Nivel:
+RANGO 2
+
+Funciones:
+- Ejecutar secciones de mayor complejidad.
+- Trabajar con mayor autonomía.
+- Apoyar a BUILDER.
+- Revisar detalles antes de entregar una fase.
+- Proponer soluciones constructivas sin alterar la dirección del proyecto.
+
+3.2.3. SENIOR BUILDER
+------------------------------------------------------------------------------------------------
+Nivel:
+RANGO 3
+
+Funciones:
+- Supervisar calidad de BUILDER y BUILDER+.
+- Revisar proyectos antes de presentarlos a AK.
+- Enseñar técnicas de construcción.
+- Detectar inconsistencias visuales.
+- Coordinar pequeños equipos.
+- Liderar partes específicas de un proyecto.
+
+3.2.4. AK
+------------------------------------------------------------------------------------------------
+Nivel:
+RANGO 4
+
+Funciones:
+- Diseñar distribuciones.
+- Definir escalas y recorridos.
+- Elaborar conceptos de mapas.
+- Coordinar equipos.
+- Evaluar viabilidad visual y técnica.
+- Aprobar fases antes de revisión final.
+- Mantener coherencia temática.
+
+3.2.5. GÉNESIS
+------------------------------------------------------------------------------------------------
+Nivel:
+RANGO 5 — MÁXIMA AUTORIDAD DE BUILDERS
+
+Significado:
+GÉNESIS significa origen o comienzo. Representa a quien da nacimiento y dirección a los mundos
+construidos por ARKAWOOD.
+
+Funciones:
+- Definir lineamientos estéticos.
+- Definir estándares técnicos.
+- Aprobar mapas finales.
+- Distribuir equipos.
+- Definir prioridades.
+- Autorizar grandes proyectos.
+- Coordinar con Administración y Developers cuando una construcción requiera sistemas técnicos.
+- Representar a Builders ante la dirección de ARKAWOOD.
+
+
+3.3. ADMINISTRACIÓN — CÓNCLAVE DEL NEXO
+================================================================================================
+El CÓNCLAVE DEL NEXO coordina modalidades, desarrollo técnico, operaciones administrativas,
+documentación, bugs, políticas y comunicación entre áreas.
+
+3.3.1. JEFE DE MODALIDAD
+------------------------------------------------------------------------------------------------
+- JEFE DE SURVIVAL
+- JEFE DE BEDWARS
+- JEFE DE SKYWARS
+- JEFE DE SKYBLOCK
+- JEFE DE KITPVP
+- JEFE DE EGGWARS
+- JEFE DE SPEEDBUILDERS
+
+Funciones:
+- Supervisar el funcionamiento de su modalidad.
+- Registrar problemas.
+- Proponer cambios de balance.
+- Coordinar eventos o actualizaciones de la modalidad.
+- Supervisar necesidades del staff asignado.
+- Recopilar feedback.
+- Reportar bugs al área técnica.
+- Informar a COORDINADOR o ADMINISTRADOR sobre problemas operativos.
+- Preparar propuestas de contenido.
+
+3.3.2. DEVELOPER
+------------------------------------------------------------------------------------------------
+Funciones:
+- Desarrollar o modificar plugins.
+- Configurar sistemas.
+- Corregir bugs.
+- Mantener integraciones.
+- Trabajar con bases de datos cuando exista autorización.
+- Mantener compatibilidad técnica.
+- Documentar cambios importantes.
+- Coordinar mantenimiento.
+- Revisar rendimiento.
+- Apoyar implementaciones solicitadas por modalidades.
+
+Principio de seguridad:
+Los accesos de DEVELOPER se conceden por necesidad técnica. Ser DEVELOPER no implica acceso total
+a toda la infraestructura.
+
+3.3.3. COORDINADOR
+------------------------------------------------------------------------------------------------
+Funciones:
+- Distribuir tareas.
+- Dar seguimiento a proyectos.
+- Coordinar responsables.
+- Mantener listas de pendientes.
+- Conectar JEFES DE MODALIDAD con DEVELOPER.
+- Escalar bloqueos.
+- Organizar reuniones.
+- Preparar información para ADMINISTRADOR.
+- Evitar que tareas interdepartamentales queden sin responsable.
+
+3.3.4. ADMINISTRADOR
+------------------------------------------------------------------------------------------------
+Funciones:
+- Gestionar documentación.
+- Dar seguimiento a problemas internos.
+- Aplicar políticas administrativas.
+- Gestionar solicitudes institucionales.
+- Coordinar con ramas.
+- Revisar reportes relacionados con responsabilidades administrativas.
+- Mantener registros.
+- Escalar casos sensibles al ADMINISTRADOR GENERAL.
+- Coordinar procesos cuando participan varias áreas.
+
+
+3.3.5. ADMINISTRADOR GENERAL
+------------------------------------------------------------------------------------------------
+Funciones:
+- Dirigir el CÓNCLAVE DEL NEXO.
+- Supervisar ADMINISTRADORES y COORDINADORES.
+- Coordinar JEFES DE MODALIDAD.
+- Coordinar prioridades técnicas con DEVELOPER.
+- Definir protocolos administrativos.
+- Resolver casos administrativos de alto nivel.
+- Gestionar asuntos institucionales.
+- Presentar propuestas a CO-OWNER y DEIDAD.
+- Representar Administración ante las demás ramas.
+
+
+3.3.6. CO-OWNER
+------------------------------------------------------------------------------------------------
+Funciones:
+- Participar en decisiones generales.
+- Supervisar ejecución de acuerdos.
+- Coordinar con ADMINISTRADOR GENERAL.
+- Actuar en representación de las DEIDADES cuando exista autorización.
+- Participar en decisiones económicas, técnicas o estructurales sensibles.
+- Autorizar cambios de alto impacto dentro de los límites definidos por la propiedad.
+
+
+3.3.7. DEIDAD
+------------------------------------------------------------------------------------------------
+Funciones:
+- Definir la visión general.
+- Controlar propiedad y dirección estratégica.
+- Aprobar decisiones irreversibles.
+- Designar autoridades sensibles.
+- Aprobar grandes inversiones.
+- Resolver conflictos de máxima jerarquía.
+- Definir distribución de autoridad entre propietarios y CO-OWNER.
+
+3.4. PARTNERS — ATRIO DE LOS PACTOS
+================================================================================================
+El ATRIO DE LOS PACTOS reúne relaciones externas de colaboración, alianzas e inversión.
+
+3.4.1. COLABORADOR
+------------------------------------------------------------------------------------------------
+Funciones:
+- Participar en tareas autorizadas.
+- Utilizar únicamente accesos necesarios.
+- Entregar avances.
+- Respetar acuerdos de confidencialidad.
+- Mantener comunicación con el responsable asignado.
+
+
+3.4.2. PARTNER
+------------------------------------------------------------------------------------------------
+Funciones:
+- Desarrollar acciones conjuntas.
+- Cumplir acuerdos de marca.
+- Mantener comunicación institucional.
+- Coordinar promociones o integraciones autorizadas.
+- Respetar condiciones de acceso, información y confidencialidad.
+
+Puede representar:
+- Servidores.
+- Comunidades.
+- Empresas.
+- Servicios.
+- Proyectos.
+- Creadores asociados mediante acuerdo institucional.
+
+
+3.4.3. INVERSIONISTA
+------------------------------------------------------------------------------------------------
+Funciones:
+- Aportar recursos conforme al acuerdo.
+- Recibir información limitada sobre el uso de su inversión.
+- Mantener confidencialidad financiera.
+- Respetar que inversión no equivale automáticamente a autoridad operativa.
+- Canalizar solicitudes mediante Administración o la persona designada.
+
+Principio especial:
+Aportar capital no concede automáticamente permisos de staff, consola o dirección.
+
+
+3.5. MARKETING — EQUIPO DE DIFUSIÓN
+================================================================================================
+El EQUIPO DE DIFUSIÓN organiza presencia pública, campañas, redes y contenido.
+
+La rama contiene dos grupos funcionales:
+
+A. CREADORES ASOCIADOS
+- CREADOR
+- STREAMER
+- INFLUENCER
+
+B. EQUIPO INTERNO DE MARKETING
+- MARKETING
+- CONTENT CREATOR
+- COMMUNITY MANAGER
+- JEFE MARKETING
+
+CREADOR, STREAMER e INFLUENCER describen principalmente el tipo de creador y no tienen que ser una
+cadena de ascensos estricta.
+
+
+3.5.1. CREADOR
+------------------------------------------------------------------------------------------------
+Descripción breve:
+Creador asociado a ARKAWOOD.
+
+Funciones:
+- Crear contenido relacionado con la Network de influencia media.
+- Respetar lineamientos de marca.
+- Coordinar publicaciones importantes.
+- Evitar divulgar información privada.
+- Cumplir requisitos del programa de creadores.
+
+
+3.5.2. STREAMER
+------------------------------------------------------------------------------------------------
+Descripción breve:
+Creador asociado a ARKAWOOD.
+
+Funciones:
+- Crear vídeos sobre ARKAWOOD de influencia media-alta.
+- Cubrir eventos o actualizaciones.
+- Mantener una relación pública adecuada con la comunidad.
+- Coordinar colaboraciones con el equipo de Marketing.
+
+
+3.5.3. INFLUENCER
+------------------------------------------------------------------------------------------------
+Descripción breve:
+Creador con alcance relevante en redes sociales.
+
+Funciones:
+- Difundir campañas de influencia alta.
+- Participar en acciones promocionales.
+- Crear piezas o publicaciones.
+- Representar públicamente la colaboración acordada.
+- Mantener coherencia con las normas de comunicación de ARKAWOOD.
+
+
+3.5.4. MARKETING
+------------------------------------------------------------------------------------------------
+Descripción breve:
+Miembro interno de campañas y promoción.
+
+Funciones:
+- Planificar campañas.
+- Preparar publicaciones.
+- Analizar resultados.
+- Proponer estrategias.
+- Coordinar lanzamientos.
+- Organizar calendarios promocionales.
+
+
+3.5.5. CONTENT CREATOR
+------------------------------------------------------------------------------------------------
+Descripción breve:
+Productor interno de contenido.
+
+Funciones:
+- Crear vídeos, shorts, reels, diseños o piezas promocionales.
+- Adaptar contenido a cada plataforma.
+- Seguir lineamientos visuales.
+- Trabajar junto con MARKETING.
+- Mantener una biblioteca organizada de recursos cuando corresponda.
+
+
+3.5.6. COMMUNITY MANAGER
+------------------------------------------------------------------------------------------------
+Descripción breve:
+Gestión de redes y comunicación comunitaria.
+
+Funciones:
+- Administrar redes oficiales.
+- Programar publicaciones.
+- Responder mensajes dentro de las políticas definidas.
+- Coordinar el calendario de contenido.
+- Detectar tendencias y problemas de reputación.
+- Escalar crisis comunicacionales.
+- Mantener coherencia del tono institucional.
+
+
+3.5.7. JEFE MARKETING
+------------------------------------------------------------------------------------------------
+Descripción breve:
+Máxima autoridad del EQUIPO DE DIFUSIÓN.
+
+Funciones:
+- Dirigir campañas.
+- Coordinar a MARKETING, CONTENT CREATOR y COMMUNITY MANAGER.
+- Gestionar relaciones con CREADORES, STREAMERS e INFLUENCERS.
+- Aprobar calendarios.
+- Aprobar campañas importantes.
+- Coordinar lanzamientos con Administración.
+- Definir métricas y prioridades.
+- Representar Marketing ante la dirección de ARKAWOOD.
+
+
+5. SISTEMA OFICIAL DE MODERACIÓN Y ASCENSOS
+================================================================================================
+
+5.1. PRINCIPIOS INSTITUCIONALES
+------------------------------------------------------------------------------------------------
+1. Servicio antes que autoridad.
+2. Pruebas antes que sanción.
+3. Criterio antes que impulso.
+4. Escalamiento antes que improvisación.
+5. Registro antes que olvido.
+6. Supervisión antes que impunidad.
+7. Mérito antes que ascenso.
+
+Toda decisión superior que modifique una actuación inferior debe:
+- Notificarse.
+- Justificarse.
+- Sustentarse con pruebas.
+- Quedar registrada.
+
+5.6. SELLOS DE MÉRITO
+------------------------------------------------------------------------------------------------
+Orden oficial:
+
+1. SELLO ORDINARIO I
+2. SELLO ORDINARIO II
+3. SELLO MEDIO
+4. SELLO ALTO
+5. SELLO DISTINGUIDO
+
+Reglas:
+- Son reconocimientos públicos de mérito humano.
+- No producen ascensos automáticos.
+- Deben obtenerse en orden.
+- Una acción excepcional puede conceder hasta dos avances consecutivos.
+- Se mantienen hasta ascender, intercambiarlos o perderlos.
+- Se reinician al ascender.
+- Un supervisor puede proponer retirar un sello por falta posterior, concesión errónea o manipulación.
+- Todo otorgamiento y retiro debe quedar registrado.
+- Desde candidaturas al ALTO MANDO pueden dejar de funcionar como requisito obligatorio.
+
+Autoridad recomendada:
+- ELYON y LUMEN pueden conceder sellos a operadores dentro de sus grupos, conforme a reglas.
+- ORACLE puede auditar concesiones.
+- OFÁN puede conceder o retirar sellos de supervisores cuando corresponda.
+- SERAFÍN puede intervenir en cualquier sello por decisión extraordinaria justificada.
+
+
+5.7. MARCAS DEL JUICIO
+------------------------------------------------------------------------------------------------
+UNA MARCA
+- Advertencia formal.
+- No bloquea automáticamente un ascenso.
+- El miembro puede continuar recibiendo sellos.
+- No caduca automáticamente.
+- Para retirarla debe reparar el error y cumplir la medida correctiva definida.
+
+DOS MARCAS
+- Bloquean cualquier ascenso.
+- Bloquean la recepción de nuevos sellos.
+- El supervisor debe definir una medida correctiva concreta.
+- La corrección puede permitir reducir el estado a UNA MARCA.
+
+TRES MARCAS
+- Producen el retiro del staff.
+
+Reglas adicionales:
+- Una falta grave puede generar directamente dos o tres marcas.
+- Debe existir evidencia y justificación.
+- El miembro puede apelar.
+- Las marcas retiradas permanecen en el historial interno.
+- Una autoridad superior puede confirmar, reducir o retirar una marca mediante resolución documentada.
+
+
+5.8. AUTORIDAD SOBRE MARCAS Y APELACIONES
+------------------------------------------------------------------------------------------------
+Ruta recomendada:
+
+- Marca aplicada a ZELUM–VORIEN:
+  ELYON revisa inicialmente; LUMEN puede auditar.
+
+- Marca aplicada a MALVEN o ELYON:
+  LUMEN u ORACLE revisan.
+
+- Reporte contra LUMEN:
+  ORACLE revisa.
+
+- Reporte contra ORACLE o cualquier supervisor cuando pueda existir conflicto de interés:
+  OFÁN recibe directamente.
+
+- Reporte contra OFÁN:
+  QUERUBÍN revisa.
+
+- Reporte contra QUERUBÍN:
+  SERAFÍN revisa.
+
+- Reporte contra SERAFÍN:
+  ADMINISTRADOR GENERAL, CO-OWNER o DEIDAD deben asumir la revisión según la naturaleza del caso.
+
+
+5.10. RESPONSABLES DE ASCENSOS
+------------------------------------------------------------------------------------------------
+ZELUM → NEMIS
+- ELYON revisa.
+- MALVEN puede aportar observaciones.
+- ELYON decide.
+
+NEMIS → VEXEN
+- ELYON revisa y decide.
+- LUMEN puede auditar.
+
+VEXEN → INVAR
+- ELYON revisa.
+- LUMEN puede participar en casos discutidos.
+
+INVAR → SABLE
+- ELYON y LUMEN revisan.
+- LUMEN confirma la decisión.
+
+SABLE → VORIEN
+- LUMEN dirige la evaluación.
+- ELYON aporta información del desempeño.
+
+VORIEN → MALVEN
+- LUMEN evalúa liderazgo y criterio.
+- ORACLE revisa historial.
+- Debe existir necesidad real de nuevos candidatos a Supervisión.
+
+MALVEN → ELYON
+- Requiere vacante o necesidad de supervisores.
+- LUMEN dirige la evaluación.
+- ORACLE revisa el expediente.
+- OFÁN puede auditar la decisión.
+
+ELYON → LUMEN
+- ORACLE evalúa capacidad para supervisar supervisores y formar personal.
+- OFÁN audita.
+- QUERUBÍN puede intervenir en casos sensibles.
+
+LUMEN → ORACLE
+- OFÁN dirige la evaluación.
+- QUERUBÍN confirma.
+- Debe demostrarse capacidad de investigación, auditoría y dirección.
+
+ORACLE → OFÁN
+- Solo con vacante.
+- QUERUBÍN prepara y dirige la evaluación.
+- SERAFÍN participa en la decisión.
+- El candidato debe poseer historial sobresaliente de supervisión.
+
+OFÁN → QUERUBÍN
+- Solo con vacante.
+- SERAFÍN dirige la decisión.
+- Puede requerir consulta con ADMINISTRADOR GENERAL, CO-OWNER o DEIDAD según el impacto institucional.
+
+QUERUBÍN → SERAFÍN
+- No es un ascenso ordinario.
+- Solo procede cuando exista vacante o reorganización formal.
+- Debe ser designado por la autoridad superior correspondiente de ARKAWOOD.
+
+
+5.11. ÁGORA DEL UMBRAL
+------------------------------------------------------------------------------------------------
+La ÁGORA DEL UMBRAL se conserva como sistema de deliberación de Moderación.
+
+ÁGORA OPERATIVA
+- Revisa estado de ZELUM a VORIEN.
+- Analiza actividad, errores, formación y posibles ascensos.
+
+ÁGORA DE SUPERVISIÓN
+- Revisa MALVEN, ELYON y LUMEN.
+- Evalúa calidad de supervisión.
+- Detecta problemas de criterio.
+- Revisa necesidad de nuevos supervisores.
+
+ÁGORA DE ORACLE
+- Revisa investigaciones relevantes.
+- Presenta patrones de abuso, evasión o errores sistémicos.
+- No expone información sensible a miembros sin autorización.
+
+ÁGORA SUPERIOR
+- Vacantes de ORACLE, OFÁN, QUERUBÍN o SERAFÍN.
+- Reformas estructurales.
+- Crisis internas.
+- Cambios de protocolos de alto impacto.
+
+Principio:
+Todos pueden aportar información cuando corresponda, pero decide la autoridad formal asignada.
+
+
+5.12. IRREGULARIDADES EN SUPERVISIÓN
+------------------------------------------------------------------------------------------------
+- Una denuncia contra un operador se informa al supervisor responsable.
+
+- Si el supervisor no actúa, está involucrado o existe conflicto de interés, el caso escala al nivel
+  superior.
+
+Ruta:
+ELYON → LUMEN → ORACLE → OFÁN → QUERUBÍN → SERAFÍN.
+
+- OFÁN puede ordenar repetir una evaluación o candidatura si detecta irregularidades.
+
+- QUERUBÍN puede suspender temporalmente procesos de ascenso cuando exista investigación.
+
+- SERAFÍN puede ordenar auditorías extraordinarias.
+
+- Ninguna autoridad debe ocultar, borrar o alterar registros para proteger a un miembro.
+
+
+5.13. PRINCIPIO DE SUPERVISIÓN REAL
+------------------------------------------------------------------------------------------------
+La Supervisión existe para revisar a quienes moderan.
+
+Por ello:
+- ELYON no debe limitarse a tener más permisos que VORIEN.
+- LUMEN no debe limitarse a tener más permisos que ELYON.
+- ORACLE no debe limitarse a tener más permisos que LUMEN.
+
+Cada uno posee una responsabilidad distinta:
+
+ELYON:
+Supervisión operativa, mediación y corrección.
+
+LUMEN:
+Formación, comunicación y control de calidad de supervisores.
+
+ORACLE:
+Investigación, auditoría y dirección de Supervisión.
+
+OFÁN:
+Supervisión de toda la cadena de supervisores.
+
+QUERUBÍN:
+Dirección completa de la rama.
+
+SERAFÍN:
+Autoridad máxima, crisis y estrategia.
+
+
+6. POSTULACIONES Y ASCENSOS EN OTRAS RAMAS
+================================================================================================
+
+6.1. BUILDERS
+------------------------------------------------------------------------------------------------
+Responsable principal:
+GÉNESIS.
+
+Apoyo:
+AK y SENIOR BUILDER cuando corresponda.
+
+Criterios:
+- Calidad.
+- Técnica.
+- Cumplimiento.
+- Capacidad para seguir dirección visual.
+- Creatividad.
+- Trabajo en equipo.
+- Liderazgo para rangos superiores.
+
+Los puntos, sellos y marcas de Moderación no se aplican automáticamente a Builders.
+
+
+6.2. ADMINISTRACIÓN
+------------------------------------------------------------------------------------------------
+Responsable principal:
+ADMINISTRADOR GENERAL.
+
+Participación:
+CO-OWNER o DEIDAD cuando la vacante implique información, infraestructura, economía o autoridad
+sensible.
+
+DEVELOPER:
+Se selecciona principalmente por conocimientos técnicos y confianza.
+
+JEFE DE MODALIDAD:
+Se selecciona por experiencia, liderazgo y conocimiento de la modalidad.
+
+Los accesos sensibles deben evaluarse aparte del rango.
+
+
+6.3. PARTNERS
+------------------------------------------------------------------------------------------------
+No existe un sistema de ascenso obligatorio.
+
+Cada posición depende de la naturaleza de la relación:
+
+COLABORADOR:
+Apoyo concreto.
+
+PARTNER:
+Alianza institucional.
+
+INVERSIONISTA:
+Relación económica.
+
+Los acuerdos deben registrarse y tener un responsable interno (DEIDAD).
+
+
+6.4. MARKETING
+------------------------------------------------------------------------------------------------
+JEFE MARKETING dirige el equipo interno.
+
+Cargos internos:
+MARKETING, CONTENT CREATOR y COMMUNITY MANAGER.
+
+Cargos de creador:
+CREADOR, STREAMER e INFLUENCER.
+
+Los requisitos para creadores pueden considerar:
+- Calidad de contenido.
+- Actividad.
+- Alcance.
+- Conducta.
+- Compatibilidad con la marca.
+- Cumplimiento de acuerdos.
+
+El alcance numérico nunca debe ser el único criterio.
+
+
+7. CONVENCIONES VISUALES Y DE PRESENTACIÓN
+================================================================================================
+- Los títulos de rangos se escriben preferentemente en MAYÚSCULAS.
+- Los nombres de ramas se presentan junto a su título temático.
+- Los colores específicos de los nuevos rangos quedan PENDIENTES DE DEFINICIÓN.
+- No deben reutilizarse automáticamente colores de rangos eliminados.
+- Las menciones de Discord deben actualizarse cuando existan los IDs definitivos.
+- Las etiquetas de Minecraft pueden abreviarse cuando el nombre resulte demasiado largo.
+- ADMINISTRADOR GENERAL puede mostrarse como [ADMIN GRAL].
+- JEFE MARKETING puede mostrarse como [JEFE MKT].
+- JEFE DE MODALIDAD puede mostrar la modalidad concreta.
+- Las identidades DEIDAD SUPREMA, DEIDAD DEL INFRAMUNDO y DEIDAD DEL ÁRBOL SAGRADO pueden tener presentación visual
+  individual sin alterar su equivalencia jerárquica.
+
+11. DOCTRINA FINAL DE LA LEGIÓN DEL JUICIO
+================================================================================================
+La LEGIÓN DEL JUICIO no se organiza únicamente por antigüedad.
+
+Un rango superior debe demostrar:
+- Mejor criterio.
+- Mayor responsabilidad.
+- Mayor capacidad de enseñar.
+- Mayor capacidad de corregir errores.
+- Mayor imparcialidad.
+- Mejor uso de pruebas.
+- Mejor manejo de conflictos.
+- Mayor capacidad para aceptar auditorías.
+

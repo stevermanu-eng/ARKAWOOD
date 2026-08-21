@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="#080706" name="theme-color"/>
+<meta content="Foro de ARKA WOOD: anuncios, comunidad, información y actividad reciente." name="description"/>
+<link href="/assets/arka-wood-favicon.png" rel="icon" type="image/png"/>
+<title>Foro · ARKA WOOD</title>
+<link href="/core-v8.45.0.css" rel="stylesheet"/>
+
+<link href="/forum-v8.45.0.css" rel="stylesheet"/>
+</head>
+<body class="forum-page">
+<div aria-hidden="true" class="embers" id="embers"></div>
+<header class="topbar" id="topbar">
+<div class="topbar__inner">
+<a aria-label="ARKA WOOD — Inicio" class="topbar__brand" href="/#home"><img alt="ARKA WOOD" decoding="async" height="256" src="/assets/arka-wood-header-logo.webp" width="256"/></a>
+<nav aria-label="Navegación principal" class="nav">
+<a class="nav__item" href="/#home">HOME</a>
+<a aria-current="page" class="nav__item nav__item--active" href="/foro/">FOROS</a>
+<a class="nav__item" href="/wiki/">WIKI</a>
+<a class="nav__item" href="/miembros">MIEMBROS</a>
+<a class="nav__item" href="/sanciones/">SANCIONES</a>
+<a class="nav__item" href="/tienda/">TIENDA</a>
+<a class="nav__item" href="/support">SOPORTE</a>
+<a class="nav__item nav__item--application" href="/postulaciones.html">POSTULACIONES</a>
+</nav>
+<button aria-label="Perfil de usuario" class="profile" id="homeProfile" title="Perfil" type="button"><span id="homeProfileFallback">♜</span><img alt="" decoding="async" height="128" hidden="" id="homeProfileAvatar" width="128"/></button>
+</div>
+</header>
+<main class="forum-main">
+<section class="forum-hero">
+<div aria-hidden="true" class="forum-hero__bg"></div>
+<div class="forum-hero__content">
+<p class="forum-kicker"><span></span> ARKA WOOD · FOROS <span></span></p>
+<h1>FORO</h1>
+<p>El punto de encuentro para seguir el desarrollo de <strong>ARKA WOOD</strong>, conversar con la comunidad, resolver dudas, compartir ideas y mantener un registro público de lo que ocurre alrededor de la Network.</p>
+</div>
+<div aria-hidden="true" class="forum-hero__fade"></div>
+</section>
+<section class="forum-shell">
+<nav aria-label="Categorías del foro" class="forum-category-nav forum-reveal" id="forumCategoryNav">
+<a class="forum-category-nav__item" data-forum-home="" href="/foro/">HOME</a>
+<a class="forum-category-nav__item" data-forum-category="actualizaciones" href="/foro/actualizaciones">ACTUALIZACIONES</a>
+<a class="forum-category-nav__item" data-forum-category="anuncios" href="/foro/anuncios">ANUNCIOS</a>
+<a class="forum-category-nav__item" data-forum-category="modalidades" href="/foro/modalidades">MODALIDADES</a>
+<a class="forum-category-nav__item" data-forum-category="comunidad" href="/foro/comunidad">COMUNIDAD</a>
+<a class="forum-category-nav__item" data-forum-category="informacion" href="/foro/informacion">INFORMACIÓN</a>
+<button aria-label="Buscar publicaciones" class="forum-category-nav__search" id="forumGlobalSearchButton" title="Buscar publicaciones" type="button"><svg aria-hidden="true" class="forum-search-icon" viewbox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"></circle><path d="m15.4 15.4 5 5"></path></svg><b>BUSCAR</b></button>
+</nav>
+<div class="forum-home-grid">
+<div class="forum-route-main" hidden="" id="forumRouteMain">
+<section class="forum-category-view forum-board" hidden="" id="forumCategoryView">
+<nav aria-label="Ruta de categoría" class="forum-breadcrumb">
+<a href="/foro/">FOROS</a><span>›</span><b id="forumCategoryCrumb">COMUNIDAD</b>
+</nav>
+<header class="forum-board-header">
+<div>
+<small>FORO · ARKA WOOD</small>
+<h2 id="forumCategoryTitle">COMUNIDAD</h2>
+<p id="forumCategoryDescription">Conversaciones de la comunidad.</p>
+</div>
+<button class="forum-publish-button" disabled="" hidden="" id="forumCategoryPublishButton" type="button"><span>✎</span> PUBLICAR TEMA</button>
+</header>
+<p class="forum-auth-hint" id="forumAuthHint">Conecta tu cuenta de Discord para publicar.</p>
+<div aria-label="Filtros del foro" class="forum-board-controls">
+<label class="forum-publication-search"><svg aria-hidden="true" class="forum-search-icon" viewbox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"></circle><path d="m15.4 15.4 5 5"></path></svg><input id="forumSearchInput" maxlength="80" placeholder="BUSCAR EN ESTA CATEGORÍA" type="search"/></label>
+<select aria-label="Filtrar por tipo" id="forumTypeFilter">
+<option value="">TODOS LOS TIPOS</option>
+</select>
+<select aria-label="Ordenar publicaciones" id="forumSortFilter">
+<option value="latest">MÁS RECIENTES</option><option value="replies">MÁS RESPUESTAS</option><option value="oldest">MÁS ANTIGUOS</option>
+</select>
+</div>
+<section aria-labelledby="forumInfoTitle" class="forum-thread-group forum-thread-group--sticky" id="forumInfoGroup">
+<header><div><small>MODERACIÓN</small><h3 id="forumInfoTitle">INFORMACIÓN</h3></div><span>PUBLICACIONES FIJADAS</span></header>
+<div class="forum-thread-list" id="forumCategoryInfoPosts"><div class="forum-publication-empty"><span>No hay publicaciones fijadas en esta categoría.</span></div></div>
+</section>
+<section aria-labelledby="forumPublicationsTitle" class="forum-thread-group" id="forumPublicationsGroup">
+<header><div><small id="forumPublicationsEyebrow">CONVERSACIONES</small><h3 id="forumPublicationsTitle">PUBLICACIONES</h3></div><span id="forumPublicationCount">—</span></header>
+<div aria-live="polite" class="forum-thread-list" id="forumPublicationList"></div>
+</section>
+</section>
+<section class="forum-thread-page" hidden="" id="forumThreadPage">
+<nav aria-label="Ruta del tema" class="forum-breadcrumb" id="forumThreadBreadcrumb"></nav>
+<div class="forum-thread-page__content" id="forumThreadPageContent"><div class="forum-publication-empty"><span>Cargando publicación...</span></div></div>
+<section class="forum-thread-closed-empty" hidden="" id="forumThreadClosedEmpty"><span aria-hidden="true">◇</span><div><small>TEMA CERRADO</small><strong>ESTA PUBLICACIÓN FUE CERRADA</strong><p>No se pueden enviar respuestas a este tema.</p></div></section>
+<section class="forum-thread-replies" id="forumThreadRepliesSection">
+<header class="forum-replies-heading"><div><small>CONVERSACIÓN</small><h3>RESPUESTAS</h3></div><span id="forumThreadReplyCount">0</span></header>
+<div class="forum-thread-reply-list" id="forumThreadReplies"></div>
+<form class="forum-reply-composer" id="forumReplyForm">
+<aside class="forum-composer-author" id="forumReplyViewer"><div class="forum-composer-author__avatar">?</div><b>INICIA SESIÓN</b><small>Discord requerido</small></aside>
+<div class="forum-reply-editor-column">
+<div class="forum-reply-context" hidden="" id="forumReplyContext"><div><small id="forumReplyContextType">RESPONDIENDO A</small><b id="forumReplyContextName">Usuario</b><p id="forumReplyContextText"></p></div><button aria-label="Cancelar respuesta enlazada" id="forumReplyContextClear" type="button">×</button></div>
+<div class="forum-visual-editor" data-editor="reply">
+<div aria-label="Formato de respuesta con marcado visible" class="forum-editor-toolbar" id="forumReplyToolbar">
+<button data-command="removeFormat" title="Limpiar formato" type="button">⌫</button>
+<button data-command="bold" title="Negrita" type="button"><b>B</b></button><button data-command="italic" title="Cursiva" type="button"><i>I</i></button><button data-command="underline" title="Subrayado" type="button"><u>U</u></button><button data-command="strikeThrough" title="Tachado" type="button"><s>S</s></button>
+<label class="forum-color-control" title="Color del texto"><span>A</span><input id="forumReplyColor" type="color" value="#f0e7da"/></label>
+<button data-command="formatBlock" data-value="blockquote" title="Citar bloque" type="button">❝</button><button data-command="createLink" title="Enlace" type="button">🔗</button><button data-command="mention" title="Mencionar" type="button">@</button><button data-command="image" title="Insertar imagen" type="button">▧</button>
+<button data-command="insertUnorderedList" title="Lista" type="button">☷</button><button data-command="insertOrderedList" title="Lista numerada" type="button">≡</button><button data-command="undo" title="Deshacer" type="button">↶</button><button data-command="redo" title="Rehacer" type="button">↷</button>
+</div>
+<div aria-multiline="true" class="forum-editor-surface" contenteditable="true" data-placeholder="Escribir la respuesta... Usa **negrita**, *cursiva* y __subrayado__." id="forumReplyEditor" role="textbox" spellcheck="true"></div>
+<input accept="image/png,image/jpeg,image/webp" aria-label="Adjuntar imagen a la respuesta" hidden="" id="forumReplyImageInput" name="replyImage" type="file"/>
+<div class="forum-image-inline-tools" hidden="" id="forumReplyImageTools">
+<b>IMAGEN SELECCIONADA</b><label>TAMAÑO <input data-image-width="" max="100" min="20" type="range" value="70"/><span data-image-width-value="">70%</span></label>
+<div><button data-image-align="left" type="button">IZQUIERDA</button><button data-image-align="center" type="button">CENTRO</button><button data-image-align="right" type="button">DERECHA</button><button data-image-remove="" type="button">ELIMINAR</button></div>
+</div>
+<div class="forum-mention-suggestions" hidden="" id="forumMentionSuggestions"></div>
+</div>
+<div class="forum-reply-actions"><button class="forum-attach-button" id="forumReplyAttach" type="button">📎 ADJUNTAR IMAGEN</button><small id="forumReplyHint">Conecta Discord para responder.</small><button class="forum-publish-button" disabled="" id="forumReplySubmit" type="submit">RESPONDER</button></div>
+</div>
+</form>
+</section>
+</section>
+<section class="forum-composer-page" hidden="" id="forumComposerPage">
+<nav aria-label="Ruta para publicar" class="forum-breadcrumb" id="forumComposerBreadcrumb"></nav>
+<header class="forum-compose-page__header"><div><small>NUEVA PUBLICACIÓN</small><h2 id="forumComposeTitle">PUBLICAR TEMA</h2><p id="forumComposeSubtitle">Crea una conversación con formato, imágenes y menciones.</p></div></header>
+<form class="forum-compose-page__form" id="forumComposeForm">
+<input id="forumPostCategory" type="hidden" value="comunidad"/>
+<label class="forum-compose-title-field"><span>TÍTULO DEL TEMA</span><input id="forumPostTitle" maxlength="120" minlength="4" placeholder="Título de tema" required=""/></label>
+<div class="forum-compose-page__layout">
+<aside class="forum-composer-author" id="forumComposeViewer"><div class="forum-composer-author__avatar">?</div><b>USUARIO</b><small>Tu identidad del foro</small></aside>
+<div class="forum-compose-main">
+<label class="forum-compose-type"><span>TIPO DE PUBLICACIÓN</span><select id="forumPostType" required=""></select></label>
+<div class="forum-visual-editor" data-editor="post">
+<div aria-label="Formato de texto con marcado visible" class="forum-editor-toolbar" id="forumEditorToolbar">
+<button data-command="removeFormat" title="Limpiar formato" type="button">⌫</button>
+<button data-command="bold" title="Negrita" type="button"><b>B</b></button><button data-command="italic" title="Cursiva" type="button"><i>I</i></button><button data-command="underline" title="Subrayado" type="button"><u>U</u></button><button data-command="strikeThrough" title="Tachado" type="button"><s>S</s></button>
+<label class="forum-color-control" title="Color del texto"><span>A</span><input id="forumPostColor" type="color" value="#f0e7da"/></label>
+<button data-command="formatBlock" data-value="h2" title="Título grande" type="button">T</button><button data-command="formatBlock" data-value="h3" title="Subtítulo" type="button">T₂</button><button data-command="formatBlock" data-value="blockquote" title="Cita" type="button">❝</button>
+<button data-command="createLink" title="Enlace" type="button">🔗</button><button data-command="mention" title="Mencionar usuario" type="button">@</button><button data-command="image" title="Insertar imagen" type="button">▧</button>
+<button data-command="insertUnorderedList" title="Lista" type="button">☷</button><button data-command="insertOrderedList" title="Lista numerada" type="button">≡</button><button data-command="undo" title="Deshacer" type="button">↶</button><button data-command="redo" title="Rehacer" type="button">↷</button>
+</div>
+<div aria-multiline="true" class="forum-editor-surface forum-editor-surface--post" contenteditable="true" data-placeholder="Escribe tu publicación aquí... El formato se muestra como **, *, __ y ~~ mientras editas." id="forumPostEditor" role="textbox" spellcheck="true"></div>
+<input accept="image/png,image/jpeg,image/webp" aria-label="Adjuntar imagen a la publicación" hidden="" id="forumPostImageInput" name="postImage" type="file"/>
+<div class="forum-image-inline-tools" hidden="" id="forumPostImageTools">
+<b>IMAGEN SELECCIONADA</b><label>TAMAÑO <input data-image-width="" max="100" min="20" type="range" value="70"/><span data-image-width-value="">70%</span></label>
+<div><button data-image-align="left" type="button">IZQUIERDA</button><button data-image-align="center" type="button">CENTRO</button><button data-image-align="right" type="button">DERECHA</button><button data-image-remove="" type="button">ELIMINAR</button></div>
+</div>
+<div class="forum-mention-suggestions" hidden="" id="forumPostMentionSuggestions"></div>
+</div>
+<div class="forum-compose-under-editor"><button class="forum-attach-button" id="forumPostAttach" type="button">📎 ADJUNTAR IMAGEN</button><button class="forum-preview-button" id="forumComposePreviewButton" type="button">◉ VISTA PREVIA</button></div>
+<div class="forum-compose-preview-panel" hidden="" id="forumComposePreviewPanel"><header><b>VISTA PREVIA</b><button id="forumComposePreviewClose" type="button">×</button></header><div class="forum-rich-text" id="forumComposePreview"></div></div>
+<p class="forum-compose-status" id="forumComposeStatus" role="status"></p>
+<div class="forum-compose-actions"><a class="forum-secondary-button" href="/foro/comunidad" id="forumComposeCancel">CANCELAR</a><button class="forum-publish-button" id="forumComposeSubmit" type="submit">PUBLICAR TEMA</button></div>
+</div>
+</div>
+</form>
+</section>
+</div>
+<div class="forum-updates forum-panel forum-reveal">
+<header class="forum-panel__heading">
+<div><small>ACTUALIZACIONES</small><h2>ÚLTIMAS ACTUALIZACIONES</h2></div>
+<span class="forum-panel__status">3 MÁS RECIENTES</span>
+</header>
+<div aria-live="polite" class="forum-thread-list forum-home-thread-list" id="forumLatestUpdates">
+<div class="forum-publication-empty"><span>Cargando actualizaciones...</span></div>
+</div>
+</div>
+<aside class="forum-sidebar">
+<div class="forum-side-note forum-reveal"><span>◇</span><div><b>ANTES DE PUBLICAR</b><p>Consulta la normativa, elige la categoría correcta y evita duplicar conversaciones que ya estén abiertas.</p></div></div>
+<section class="forum-sidebar-donors forum-reveal" id="donadores">
+<header><div><small>QUIENES MÁS SUMAN</small><h2>TOP 3 DONADORES</h2></div><span>CLASIFICACIÓN</span></header>
+<div aria-label="Top 3 donadores" class="forum-sidebar-top-three" id="forumTopDonorSlots"></div>
+<div class="forum-sidebar-donor-subhead"><div><small>APOYO RECIENTE</small><h3>DONADORES</h3></div><span>COMUNIDAD</span></div>
+<div aria-live="polite" class="forum-donor-board" id="forumDonorBoard">
+<div class="forum-donor-slots" id="forumDonorSlots"></div>
+</div>
+</section>
+<section class="forum-donate-cta forum-reveal"><div><small>APOYA EL PROYECTO</small><h3>¿TE GUSTARÍA DONAR?</h3><p>Los rangos premium y el apoyo de la comunidad ayudan a mantener ARKA WOOD y desbloquean beneficios de perfil.</p></div><a href="/tienda/">VER FORMAS DE APOYAR <span>→</span></a></section>
+</aside>
+</div>
+<section class="forum-section forum-reveal" id="anuncios">
+<header class="forum-section__heading"><div><small>COMUNICACIONES OFICIALES</small><h2>ANUNCIOS / NOTICIAS Y NOTAS ADMINISTRATIVAS</h2></div><span>3 PUBLICACIONES RECIENTES</span></header>
+<div aria-live="polite" class="forum-thread-list forum-home-thread-list" id="forumHomeAnnouncements"><div class="forum-publication-empty"><span>Cargando anuncios...</span></div></div>
+</section>
+<section class="forum-section forum-reveal" id="modalidades"><header class="forum-section__heading"><div><small>JUEGO Y MODALIDADES</small><h2>MODALIDADES</h2></div><span>3 PUBLICACIONES RECIENTES</span></header><div aria-live="polite" class="forum-thread-list forum-home-thread-list" id="forumHomeModalities"><div class="forum-publication-empty"><span>Cargando modalidades...</span></div></div></section>
+<section class="forum-section forum-reveal" id="comunidad"><header class="forum-section__heading"><div><small>CONVERSACIÓN Y VIDA SOCIAL</small><h2>COMUNIDAD</h2></div><span>3 PUBLICACIONES RECIENTES</span></header><div aria-live="polite" class="forum-thread-list forum-home-thread-list" id="forumHomeCommunity"><div class="forum-publication-empty"><span>Cargando comunidad...</span></div></div></section>
+<section class="forum-section forum-reveal" id="informacion"><header class="forum-section__heading"><div><small>CONTENIDO OFICIAL</small><h2>INFORMACIÓN</h2></div><span>3 PUBLICACIONES RECIENTES</span></header><div aria-live="polite" class="forum-thread-list forum-home-thread-list" id="forumHomeInformation"><div class="forum-publication-empty"><span>Cargando información...</span></div></div></section>
+<section class="forum-section forum-reveal" id="actividad">
+<header class="forum-section__heading"><div><small>LO ÚLTIMO QUE SE ESTÁ HABLANDO</small><h2>ACTIVIDAD RECIENTE</h2></div><span>10 PUBLICACIONES</span></header>
+<div class="forum-activity-list"><div class="forum-publication-empty"><span>Cargando actividad reciente...</span></div></div>
+</section>
+</section>
+</main>
+<dialog aria-labelledby="forumSearchDialogTitle" class="forum-search-dialog" id="forumSearchDialog">
+<div class="forum-search-dialog__shell">
+<button aria-label="Cerrar búsqueda" class="forum-thread-close" id="forumSearchClose" type="button">×</button>
+<small>BÚSQUEDA GLOBAL</small><h2 id="forumSearchDialogTitle">BUSCAR EN EL FORO</h2>
+<div class="forum-search-modes" id="forumSearchModes"><button class="is-active" data-search-mode="posts" type="button">PUBLICACIONES</button><button data-search-mode="users" type="button">USUARIOS</button></div>
+<label class="forum-global-search"><svg aria-hidden="true" class="forum-search-icon" viewbox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"></circle><path d="m15.4 15.4 5 5"></path></svg><input autocomplete="off" id="forumGlobalSearchInput" maxlength="100" placeholder="Título, contenido o palabras clave..." type="search"/></label>
+<div class="forum-global-search-results" id="forumGlobalSearchResults"><div class="forum-publication-empty"><span>Escribe al menos dos caracteres para buscar en todo el foro.</span></div></div>
+</div>
+</dialog>
+<dialog aria-labelledby="forumUiDialogTitle" class="forum-ui-dialog" id="forumUiDialog">
+<div class="forum-ui-dialog__shell">
+<small>ARKA WOOD · FORO</small>
+<h2 id="forumUiDialogTitle">CONFIRMAR ACCIÓN</h2>
+<p id="forumUiDialogMessage"></p>
+<label class="forum-ui-dialog__input" hidden="" id="forumUiDialogInputWrap"><span id="forumUiDialogInputLabel">VALOR</span><input autocomplete="off" id="forumUiDialogInput" type="text"/></label>
+<div class="forum-ui-dialog__link" hidden="" id="forumUiDialogLinkWrap">
+<label><span>TEXTO DEL ENLACE</span><input autocomplete="off" id="forumUiDialogLinkText" maxlength="240" placeholder="Ej.: Página de soporte" type="text"/></label>
+<label><span>DESTINO</span><input autocomplete="off" id="forumUiDialogLinkUrl" inputmode="url" maxlength="1200" placeholder="https://ejemplo.com" type="url"/></label>
+<small>Si habías seleccionado palabras en el editor, se conservan automáticamente como texto del enlace.</small>
+</div>
+<div class="forum-ui-dialog__actions"><button class="forum-ui-dialog__cancel" id="forumUiDialogCancel" type="button">CANCELAR</button><button class="forum-ui-dialog__confirm" id="forumUiDialogConfirm" type="button">ACEPTAR</button></div>
+</div>
+</dialog>
+<div aria-atomic="false" aria-live="polite" class="forum-toast-stack" id="forumToastStack"></div>
+<footer class="footer">
+<div class="footer__main">
+<div class="footer__identity">
+<img alt="ARKA WOOD" class="footer__logo" decoding="async" height="768" loading="lazy" src="/assets/arka-wood-logo.webp" width="768"/>
+<p>Una Network de Minecraft centrada en aventura, competencia, comunidad y una identidad propia.</p>
+<div class="footer__socials">
+<a aria-label="Discord" class="social-icon" href="https://discord.gg/HxEbRcQD7" rel="noopener" target="_blank"><svg aria-hidden="true" viewbox="0 0 24 24"><path d="M19.5 5.3A17 17 0 0 0 15.4 4l-.5 1.1a15 15 0 0 0-5.8 0L8.6 4a17 17 0 0 0-4.1 1.3C1.9 9.2 1.2 13 1.5 16.8a17 17 0 0 0 5 2.5l1.2-1.7c-.7-.3-1.4-.7-2-1.2l.5-.4c3.8 1.8 7.8 1.8 11.6 0l.5.4c-.6.5-1.3.9-2 1.2l1.2 1.7a17 17 0 0 0 5-2.5c.4-4.4-.8-8.1-3-11.5ZM8.5 14.5c-1.2 0-2.1-1.1-2.1-2.5s.9-2.5 2.1-2.5 2.1 1.1 2.1 2.5-.9 2.5-2.1 2.5Zm7 0c-1.2 0-2.1-1.1-2.1-2.5s.9-2.5 2.1-2.5 2.1 1.1 2.1 2.5-.9 2.5-2.1 2.5Z"></path></svg></a>
+<a aria-label="Instagram" class="social-icon" href="https://www.instagram.com/arkwood_net" rel="noopener" target="_blank"><svg aria-hidden="true" viewbox="0 0 24 24"><rect height="18" rx="5" ry="5" width="18" x="3" y="3"></rect><circle cx="12" cy="12" r="4.2"></circle><circle cx="17.5" cy="6.6" r="1"></circle></svg></a>
+</div>
+</div>
+<div class="footer__columns">
+<div class="footer__column"><h3>NAVEGACIÓN</h3><a class="footer-link" href="/tienda/">Tienda</a><a class="footer-link" href="/wiki/reglas.html">Normativa</a><a class="footer-link" href="/votar/">Votar</a></div>
+<div class="footer__column"><h3>SOPORTE Y AYUDA</h3><a class="footer-link" href="/support">Contacto</a><a class="footer-link" href="/postulaciones.html">Postulaciones</a><a class="footer-link" href="/faq/">Preguntas Frecuentes (FAQ)</a></div>
+<div class="footer__column footer__column--legal"><h3>LEGAL</h3><a class="footer-link" href="/terminos-compra.html">Términos y Condiciones de Compra</a><a class="footer-link" href="/terminos-network.html">Términos y Condiciones de la Network</a><a class="footer-link" href="/politica-privacidad.html">Política de Privacidad</a><a class="footer-link" href="/eula/">Aviso de Mojang (EULA Disclaimer)</a></div>
+</div>
+</div>
+<div class="footer__legal-note">ARKA WOOD no está afiliado, asociado ni respaldado por Mojang Studios o Microsoft. Minecraft es una marca registrada de Mojang Studios.</div>
+<div class="footer__bottom"><span>© 2026 ARKA WOOD. Todos los derechos reservados.</span><span>ARKA WOOD NETWORK</span></div>
+</footer>
+<script defer="" src="/script-v8.45.0.js?rev=8.45.0"></script>
+<script defer="" src="/role-badges-v8.45.3.js"></script>
+<script defer="" src="/forum-v8.45.0.js?rev=8.45.0"></script>
+</body>
+</html>

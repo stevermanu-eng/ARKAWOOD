@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "include": [
+    "/api/*",
+    "/wiki/auditoria-staff",
+    "/wiki/auditoria-staff/",
+    "/wiki/auditoria-staff.html",
+    "/postulacion-moderacion",
+    "/postulacion-moderacion/",
+    "/postulacion-moderacion.html",
+    "/postulacion-builders",
+    "/postulacion-builders/",
+    "/postulacion-builders.html",
+    "/postulacion-marketing",
+    "/postulacion-marketing/",
+    "/postulacion-marketing.html",
+    "/foro/*",
+    "/perfil/*"
+  ],
+  "exclude": []
+}
